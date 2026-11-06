@@ -2200,8 +2200,15 @@
       "parliamentary": true,
       "groups": [],
       "participationLevel": "federal",
-      "connections": [],
-      "priority": 0,
+      "connections": [
+        {
+          "url": "https://p4a.xyz/pages/twinkle-health.html",
+          "title": "Twinkle 07 · Health",
+          "type": "twinkle",
+          "reason": "The official survey gathers experience of specialist affordability and access, the same health-cost issue highlighted in this Twinkle."
+        }
+      ],
+      "priority": 1,
       "place": "Australia",
       "sources": [
         {
@@ -2265,8 +2272,15 @@
       "parliamentary": true,
       "groups": [],
       "participationLevel": "federal",
-      "connections": [],
-      "priority": 0,
+      "connections": [
+        {
+          "url": "https://p4a.xyz/pages/public-assets.html",
+          "title": "Public assets",
+          "type": "system",
+          "reason": "This community hearing is a participation route in the Defence estate inquiry about the management and public use of public assets."
+        }
+      ],
+      "priority": 1,
       "place": "Australia",
       "statusNote": "Event: 2026-11-12; –. Community session is 1–2pm within the 12–2pm hearing. Timezone is not expressly stated in the reviewed notice; do not silently convert from assumed Perth local time.",
       "sources": [
