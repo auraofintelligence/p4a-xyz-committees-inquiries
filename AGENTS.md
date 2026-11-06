@@ -1,0 +1,17 @@
+# P4A committees and participation
+
+This is the committees section of P4A the Purple Party for Australia, hosted separately because of the main site’s size constraint. It begins with Minjerribah and Redland City, then Queensland, federal matters and all Australian jurisdictions. All open/upcoming topics are in scope. Give evidenced matches to existing P4A Twinkles and systems higher prominence; never omit an inquiry merely because it has no match.
+
+There is no combined human opportunity view. Australia is Commonwealth/federal only; each state view is state level only. Council and community records stay on their local path. Show every current record by default, including uncertainty tags and explanations. Each jurisdiction has its own archive for closed records; never combine archives across jurisdictions. Update canonical status after official verification, retain detail URLs and dates, then rebuild to move closed items. Keep outcomes separate and sourced.
+
+Read README.md and content/research-notes.md. Canonical records are data/registry.json. Edit these records, then run `python tools/build.py` and `python tools/validate.py`. Preview `_site/` with a static server. GitHub Actions builds and deploys ONLY `_site/`, never the working checkout.
+
+Use official sources. Keep date checked, access evidence, publication/privacy conditions, participation method and eligibility for every record. Record missing times/timezones as null. An inquiry report date is not a submission deadline. An active committee or inquiry is not necessarily accepting submissions. Indexed-only material remains unverified. Record all catalogue coverage gaps; no unsupported completeness claims. A general participation route is labelled separately from a dated open call. Do not silently advance research dates on rebuild. There must be exactly zero em dashes, including entity and escaped representations, in source and generated files.
+
+Preserve the P4A theme, font files, colours, panels, buttons and compact readable cards. `styles.css` is an attributed copy of p4a-xyz-cinema at 043baba223a5478322b2a7351c3bb41095d227e1 with one comment punctuation change to meet the zero-em-dash requirement. Local layout extensions live in assets/participation.css. Keep third-party rights and the Strange But True Public Source Licence. Never put browser profiles, screenshots, caches, source-page dumps or dependencies in the repository or Pages artifact.
+
+Do not change existing Twinkles. The older p4a-xyz-cinema repository has a size constraint; its only requested functional change is a shared link to this repository. Use its canonical shared navigation, preserve pending election work, and do not regenerate or copy thousands of existing pages to add links. Research and new pages belong here.
+
+Country, community governance and council jurisdiction are distinct. Describe actual Minjerribah participation routes and their limits; do not imply a council consultation conveys Traditional Owners' consent or endorsement. Council petitions, questions, deputations and meeting speaking have their own rules.
+
+Publication is permitted when requested by the operator. Do not contact people, send submissions, or enrol anyone. Check the deployed new site and P4A link before reporting publication. Record validation and unresolved gaps accurately.

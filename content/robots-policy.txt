@@ -1,0 +1,27 @@
+# P4A discovery directions - reviewed 17 October 2026.
+# Existing Strange But True Public Source Licence and third-party rights remain unchanged:
+# https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/LICENCE.md
+# Cooperative crawl directions do not enforce copyright or guarantee indexing.
+# Search discovery grants no additional reuse or AI-training permission.
+
+User-agent: *
+Disallow: /qa/
+Disallow: /content/
+Disallow: /tools/
+Disallow: /scripts/
+Disallow: /backend/
+Allow: /
+
+User-agent: OAI-SearchBot
+Disallow: /qa/
+Disallow: /content/
+Disallow: /tools/
+Disallow: /scripts/
+Disallow: /backend/
+Allow: /
+
+# Separate request for this identified foundation-model training crawler.
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/sitemap.xml

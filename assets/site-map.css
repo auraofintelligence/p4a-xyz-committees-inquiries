@@ -1,0 +1,46 @@
+.human-site-map{max-width:1180px;margin:auto;padding:clamp(1.2rem,4vw,3rem);line-height:1.65;overflow-wrap:anywhere}
+.human-site-map section,.human-site-map details{scroll-margin-top:6rem}
+.human-site-map h1{font-size:clamp(2.2rem,5vw,4.1rem);line-height:1.13;text-transform:none;max-width:23ch;margin:.6rem 0 1rem}
+.human-site-map h2{font-size:clamp(1.35rem,2.5vw,2rem);line-height:1.3;text-transform:none;margin:0 0 .65rem}
+.human-site-map h3{font-size:1.18rem;line-height:1.35;text-transform:none}
+.human-site-map p{max-width:80ch}
+.human-site-map a{color:#e7cfff;text-underline-offset:.23em}
+.human-site-map a:hover,.human-site-map a:focus-visible{color:#ffdc86}
+.human-site-map a:focus-visible,.human-site-map summary:focus-visible,.human-site-map input:focus-visible,.human-site-map button:focus-visible{outline:3px solid #ffdc86;outline-offset:4px}
+.human-lead{font-size:1.14rem;color:#ecddfa}
+.human-map-date{color:#c9b4dc;font-size:.9rem;margin:1.2rem 0 1.8rem}
+.human-start-grid,.human-place-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+.human-start-grid article,.human-place-grid article{min-width:0;border:1px solid #774399;border-radius:14px;padding:1.25rem;background:linear-gradient(145deg,#3c155b,#1b0a2e)}
+.human-start-grid h2{font-size:1.25rem;color:#d0facf}
+.human-start-grid p,.human-place-grid p{font-size:.96rem;color:#e0cee9}
+.human-start-grid a,.human-place-grid a{display:block;padding:.35rem 0;font-weight:700}
+.human-jumps{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.5rem 0 2.6rem}
+.human-jumps a{display:block;border:1px solid #8355a0;border-radius:8px;padding:.5rem .8rem;text-decoration:none;font-weight:650;background:#2b123e}
+.human-places,.human-local,.human-all-pages{margin-top:2.7rem}
+.human-place-grid{margin:1.25rem 0 2.5rem}
+.human-place-grid h3{color:#ffdc86;margin:0}
+.human-local-flow{color:#d0facf;font-weight:600}
+.human-directory{border:1px solid #70438c;border-radius:12px;background:#231035;margin:.85rem 0;padding:0 1.1rem}
+.human-directory>summary{display:flex;align-items:center;gap:1rem;justify-content:space-between;cursor:pointer;list-style:none;padding:1rem 0;color:#f5eaff}
+.human-directory>summary::-webkit-details-marker{display:none}
+.human-directory>summary::before{content:'+';font-size:1.35rem;color:#d0facf;flex:0 0 1rem}
+.human-directory[open]>summary::before{content:'−'}
+.human-directory>summary strong{font-size:1.08rem;flex:1;line-height:1.4}
+.human-directory>summary>span{font-size:.82rem;color:#cdb8de;font-weight:400;white-space:nowrap}
+.human-directory>p{font-size:.92rem;color:#cdb8de;margin:.1rem 0 .9rem}
+.human-directory>ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.4rem;list-style:none;padding:0;margin:0 0 1rem}
+.human-directory>ul>li{border-top:1px solid #4d2d60;min-width:0}
+.human-directory>ul>li>a{display:block;padding:.8rem .15rem;line-height:1.45;text-decoration:none;font-weight:600}
+.human-directory>ul>li>a:hover{text-decoration:underline}
+.human-filter{margin:1.2rem 0 1.5rem;padding:1.2rem;background:#351449;border:1px solid #8355a0;border-radius:12px}
+.human-filter label{display:block;font-weight:700;margin-bottom:.45rem}
+.human-filter>div{display:flex;gap:.7rem}
+.human-filter input{min-width:0;flex:1;font:inherit;color:#fff;background:#190c25;border:1px solid #ad89c4;padding:.75rem;border-radius:7px}
+.human-filter button{font:inherit;padding:.6rem 1rem;cursor:pointer;border:1px solid #ad89c4;background:#513266;color:#fff;border-radius:7px}
+.human-filter [role=status]{font-size:.85rem;color:#d0facf;margin:.6rem 0 0}
+.human-site-map [hidden]{display:none!important}
+.human-site-map .connected-projects .official-link-grid{margin-bottom:1rem}
+.human-site-map .connected-projects summary small{display:none}
+.human-agents{margin-top:2rem}
+@media(max-width:850px){.human-start-grid,.human-place-grid{grid-template-columns:1fr}.human-start-grid article,.human-place-grid article{padding:1rem}.human-start-grid p,.human-place-grid p{margin:.4rem 0}.human-directory>ul{grid-template-columns:1fr}.human-site-map .official-link-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.human-site-map{padding:1.15rem}.human-directory{padding:0 .85rem}.human-directory>summary{gap:.5rem;flex-wrap:wrap}.human-directory>summary>span{margin-left:1.5rem}.human-filter>div{flex-wrap:wrap}.human-filter input{flex-basis:100%}.human-jumps a{font-size:.9rem}}

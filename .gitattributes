@@ -1,0 +1,4 @@
+* text=auto eol=lf
+styles.css -text
+LICENCE.md -text
+*.woff2 -text
