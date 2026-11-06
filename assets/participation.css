@@ -80,6 +80,7 @@
 .participation-place-menu>div>a:hover{background:var(--glass-strong)}
 .participation-site .site-footer{margin-top:2rem}
 .participation-research-date{font-size:.82rem}
+@media(max-width:560px){.participation-site .archive-hero h1{font-size:clamp(2rem,9vw,3rem)}}
 .participation-site .site-footer .footer-links{align-self:end;display:flex;flex-wrap:wrap;gap:.7rem 1.1rem}
 .participation-site .human-site-map{padding-inline:0;width:100%}
 @media(max-width:800px){.participation-nav{align-items:start;flex-direction:column;gap:.3rem}.participation-nav-links{justify-content:flex-start;gap:.15rem .5rem}.participation-place-menu>div{left:0;right:auto}}

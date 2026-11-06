@@ -90,8 +90,9 @@ def cards(page, records):
 def section(title, description, body, identifier=''):
     return f'<section class="participation-section"'+(f' id="{e(identifier)}"' if identifier else '')+f'><div class="section-heading"><div><h2>{e(title)}</h2><p>{e(description)}</p></div></div>{body}</section>'
 
-def hero(title, description, eyebrow='P4A · committees & participation', side=''):
-    return f'<section class="participation-hero"><div><p class="eyebrow">{e(eyebrow)}</p><h1>{e(title)}</h1><p class="lead">{e(description)}</p></div>'+(f'<aside class="hero-side">{side}</aside>' if side else '')+'</section>'
+def hero(title, description, eyebrow='P4A · committees & participation', side='', cls=''):
+    classes='participation-hero'+(' '+cls if cls else '')
+    return f'<section class="{e(classes)}"><div><p class="eyebrow">{e(eyebrow)}</p><h1>{e(title)}</h1><p class="lead">{e(description)}</p></div>'+(f'<aside class="hero-side">{side}</aside>' if side else '')+'</section>'
 
 def chrome(page, title, body, description):
     doors=[('pages/maps.html','Maps'),('pages/architecture.html','System'),('pages/twinkle.html','Twinkle'),('pages/states.html','States'),('pages/starter-field-kit.html','Start local'),('pages/deployment-gear.html','Gear')]
@@ -165,7 +166,7 @@ def build():
         body=hero('Queensland participation.' if j=='qld' else 'Have a say nationally.',description)
         body+='<div class="notice">Every record for this level is shown by default. Status and uncertainty tags explain what is known. '+link(page,'sources/','Review source coverage and gaps')+'.</div>'
         body+=filters(page,rs)
-        body+=archive_link(page,route+'/', 'Australia / Commonwealth' if j=='federal' else NAMES[j])
+        body+=archive_link(page,route+'/', 'Australian' if j=='federal' else NAMES[j])
         body+=section('Back to P4A’s place context','Existing council, state and federal journeys remain in P4A.','<div class="button-row">'+link(page,P4A+'states/qld/index.html','Queensland portal','button button-secondary')+link(page,P4A+'states/qld/places/federal/index.html','Queensland federal areas','button button-secondary')+link(page,P4A+'pages/places.html','All councils and electorates','button button-secondary')+'</div>')
         write(page,NAMES[j]+' participation',body)
 
@@ -180,11 +181,12 @@ def build():
         body+='<p>'+link(page,P4A+'states/'+j+'/index.html','P4A '+name+' portal','text-link')+' · '+link(page,P4A+'states/'+j+'/places/state/index.html','State / territory representation','text-link')+' · '+link(page,P4A+'states/'+j+'/places/federal/index.html','Federal representation','text-link')+'</p>'
         write(page,name+' participation',body)
 
-    scopes=[('homelands/','Minjerribah & Redland')]+[('australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/', 'Australia / Commonwealth' if j=='federal' else name) for j,name in NAMES.items()]
+    scopes=[('homelands/','Minjerribah & Redland')]+[('australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/', 'Australian' if j=='federal' else name) for j,name in NAMES.items()]
     for route,label in scopes:
         page=archive_route(route)+'index.html'
         archived=[r for r in RECORDS if jurisdiction_route(r)==route and r['status']=='closed']
-        body=hero(label+' archive.','Closed participation records for this jurisdiction, retaining their original sources and check dates.')
+        description='Closed Commonwealth (federal) participation records, retaining their original sources and check dates.' if route=='australia/' else 'Closed participation records for this jurisdiction, retaining their original sources and check dates.'
+        body=hero(label+' archive.',description,cls='archive-hero')
         body+='<p>'+link(page,route,'Return to current '+label+' opportunities','text-link')+'</p>'
         body+=filters(page,archived) if archived else '<p class="notice">There are no closed records in this jurisdiction’s archive yet.</p>'
         body+='<p class="prose">A closed submission round can be followed by hearings, a report or another consultation. Use each original record to follow verified developments. Moving a record here does not refresh its source date or assert an outcome.</p>'
