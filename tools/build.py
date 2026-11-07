@@ -28,6 +28,8 @@ COMMITTEES = COMMITTEE_DATA['committees']
 REDLAND_COMMITTEES=json.loads((ROOT/'data/redland-committees.json').read_text(encoding='utf-8'))
 COUNCIL_PATHWAY_DATA=json.loads((ROOT/'data/council-pathways.json').read_text(encoding='utf-8')) if (ROOT/'data/council-pathways.json').exists() else {'audits':[]}
 COUNCIL_PATHWAYS={a['councilId']:a for a in COUNCIL_PATHWAY_DATA['audits']}
+COUNCIL_BODY_DATA=json.loads((ROOT/'data/council-bodies.json').read_text(encoding='utf-8'))
+COUNCIL_BODIES={a['councilId']:a for a in COUNCIL_BODY_DATA['audits']}
 TOPICS = {'housing':'Housing & planning','health':'Health & care','environment':'Environment & animals','economy':'Work, costs & economy','rights':'Rights & justice','democracy':'Elections & democracy','technology':'Technology & data','infrastructure':'Transport & infrastructure','community':'Community & culture','governance':'Government & accountability'}
 PAGES = []
 ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ('assets/participation.css','assets/participation.js','assets/site-nav.js')}
@@ -163,7 +165,7 @@ def participation_method(r):
     if 'petition' in kind:return 'petition','Petition'
     if 'meeting' in kind or 'public address' in kind:return 'speaking','Apply to speak or ask a question'
     if 'consultation' in kind:return 'consultation','Contribute to a consultation'
-    if any(word in kind for word in ('expression of interest','eoi','recruitment','volunteer')):return 'application','Apply or register interest'
+    if any(word in kind for word in ('expression of interest','eoi','recruitment','volunteer','membership')):return 'application','Apply or register interest'
     if any(word in kind for word in ('event','course','training')):return 'event','Register for an event or course'
     if r['status']=='ongoing':return 'standing','Use a standing participation route'
     if 'survey' in method and not r.get('parliamentary'):return 'survey','Answer a survey'
@@ -247,8 +249,9 @@ def build():
         dest=OUT/path;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/path,dest)
     (OUT/'.nojekyll').write_text('',encoding='utf-8')
     (OUT/'data').mkdir(exist_ok=True)
-    for name,data in [('registry',DATA),('councils',COUNCIL_DATA),('redland-committees',REDLAND_COMMITTEES),('committees',COMMITTEE_DATA),('council-pathways',COUNCIL_PATHWAY_DATA)]:
-        (OUT/('data/'+name+'.json')).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8')
+    for name in ('registry','councils','redland-committees','committees','council-pathways'):
+        old_export=OUT/('data/'+name+'.json')
+        if old_export.exists():old_export.unlink()
     local=[r for r in RECORDS if 'homelands' in r.get('groups',[])]
     available=[r for r in RECORDS if r['status'] in ('open','upcoming')]
     parliament=[r for r in available if r.get('parliamentary') and r['status']=='open']
@@ -342,8 +345,10 @@ def build():
     body+=coverage_table(page)
     from council_pathways import coverage_table as council_coverage_table
     body+=council_coverage_table(SimpleNamespace(**globals()),page)
+    from council_bodies import coverage_table as body_coverage_table
+    body+=body_coverage_table(SimpleNamespace(**globals()),page)
     body+='<div class="prose"><h2>What the labels mean</h2><ul><li><strong>Open:</strong> a directly checked official invitation is accepting participation at the research date.</li><li><strong>Upcoming:</strong> an official source announces a future opening or a participation event, with restrictions shown.</li><li><strong>Standing route:</strong> a continuing mechanism with its own eligibility and application rules.</li><li><strong>Closed:</strong> the specific contribution round ended; a later project stage may continue.</li><li><strong>Unverified:</strong> a lead, inaccessible detail or ambiguous invitation that needs follow-up.</li></ul><h2>Coverage and evidence</h2><p>Every entry from an enumerated open-call index is represented, even where there is no P4A match. Current-inquiry lists can include closed submission windows, ongoing institutional scrutiny and hearings with invited witnesses. Those are reviewed separately. The directory does not assert coverage of every council, community organisation, government consultation or unpublished future inquiry.</p><p>Short summaries are original paraphrases. Each detail page retains its official links, field-level limits, eligibility, publication conditions and check date. Source-page copies, contact lists and browser material are not published.</p></div>'
-    body+='<p>'+link(page,'data/registry.json','Download the dated public records','text-link')+' · '+link(page,'data/council-pathways.json','Council pathway audit','text-link')+' · '+link(page,REPO+'/blob/main/content/research-notes.md','Research and maintenance notes','text-link')+'</p>'
+    body+='<p>'+link(page,REPO+'/blob/main/data/registry.json','Dated public records','text-link')+' · '+link(page,REPO+'/blob/main/data/council-pathways.json','Council pathway audit','text-link')+' · '+link(page,REPO+'/blob/main/data/council-bodies.json','Council bodies and standing invitations','text-link')+' · '+link(page,REPO+'/blob/main/content/research-notes.md','Research and maintenance notes','text-link')+'</p>'
     write(page,'Sources & coverage',body)
     from directory_pages import build_directories
     build_directories(SimpleNamespace(**globals()))
@@ -373,7 +378,7 @@ def build():
     urls=[BASE+('' if p=='index.html' else p.removesuffix('index.html')) for p,t in PAGES if p!='404.html']
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+e(u)+'</loc></url>' for u in urls)+'</urlset>\n',encoding='utf-8')
     shutil.copyfile(ROOT/'content/robots-policy.txt',OUT/'robots.txt')
-    (OUT/'llms.txt').write_text('# P4A committees and participation\n\nLatest source checks '+CHECKED+'; individual records retain their own dates. Coverage gaps: '+BASE+'sources/. Topic priority is P4A editorial context, not official endorsement. This voluntary guide grants no additional reuse or AI-training permission. Third-party material retains its own rights.\n\n'+''.join('- ['+t+']('+BASE+('' if p=='index.html' else p.removesuffix('index.html'))+')\n' for p,t in PAGES if p!='404.html'),encoding='utf-8')
+    (OUT/'llms.txt').write_text('# P4A committees and participation\n\nLatest source checks '+CHECKED+'; individual records retain their own dates. Coverage gaps: '+BASE+'sources/. Topic priority is P4A editorial context, not official endorsement. This voluntary guide grants no additional reuse or AI-training permission. Third-party material retains its own rights.\n\n'+''.join('- ['+label+']('+BASE+path+')\n' for path,label in [('sources/','Sources and coverage'),('councils/','Council participation'),('inquiries/','Parliamentary participation'),('committees/','Committee directories'),('pages/site-map.html','Human site map'),('sitemap.xml','Complete URL sitemap')])+'\nCanonical structured records and audit history: '+REPO+'/tree/main/data\n',encoding='utf-8')
     expected_pages={p for p,t in PAGES}
     for stale in OUT.rglob('*.html'):
         if stale.relative_to(OUT).as_posix() not in expected_pages:

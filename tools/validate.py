@@ -136,6 +136,31 @@ def validate():
             assert pathway['url'].startswith(('https://','http://')) and pathway['sourceUrl'].startswith(('https://','http://'))
             assert date.fromisoformat(pathway['checked'])<=checked
             assert 'evidenceExcerpt' not in pathway and 'html' not in pathway
+    body_audits=json.loads((ROOT/'data/council-bodies.json').read_text(encoding='utf8'))['audits']
+    assert len({a['councilId'] for a in body_audits})==len(body_audits)
+    for audit in body_audits:
+        assert audit['councilId'] in council_ids and audit['councilId']!='qld-council-6250'
+        assert date.fromisoformat(audit['checked'])<=checked
+        assert audit.get('coverageStatus')
+        if audit.get('sourceUrl'):assert audit['sourceUrl'].startswith(('https://','http://'))
+        else:assert next(c for c in councils if c['id']==audit['councilId'])['kind']!='council' and not audit['committees'] and not audit['standingInvitations'] and audit['gaps']
+        assert len({(b['name'].casefold(),b['url']) for b in audit['committees']})==len(audit['committees'])
+        for body in audit['committees']:
+            assert all(body.get(k) for k in ('name','url','participation','verification'))
+            assert body['url'].startswith(('https://','http://'))
+            assert not any(k in body for k in ('html','evidenceExcerpt'))
+        for invitation in audit['standingInvitations']:
+            assert all(invitation.get(k) for k in ('title','url','method','verification'))
+            assert invitation['url'].startswith(('https://','http://'))
+            for source in invitation.get('relatedSources',[]):assert source['title'] and source['url'].startswith(('https://','http://'))
+    from build import source_key
+    from council_bodies import CORRECTIONS,procedure_key
+    rejected={source_key(e['url']) for e in CORRECTIONS['excludeStanding']}
+    for audit in body_audits:
+        assert all(source_key(i['url']) not in rejected for i in audit['standingInvitations']),audit['councilId']+': excluded source returned as invitation'
+        for group in CORRECTIONS['equivalentProcedures']:
+            if group['councilId']==audit['councilId']:
+                assert sum(procedure_key(source_key,audit['councilId'],i['url'])==source_key(group['primaryUrl']) for i in audit['standingInvitations'])<=1,audit['councilId']+': equivalent procedures counted twice'
     for c in committees:
         assert re.fullmatch('[a-z0-9-]+',c['id']),c['id']
         assert c['name'] and c['sourceUrl'].startswith('https://')
@@ -198,6 +223,15 @@ def validate():
             assert all(r['data-id'] in local_ids and r['data-level'] in ('council','community') for r in parsed[route].records),route+': unrelated local participation'
         else:
             assert all(r['data-council']==council['id'] and r['data-level']=='council' for r in parsed[route].records),route+': another council appears here'
+        audit=next((a for a in body_audits if a['councilId']==council['id']),None)
+        if audit:
+            source=pages[route].read_text(encoding='utf8')
+            assert source.count('<li data-council-body>')==len(audit['committees']),route+': a named body is missing'
+            from build import source_key
+            from council_bodies import procedure_key
+            procedure_sources={procedure_key(source_key,council['id'],m['sourceUrl']) for m in council.get('review',{}).get('mechanisms',[])}
+            extras=[i for i in audit['standingInvitations'] if procedure_key(source_key,council['id'],i['url']) not in procedure_sources]
+            assert source.count('data-standing-invitation')==len(extras),route+': a standing invitation is missing'
         directory='councils/'+council['jurisdiction']+'/index.html'
         assert not parsed[directory].records,directory+': council chooser must not combine opportunity records'
     views=list(active_views)

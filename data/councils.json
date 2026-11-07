@@ -1809,7 +1809,7 @@
         "name": "Brisbane City Council",
         "summary": "Consultation, petitions and approved addresses are different routes. Attending a standing committee does not give a right to speak.",
         "consultationUrl": "https://yoursay.brisbane.qld.gov.au/",
-        "consultationNote": "Each project has its own participation and privacy conditions.",
+        "consultationNote": "All four projects listed in the current portal section were checked on 7 November 2026, with a separate announced future consultation. The portal is not a complete inventory of statutory planning notices or every council project.",
         "mechanisms": [
           {
             "title": "Your City Your Say",
@@ -1825,40 +1825,48 @@
           {
             "title": "Apply to address Council",
             "type": "meeting address",
-            "method": "Apply using the Council form. Chair approval and an allocated speaking date are required; approved addresses last up to five minutes.",
-            "timing": "No fixed application lead time stated on the reviewed page; preferred dates are not guaranteed.",
-            "eligibility": "A public-interest matter within Council responsibility. Private matters, service requests and unsuitable material can be redirected or declined.",
-            "disclosure": "Name and address content are published through livestream, recording, transcript and minutes.",
+            "method": "Use the application form. Speaking requires approval by the Chair; approved addresses have a five-minute limit. This application concerns a Council meeting, not an automatic committee speaking right.",
+            "timing": "Continuing application route. Dates are assigned if approved; Council receives more applications than it can accommodate.",
+            "eligibility": "A matter of public interest within Council responsibility and suitable for a public meeting. Private, operational, previously considered, regulatory or inappropriate matters may be declined or redirected.",
+            "disclosure": "Council meetings are streamed, recorded and transcribed. The speaker name and address content become part of the published public record.",
             "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/governance-and-strategy/council-and-standing-committee-meetings",
-            "verification": "Official council procedure reviewed; gaps and qualifications are retained below.",
+            "verification": "Current official meeting participation instructions directly read on 7 November 2026.",
             "status": "standing route"
           },
           {
             "title": "Paper petitions and Council ePetitions",
             "type": "petition",
-            "method": "Start or sign a compliant petition on a Council matter.",
-            "timing": "An ePetition has its own closing date; no blanket petition deadline.",
-            "eligibility": "Anyone may organise one. At least three signatures with full names and residential addresses; further content rules apply.",
-            "disclosure": "Petition participation may form part of a public record.",
+            "method": "Use Council petition processes for a formal request within Council responsibility. At least three signatories are required.",
+            "timing": "Continuing petition route; each online petition has its own closing date.",
+            "eligibility": "The matter must be within Council jurisdiction. Signatories need a legitimate interest; required identity and address details must be supplied.",
+            "disclosure": "The head petitioner name is public. Published signatory details use initials and suburb; Council collects full names and residential addresses.",
             "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/contact-council/petitions",
-            "verification": "Official council procedure reviewed; gaps and qualifications are retained below.",
+            "verification": "Current official petition instructions directly read during the 7 November 2026 procedure review.",
             "status": "standing route"
           },
           {
             "title": "Observe Council or standing committees",
             "type": "observation",
-            "method": "Use the meeting calendar, gallery or Council livestream. Standing-committee observers must not speak.",
-            "timing": "Check the current council guide and specific invitation.",
-            "eligibility": "Restrictions not independently verified; use the linked council guide.",
-            "disclosure": "Specific publication and recording terms were not verified.",
+            "method": "Attend the public gallery or use the ordinary-meeting stream, recordings, agendas and minutes. Observation does not confer permission to speak.",
+            "timing": "Council and standing committees generally meet Tuesdays outside published recess periods. Ethics meets as needed; check the individual schedule.",
+            "eligibility": "Public attendance is subject to space, accessibility arrangements and closed confidential business. Public access to Civic Cabinet or every committee session has not been established.",
+            "disclosure": "Ordinary Council meetings and approved public addresses are recorded and published.",
             "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/governance-and-strategy/council-and-standing-committee-meetings",
-            "verification": "Official council procedure reviewed; gaps and qualifications are retained below.",
+            "verification": "Current official meeting access and schedule instructions directly read on 7 November 2026.",
             "status": "standing route"
           }
         ],
         "gaps": [
-          "The consultation portal returned no readable project content to this retrieval tool. No specific current consultation was verified."
-        ]
+          "Project-specific privacy and later survey conditions remain partially unread. The portal’s current list is curated and does not establish a complete council-wide invitation inventory."
+        ],
+        "projectAudit": {
+          "checked": "2026-11-07",
+          "sourceUrl": "https://yoursay.brisbane.qld.gov.au/",
+          "observedCurrentCount": 4,
+          "recordedCurrentCount": 4,
+          "announcedAdditionalUpcomingCount": 1,
+          "scope": "Current engagement section read in a browser; recent engagements and restricted group pages were not counted as open public invitations."
+        }
       }
     },
     {

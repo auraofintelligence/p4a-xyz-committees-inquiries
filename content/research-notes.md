@@ -1,5 +1,15 @@
 # Participation source review
 
+## 7 November council pattern and named-body expansion
+
+The Redland/Brisbane comparison exposed uneven project research: Redland had five open/upcoming invitations, four standing records and one uncertain lead, while Brisbane only had four detailed standing procedures. The council chooser now separates those categories and visibly says project catalogues are incomplete. Sorting uses invitation records, not duplicate source-link totals.
+
+Brisbane’s JavaScript portal was read in a browser. All four current projects were verified and added, with a separately announced Fortitude Valley round whose dates are not yet confirmed. Dawn Economy’s direct detail says 22 November, while homepage data retains a conflicting 20 November label; the conflict is preserved. Unknown timezones remain null. Wynnum’s Qualtrics collection notice and the portal privacy policy were reviewed without submitting forms. Moonee Valley’s dated grants committee recruitment was added separately from standing membership routes.
+
+All 550 remaining local areas were searched for named bodies and continuing methods, preserving Redland and the ACT explanation. The audit contains 2,077 named entries across 322 areas: 796 indexed entries and 14 historical-source entries retain uncertainty labels. The other 228 areas have explicit named-inventory gaps. Ninety continuing-method records are separate from existing detailed procedure reviews; 76 additional methods are displayed after matching duplicate source aliases. A body’s listing does not establish current recruitment, public attendance or speaking rights.
+
+Reviewed corrections prevent Towong’s historical healthcare story and a Canterbury-Bankstown webcast player from becoming standing contribution procedures. Duplicate sources for question-time procedures in Boyup Brook, Bridgetown-Greenbushes and Moora are merged with supporting links retained. Newcastle’s petition alias matches its existing detailed procedure. Narromine’s address-maintenance link was removed from participation sources, leaving 948 route links. Shared official committee source links are grouped within each council, preserving every named entry and source association in canonical data. Data exports and long duplicate machine indexes are linked to their canonical GitHub sources so the full site remains below 10 MB. No automation or outreach was performed.
+
 ## 7 November national council pathway pass
 Final review removed five unrelated or closed route leads (rates, address maintenance, historical petition news and a closed policy consultation). Two governance-rule project sources are explicitly marked with unverified current stages, separate from meeting calendars. Council route search matches singular and plural participation terms.
 

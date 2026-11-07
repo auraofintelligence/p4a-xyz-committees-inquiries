@@ -31,6 +31,7 @@ def merge(paths):
                 if url:
                     parsed=urlsplit(url);url=urlunsplit((parsed.scheme,parsed.netloc,parsed.path,urlencode([(k,v) for k,v in parse_qsl(parsed.query,keep_blank_values=True) if not k.lower().startswith('utm_') and k.lower() not in ('fbclid','gclid','msclkid')]),parsed.fragment))
                 if not url or url in seen:continue
+                if route.get('type') in ('meeting-participation','speaking') and re.search(r'\b(?:change|update|updating)\b.*\b(?:address|contact)\b',route.get('title',''),re.I):continue
                 if route.get('type')=='petitions' and not re.search(r'\bpetition',route['title']+' '+urlsplit(url).path,re.I):continue
                 assert url.startswith(('https://','http://')),(ident,url)
                 seen.add(url)

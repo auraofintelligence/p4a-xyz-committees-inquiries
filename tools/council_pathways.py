@@ -25,7 +25,7 @@ def render(s,page,council):
     audit=s.COUNCIL_PATHWAYS.get(council['id'])
     if not audit:return ''
     routes=audit['pathways']
-    body='<section class="council-pathways" data-council-pathways="'+s.e(council['id'])+'"><h2>Official participation pathways</h2><p class="prose">Sources checked '+s.pretty_date(audit['checked'])+'. Each route has its own eligibility, timing, publication and recording rules. Conditions not expressly reviewed below remain unverified. A link does not establish an open invitation or permission to speak.</p>'
+    body='<section id="participation-pathways" class="council-pathways" data-council-pathways="'+s.e(council['id'])+'"><h2>Official participation pathways</h2><p class="prose">Sources checked '+s.pretty_date(audit['checked'])+'. Each route has its own eligibility, timing, publication and recording rules. Conditions not expressly reviewed below remain unverified. A link does not establish an open invitation or permission to speak.</p>'
     if routes:
         labels={'consultation':'Consultations and feedback','consultation-project':'Consultation project; status unverified','petitions':'Petitions','meeting-participation':'Questions and speaking','meeting-information':'Meetings and agendas','community-reference':'Community reference groups'}
         body+='<ul class="council-pathway-list">'

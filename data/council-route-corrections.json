@@ -1,0 +1,13 @@
+{
+  "scope": "Reviewed source equivalences and exclusions, retained so later imports do not restore known false invitations.",
+  "excludeStanding": [
+    {"url":"https://www.towong.vic.gov.au/1-council/news-and-media/news?item=id:2zb6xuxe71cxbygijzv4","reason":"Historical healthcare campaign news, not a continuing council petition procedure."},
+    {"url":"https://cbcity.webcastcloud.com/play?pid=2fb7df83-6ddc-42a2-a1cc-6fbb9b45f02e","reason":"Webcast playback is not an application or speaking procedure."}
+  ],
+  "equivalentProcedures": [
+    {"councilId":"wa-council-50840","title":"Public Question Time","primaryUrl":"https://www.bridgetown.wa.gov.au/forms/public-question-time-submission/23","aliases":["https://www.bridgetown.wa.gov.au/publicnotices/ways-to-connect-with-council/51"]},
+    {"councilId":"wa-council-50770","title":"Public Question Time","primaryUrl":"https://www.boyupbrook.wa.gov.au/council/your-council/minutes-agendas.aspx","aliases":["https://www.boyupbrook.wa.gov.au/documents/forms"]},
+    {"councilId":"wa-council-55600","title":"Questions and public participation at Council meetings","primaryUrl":"https://www.moora.wa.gov.au/council/your-council/council-meetings/public-participation.aspx","aliases":["https://www.moora.wa.gov.au/council/your-council/council-meetings/council-meeting-public-question-time.aspx"]},
+    {"councilId":"nsw-council-15900","title":"Council petitions","primaryUrl":"https://newcastle.nsw.gov.au/council/council-meetings/submit-a-petition-to-council","aliases":["https://newcastle.nsw.gov.au/your-council/get-involved-and-have-your-say/submit-a-petition-to-council"]}
+  ]
+}

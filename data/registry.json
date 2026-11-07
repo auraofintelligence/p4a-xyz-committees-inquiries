@@ -141,7 +141,7 @@
       "sourceUrl": "https://github.com/auraofintelligence/p4a-xyz-committees-inquiries/blob/main/data/council-pathways.json",
       "checked": "2026-11-07",
       "status": "Nationwide council pathway audit completed; conditions and project coverage remain partial",
-      "note": "All 550 remaining P4A local areas were individually searched, with Redland’s existing work and the ACT’s no-separate-council explanation retained. The audit records 738 directly read official routes, 12 official links with limited destination access and 199 clearly uncertain indexed leads. Every ordinary council has a located route or prior procedure review except Yarrabah, whose access gap and official contact-directory fallback are explicit. Twenty-one councils outside Redland have separately reviewed procedures. Seventeen new dated council invitations are included. This does not claim exhaustive coverage of every project or fully checked conditions for every route."
+      "note": "Council project catalogues remain incomplete. Pathway audits cover 550 remaining local areas with 948 links (737 page-read, 12 limited official links, 199 indexed leads). Named-body audits record 2,077 entries across 322 areas; 796 indexed entries and 14 historical entries are uncertain. Another 228 areas have explicit inventory gaps. Ninety continuing-method records are separate from the 21 existing detailed procedure reviews; duplicates are displayed once. Brisbane adds four open invitations and one announced future round; Moonee Valley adds one dated recruitment. Redland and parliamentary records are preserved."
     }
   ],
   "records": [
@@ -5494,6 +5494,295 @@
           "supports": "Official invitation, response methods, closing date/time and project reporting privacy statement read. The source does not name a timezone.",
           "access": "Official project page read"
         }
+      ]
+    },
+    {
+      "id": "brisbane-wynnum-manly-lota-foreshores-2026",
+      "title": "Draft Wynnum, Manly and Lota Foreshores Revitalisation Master Plan",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-1000",
+      "kind": "council consultation",
+      "body": "Brisbane City Council",
+      "status": "open",
+      "purpose": "Help shape a 20-year plan for recreation, resilience and access along the bayside foreshores.",
+      "method": "Complete the linked survey. Information kiosks are also advertised for 11 November 2026, 2pm to 4pm at Wynnum Wading Pool Park, and 16 November, 2pm to 4pm at Lota Camping Reserve. No timezone is stated for these sessions. The 7 November morning kiosk has passed.",
+      "deadline": {
+        "date": "2026-11-22",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "datetime",
+        "timezoneNote": "The official invitation does not state a timezone."
+      },
+      "eligibility": "The project page invites community feedback. Additional survey conditions have not been fully reviewed.",
+      "disclosure": "The survey notice says Qualtrics stores responses on Australian servers and Council accesses them under its privacy policy. Individual publication and reporting conditions were not stated in that notice; do not assume anonymity.",
+      "sourceUrl": "https://yoursay.brisbane.qld.gov.au/draft-wynnum-manly-lota-foreshores-revitalisation-master-plan",
+      "checked": "2026-11-07",
+      "verification": "The official current-engagement index and project invitation were directly read on 7 November 2026. Individual response forms were not completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Brisbane",
+      "sources": [
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/draft-wynnum-manly-lota-foreshores-revitalisation-master-plan",
+          "title": "Official project invitation",
+          "supports": "Purpose, participation route and published dates.",
+          "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/",
+          "title": "Your City Your Say current engagement opportunities",
+          "supports": "Listed as a current engagement opportunity.",
+          "access": "Direct official homepage public page data and browser reviewed"
+        },
+        {
+          "url": "https://feedback.brisbane.qld.gov.au/jfe/form/SV_daRtHAsoSyluwPI",
+          "title": "Survey collection notice",
+          "supports": "Qualtrics storage location and Council access; later response pages not completed.",
+          "access": "Direct survey introduction read in browser"
+        }
+      ],
+      "topics": [
+        "environment",
+        "infrastructure",
+        "community"
+      ]
+    },
+    {
+      "id": "brisbane-metro-expansions-2026",
+      "title": "Brisbane Metro Expansions business case survey",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-1000",
+      "kind": "council consultation",
+      "body": "Brisbane City Council",
+      "status": "open",
+      "purpose": "Contribute travel experiences and bus-network ideas for proposed Metro corridors, including the eastern corridor to Capalaba.",
+      "method": "Complete the official survey linked from the Metro project page.",
+      "deadline": {
+        "date": "2026-12-13",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "datetime",
+        "timezoneNote": "The official invitation does not state a timezone."
+      },
+      "eligibility": "The project page invites community feedback. Additional survey conditions have not been fully reviewed.",
+      "disclosure": "Project-specific collection and publication conditions have not been fully reviewed. Check the notice before contributing; public idea posts may have different visibility from survey responses.",
+      "sourceUrl": "https://metro.brisbane.qld.gov.au/brisbane-metro-expansions",
+      "checked": "2026-11-07",
+      "verification": "The official current-engagement index and project invitation were directly read on 7 November 2026. Individual response forms were not completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Brisbane",
+      "sources": [
+        {
+          "url": "https://metro.brisbane.qld.gov.au/brisbane-metro-expansions",
+          "title": "Official project invitation",
+          "supports": "Purpose, participation route and published dates.",
+          "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/",
+          "title": "Your City Your Say current engagement opportunities",
+          "supports": "Listed as a current engagement opportunity.",
+          "access": "Direct official homepage public page data and browser reviewed"
+        }
+      ],
+      "topics": [
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "brisbane-young-bne-2027-2026",
+      "title": "Help shape Young BNE 2027",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-1000",
+      "kind": "council consultation",
+      "body": "Brisbane City Council",
+      "status": "open",
+      "purpose": "Suggest the activities, places and support that Brisbane young people need.",
+      "method": "Complete the survey to suggest activities and locations for the program. An optional prize draw has separate terms.",
+      "deadline": {
+        "date": "2026-11-22",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "datetime",
+        "timezoneNote": "The official invitation does not state a timezone."
+      },
+      "eligibility": "The advertised invitation is for young people aged 12 to 25. The response form also offers on-behalf-of responses; that does not broaden the stated invitation. Prize eligibility has separate conditions which have not been fully reviewed.",
+      "disclosure": "The portal privacy policy says screen names and public comments can be visible. Survey answers are not immediately public, but results and de-identified extracts may appear in reports. Full project-specific survey conditions remain unreviewed.",
+      "sourceUrl": "https://yoursay.brisbane.qld.gov.au/young-bne-2027",
+      "checked": "2026-11-07",
+      "verification": "The official current-engagement index and project invitation were directly read on 7 November 2026. Individual response forms were not completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Brisbane",
+      "sources": [
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/young-bne-2027",
+          "title": "Official project invitation",
+          "supports": "Purpose, participation route and published dates.",
+          "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/",
+          "title": "Your City Your Say current engagement opportunities",
+          "supports": "Listed as a current engagement opportunity.",
+          "access": "Direct official homepage public page data and browser reviewed"
+        },
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/privacy",
+          "title": "Your City Your Say privacy policy",
+          "supports": "Distinguishes public posts, survey responses and subsequent reporting.",
+          "access": "Direct official policy reviewed"
+        }
+      ],
+      "topics": [
+        "community"
+      ]
+    },
+    {
+      "id": "brisbane-dawn-economy-2026",
+      "title": "Brisbane's Dawn Economy survey",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-1000",
+      "kind": "council consultation",
+      "body": "Brisbane City Council",
+      "status": "open",
+      "purpose": "Share experiences of Brisbane between 4am and 7am to inform early-morning planning and investment.",
+      "method": "Complete the approximately five-minute survey about typical early-morning experiences.",
+      "deadline": {
+        "date": "2026-11-22",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "datetime",
+        "timezoneNote": "The official invitation does not state a timezone."
+      },
+      "eligibility": "The page discusses residents, visitors and local businesses and invites feedback on experiences in Brisbane. Detailed survey restrictions have not been reviewed.",
+      "disclosure": "Project-specific collection and publication conditions have not been fully reviewed. Check the notice before contributing; public idea posts may have different visibility from survey responses.",
+      "sourceUrl": "https://yoursay.brisbane.qld.gov.au/brisbanes-dawn-economy",
+      "checked": "2026-11-07",
+      "verification": "The current direct project detail and browser review state 22 November 2026 at 11.59pm. The homepage public page data still says Sunday 20 November 2026, which conflicts with both that detail and the calendar. Use the direct detail date, and retain this source conflict.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Brisbane",
+      "sources": [
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/brisbanes-dawn-economy",
+          "title": "Official project invitation",
+          "supports": "Purpose, participation route and published dates.",
+          "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/",
+          "title": "Your City Your Say current engagement opportunities",
+          "supports": "Listed as a current engagement opportunity.",
+          "access": "Direct official homepage public page data and browser reviewed"
+        }
+      ],
+      "topics": [
+        "economy",
+        "community"
+      ]
+    },
+    {
+      "id": "brisbane-fortitude-valley-draft-plan-2026",
+      "title": "Fortitude Valley draft precinct plan consultation expected",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-1000",
+      "kind": "council consultation",
+      "body": "Brisbane City Council",
+      "status": "upcoming",
+      "purpose": "A future draft-plan round will seek feedback on housing, connections, heritage, public space and the local economy.",
+      "method": "A further participation round is announced for later 2026. The canonical project page has not yet published its confirmed opening date, closing date or contribution instructions. Recheck that page before attempting a submission.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No confirmed opening or closing date or timezone is published on the canonical page."
+      },
+      "eligibility": "The next round’s contribution conditions have not yet been published on the canonical project page.",
+      "disclosure": "Project-specific collection and publication conditions have not been fully reviewed. Check the notice before contributing; public idea posts may have different visibility from survey responses.",
+      "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/council-projects/fortitude-valley-precinct-plan",
+      "checked": "2026-11-07",
+      "verification": "The canonical official project page directly announces further feedback once the draft is released later in 2026. First-stage engagement closed on 15 February 2026. A separately indexed pre-www draft contains specific dates and placeholders which are not confirmed on the canonical page; those draft dates are not used.",
+      "connections": [
+        {
+          "url": "https://p4a.xyz/pages/twinkle-housing.html",
+          "title": "Twinkle 05: Housing",
+          "type": "twinkle",
+          "reason": "The proposed precinct plan directly addresses future housing, alongside transport, heritage and public space."
+        },
+        {
+          "url": "https://p4a.xyz/pages/housing-simulations.html",
+          "title": "Housing simulations",
+          "type": "system",
+          "reason": "The land-use and housing choices provide a direct topic connection to the existing planning system."
+        }
+      ],
+      "priority": 2,
+      "groups": [],
+      "place": "Brisbane",
+      "sources": [
+        {
+          "url": "https://www.brisbane.qld.gov.au/about-council/council-projects/fortitude-valley-precinct-plan",
+          "title": "Official project invitation",
+          "supports": "Announced future consultation, purpose and previous stage closure; confirmed dates are not yet published on this canonical page.",
+          "access": "Direct official page reviewed"
+        }
+      ],
+      "topics": [
+        "housing",
+        "infrastructure",
+        "economy"
+      ]
+    },
+    {
+      "jurisdiction": "vic",
+      "participationLevel": "council",
+      "councilId": "vic-lga-349",
+      "body": "Moonee Valley City Council",
+      "status": "open",
+      "checked": "2026-11-07",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Moonee Valley",
+      "id": "moonee-valley-community-grants-advisory-2027",
+      "title": "Community Grants Advisory Committee: 2027 membership",
+      "kind": "committee membership",
+      "purpose": "Select community members to assess grant applications and advise on Biannual and Partnership grants.",
+      "method": "Submit the expression of interest linked on the official project page. Applications are reviewed by a council officer and appointments use merit, relevant skills and diverse representation.",
+      "deadline": {
+        "date": "2026-11-30",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The source publishes a closing date without an hour or timezone."
+      },
+      "eligibility": "The committee can include up to twelve community members. Selection considers skills, expertise and varied perspectives. Exact residence requirements were not established; check the EOI and terms.",
+      "disclosure": "The invitation does not state how applicant details or application material will be published. Check the form's notice before providing information.",
+      "sourceUrl": "https://yoursay.mvcc.vic.gov.au/grantsadvisory",
+      "verification": "Official current invitation, closing date, role, appointment process and committee terms link read. No application was opened or completed.",
+      "sources": [
+        {
+          "url": "https://yoursay.mvcc.vic.gov.au/grantsadvisory",
+          "title": "Official committee membership invitation",
+          "supports": "Current 2027 recruitment, role, membership composition, selection process and date-only closing notice.",
+          "access": "Official page read"
+        }
+      ],
+      "topics": [
+        "community",
+        "governance"
       ]
     }
   ],

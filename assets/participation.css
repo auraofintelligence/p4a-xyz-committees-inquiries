@@ -137,6 +137,9 @@
 .participation-method{border-bottom:1px solid var(--line);padding:.4rem 0}
 .participation-method .fact-list{padding:1rem 0}
 .council-pathways{margin:1.5rem 0}
+.council-sections{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin:1.2rem 0;padding:1rem 0;border-block:1px solid var(--line);font-size:.9rem}
+.council-sections a{padding:.35rem 0;color:var(--gold)}
+#council-committees,#standing-invitations,#standing-procedures,#current-invitations,#participation-pathways{scroll-margin-top:7rem}
 .participation-site .council-pathways h2{font-size:1.6rem}
 .council-pathway-list{list-style:none;padding:0;margin:1rem 0}
 .council-pathway-list>li{padding:1.1rem 0;border-bottom:1px solid var(--line)}

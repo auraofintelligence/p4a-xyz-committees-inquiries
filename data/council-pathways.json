@@ -576,13 +576,14 @@
           "verification": "Official participation page read. Individual project invitations and detailed procedures remain partial."
         },
         {
-          "type": "meeting-participation",
+          "type": "meeting-information",
           "title": "Public Forum",
           "url": "https://cbcity.webcastcloud.com/play?pid=2fb7df83-6ddc-42a2-a1cc-6fbb9b45f02e",
           "sourceUrl": "https://www.cbcity.nsw.gov.au/your-council/council-meetings-and-minutes",
           "checked": "2026-11-07",
           "access": "page-read",
-          "verification": "The council meeting page directly links this public participation procedure; the linked page was read."
+          "verification": "The council meeting page directly links this public participation procedure; the linked page was read.",
+          "method": "Watch the published forum recording. This playback link does not establish an application route or permission to speak."
         },
         {
           "type": "meeting-information",
@@ -2185,15 +2186,6 @@
           "checked": "2026-11-07",
           "access": "page-read",
           "verification": "Official participation page read. Individual project invitations and detailed procedures remain partial."
-        },
-        {
-          "type": "meeting-participation",
-          "title": "Change of Address",
-          "url": "https://www.narromine.nsw.gov.au/council/change-of-address",
-          "sourceUrl": "https://www.narromine.nsw.gov.au/council/council-meetings",
-          "checked": "2026-11-07",
-          "access": "page-read",
-          "verification": "The council meeting page directly links this public participation procedure; the linked page was read."
         },
         {
           "type": "meeting-information",
