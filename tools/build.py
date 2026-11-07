@@ -30,7 +30,10 @@ COUNCIL_PATHWAY_DATA=json.loads((ROOT/'data/council-pathways.json').read_text(en
 COUNCIL_PATHWAYS={a['councilId']:a for a in COUNCIL_PATHWAY_DATA['audits']}
 COUNCIL_BODY_DATA=json.loads((ROOT/'data/council-bodies.json').read_text(encoding='utf-8'))
 COUNCIL_BODIES={a['councilId']:a for a in COUNCIL_BODY_DATA['audits']}
+COUNCIL_PROJECT_DATA=json.loads((ROOT/'data/council-project-audits.json').read_text(encoding='utf-8')) if (ROOT/'data/council-project-audits.json').exists() else {'audits':[]}
+COUNCIL_PROJECTS={a['councilId']:a for a in COUNCIL_PROJECT_DATA['audits']}
 TOPICS = {'housing':'Housing & planning','health':'Health & care','environment':'Environment & animals','economy':'Work, costs & economy','rights':'Rights & justice','democracy':'Elections & democracy','technology':'Technology & data','infrastructure':'Transport & infrastructure','community':'Community & culture','governance':'Government & accountability'}
+TOPICS.update({'accessibility':'Access & inclusion','arts':'Arts & culture','climate':'Climate & hazards','energy':'Energy','events':'Events & programmes','heritage':'Heritage','libraries':'Libraries','parks':'Parks & public space','planning':'Planning & land use','sport':'Sport & recreation','waste':'Waste & recycling','youth':'Young people'})
 PAGES = []
 ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ('assets/participation.css','assets/participation.js','assets/site-nav.js','assets/site-map.js')}
 
@@ -47,8 +50,9 @@ def rel(page, target):
 
 def link(page, target, label, cls='', cue=True):
     outside = target.startswith('https://') and not target.startswith(P4A)
-    extra = ' target="_blank" rel="noopener noreferrer"' if outside else ''
-    return f'<a href="{e(rel(page,target))}"' + (f' class="{e(cls)}"' if cls else '') + extra + '>' + e(label) + ('<span class="external-cue" aria-label="opens a new tab"> ↗</span>' if outside and cue else '') + '</a>'
+    classes = ' '.join(filter(None, (cls, 'x' if outside and cue else '')))
+    extra = ' target="_blank" rel="noopener noreferrer" aria-describedby="nt"' if outside else ''
+    return f'<a href="{e(rel(page,target))}"' + (f' class="{e(classes)}"' if classes else '') + extra + '>' + e(label) + '</a>'
 
 def pretty_date(value):
     if not value: return ''
@@ -72,9 +76,21 @@ def deadline(record, long=False):
         if note: text += '. ' + note
     return text
 
+def record_events(record):
+    events=[dict(event) for event in record.get('events',[])]
+    if record.get('event'):events.append(dict(record['event']))
+    for event in events:
+        start=event.get('starts') or event.get('startTime')
+        end=event.get('ends') or event.get('endTime')
+        if not event.get('time') and start:event['time']=start+('-'+end if end else '')
+        event.setdefault('label',record['title'])
+        if event.get('venue'):event['note']=event['venue']+('. '+event['note'] if event.get('note') else '')
+    return events
+
 def badges(record):
     p = '<span class="priority-badge">P4A connection</span>' if record.get('connections') else ''
-    return f'<div class="badge-row"><span class="status-badge status-{e(record["status"])}">{STATUS[record["status"]]}</span>{p}</div>'
+    uncertainty='<span class="status-badge status-unverified">'+('Deadline uncertain' if record.get('uncertaintyFields')==['deadline'] else 'Details uncertain')+'</span>' if record.get('uncertaintyReason') and record['status']!='unverified' else ''
+    return f'<div class="badge-row"><span class="status-badge status-{e(record["status"])}">{STATUS[record["status"]]}</span>{uncertainty}{p}</div>'
 
 def ordered(records):
     return sorted(records, key=lambda r:(-r.get('priority',0),r['deadline'].get('date') or '9999',r['title']))
@@ -91,6 +107,9 @@ def council_route(council):
 
 def council_records(ident):
     return [r for r in RECORDS if r.get('councilId')==ident or (ident=='qld-council-6250' and 'homelands' in r.get('groups',[]))]
+
+def council_has_archive(ident):
+    return ident in DATA.get('publishedCouncilArchives',[]) or any(r['status']=='closed' for r in council_records(ident))
 
 def committee_route(committee):
     return 'committees/'+committee['jurisdiction']+'/'+committee['id']+'/'
@@ -164,6 +183,9 @@ def participation_method(r):
     if 'observation' in kind:return 'hearing','Observe a public committee meeting'
     if 'petition' in kind:return 'petition','Petition'
     if 'meeting' in kind or 'public address' in kind:return 'speaking','Apply to speak or ask a question'
+    if 'forum' in kind:return 'event','Attend a community forum'
+    if 'exercise' in kind:return 'event','Take part in a community exercise'
+    if 'workshop' in kind:return 'event','Register for a workshop'
     if 'consultation' in kind:return 'consultation','Contribute to a consultation'
     if any(word in kind for word in ('expression of interest','eoi','recruitment','volunteer','membership')):return 'application','Apply or register interest'
     if any(word in kind for word in ('event','course','training')):return 'event','Register for an event or course'
@@ -182,12 +204,14 @@ def card(page, r):
     reason = ''
     if r.get('connections'):
         reason = '<p class="priority-reason"><b>Why highlighted:</b> '+e(r['connections'][0]['reason'])+'</p>'
-    uncertainty = '<p class="uncertainty-note"><b>Uncertainty:</b> '+e(r.get('uncertaintyReason') or r['deadline'].get('note') or 'A current public invitation or its participation details have not been confirmed. See the source notes.')+'</p>' if r['status']=='unverified' else ''
-    search = ' '.join([r['title'],r['purpose'],r['body'],r['method'],r.get('place',''),r.get('kind','')]+[c['title']+' '+c['reason'] for c in r.get('connections',[])])
+    uncertainty = '<p class="uncertainty-note"><b>Uncertainty:</b> '+e(r.get('uncertaintyReason') or r['deadline'].get('note') or 'A current public invitation or its participation details have not been confirmed. See the source notes.')+'</p>' if r['status']=='unverified' or r.get('uncertaintyReason') else ''
+    # Visible card text is indexed in the browser; retain only additional search terms here.
+    search = ' '.join([r['method'],r.get('place',''),r.get('kind','')]+[c['title']+' '+c['reason'] for c in r.get('connections',[])[1:]])
     topics=topic_keys(r);method_key,method_label=participation_method(r)
     search+=' '+' '.join(TOPICS[t] for t in topics)
-    future_events=sorted((event for event in r.get('events',[]) if event.get('date') and event['date']>=CHECKED),key=lambda event:event['date'])
-    upcoming='<p class="upcoming-event"><strong>Next scheduled hearing:</strong> '+e(pretty_date(future_events[0]['date']))+'. Check the programme for attendance and witness arrangements.</p>' if future_events else ''
+    future_events=sorted((event for event in record_events(r) if event.get('date') and event['date']>=CHECKED),key=lambda event:event['date'])
+    upcoming='<p class="upcoming-event"><strong>'+('Next scheduled hearing:' if r.get('parliamentary') else 'Next participation event:')+'</strong> '+e(pretty_date(future_events[0]['date']))+(' · '+e(future_events[0]['time']) if future_events[0].get('time') else '')+'. '+e(future_events[0].get('label',''))+'</p>' if future_events else ''
+    upcoming+=('<p class="notice">'+e(r['participationNote'])+'</p>') if r.get('participationNote') else ''
     return f'''<article class="opportunity-card feature-panel" data-record data-id="{e(r['id'])}" data-committee="{e(r.get('committeeId',''))}" data-status="{e(r['status'])}" data-priority="{r.get('priority',0)}" data-jurisdiction="{e(r['jurisdiction'])}" data-level="{e(r['participationLevel'])}" data-council="{e(r.get('councilId',''))}" data-title="{e(r['title'])}" data-deadline="{e(r['deadline'].get('date',''))}" data-checked="{e(r['checked'])}" data-topics="{e(' '.join(topics))}" data-method="{e(method_key)}" data-body="{e(r['body'])}" data-search="{e(search.lower())}">
 {badges(r)}<div class="card-body"><h3>{link(page,route,r['title'])}</h3><p class="participation-action"><strong>{e(method_label)}</strong><br>{e(deadline(r))}</p>{upcoming}<p>{e(r['purpose'])}</p><div class="topic-tags">{''.join('<span>'+e(TOPICS[t])+'</span>' for t in topics[:2])}</div><div class="record-meta"><span>{e(r['body'])}</span></div>{uncertainty}{reason}</div><div class="card-actions">{link(page,route,'Details & participation','text-link')}<small>Checked {e(r['checked'])}</small></div></article>'''
 
@@ -208,7 +232,7 @@ def chrome(page, title, body, description):
     map_assets=f'<link rel="stylesheet" href="{e(rel(page,"assets/site-map.css"))}"><script src="{asset(page,"assets/site-map.js")}" defer></script>' if page=='pages/site-map.html' else ''
     return f'''<!doctype html>
 <html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#3f0f75"><title>{e(title)} | P4A</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{e(BASE+('' if page=='index.html' else page.removesuffix('index.html')))}"><link rel="icon" href="{e(rel(page,'assets/favicon.svg'))}"><link rel="stylesheet" href="{e(rel(page,'styles.css'))}"><link rel="stylesheet" href="{asset(page,'assets/participation.css')}">{map_assets}<script src="{asset(page,'assets/site-nav.js')}" defer></script><script src="{asset(page,'assets/participation.js')}" defer></script></head>
-<body class="participation-site" data-theme="royal"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{P4A}index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a><nav class="site-nav" data-nav aria-label="Primary">{nav}</nav><button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button></header>
+<body class="participation-site" data-theme="royal"><span id="nt" hidden>opens a new tab</span><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{P4A}index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a><nav class="site-nav" data-nav aria-label="Primary">{nav}</nav><button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button></header>
 <main id="main">{section_nav}{body}</main>
 <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class. A civic workbench, started on Minjerribah.</p><p class="participation-research-date">Latest source checks {pretty_date(CHECKED)}. Individual records retain their own dates. {link(page,'sources/','Coverage and source limits')}.</p></div><nav class="footer-links" aria-label="Footer links">{link(page,'pages/site-map.html','Site map')}{link(page,P4A+'pages/site-map.html','All P4A pages')}{link(page,'LICENCE.md','Strange But True licence')}{link(page,REPO,'Committees source',cue=False)}{link(page,'robots.txt','robots.txt')}</nav></footer><a class="back-top" href="#main" aria-label="Back to top">↑ Top</a></body></html>'''
 
@@ -218,6 +242,8 @@ def compact_html(document):
     document=re.sub(r'</dt>(?=<(?:dt|dd)\b)','',document)
     document=re.sub(r'</dd>(?=<(?:dt\b|dd\b|/dl>))','',document)
     document=re.sub(r'</p>(?=<(?:p\b|div\b|h[1-6]\b|ul\b|ol\b|dl\b|form\b|/(?:div|li)>))','',document)
+    # HTML permits unquoted attribute values without these delimiter characters.
+    document=re.sub(r'="([^\s"\'`=<>]+)"',r'=\1',document)
     return document
 
 def write(page, title, body, description=''):
@@ -324,13 +350,14 @@ def build():
         page='opportunities/'+r['id']+'/index.html'
         body=hero(r['title'],r['purpose'],NAMES[r['jurisdiction']]+' · '+r['kind'])+badges(r)
         if r['status']=='unverified': body+='<p class="notice"><strong>Unverified invitation.</strong> This record is a lead to check. It is not presented as a confirmed open call.</p>'
+        if r.get('uncertaintyReason'):body+='<p class="notice"><strong>Details needing confirmation:</strong> '+e(r['uncertaintyReason'])+'</p>'
         if r['status']=='closed': body+='<p class="notice"><strong>The recorded feedback round has closed.</strong> Follow the official source for outcomes or any new invitation.</p>'
         if r.get('statusNote'): body+='<p class="notice">'+e(r['statusNote'])+'</p>'
         facts=[('Responsible body',r['body']),('Place / scope',r.get('place',NAMES[r['jurisdiction']])),('How to take part',r['method']),('Deadline / next stage',deadline(r,True)),('Eligibility and restrictions',r['eligibility']),('What may become public',r['disclosure']),('What was checked',r['verification']),('Date checked',pretty_date(r['checked']))]
         body+='<div class="detail-layout"><div><dl class="fact-list">'+''.join('<dt>'+e(k)+'</dt><dd>'+e(v)+'</dd>' for k,v in facts)+'</dl>'
-        if r.get('events'):body+='<section class="participation-section"><h2>Scheduled hearings</h2><p class="prose">A scheduled public hearing is separate from an invitation to give evidence. Check the official programme for attendance, access and witness arrangements.</p><ul>'+''.join('<li>'+e(pretty_date(event['date']))+' · '+e(event.get('label','Scheduled hearing'))+'</li>' for event in r['events'])+'</ul></section>'
+        if record_events(r):body+='<section class="participation-section"><h2>'+('Scheduled hearings' if r.get('parliamentary') else 'Participation events')+'</h2><p class="prose">'+('A scheduled public hearing is separate from an invitation to give evidence. Check the official programme for attendance, access and witness arrangements.' if r.get('parliamentary') else 'Check the official invitation for the venue, registration conditions and any changes. An event time is separate from a feedback deadline.')+'</p><ul>'+''.join('<li>'+e(pretty_date(event['date']))+(' · '+e(event['time']) if event.get('time') else '')+' · '+e(event.get('label','Scheduled event'))+(' · '+e(event['note']) if event.get('note') else '')+'</li>' for event in record_events(r))+'</ul></section>'
         for related in r.get('relatedLinks',[]):
-            body+='<p class="prose">'+e(related['before'])+link(page,related['url'],related['label'])+e(related['after'])+'</p>'
+            body+='<p class="prose">'+e(related.get('before',''))+link(page,related['url'],related.get('label') or related.get('title','Related official source'))+e(related.get('after',''))+'</p>'
         if r.get('islandRelevance'):body+='<div class="notice"><strong>Minjerribah connection:</strong> '+e(r['islandRelevance'])+'</div>'
         if r.get('connections'):
             body+=section('Why this is highlighted','The link is a topic match to existing P4A work. It does not imply agreement with an inquiry’s conclusions or official endorsement.','<ul class="connection-list">'+''.join('<li>'+link(page,c['url'],c['title'])+'<p>'+e(c['reason'])+'</p></li>' for c in r['connections'])+'</ul>')
@@ -355,6 +382,8 @@ def build():
     body+=council_coverage_table(SimpleNamespace(**globals()),page)
     from council_bodies import coverage_table as body_coverage_table
     body+=body_coverage_table(SimpleNamespace(**globals()),page)
+    from council_projects import coverage as project_coverage
+    body+=project_coverage(SimpleNamespace(**globals()),page)
     body+='<div class="prose"><h2>What the labels mean</h2><ul><li><strong>Open:</strong> a directly checked official invitation is accepting participation at the research date.</li><li><strong>Upcoming:</strong> an official source announces a future opening or a participation event, with restrictions shown.</li><li><strong>Standing route:</strong> a continuing mechanism with its own eligibility and application rules.</li><li><strong>Closed:</strong> the specific contribution round ended; a later project stage may continue.</li><li><strong>Unverified:</strong> a lead, inaccessible detail or ambiguous invitation that needs follow-up.</li></ul><h2>Coverage and evidence</h2><p>Every entry from an enumerated open-call index is represented, even where there is no P4A match. Current-inquiry lists can include closed submission windows, ongoing institutional scrutiny and hearings with invited witnesses. Those are reviewed separately. The directory does not assert coverage of every council, community organisation, government consultation or unpublished future inquiry.</p><p>Short summaries are original paraphrases. Each detail page retains its official links, field-level limits, eligibility, publication conditions and check date. Source-page copies, contact lists and browser material are not published.</p></div>'
     body+='<p>'+link(page,REPO+'/blob/main/data/registry.json','Dated public records','text-link')+' · '+link(page,REPO+'/blob/main/data/council-pathways.json','Council pathway audit','text-link')+' · '+link(page,REPO+'/blob/main/data/council-bodies.json','Council bodies and standing invitations','text-link')+' · '+link(page,REPO+'/blob/main/content/research-notes.md','Research and maintenance notes','text-link')+'</p>'
     write(page,'Sources & coverage',body)
@@ -375,7 +404,7 @@ def build():
                 route=council_route(c);records=council_records(c['id'])
                 council_items.append((route+'index.html',c['name']))
                 if records:
-                    council_items.append((archive_route(route)+'index.html',c['name']+' archive'))
+                    if council_has_archive(c['id']):council_items.append((archive_route(route)+'index.html',c['name']+' archive'))
                     council_items.extend(('opportunities/'+r['id']+'/index.html',r['title']) for r in records)
             groups.append(('councils-'+j,name+' councils',council_items))
         groups.append(('committees-'+j,('Australia' if j=='federal' else name)+' committees',[('committees/'+j+'/index.html',name+' committee directory')]+[(committee_route(c)+'index.html',c['name']) for c in COMMITTEES if c['jurisdiction']==j]))

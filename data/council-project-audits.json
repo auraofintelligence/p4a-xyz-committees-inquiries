@@ -1,0 +1,3146 @@
+{
+  "scope": "Current project invitations, separately from committees, general source links and standing procedures.",
+  "audits": [
+    {
+      "councilId": "qld-council-1000",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.brisbane.qld.gov.au/",
+      "coverageStatus": "Current project list reviewed",
+      "summary": "The earlier 7 November review read all four current portal projects in a browser and added a separately announced Fortitude Valley future round. This audit preserves that existing research and its original dates; it is not a new source check.",
+      "scope": "All four current Your City Your Say projects and their participation details, with a separately announced planning consultation. Other Council processes and statutory notices remain outside that enumerated list.",
+      "enumeration": {
+        "Current portal projects reviewed": 4,
+        "Separate future planning announcements": 1
+      },
+      "findings": [
+        "Wynnum, Manly and Lota foreshores, Metro Expansions, Young BNE and Dawn Economy are the four current project invitations.",
+        "The Dawn Economy main notice and homepage retained conflicting deadlines; the existing record keeps that conflict."
+      ],
+      "gaps": [
+        "The Fortitude Valley future round has no confirmed opening or response deadline.",
+        "This does not enumerate every statutory development application or every separate Council programme."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://yoursay.brisbane.qld.gov.au/",
+          "title": "Official current project portal",
+          "note": "",
+          "access": "Live rendered browser and four project details read during the earlier 7 November review"
+        }
+      ],
+      "recordIds": [
+        "brisbane-wynnum-manly-lota-foreshores-2026",
+        "brisbane-metro-expansions-2026",
+        "brisbane-young-bne-2027-2026",
+        "brisbane-dawn-economy-2026",
+        "brisbane-fortitude-valley-draft-plan-2026"
+      ]
+    },
+    {
+      "councilId": "qld-council-1750",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.bulloo.qld.gov.au/About-Council/Meeting-Agenda-Minutes",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current meeting invitation and its linked presentation form directly read, including application timing, presentation limits and publication of name/topic. Corporate-plan consultation is completed and the July 2026 plan is adopted.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.bulloo.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.bulloo.qld.gov.au/About-Council/Meeting-Agenda-Minutes",
+          "title": "Official source reviewed",
+          "note": "Request to address Council and current meeting schedule.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.bulloo.qld.gov.au/files/assets/public/v/2/about-council/documents/council-meetings-2026/request-to-present-at-council-meeting.pdf",
+          "title": "Official source reviewed",
+          "note": "Seven-calendar-day request and ten-minute presentation limits.",
+          "access": "official-pdf-read"
+        }
+      ],
+      "recordIds": [
+        "bulloo-address-council-standing"
+      ]
+    },
+    {
+      "councilId": "qld-council-1820",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.ourbundabergregion.com.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Reviewed the live homepage with 13 published cards and the 137-entry project index, then read 54 plausible published project details. Found a current continuing youth invitation, a confirmed upcoming selected-sample survey, and two still-visible surveys whose current acceptance is registration limited. Published is not the same as accepting input.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 137
+      },
+      "findings": [],
+      "gaps": [
+        "Older published projects and two live survey buttons require care. Registration barriers leave current survey acceptance unverified. Statutory development application notices were not individually enumerated."
+      ],
+      "closedExclusions": [
+        "Arts and Culture Strategy round closed 6 February 2026.",
+        "Council representation survey states consultation closed.",
+        "Several drainage, transport, recycling and park consultations explicitly concluded in earlier rounds."
+      ],
+      "sources": [
+        {
+          "url": "https://www.ourbundabergregion.com.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "bundaberg-community-satisfaction-survey-2026",
+        "bundaberg-community-youth-collective",
+        "bundaberg-cbd-stakeholder-survey-2025",
+        "bundaberg-bundaberg-botanic-gardens-visitor-feedback"
+      ],
+      "sectionsReviewed": [
+        "Homepage project cards",
+        "All projects index",
+        "Plausible contribution details",
+        "Official Council satisfaction announcement"
+      ]
+    },
+    {
+      "councilId": "qld-council-1900",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.burdekin.qld.gov.au/Community/Community-consultations-and-surveys",
+      "coverageStatus": "Visible project catalogue reviewed",
+      "summary": "Community Consultations and Surveys index directly read. Its sole Current Consultation is the Anzac Park pump-track survey, but official detail dates it 1-12 December 2025. It is stale, not a current November 2026 invitation.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {
+        "Project entries enumerated": 1,
+        "Projects with current response routes": 0
+      },
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Anzac Park pump-track survey: The index's Current label conflicts with the detailed survey dates of 1-12 December 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://www.burdekin.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.burdekin.qld.gov.au/Community/Community-consultations-and-surveys",
+          "title": "Official source reviewed",
+          "note": "One item appears under Current Consultations, but its detailed survey dates are in 2025.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-1950",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.burke.qld.gov.au/Our-community/Economic-development/Community-consultation",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "The current adopted policy verifies petitions and approved deputations. Consultation and notice pages were blocked, so no complete current-project inventory is established. An advertised civic-award round remains unverified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "The Community Consultation page returned HTTP 403, so no complete current-project enumeration is claimed.",
+        "No dated policy consultation was confirmed from the accessible sources. This does not mean none exists.",
+        "Current homepage advertises Australia Day 2027 nominations, but its detail page was inaccessible; this is a separate civic recognition lead, not a policy consultation."
+      ],
+      "closedExclusions": [
+        "RADF 2026-2027 funding round: The page states the single round closed 22 May 2026 at 11:59 PM AEST. It is not a current invitation."
+      ],
+      "sources": [
+        {
+          "url": "https://www.burke.qld.gov.au/Our-community/Economic-development/Community-consultation",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://www.burke.qld.gov.au/Home",
+          "title": "Official source reviewed",
+          "note": "Current homepage news reviewed, including October 2026 notices.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.burke.qld.gov.au/Sitemap",
+          "title": "Official source reviewed",
+          "note": "Community consultation, notices, planning, local laws, grants and current policies identified.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.burke.qld.gov.au/Our-community/News-and-events/Council-notices",
+          "title": "Official source reviewed",
+          "note": "HTTP 403; the notice catalogue could not be enumerated.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.burke.qld.gov.au/Our-council/Corporate-publications/Policies",
+          "title": "Official source reviewed",
+          "note": "Current register includes the adopted contribution procedures.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.burke.qld.gov.au/files/assets/public/v/1/our-council/documents/council-meetings/agenda/2026/261028_agenda_and_business_papers.pdf",
+          "title": "Official source reviewed",
+          "note": "October report plans a Gregory consultation calendar; no present survey or public submission invitation was established.",
+          "access": "official-pdf-read"
+        }
+      ],
+      "recordIds": [
+        "burke-petitions-standing",
+        "burke-deputations-standing",
+        "burke-shire-australia-day-2027-nominations-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-2080",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.cairns.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "The homepage separates two Open projects from eleven Active projects. Barron Waters is a dated open call. The dog off-leash review is already in the registry and is not duplicated. Disability access still publishes contribution methods but its current acceptance needs a tool-level check.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 17
+      },
+      "findings": [],
+      "gaps": [
+        "Active project pages are not all accepting input. Ten other Active project details and individual planning notifications were not exhaustively reviewed."
+      ],
+      "closedExclusions": [
+        "Homepage explicitly places Walking Network, Saltwater Creek, Live Music Framework and Towards 2050 under Closed."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.cairns.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "cairns-barron-waters-improvement-plan-2026",
+        "cairns-disability-access-inclusion-plan-2027"
+      ],
+      "sectionsReviewed": [
+        "Open projects: 2",
+        "Active projects: 11",
+        "Closed projects: 4",
+        "Barron Waters detail",
+        "Disability access detail"
+      ]
+    },
+    {
+      "councilId": "qld-council-2250",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.carpentaria.qld.gov.au/Community/Community-Consultation",
+      "coverageStatus": "Visible project catalogue reviewed",
+      "summary": "Community Consultation and Have Your Say pages directly read. The latter's draft Corporate Plan feedback closed 21 April 2025. The consultation page has historical community-meeting Q&A and a 2024 advisory EOI; current intake is not established.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Draft Corporate Plan2025-29: Submissions closed 21 April 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://www.carpentaria.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.carpentaria.qld.gov.au/Community/Community-Consultation",
+          "title": "Official source reviewed",
+          "note": "Historical Q&A and advisory EOI, no current intake established.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.carpentaria.qld.gov.au/Council/Have-your-say",
+          "title": "Official source reviewed",
+          "note": "Draft Corporate Plan 2025-29 feedback closed 21 April 2025.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2260",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.cassowarycoast.qld.gov.au/projects",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Freshly read the actual Your Say portal and project index, then checked six plausible current details. Three retained invitations are visible with uncertainty; several current-project or Under Consultation listings have already concluded their feedback round.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 7
+      },
+      "findings": [],
+      "gaps": [
+        "Main council site blocks normal direct access. Some dynamic contribution tools do not render full anonymous text, leaving EOI, waterfront and radio question acceptance uncertain. Not every historical project detail was reviewed."
+      ],
+      "closedExclusions": [
+        "Regional Flood Model explicitly says consultation closed.",
+        "Kurrimine boat ramp parking consultation explicitly closed.",
+        "Waste Strategy thanks respondents and says feedback is being reviewed.",
+        "2026 Community Scorecard advertised closure 6 November 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://yoursay.cassowarycoast.qld.gov.au/projects",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "cassowary-coast-youth-advisory-current-eoi",
+        "cassowary-coast-innisfail-waterfront-feedback",
+        "cassowary-coast-mayor-on-air-questions"
+      ],
+      "sectionsReviewed": [
+        "Portal Under Consultation: 3",
+        "Current Projects: 4",
+        "All projects index",
+        "Regional Flood Model detail",
+        "Kurrimine boat ramp detail",
+        "Youth Advisory detail",
+        "Waste Strategy detail",
+        "Innisfail waterfront detail",
+        "Mayor on Air route"
+      ]
+    },
+    {
+      "councilId": "qld-council-2270",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.chrc.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "The public homepage lists three projects open for consultation, a set of continuing engagement hubs and thirteen Community Reference Groups. Read the three current project details plus the galleries guestbook. Distinguish named CRGs from current project contributions.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 3
+      },
+      "findings": [],
+      "gaps": [
+        "CRG meeting pages were not individually re-audited here; they are covered by the separate council body research. Galleries guestbook is a continuing service feedback route, not a policy round. Two library tool statuses remain uncertain."
+      ],
+      "closedExclusions": [
+        "Corporate Plan 2027-2032, showgrounds plan, grant assessment panel and Men Health Night survey are in Recently Closed.",
+        "Bringing Blackwater Back detail says formal consultation closed 10 April 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.chrc.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "central-highlands-ridge-estate-road-names-2026",
+        "central-highlands-community-events-feedback",
+        "central-highlands-libraries-current-local-surveys-2026"
+      ],
+      "sectionsReviewed": [
+        "Open projects: 3",
+        "Community Reference Group directory: 13",
+        "Ridge Estate names",
+        "Libraries hub",
+        "Community Events hub",
+        "Galleries guestbook"
+      ]
+    },
+    {
+      "councilId": "qld-council-2310",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.charterstowers.qld.gov.au/projects",
+      "coverageStatus": "Public project catalogue enumerated",
+      "summary": "All 42 current official project-detail pages were fetched and read via direct official requests, plus live blank response forms for the retained invitations. Published is a catalogue state rather than an open-submission state. Seven projects have directly verified current response routes, with distinct policy, emergency-planning and service-feedback audiences.",
+      "scope": "All 42 project catalogue entries were reviewed, including 7 with current response routes. The number of project pages is not the number of open consultations.",
+      "enumeration": {
+        "Project entries enumerated": 42,
+        "Projects with current response routes": 7
+      },
+      "findings": [],
+      "gaps": [
+        "The reviewed project catalogue is fully enumerated, but response-publication/privacy terms remain incomplete for several forms. New off-portal notices may appear after this check."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.charterstowers.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/projects",
+          "title": "Official source reviewed",
+          "note": "42projects enumerated; every project detail fetched, separating open forms from closed exercises.",
+          "access": "direct-public-https"
+        }
+      ],
+      "recordIds": [
+        "charters-towers-cbd-masterplan-2026",
+        "charters-towers-cbd-visioning-2026-business",
+        "charters-towers-cbd-visioning-2026-community",
+        "charters-towers-workforce-community-survey",
+        "charters-towers-rural-emergency-feedback",
+        "charters-towers-visitor-feedback",
+        "charters-towers-shore-excursion-feedback",
+        "charters-towers-event-feedback-feedback",
+        "charters-towers-business-event-feedback"
+      ],
+      "projects": [
+        {
+          "title": "Child Safety Concern Form",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/child-safety-concern-form",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "reporting-process-not-policy-consultation"
+        },
+        {
+          "title": "Child Safe Organisations Community…",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/child-safe-organisations-community-information-session",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Charters Towers CBD Master Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/charters-towers-cbd-masterplan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Kerbside Recycling",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/kerbside-recycling",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Charters Towers Regional Workforce…",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/regional-workforce-strategy",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Water for Growth",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/water-for-growth",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Business Excellence Awards 2026",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/business-excellence-awards-2026",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Community Connect Meetings",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/community-connect-meetings",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Tourism Marketing Strategy & Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/tourism-marketing-strategy-plan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Council Events Survey",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/council-events",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Event Feedback",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/event-feedback",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Short Visitor Survey",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/short-visitor-survey",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Macrossan Bridge",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/macrossan-bridge",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Santa in the Streets",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/santa-in-the-street",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Charters Towers Shore Excursion Feedback",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/shore-excursion-feedback",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Events, Arts & Culture Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/events-arts-culture-survey",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Audit & Risk Committee Member Evaluation",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/audit-risk-committee-member-evaluation",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "internal-only-not-public"
+        },
+        {
+          "title": "Excelsior Library Hours & Services",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/excelsior-library-services",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Rural Properties Emergency Response…",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/rural-properties-emergency-survey",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "current-response-route-verified"
+        },
+        {
+          "title": "Coffee Connect",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/coffee-connect",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "2025 Community Satisfaction & Business…",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/2025-community-satisfaction-business-survey",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "New Website",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/new-website",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Renew Charters Towers",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/renew-charters-towers",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Community Strategic Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/community-strategic-plan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Christmas Lights Trail 2025",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/christmas-lights-trail-2025",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Destination Management Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/destination-management-plan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Economic Development Strategy",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/economic-development-strategy",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Greenvale Scenic Tourism Frame",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/greenvale-scenic-tourism-frame",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Waste Management Strategy",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/waste-management-strategy",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Flying-Fox Management Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/flying-fox-management-plan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Lissner & Apex Parks Playground",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/lissner-apex-parks-playground",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Greenvale Church",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/greenvale-church",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Towers Hill Master Plan",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/towers-hill-master-plan",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Peek Street - Racecourse Road Roundabout",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/peek-street-racecourse-road-roundabout",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Flood Warning Infrastructure Network",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/flood-warning-infrastructure-network",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Millchester Road - Victory Street…",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/millchester-road-victory-street-intersection-upgrade",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Defiance Mill Park Pump Track",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/defiance-mill-park-pump-track",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Green Waste",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/green-waste",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "EOI Jackson Street Shed Lease",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/eoi-jackson-street-shed-lease",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Excelsior Library",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/excelsior-library",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "past-or-closed-consultation-or-event"
+        },
+        {
+          "title": "Charters Towers Water Park",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/water-park",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        },
+        {
+          "title": "Flood Damage DRFA",
+          "url": "https://haveyoursay.charterstowers.qld.gov.au/drfa",
+          "access": "Every project detail read by direct official requests on 7 November 2026",
+          "classification": "project-information-no-current-response-invitation"
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-2330",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.cherbourg.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "The bare www home produced a blank challenge, but the official canonical home was readable through the source check. Its feedback, suggestions and complaints area was identified; no dated public consultation was verified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.cherbourg.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2450",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.cloncurry.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home returned 403. Official operational-plan evidence describes community forums and monthly Smoko with the Mayor in 2025-26. That plan period has ended, so a current session or continuing November invitation was not inferred.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.cloncurry.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-250",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.aurukun.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current home news and upcoming-event links reviewed. Water-supply upgrades are announced, but no present policy consultation or survey was established. A targeted search did not find an additional current invitation.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.aurukun.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2500",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.cook.qld.gov.au/community-engagement/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Read the official indexed engagement policy page, freshly enumerated recent Council news and located the latest Cooktown residential and Lakeland planning rounds. Direct current project responses served an anti-bot challenge and cannot prove new acceptance.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Community engagement policy is not a current project catalogue. Cooktown project detail access is challenged, and no new accepting-input round was verified. Current statutory public notices and possible upcoming hub design engagement remain incompletely checked."
+      ],
+      "closedExclusions": [
+        "Cooktown Residential Masterplan announced survey closure 21 September 2026 at 4:30pm.",
+        "Lakeland Planning Scheme amendment submission round ended 7 March 2026 at 5pm."
+      ],
+      "sources": [
+        {
+          "url": "https://www.cook.qld.gov.au/community-engagement/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [],
+      "sectionsReviewed": [
+        "Engagement policy page, indexed",
+        "Fresh Council news index",
+        "Cooktown Residential Masterplan announcement",
+        "Lakeland amendment announcement"
+      ]
+    },
+    {
+      "councilId": "qld-council-2600",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.croydon.qld.gov.au/News/Feral-Pigs-Survey",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home returned 403. Official indexed Feral Pigs Survey closed 12 March 2026 and Precinct Growth Plan survey closed 31 May 2025. Stale invitation text was excluded.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Precinct Growth Plan survey: Survey closed 31 May 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://www.croydon.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.croydon.qld.gov.au/News/Feral-Pigs-Survey",
+          "title": "Official source reviewed",
+          "note": "State draft-plan feedback closed 12 March 2026.",
+          "access": "indexed-only"
+        },
+        {
+          "url": "https://www.croydon.qld.gov.au/Events/Precinct-Growth-Plan",
+          "title": "Official source reviewed",
+          "note": "Survey closed 31 May 2025.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2750",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.diamantina.qld.gov.au/Council/Have-Your-Say",
+      "coverageStatus": "Visible project catalogue reviewed",
+      "summary": "Have Your Say page directly read. Portable Changing Places feedback closed 15 August 2026; Birdsville Racecourse Footpath is marked completed in July 2026.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Portable Changing Places facility feedback: Feedback closed 15 August 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://www.diamantina.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.diamantina.qld.gov.au/Council/Have-Your-Say",
+          "title": "Official source reviewed",
+          "note": "Changing Places feedback closed 15 August 2026; racecourse footpath is completed.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2770",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.doomadgee.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current homepage and public-notice links reviewed, plus targeted official search. Notices include practical service and weather information, but no current public policy response invitation was verified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.doomadgee.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-2810",
+      "checked": "2026-11-07",
+      "portalUrl": "https://douglas.qld.gov.au/projects/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Reviewed the current projects and Open Consultation area, then read five relevant detail pages. A new November draft SEMP round and draft Biosecurity Plan are currently open. Earlier project text and cached search results can describe already closed rounds.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 5
+      },
+      "findings": [],
+      "gaps": [
+        "Individual development applications and all historical project pages were not enumerated."
+      ],
+      "closedExclusions": [
+        "Wonga Beach flood survey closed 30 October 2026.",
+        "Arts Action Plan survey closed 27 July 2026.",
+        "Sport and recreation survey closed 5 June 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://douglas.qld.gov.au/projects/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "douglas-biosecurity-plan-2027-2031",
+        "douglas-four-mile-newell-draft-semp-2026"
+      ],
+      "sectionsReviewed": [
+        "Projects and consultation index",
+        "Open consultation area",
+        "Biosecurity plan",
+        "Four Mile/Newell SEMP",
+        "Wonga Beach flood study",
+        "Arts Action Plan",
+        "Sport and recreation strategy"
+      ]
+    },
+    {
+      "councilId": "qld-council-300",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.balonne.qld.gov.au/Live-and-Work/Have-your-say",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Official indexed Have Your Say page was reviewed, but direct access returned 403. All visible policy and survey entries are under Recently Closed Opportunities for Feedback, including insurance, biosecurity, stock routes and youth engagement. Old invitation wording beneath that heading is not treated as open.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.balonne.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.balonne.qld.gov.au/Live-and-Work/Have-your-say",
+          "title": "Official source reviewed",
+          "note": "The index places its listed invitations under Recently Closed; direct access returned 403.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-3100",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.etheridge.qld.gov.au/Development/Projects/Etheridge-Walking-Network-Plan",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Walking Network Plan directly read: town-specific survey routes and PDF/email options exist, but external response forms were inaccessible and no current date is supplied. Notice-board searches also found past June budget meetings, an undated SMS survey and a Recovery Survey sitemap lead. More detail is needed before marking any open.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Sport and Recreation Strategic Plan2026-32: Draft-plan feedback closed 30 June 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://www.etheridge.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.etheridge.qld.gov.au/Development/Projects/Etheridge-Walking-Network-Plan",
+          "title": "Official source reviewed",
+          "note": "Three township feedback routes; current intake uncertain because forms inaccessible.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.etheridge.qld.gov.au/Community/Community-Notice-Board",
+          "title": "Official source reviewed",
+          "note": "Past budget/community sessions and undated SMS survey.",
+          "access": "indexed-only"
+        },
+        {
+          "url": "https://www.etheridge.qld.gov.au/Sitemap",
+          "title": "Official source reviewed",
+          "note": "RecoverySurvey discovered; direct403.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "etheridge-shire-einasleigh-forsayth-and-mt-surprise-walking-network-feedback-check"
+      ],
+      "otherLeads": [
+        {
+          "title": "Community Recovery Survey",
+          "url": "https://www.etheridge.qld.gov.au/Sitemap",
+          "note": "The official indexed sitemap lists a Community Recovery Survey under Recovery and Resilience. Direct sitemap returned 403; the exact survey URL and current response window were not retrievable."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-3200",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.flinders.qld.gov.au/Community-and-Environment/Facilities-and-Recreation/Hughenden-Leisure-Precinct-Master-Plan",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home was inaccessible. Official indexed Hughenden Leisure Precinct Master Plan says engagement ran December 2025 to July 2026 and is now being delivered. An agenda proposes a sentiment/preparedness survey, which is not itself a launched invitation.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.flinders.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.flinders.qld.gov.au/Community-and-Environment/Facilities-and-Recreation/Hughenden-Leisure-Precinct-Master-Plan",
+          "title": "Official source reviewed",
+          "note": "Engagement ended in July 2026; the plan is now launched.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-3220",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.frasercoast.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Homepage lists one Current Engagement Opportunity, three awaiting-outcome projects and one past project. The current Ernie Organ Park invitation has an actual public ideas tool, an 8 November event and a 13 November closing date.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 5
+      },
+      "findings": [],
+      "gaps": [
+        "This audit does not enumerate all development applications or public notices."
+      ],
+      "closedExclusions": [
+        "Planning scheme package 1, Building Better Neighbourhoods and Nikenbah/Dundowran are under Awaiting Outcomes, not assumed open."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.frasercoast.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "fraser-coast-ernie-organ-park-2026"
+      ],
+      "sectionsReviewed": [
+        "Current opportunities: 1",
+        "Awaiting outcomes: 3",
+        "Past engagements: 1",
+        "Ernie Organ Park detail"
+      ]
+    },
+    {
+      "councilId": "qld-council-3360",
+      "checked": "2026-11-07",
+      "portalUrl": "https://conversations.gladstone.qld.gov.au/projects",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Enumerated the fresh public project index and checked twelve plausible current or upcoming policy/project details. Found current Mount Larcom co-design and Access/Inclusion framework feedback, four planned 2027 notification windows and explicit conflicts affecting the steering EOI and public-art survey.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 12
+      },
+      "findings": [],
+      "gaps": [
+        "Several rendered contribution tools differ from main-page prose or timeline dates, disclosed per record. Some planning amendment pages beyond those named were not examined in detail."
+      ],
+      "closedExclusions": [
+        "Tourism and Biodiversity formal submission periods closed 25 September 2026.",
+        "Deepwater Creek flood study says community engagement closed.",
+        "Get Ready photo entries, voting and prize collection dates have passed."
+      ],
+      "sources": [
+        {
+          "url": "https://conversations.gladstone.qld.gov.au/projects",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "gladstone-access-inclusion-evaluation-feedback-2026",
+        "gladstone-access-inclusion-evaluation-steering-eoi-2026",
+        "gladstone-mount-larcom-community-plan-2026",
+        "gladstone-public-art-masterplan-current-status",
+        "gladstone-upcoming-flood-hazard-overlay-code",
+        "gladstone-upcoming-bushfire-hazard-overlay-code",
+        "gladstone-upcoming-housing-major-amendment",
+        "gladstone-upcoming-lgip"
+      ],
+      "sectionsReviewed": [
+        "Project index",
+        "Mount Larcom community plan",
+        "Access/Inclusion framework and EOI",
+        "Public Art Masterplan",
+        "Tourism amendment",
+        "Biodiversity amendment",
+        "Flood amendment",
+        "Bushfire amendment",
+        "Housing amendment",
+        "LGIP",
+        "Deepwater flood study",
+        "Small Business Friendly programme",
+        "Get Ready photo competition"
+      ]
+    },
+    {
+      "councilId": "qld-council-3430",
+      "checked": "2026-11-07",
+      "portalUrl": "https://gchaveyoursay.com.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Visible homepage sections and all five Open for feedback projects, their actual current survey pages and portal privacy policy.",
+      "scope": "Visible homepage sections and all five Open for feedback projects, their actual current survey pages and portal privacy policy.",
+      "enumeration": {
+        "Visible open project cards": 5,
+        "Open project details read": 5,
+        "Current survey pages read": 5
+      },
+      "findings": [
+        "Four date-only November survey cutoffs and the Greenmount construction engagement are verified.",
+        "Biosecurity has a separate closed 2024 survey on the same page; it was not confused with the current 2026 call.",
+        "Greenmount is current construction-impact feedback, not reopening the already developed final design."
+      ],
+      "gaps": [
+        "This pass does not enumerate every development application or notices outside the consultation portal."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://gchaveyoursay.com.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "gold-coast-biosecurity-updates-2026",
+        "gold-coast-runaway-bay-pump-track-2026",
+        "gold-coast-tugun-pump-track-2026",
+        "gold-coast-gladys-moncrieff-park-2026",
+        "gold-coast-greenmount-construction-2026"
+      ]
+    },
+    {
+      "councilId": "qld-council-3610",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.grc.qld.gov.au/News-and-Community/Community/Have-Your-Say",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Recovered the actual Have Your Say child page from the official Community page, but both direct source requests and the web reader could not read its current project list. Search found earlier sporting and planning consultations, without proving a currently accepting round.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Current engagement index is an unresolved access gap. No zero-opportunities claim is supported. Individual current planning application notices were not enumerated."
+      ],
+      "closedExclusions": [
+        "Sporting facilities survey ended 10 April 2026.",
+        "2025 streetscape survey references are historical.",
+        "14 November 2026 gym opening is an observation/opening event, not an established Council decision consultation."
+      ],
+      "sources": [
+        {
+          "url": "https://www.grc.qld.gov.au/News-and-Community/Community/Have-Your-Say",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [],
+      "sectionsReviewed": [
+        "Official Community page and Have Your Say child link",
+        "Have Your Say route attempted",
+        "2026 sporting facilities consultation announcement",
+        "Planning Scheme review notices",
+        "Development submission template"
+      ]
+    },
+    {
+      "councilId": "qld-council-3620",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.gympie.qld.gov.au/Council/Projects-and-Works/Have-Your-Say",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Located an advertised future formal planning consultation through official public-notice search, but live council index and notice access returned 403 and the project directs anonymous access to sign-in.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Cannot claim current project enumeration while source access is blocked. Upcoming planning notice is visibly uncertain until confirmed in a live rendered browser. Other public notices remain unexhausted."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.gympie.qld.gov.au/Council/Projects-and-Works/Have-Your-Say",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "gympie-new-planning-scheme-lgip-2026"
+      ],
+      "sectionsReviewed": [
+        "Official Have Your Say route attempted",
+        "New planning scheme and LGIP official public notice, indexed",
+        "Your Say planning project sign-in response"
+      ]
+    },
+    {
+      "councilId": "qld-council-370",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.banana.qld.gov.au/Council-Services/RoadsServices/Flood-Study",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home was inaccessible. Targeted official searches returned historical flood-plan consultation and January 2026 minutes describing future Jambin consultation after technical work. Neither establishes an active November 2026 call.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.banana.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.banana.qld.gov.au/Council-Services/RoadsServices/Flood-Study",
+          "title": "Official source reviewed",
+          "note": "Historical flood-plan page retains old comment wording; current intake is not verified.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-3800",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.hinchinbrook.qld.gov.au/community-environment/public-consultation/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Located the actual Public Consultation and Results areas, Council notices, service feedback and current planning-review explanation. Current direct source requests access is 403; indexed public-consultation content is several months old.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Current consultation index cannot be enumerated from fresh content. No conclusion that the council has no current invitations is drawn. Standing Councillor Connect, feedback and advisory routes belong to the separate procedure/body data."
+      ],
+      "closedExclusions": [
+        "Planning scheme ten-year review explicitly says no public consultation at this stage.",
+        "Insurance survey news reports results rather than inviting new responses.",
+        "Waste composition audit required no action from residents.",
+        "Coastal workshops and 2025 land management notices are historical, not current rounds."
+      ],
+      "sources": [
+        {
+          "url": "https://www.hinchinbrook.qld.gov.au/community-environment/public-consultation/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [],
+      "sectionsReviewed": [
+        "Public Consultation page attempted and indexed",
+        "Public Consultation Results, indexed",
+        "Planning Scheme ten-year review notice",
+        "2026 insurance survey results",
+        "Waste composition notice"
+      ]
+    },
+    {
+      "councilId": "qld-council-3830",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.hopevale.qld.gov.au/Council/News-and-Notices/Latest-News",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home was inaccessible. Official current news and meeting-index search results reviewed. School/kindergarten consultation was scheduled for 6 May 2026; corporate-plan feedback is completed. Current posts largely concern services, works, staff and notices.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.hopevale.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.hopevale.qld.gov.au/Council/News-and-Notices/Latest-News",
+          "title": "Official source reviewed",
+          "note": "Current notices reviewed; no verified open public input window.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-3960",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.shapeyouripswich.com.au/projects",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Four Open section hubs and all 121 Latest updates project links were fetched. Current and potentially continuing invitations, project updates and the privacy policy were examined.",
+      "scope": "Four Open section hubs and all 121 Latest updates project links were fetched. Current and potentially continuing invitations, project updates and the privacy policy were examined.",
+      "enumeration": {
+        "Open section hubs read": 4,
+        "Latest update project pages fetched": 121
+      },
+      "findings": [
+        "Continuing Community Panel registration and year-round Ti Tree Council-project proposals are verified.",
+        "The next local-law round is proposed, with a current method/date uncertainty.",
+        "Springfield community-land submissions closed 9 May 2025; the directory description still invites registration but the detail is closed.",
+        "Booval and Rosewood place-plan rounds are closed, as are recent divisional arrangements, engagement policy, environmental and reserve consultations.",
+        "Public Art Commissions and the art award entry round are closed. The art award exhibition is not a policy consultation."
+      ],
+      "gaps": [
+        "One historical page named nimmostlease is password protected and was not accessed.",
+        "Several hubs and older pages retain broad invitation language after closure; this audit does not call them active merely from a card.",
+        "The 121 fetched updates include historical material, not 121 current invitations. Individual development applications were not enumerated."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.shapeyouripswich.com.au/projects",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "ipswich-community-panel-registration",
+        "ipswich-ti-tree-community-project-proposals",
+        "ipswich-local-law-review-next-round"
+      ],
+      "otherLeads": [
+        {
+          "title": "Ipswich Sports Forum further participation",
+          "url": "https://www.shapeyouripswich.com.au/ipswich-sports-forum",
+          "note": "The 2025 forum page promises more involvement but its late-2025/early-2026 next steps are stale and it has no verified current contribution tool or next-round date."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-3980",
+      "checked": "2026-11-07",
+      "portalUrl": "https://speakup.isaac.qld.gov.au/",
+      "coverageStatus": "Rendered current project cards reviewed",
+      "summary": "The rendered homepage was enumerated during the browser check, and all twelve identified contribution-related details were freshly rechecked. Two current policy or service-design feedback projects remain: the 2026/2027 pool survey and St Lawrence Community Hub survey. Five other policy feedback rounds are closed or past, and five forms concern event registration, an administrative preference or a prize draw. No additional current committee or policy-input call was found among these cards.",
+      "scope": "Focused completion check of the ten rendered Have Your Say cards and two additional policy cards identified lower on the homepage. This does not claim all public notices, old project-index pages, grants or third-party processes affecting Isaac have been exhausted.",
+      "enumeration": {
+        "Rendered have your say cards": 10,
+        "Additional policy cards reviewed": 2,
+        "Unique detail pages rechecked": 12,
+        "Current policy or service-design feedback projects": 2,
+        "Closed or past policy rounds": 5,
+        "Event, administrative or prize routes excluded": 5
+      },
+      "findings": [
+        "Published, Have Your Say and Survey labels do not establish that a form requests public policy input or is currently accepting feedback.",
+        "The two existing Isaac records capture all current policy or service-design invitations found in this twelve-card check.",
+        "The basketball page has conflicting dates between its main event text and Key Dates. It is excluded by purpose, not classified as a closed consultation because of that conflict."
+      ],
+      "gaps": [
+        "Separate grant and lease applications, historical project catalogues and statutory development application notices were not exhaustively audited. No zero-opportunities claim is made beyond the twelve cards checked.",
+        "The Waste Management Strategy URL redirects and was not one of the twelve rendered cards in this focused check; its current status requires a separate source check."
+      ],
+      "closedExclusions": [
+        "Stockroute Management Plan feedback ended 30 September 2026.",
+        "Community What Matters Most and What Matters Most both explicitly say surveys concluded.",
+        "Clarke Creek Stage 2 draft CBA survey explicitly says concluded.",
+        "Upper Nogoa and Mackenzie flood-study feedback invitation ended 21 August 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://speakup.isaac.qld.gov.au/",
+          "title": "Speak Up Isaac rendered homepage",
+          "note": "Ten Have Your Say cards and two additional policy cards were enumerated from the live rendered page.",
+          "access": "Live browser read during the browser check"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/swimming-pool-season",
+          "title": "Isaac Region 2026/2027 pool survey",
+          "note": "The current season survey is separate from the closed earlier-season tools. Existing record retained.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/have-your-say-st-lawrence-hub",
+          "title": "St Lawrence Community Hub renovation survey",
+          "note": "Actual service-priority and facility-design questions are offered through the current survey. Existing record retained.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/stockroute-management-plan",
+          "title": "Isaac Region Stockroute Management Plan",
+          "note": "The specific contribution window ended 30 September 2026 despite a retained survey link.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/community-what-matters-most",
+          "title": "Community What Matters Most",
+          "note": "The current detail explicitly says the survey concluded, last updated 2 November 2026.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/what-matters-most",
+          "title": "What Matters Most",
+          "note": "The separate project also explicitly says the survey concluded, last updated 2 November 2026.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/clarke-creek-wind-farm-stage-2-draft-cba-consultation",
+          "title": "Clarke Creek Wind Farm Stage 2 draft Community Benefit Agreement",
+          "note": "The survey explicitly says concluded. A Published card does not reopen the contribution period.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/upper-nogoa-and-mackenzie-river-catchments-flood-study",
+          "title": "Upper Nogoa and Mackenzie River Catchments Flood Study",
+          "note": "The project states community feedback could be provided until 21 August 2026. A retained Take Survey link is not a new round.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/email-registrations",
+          "title": "Dog registration renewal notices by email",
+          "note": "The form changes delivery of an individual renewal notice from post to email; it does not ask for policy or service-design input.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/middlemount-international-men-s-day-fitness-bbq-breakfast",
+          "title": "Middlemount International Men Day fitness and BBQ breakfast",
+          "note": "Registration is for planning and catering at a fitness/BBQ event on 21 November. No policy or committee input invitation is published.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/community-basketball-and-bbq-night",
+          "title": "Moranbah community basketball and BBQ night",
+          "note": "The form registers a team for a basketball event rather than Council policy input. Event and registration dates conflict between main text and Key Dates, so dates are not repurposed as consultation cutoffs.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/dysart-international-men-s-day-barefoot-bowls",
+          "title": "Dysart International Men Day barefoot bowls",
+          "note": "Individual or team registration is encouraged for catering at a social sports event. No policy or committee input invitation is published.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        },
+        {
+          "url": "https://speakup.isaac.qld.gov.au/dog-desexing-incentive-draw",
+          "title": "Dog desexing incentive draw",
+          "note": "The form enters eligible registered, microchipped dogs recently desexed into a Shop Isaac Card draw. It is not animal-management policy consultation.",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration"
+        }
+      ],
+      "recordIds": [
+        "isaac-pool-season-survey-2026-2027",
+        "isaac-st-lawrence-community-hub-2026"
+      ],
+      "sectionsReviewed": [
+        "Live rendered Have Your Say section: ten cards",
+        "Two additional rendered policy cards",
+        "All twelve detailed pages re-read using direct official requests"
+      ],
+      "projects": [
+        {
+          "title": "Isaac Region 2026/2027 pool survey",
+          "url": "https://speakup.isaac.qld.gov.au/swimming-pool-season",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "current-policy-or-service-design-input",
+          "finding": "The current season survey is separate from the closed earlier-season tools. Existing record retained."
+        },
+        {
+          "title": "St Lawrence Community Hub renovation survey",
+          "url": "https://speakup.isaac.qld.gov.au/have-your-say-st-lawrence-hub",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "current-policy-or-service-design-input",
+          "finding": "Actual service-priority and facility-design questions are offered through the current survey. Existing record retained."
+        },
+        {
+          "title": "Isaac Region Stockroute Management Plan",
+          "url": "https://speakup.isaac.qld.gov.au/stockroute-management-plan",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "past-policy-feedback-round",
+          "finding": "The specific contribution window ended 30 September 2026 despite a retained survey link."
+        },
+        {
+          "title": "Community What Matters Most",
+          "url": "https://speakup.isaac.qld.gov.au/community-what-matters-most",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "closed-policy-feedback-round",
+          "finding": "The current detail explicitly says the survey concluded, last updated 2 November 2026."
+        },
+        {
+          "title": "What Matters Most",
+          "url": "https://speakup.isaac.qld.gov.au/what-matters-most",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "closed-policy-feedback-round",
+          "finding": "The separate project also explicitly says the survey concluded, last updated 2 November 2026."
+        },
+        {
+          "title": "Clarke Creek Wind Farm Stage 2 draft Community Benefit Agreement",
+          "url": "https://speakup.isaac.qld.gov.au/clarke-creek-wind-farm-stage-2-draft-cba-consultation",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "closed-policy-feedback-round",
+          "finding": "The survey explicitly says concluded. A Published card does not reopen the contribution period."
+        },
+        {
+          "title": "Upper Nogoa and Mackenzie River Catchments Flood Study",
+          "url": "https://speakup.isaac.qld.gov.au/upper-nogoa-and-mackenzie-river-catchments-flood-study",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "past-policy-feedback-round",
+          "finding": "The project states community feedback could be provided until 21 August 2026. A retained Take Survey link is not a new round."
+        },
+        {
+          "title": "Dog registration renewal notices by email",
+          "url": "https://speakup.isaac.qld.gov.au/email-registrations",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "administrative-opt-in",
+          "finding": "The form changes delivery of an individual renewal notice from post to email; it does not ask for policy or service-design input."
+        },
+        {
+          "title": "Middlemount International Men Day fitness and BBQ breakfast",
+          "url": "https://speakup.isaac.qld.gov.au/middlemount-international-men-s-day-fitness-bbq-breakfast",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "event-registration",
+          "finding": "Registration is for planning and catering at a fitness/BBQ event on 21 November. No policy or committee input invitation is published."
+        },
+        {
+          "title": "Moranbah community basketball and BBQ night",
+          "url": "https://speakup.isaac.qld.gov.au/community-basketball-and-bbq-night",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "event-registration",
+          "finding": "The form registers a team for a basketball event rather than Council policy input. Event and registration dates conflict between main text and Key Dates, so dates are not repurposed as consultation cutoffs."
+        },
+        {
+          "title": "Dysart International Men Day barefoot bowls",
+          "url": "https://speakup.isaac.qld.gov.au/dysart-international-men-s-day-barefoot-bowls",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "event-registration",
+          "finding": "Individual or team registration is encouraged for catering at a social sports event. No policy or committee input invitation is published."
+        },
+        {
+          "title": "Dog desexing incentive draw",
+          "url": "https://speakup.isaac.qld.gov.au/dog-desexing-incentive-draw",
+          "access": "Fresh direct official requests detail read on 7 November 2026; no input or registration",
+          "classification": "prize-incentive-application",
+          "finding": "The form enters eligible registered, microchipped dogs recently desexed into a Shop Isaac Card draw. It is not animal-management policy consultation."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-410",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.barcaldinerc.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home and direct pages were inaccessible. Official newsletter search results contain earlier 2026 engagement and disaster-support events, but no present contribution invitation was verified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.barcaldinerc.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-4420",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.kowanyama.qld.gov.au/council/community-meetings/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Community Meetings page directly read. It expressly invites proposed topics through the CEO, with informal discussion and questions. Only 2017 meeting archives are listed, so no future session date is claimed.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.kowanyama.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.kowanyama.qld.gov.au/council/community-meetings/",
+          "title": "Official source reviewed",
+          "note": "Express standing topic request; future dates unknown.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": [
+        "kowanyama-community-meeting-topics"
+      ]
+    },
+    {
+      "councilId": "qld-council-450",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.barcoo.qld.gov.au/about-council/have-you-say-consult/community-forums",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home and forum page returned 403. Current official indexed forum table contains future Windorah and Stonehenge sessions, with a weekday/date conflict for Stonehenge. Leads retained with uncertainty.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.barcoo.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.barcoo.qld.gov.au/about-council/have-you-say-consult/community-forums",
+          "title": "Official source reviewed",
+          "note": "Future forum sessions appear in the official index; direct access returned 403 and one date conflicts with its weekday.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "barcoo-shire-windorah-and-stonehenge-community-forums-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-4530",
+      "checked": "2026-11-07",
+      "portalUrl": "https://getinvolved.livingstone.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Reviewed four Open Consultation cards and plausible Active projects. Found a continuing programme partnership invitation and precinct feedback, plus an Arts Strategy EOI with a current stated date but an older tool cutoff conflict.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 4
+      },
+      "findings": [],
+      "gaps": [
+        "Muskers Beach page currently offers questions and project information rather than a dated current plan consultation. Byfield retains an undated survey invitation; actual acceptance requires follow-up."
+      ],
+      "closedExclusions": [
+        "Tides and Tunes summer musician EOI closed 5 November 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://getinvolved.livingstone.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "livingstone-arts-culture-strategy-eoi-2026",
+        "livingstone-school-holiday-program-activities",
+        "livingstone-future-community-precinct-2026"
+      ],
+      "sectionsReviewed": [
+        "Open consultation cards: 4",
+        "Arts Strategy EOI",
+        "Future Community Precinct",
+        "School Holiday EOI",
+        "Tides and Tunes",
+        "Muskers Beach SEMP",
+        "Byfield infrastructure"
+      ]
+    },
+    {
+      "councilId": "qld-council-4570",
+      "checked": "2026-11-07",
+      "portalUrl": "https://lockhart.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current homepage, news and newsletter navigation reviewed. The newest prominently listed newsletters were October 2025. No present public consultation was verified; this is a limited discovery review, not proof of absence.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://lockhart.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-4580",
+      "checked": "2026-11-07",
+      "portalUrl": "https://lockyervalley.engagementhub.com.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "All 13 visible portal projects and the separate Council Have Your Say table were read.",
+      "scope": "All 13 visible portal projects and the separate Council Have Your Say table were read.",
+      "enumeration": {
+        "Visible portal project details read": 13,
+        "Current table rows": 0,
+        "Undated future consultation stages": 1
+      },
+      "findings": [
+        "The official current consultation table is empty. Growth Management Strategy has an undated future draft consultation stage.",
+        "The earlier Growth Management Strategy survey closed 2 August 2026 and Community Representative Group recruitment closed 10 August.",
+        "Aquatic Snapshot explicitly says closed.",
+        "Lake Apex/Freeman invitation language refers to a 2021 consultation closing 7 November 2021, not 2026.",
+        "Public art and silo mural projects show selected artists/delivery, not current recruitment."
+      ],
+      "gaps": [
+        "Council warns that it uses multiple consultation platforms. The empty portal/current table is not proof that no other public notice exists.",
+        "Council pop-ups listed in the 2026 table ended in September; no new dated pop-up was verified.",
+        "Individual development application notices were not enumerated."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://lockyervalley.engagementhub.com.au/",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://www.lockyervalley.qld.gov.au/our-council/have-your-say",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        }
+      ],
+      "recordIds": [
+        "lockyer-growth-management-draft-next-round"
+      ]
+    },
+    {
+      "councilId": "qld-council-4590",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.haveyoursaylogan.com.au/projects?filter%5Bconsultation_status%5D=open&filter%5Bview%5D=list&sort=-published_at",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "All projects linked from the homepage and all 12 division pages, followed by the authoritative Open for feedback directory and actual public form indexes and forms.",
+      "scope": "All projects linked from the homepage and all 12 division pages, followed by the authoritative Open for feedback directory and actual public form indexes and forms.",
+      "enumeration": {
+        "Linked distinct projects": 66,
+        "Project details read": 66,
+        "Division pages read": 12,
+        "Open directory total": 13,
+        "Open directory pages": 1,
+        "Open project survey indexes read": 13,
+        "Current forms read": 14
+      },
+      "findings": [
+        "The authoritative directory has 13 open projects and no second page.",
+        "Crestmead Park and Wells Park contains two distinct current surveys, so the 13 projects yield 14 participation forms.",
+        "53 other linked project pages have closed, reviewing, reporting, planning or delivery status and were not counted as active invitations.",
+        "Eco events and customer satisfaction are continuing feedback surveys, distinct from project-following registration."
+      ],
+      "gaps": [
+        "Crestmead/Wells and coffee deadlines occur in public project data without a clear narrative cutoff; uncertainty is retained.",
+        "The Belivah narrative gives the correct numeric 11 November date with an incorrect weekday.",
+        "Development applications and notices outside the listed project system were not individually enumerated."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.haveyoursaylogan.com.au/projects?filter%5Bconsultation_status%5D=open&filter%5Bview%5D=list&sort=-published_at",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "logan-underwood-park-2026",
+        "logan-tudor-park-2026",
+        "logan-maranda-park-2026",
+        "logan-mt-warren-noyer-2026",
+        "logan-belivah-sports-park-2026",
+        "logan-crestmead-park-masterplan-2026",
+        "logan-wells-park-playground-2026",
+        "logan-brabham-park-lighting-2026",
+        "logan-east-beaumont-barbecues-2026",
+        "logan-redcomb-barbecues-2026",
+        "logan-meadowbrook-survey-2026",
+        "logan-eco-events-feedback",
+        "logan-customer-service-feedback",
+        "logan-favourite-coffee-2026"
+      ]
+    },
+    {
+      "councilId": "qld-council-4710",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.longreach.qld.gov.au/Community/Events/Community-Forums",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Community Forums event directly read, with four November 2026 sessions. Purpose is direct discussion of community priorities. The linked venue flyer needs visual verification; timezone is not printed in the text.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.longreach.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.longreach.qld.gov.au/Community/Events/Community-Forums",
+          "title": "Official source reviewed",
+          "note": "Four upcoming sessions directly published.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": [
+        "longreach-community-forum-2026-11-09-evening",
+        "longreach-community-forum-2026-11-10-afternoon",
+        "longreach-community-forum-2026-11-10-evening",
+        "longreach-community-forum-2026-11-18-evening"
+      ]
+    },
+    {
+      "councilId": "qld-council-4770",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.connectingmackay.com.au/projects",
+      "coverageStatus": "Current project list reviewed",
+      "summary": "Read the fresh public project index and nine plausible current feedback/project details plus the two panel pages. Verified Mobile Library survey and the current Council Connect programme, while multiple published projects retain old invitations under closure or adoption updates. A browser also enumerated the Current Community Consultation hub: exactly two cards, Mobile Library and Council Connect, both represented.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Current hub cards checked in browser": 2,
+        "Entries counted in this review": 11
+      },
+      "findings": [],
+      "gaps": [
+        "Most roadworks pages are information, not assumed consultations. Older panel launch language leaves current enrolment uncertain. Other statutory notices may sit outside this portal."
+      ],
+      "closedExclusions": [
+        "Road reserve proposal closed 16 August 2026.",
+        "ANZAC participation survey explicitly closed.",
+        "Water Service Standards adopted in March 2026.",
+        "Housing Strategy adopted; consultation closed October 2025.",
+        "McCreadys Creek consultation closed in 2022."
+      ],
+      "sources": [
+        {
+          "url": "https://www.connectingmackay.com.au/projects",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://www.connectingmackay.com.au/hub-page/current-community-consultation-projects",
+          "title": "Current community consultation projects",
+          "note": "Both published current consultation cards are represented.",
+          "access": "Live rendered browser list read"
+        }
+      ],
+      "recordIds": [
+        "mackay-mobile-library-survey-2026",
+        "mackay-connecting-panel",
+        "mackay-connecting-youth-panel",
+        "mackay-lets-chat-council-connect-2026"
+      ],
+      "sectionsReviewed": [
+        "All projects public index",
+        "Mobile Library",
+        "Council Connect",
+        "Adult panel",
+        "Youth panel",
+        "Road reserve proposal",
+        "ANZAC participation",
+        "Water Service Standards",
+        "Housing Strategy",
+        "Waterfront Place Strategy",
+        "McCreadys flood study"
+      ]
+    },
+    {
+      "councilId": "qld-council-4800",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.mckinlay.qld.gov.au/Council-services/Health-services",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Health Services page directly read and confirms the Consumer Advisory Network welcomes all community members quarterly. This is a health-service community forum involving Council, not a formal council standing committee. No dated new policy call was confirmed.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.mckinlay.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mckinlay.qld.gov.au/Council-services/Health-services",
+          "title": "Official source reviewed",
+          "note": "Quarterly Consumer Advisory Network welcomes community members; no next session date is supplied.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": [
+        "mckinlay-consumer-advisory-network"
+      ]
+    },
+    {
+      "councilId": "qld-council-4830",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.mapoon.qld.gov.au/News/Council-Community-Consultation",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home returned 403. Official indexed news includes past 2025 DOGIT lease and customer-service-standard consultations. Monthly Council and Trustee meetings are public, but speaking permission is not inferred from attendance.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.mapoon.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.mapoon.qld.gov.au/News/Council-Community-Consultation",
+          "title": "Official source reviewed",
+          "note": "The consultation meeting on 6 August 2025 is past.",
+          "access": "indexed-only"
+        },
+        {
+          "url": "https://www.mapoon.qld.gov.au/Council/Council-Meetings",
+          "title": "Official source reviewed",
+          "note": "Council and Trustee meetings are public; a speaking right was not established.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-4860",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.maranoa.qld.gov.au/About-Council/Council/Community-Engagement",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Official indexed community engagement page describes regional budget forums and an alternative customer-request route. Located the announced 2026 biosecurity planning timetable and past cemetery and saleyards consultations, but live direct source requests access is blocked.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Current projects, surveys and public notices are not freshly enumerable through this access route. Biosecurity timetable alone does not establish that a submission window remains open. Keep the source-access gap visible."
+      ],
+      "closedExclusions": [
+        "Budget forums advertised 29 August to 3 September 2026, now past.",
+        "Roma Saleyards survey ended 26 May 2026.",
+        "Biosecurity plan timetable anticipates review/finalisation in October-November, not a confirmed current invitation."
+      ],
+      "sources": [
+        {
+          "url": "https://www.maranoa.qld.gov.au/About-Council/Council/Community-Engagement",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [],
+      "sectionsReviewed": [
+        "Community Engagement page, indexed",
+        "Biosecurity Management Plan timetable",
+        "Roma Saleyards announcement",
+        "Roma Cemeteries announcement",
+        "Development application submission procedure"
+      ]
+    },
+    {
+      "councilId": "qld-council-4880",
+      "checked": "2026-11-07",
+      "portalUrl": "https://msc.qld.gov.au/current-community-consultation/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Read the homepage, the Current Community Consultation page and the 28 October announcement. One current policy consultation is explicitly accepting emailed feedback until 5pm 25 November.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 1
+      },
+      "findings": [],
+      "gaps": [
+        "Other statutory notices were not individually enumerated. Awards nominations are separate from Council policy consultation."
+      ],
+      "closedExclusions": [
+        "October community resilience workshops are historical events, not a current schedule."
+      ],
+      "sources": [
+        {
+          "url": "https://msc.qld.gov.au/current-community-consultation/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "mareeba-waste-resource-recovery-strategy-2026"
+      ],
+      "sectionsReviewed": [
+        "Homepage news",
+        "Current Community Consultation",
+        "Waste strategy announcement"
+      ]
+    },
+    {
+      "councilId": "qld-council-5010",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.moretonbay.qld.gov.au/",
+      "coverageStatus": "Current project list reviewed",
+      "summary": "All 88 publicly listed project pages were read using fresh official source requests, and all homepage feedback entries were expanded and checked in a live browser. Standing procedures, current calls, closed rounds and future leads are separate.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {
+        "Public project entries": 88,
+        "Project detail pages read": 88,
+        "Current listing entries": 9
+      },
+      "findings": [],
+      "gaps": [
+        "The portal's current-feedback section includes an expired business survey and a referral gateway. Listing labels were reconciled against detail pages.",
+        "An older cached Joseph Crescent detail described the closed 2025 round. Fresh source reads verify the new 2026 round.",
+        "The flood project extended general feedback to 10 November while retaining a meeting-booking period ending 3 November.",
+        "Future coastal design rounds are explicit but stale programme wording makes their current schedule uncertain.",
+        "This review covers the public engagement portal and identified invitations; it does not enumerate every development application or third-party process affecting the city."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://yoursay.moretonbay.qld.gov.au/",
+          "title": "Current portal sections and expanded listing",
+          "note": "",
+          "access": "not separately recorded"
+        },
+        {
+          "url": "https://yoursay.moretonbay.qld.gov.au/projects",
+          "title": "All 88 public project entries",
+          "note": "",
+          "access": "not separately recorded"
+        }
+      ],
+      "recordIds": [
+        "moreton-joseph-crescent-concept-2026",
+        "moreton-old-petrie-town-2026",
+        "moreton-redcliffe-flood-evidence-2026",
+        "moreton-botanic-building-names-2026",
+        "moreton-peter-marendy-place-2026",
+        "moreton-beachmere-resilience-input",
+        "moreton-toorbul-resilience-input",
+        "moreton-says-in-focus-panel",
+        "moreton-new-planning-scheme-statutory-2028",
+        "moreton-coastal-building-design-bribie-island-future",
+        "moreton-coastal-building-design-peninsula-future",
+        "moreton-business-reputation-2026"
+      ],
+      "referrals": [
+        {
+          "title": "North Harbour: state-led development and marine proposals",
+          "url": "https://www.yoursay.edq.qld.gov.au/north-harbour-pda",
+          "responsibleBody": "Queensland Government agencies",
+          "note": "A separate state-led process affecting Moreton Bay. The official page publishes three proposals and submission routes; it is not a Council consultation."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-5250",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.mornington.qld.gov.au/public-notices/",
+      "coverageStatus": "Visible project catalogue reviewed",
+      "summary": "Public Notices catalogue and two specific invitations directly read. Lot159 submissions closed 27 April 2026 and Interim Local Advisory Committee nominations closed 14 June 2024. Listing their notices as current news does not reopen them.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Lot159 development submissions: Formal submission period was 1-27 April 2026.",
+        "Interim Local Advisory Committee EOI: Applications closed at 4 pm on 14 June 2024; no explicit timezone is printed."
+      ],
+      "sources": [
+        {
+          "url": "https://www.mornington.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mornington.qld.gov.au/public-notices/",
+          "title": "Official source reviewed",
+          "note": "Current catalogue enumerated, including stale submission and membership invitations.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mornington.qld.gov.au/2026/04/14/proposed-development-lot-159-have-your-say/",
+          "title": "Official source reviewed",
+          "note": "Submissions were invited from 1 to 27 April 2026.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mornington.qld.gov.au/2024/05/31/ilac/",
+          "title": "Official source reviewed",
+          "note": "Local advisory committee nominations closed 14 June 2024.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-5300",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.mountisa.qld.gov.au/Latest-News/Graffiti-Management-Have-your-say",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Graffiti-management survey invitation directly read; its Microsoft form was inaccessible, with no closing date stated. Waste-management consultation closed 9 February 2026. Community-engagement index returned 403, so full current catalogue remains unenumerated.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.mountisa.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mountisa.qld.gov.au/Latest-News/Graffiti-Management-Have-your-say",
+          "title": "Official source reviewed",
+          "note": "Survey invitation of 10 February 2026 gives no cutoff; its response form was inaccessible.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.mountisa.qld.gov.au/Community/Community-Engagement",
+          "title": "Official source reviewed",
+          "note": "403 prevented project enumeration.",
+          "access": "blocked"
+        }
+      ],
+      "recordIds": [
+        "mount-isa-city-graffiti-management-survey-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-5600",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.murweh.qld.gov.au/News",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Official indexed current News catalogue and King Edward Park invitation reviewed; direct project detail returned 403. Council invites sporting users and community to register interest in master-plan meetings, but availability/cutoff were not verified. Insurance survey is another older undated lead. Augathella garden-bed consultation has finished.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Augathella Main Street garden-bed consultation: The notice of 6 November 2026 thanks contributors and reports that garden beds will remain; works start 16 November."
+      ],
+      "sources": [
+        {
+          "url": "https://www.murweh.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.murweh.qld.gov.au/News",
+          "title": "Official source reviewed",
+          "note": "Nine indexed current-news entries include King Edward Park consultation.",
+          "access": "indexed-only"
+        },
+        {
+          "url": "https://www.murweh.qld.gov.au/News/King-Edward-Park",
+          "title": "Official source reviewed",
+          "note": "Meeting-interest invitation is indexed; direct access returned 403.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "murweh-shire-king-edward-park-masterplan-consultation-check",
+        "murweh-shire-insurance-affordability-survey-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-5670",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.napranum.qld.gov.au/news/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current News page and January 2026 drinking-water report reviewed. The report states customer-service-standard consultation ran 1-22 December 2025 and the final standards remain open for ongoing feedback. The original announcement alone is stale; current procedure detail needs verification.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Draft Customer Service Standards: The official January 2026 report confirms consultation from 1 to 22 December 2025. Ongoing feedback on final standards is a separate lead."
+      ],
+      "sources": [
+        {
+          "url": "https://www.napranum.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.napranum.qld.gov.au/news/",
+          "title": "Official source reviewed",
+          "note": "The older customer-service-standard announcement appears beside newer notices.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.napranum.qld.gov.au/wp-content/uploads/2026/01/Napranum-Drinking-Water-Service-Annual-Report-2024-2025.pdf",
+          "title": "Official source reviewed",
+          "note": "Customer-service-standard consultation ran 1-22 December 2025; ongoing feedback on final standards is mentioned.",
+          "access": "official-pdf-read"
+        }
+      ],
+      "recordIds": [
+        "napranum-aboriginal-shire-ongoing-customer-service-standard-feedback-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-5740",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.noosa.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Public project-list API used by the official portal, all 28 published project details and all published timeline phases, plus full visible page-layout content for the two current surveys.",
+      "scope": "Public project-list API used by the official portal, all 28 published project details and all published timeline phases, plus full visible page-layout content for the two current surveys.",
+      "enumeration": {
+        "Project records enumerated": 76,
+        "Published project details read": 28,
+        "Published project phase lists read": 28,
+        "Current contribution phases": 2
+      },
+      "findings": [
+        "Cooran and Hilton Esplanade have live native-survey phases.",
+        "Cooran is community-led with Council platform support, not solely a Council-owned plan consultation.",
+        "Current information phases for Holts Road, Botanic Gardens and Burgess Creek are not live contribution invitations.",
+        "Hilton Esplanade has a separate closed state boat-ramp invitation and a current Council street/drainage survey."
+      ],
+      "gaps": [
+        "Cooran descriptive content closes 15 November while the timeline ends 29 November; the unresolved conflict is visible.",
+        "Noosa survey-specific privacy/publication conditions were not reviewed and sign-in was not attempted.",
+        "Project publication_status and participation_status are not reliable substitutes for actual phase participation_method."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://yoursay.noosa.qld.gov.au/",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://yoursay.noosa.qld.gov.au/web_api/v1/projects?page%5Bnumber%5D=1&page%5Bsize%5D=250",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        }
+      ],
+      "recordIds": [
+        "noosa-cooran-place-plan-2026",
+        "noosa-hilton-esplanade-street-drainage-2026"
+      ]
+    },
+    {
+      "councilId": "qld-council-5760",
+      "checked": "2026-11-07",
+      "portalUrl": "https://northburnett.qld.gov.au/communications/media-releases-public-notices/public-notices/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Read the fresh homepage, current notices index, mayor update and the actual advisory EOI and biosecurity extension notices. One advisory membership invitation is currently open.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 2
+      },
+      "findings": [],
+      "gaps": [
+        "Other statutory and procurement notices were not individually exhausted."
+      ],
+      "closedExclusions": [
+        "Draft Biosecurity Plan feedback was extended to 6 November 2026 and is past as of this check."
+      ],
+      "sources": [
+        {
+          "url": "https://northburnett.qld.gov.au/communications/media-releases-public-notices/public-notices/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "north-burnett-feral-animal-advisory-eoi-2026"
+      ],
+      "sectionsReviewed": [
+        "Homepage",
+        "Public notices index",
+        "4 November mayor update",
+        "Feral Animal Control Advisory Group EOI",
+        "Biosecurity extension notice"
+      ]
+    },
+    {
+      "councilId": "qld-council-5780",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.nparc.qld.gov.au/Our-council/Public-notice",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home and public-notice catalogue were inaccessible directly. Official indexed notices show NPA Airport Renewal consultation/project rescheduled to 2027. No actual new 2027 response window or session was verified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.nparc.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.nparc.qld.gov.au/Our-council/Public-notice",
+          "title": "Official source reviewed",
+          "note": "Airport Renewal project moved to 2027; no new participation window confirmed.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-5790",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.palmcouncil.qld.gov.au/Sitemap",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home returned 403. Official sitemap, meeting information and published planning references reviewed through indexed sources. Walking-trail documents are engagement outcomes; the 2025 corporate-plan report proposed feedback to January 2026. No active November invitation established.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "http://www.palmcouncil.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.palmcouncil.qld.gov.au/Sitemap",
+          "title": "Official source reviewed",
+          "note": "Walking-trail engagement outcome documents; no current open call established.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-5800",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.paroo.qld.gov.au/News-and-Events/News",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home and current news returned 403. Official indexed news advertises October animal-management local-law submissions/public-interest testing and September recovery/resilience survey. The exact detail links and submission cutoffs were not recoverable; these remain explicit unverified leads.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.paroo.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.paroo.qld.gov.au/News-and-Events/News",
+          "title": "Official source reviewed",
+          "note": "The 90-entry indexed catalogue revealed three recent participation leads, but details were inaccessible.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "paroo-shire-animal-management-local-law-submissions-and-public-interest-test-check",
+        "paroo-shire-community-recovery-and-resilience-survey-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-6070",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.pormpuraaw.qld.gov.au/public-news-notices/news-notices/",
+      "coverageStatus": "Visible project catalogue reviewed",
+      "summary": "Current notices and the EPBC public-notice PDF directly read. Residential-subdivision comments closed 19 October 2026. Final documents remain publicly viewable to 10 November, which is not a new comment invitation.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Residential subdivision preliminary-document comments: Public comments ran 6-19 October 2026. Viewing final documents from 27 October to 10 November does not invite further comments."
+      ],
+      "sources": [
+        {
+          "url": "https://www.pormpuraaw.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.pormpuraaw.qld.gov.au/public-news-notices/news-notices/",
+          "title": "Official source reviewed",
+          "note": "Subdivision information and final-publication notice.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.pormpuraaw.qld.gov.au/wp-content/uploads/2026/10/EPBC201-Public-Notice-%E2%80%93-Pormpuraaw-Residential-Subdivision-202610-21.pdf",
+          "title": "Official source reviewed",
+          "note": "Comments ended 19 October 2026. Final document viewing from 27 October to 10 November is not a new consultation.",
+          "access": "official-pdf-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-6150",
+      "checked": "2026-11-07",
+      "portalUrl": "https://quilpie.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current canonical home at quilpie.qld.gov.au directly read after redirect. Recent special-meeting notices are past. Australia Day nominations and funding are separate civic recognition/grant exercises; no present policy consultation verified from the reviewed home.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.quilpie.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://quilpie.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Current redirected homepage and recent notices reviewed.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-6300",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.richmond.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current home and community/newsletter navigation reviewed. Australia Day nominations are promoted, but no present policy consultation or advisory intake was verified. Targeted official search did not establish an additional current invitation.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.richmond.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-6370",
+      "checked": "2026-11-07",
+      "portalUrl": "https://engage.rockhamptonregion.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Fresh homepage lists six current projects, but detailed checks distinguish one accepting-input policy review from completed consultation rounds and construction.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 6
+      },
+      "findings": [],
+      "gaps": [
+        "The policy page contains a closing-date conflict, made visible on its record. Future South Gracemere consultation is announced without a date or current submission method."
+      ],
+      "closedExclusions": [
+        "South Gracemere current round is closed; another round is intended later.",
+        "LGIP alignment Package D submission period closed.",
+        "Planning scheme ten-year review is completed and feedback moves into a future amendment.",
+        "Community Insight Survey closed 30 October 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://engage.rockhamptonregion.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "rockhampton-renewable-community-benefit-policy-2026"
+      ],
+      "sectionsReviewed": [
+        "Current projects: 6",
+        "Renewable benefit policy detail",
+        "South Gracemere detail",
+        "LGIP Package D detail",
+        "Planning scheme ten-year review detail"
+      ]
+    },
+    {
+      "councilId": "qld-council-6510",
+      "checked": "2026-11-07",
+      "portalUrl": "https://letstalk.scenicrim.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "All currently visible portal sections, including the six Project Outcomes cards and each of their detailed pages. The current Council homepage was also read through the web reader.",
+      "scope": "All currently visible portal sections, including the six Project Outcomes cards and each of their detailed pages. The current Council homepage was also read through the web reader.",
+      "enumeration": {
+        "Visible project outcome cards read": 6,
+        "Visible open consultation sections": 0,
+        "Verified current project calls": 0
+      },
+      "findings": [
+        "The section named Community consultation now open is hidden. All six visible cards are under Project Outcomes.",
+        "Open status strings on those cards are not open invitations: the town centre plans, saleyard projects and Amendment 8 show outcomes or closed rounds.",
+        "Kalbar and Kooralbyn closed 5 March 2026, Canungra closed 31 March and Major Amendment 8 closed 19 June.",
+        "Council homepage invites reports of koala sightings. Its linked detailed page returned 403, so exact reporting method and conditions remain an unverified lead."
+      ],
+      "gaps": [
+        "The main site returned 403 on direct HTTP. Its homepage was readable through the web reader, but linked koala and current Storybox pages could not be read. Notices outside the portal are not fully examined.",
+        "No complete claim about all current Scenic Rim contribution opportunities is supported; existing meeting and standing mechanisms remain separate."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://letstalk.scenicrim.qld.gov.au/",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://www.scenicrim.qld.gov.au/Home",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        },
+        {
+          "url": "https://www.scenicrim.qld.gov.au/Our-Environment/Biodiversity/Koalas",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        }
+      ],
+      "recordIds": [
+        "scenic-rim-regional-report-a-koala-sighting-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-6580",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.somerset.qld.gov.au/Your-Council/Public-Engagement/Have-Your-Say",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Official Have Your Say index through web reader, latest media index and official meeting highlights. Direct destination access was attempted and independently checked by parent.",
+      "scope": "Official Have Your Say index through web reader, latest media index and official meeting highlights. Direct destination access was attempted and independently checked by parent.",
+      "enumeration": {
+        "Current official announcement invitations": 1,
+        "Cached index open rows": 0,
+        "Latest media index items reviewed": 10
+      },
+      "findings": [
+        "The 2 November official announcement confirms draft Biosecurity Plan consultation from 4 November to 2 December.",
+        "The cached participation index saying N/A is stale relative to this dated announcement.",
+        "Social Plan Advisory Committee appointments have already been made, so the announcement is not current recruitment.",
+        "The 4 November Jimna Come and Chat session has passed."
+      ],
+      "gaps": [
+        "BiosecurityPlan and public notices destination return 403; exact participation method and privacy remain unreviewed.",
+        "The Young Somerset Network article also returned 403. No current registration eligibility or invitation is inferred from its headline."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.somerset.qld.gov.au/Your-Council/Public-Engagement/Have-Your-Say",
+          "title": "Official participation source"
+        },
+        {
+          "url": "https://www.somerset.qld.gov.au/Media/News",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        },
+        {
+          "url": "https://www.somerset.qld.gov.au/Media/News/Somerset-Regional-Council-Meeting-Highlights-28-October-2026",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        },
+        {
+          "url": "https://www.somerset.qld.gov.au/BiosecurityPlan",
+          "title": "Official source reviewed",
+          "note": "",
+          "access": "not separately recorded"
+        }
+      ],
+      "recordIds": [
+        "somerset-biosecurity-plan-2026"
+      ],
+      "otherLeads": [
+        {
+          "title": "Young Somerset Network participation",
+          "url": "https://www.somerset.qld.gov.au/Media/News/Young-Somerset-Network-to-foster-leaders-of-tomorrow",
+          "note": "The official latest-news index announces a youth leadership network, but the detailed article returned 403. Current registration, eligibility, deadline and privacy were not verified. Do not represent the headline as an active recruitment call."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-6630",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.southburnett.qld.gov.au/Your-Council/About-Council/Have-Your-Say",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Official indexed 16 October announcement provides a dated Regional Development Strategy survey, staged as uncertain because normal direct site access was blocked. Earlier directory review missed this concrete invitation.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "Current live index and contribution tool could not be enumerated over direct source requests. Search cache of the index is older than the strategy announcement. Keep the access gap visible."
+      ],
+      "closedExclusions": [
+        "Kingaroy Aerodrome masterplan consultation ended 30 October 2026.",
+        "Community Plan final round ended 31 July 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://www.southburnett.qld.gov.au/Your-Council/About-Council/Have-Your-Say",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "south-burnett-regional-development-strategy-2026"
+      ],
+      "sectionsReviewed": [
+        "Official Have Your Say index, indexed version",
+        "16 October Regional Development Strategy announcement",
+        "Kingaroy Aerodrome detail",
+        "Community Plan final round notice"
+      ]
+    },
+    {
+      "councilId": "qld-council-6660",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.sdrc.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Read the official bridge page, fresh portal sections, both current project details and the 6 November waste survey announcement. Karara accepts feedback now; the waste survey is upcoming from 9 November.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 2
+      },
+      "findings": [],
+      "gaps": [
+        "A standalone live link for the upcoming waste survey is not yet confirmed. The mobile-blackspot reporting form is a continuing service/advocacy route, not treated as a newly dated consultation."
+      ],
+      "closedExclusions": [
+        "Draft Planning Scheme stage 2 submissions are expressly closed.",
+        "Allora Walking Network round closed in December 2025."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.sdrc.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "southern-downs-karara-railway-building-2026",
+        "southern-downs-waste-recycling-survey-2026"
+      ],
+      "sectionsReviewed": [
+        "Current/Ongoing projects: 2",
+        "Karara Railway detail",
+        "Draft Planning Scheme stage 2 detail",
+        "Waste strategy announcement",
+        "Mobile Phone Blackspots route"
+      ]
+    },
+    {
+      "councilId": "qld-council-6720",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "All homepage Open, More to come and Closed sections and 153 project-directory cards enumerated. Eight potentially current or upcoming detailed pages were read, including all three Open project pages.",
+      "scope": "All homepage Open, More to come and Closed sections and 153 project-directory cards enumerated. Eight potentially current or upcoming detailed pages were read, including all three Open project pages.",
+      "enumeration": {
+        "Directory cards enumerated": 153,
+        "Targeted project details read": 8,
+        "Open project cards": 3,
+        "Existing open registry records preserved": 4,
+        "New upcoming records": 2
+      },
+      "findings": [
+        "Existing Buderim, Kenilworth and two dog-area records remain unchanged. The combined dog-area project explains why three portal cards correspond to four existing records.",
+        "Moffat Beach draft Place Plan is expected early 2027.",
+        "Maroochydore-Alexandra Phase 2 remains proposed for mid-to-late 2026 with exact timing unconfirmed.",
+        "Caloundra-Currimundi further delivery is paused pending the state school transport pilot; it is not currently open."
+      ],
+      "gaps": [
+        "Full detail review of all 153 historical directory projects was not performed.",
+        "Generic portal account registration is an updates service and not counted as an invitation to contribute.",
+        "Individual development applications and public notices outside the portal are not completely enumerated."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "sunshine-coast-moffat-place-plan-next-round",
+        "sunshine-coast-maroochydore-alexandra-next-round"
+      ]
+    },
+    {
+      "councilId": "qld-council-6820",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.trc.qld.gov.au/our-community/community-engagement/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Recovered and freshly read the actual Engagement Opportunities page, both current project details and the Is It True question service. Malanda advertises a future December concept round; the Library Strategy survey is already closed.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 2
+      },
+      "findings": [],
+      "gaps": [
+        "Individual planning applications and all off-portal notices were not enumerated. A future Malanda method is not yet published."
+      ],
+      "closedExclusions": [
+        "Library Strategy survey ran 2 October to 2 November 2026 and is expressly closed.",
+        "Initial Malanda facility survey is closed."
+      ],
+      "sources": [
+        {
+          "url": "https://www.trc.qld.gov.au/our-community/community-engagement/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "tablelands-malanda-concept-feedback-2026",
+        "tablelands-is-it-true-community-questions"
+      ],
+      "sectionsReviewed": [
+        "Engagement Opportunities: 2 current project links",
+        "Malanda Multi-Purpose Facility detail",
+        "Library Strategy detail",
+        "Is It True service"
+      ]
+    },
+    {
+      "councilId": "qld-council-6910",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.tr.qld.gov.au/projects",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "All 22 project-directory links were read, including the homepage current projects and current timeline stages.",
+      "scope": "All 22 project-directory links were read, including the homepage current projects and current timeline stages.",
+      "enumeration": {
+        "Project directory links read": 22,
+        "New upcoming invitations": 3
+      },
+      "findings": [
+        "West Creek explicitly opens 9am 9 November with survey, map and pop-ups.",
+        "McLachlan has a new draft-concept round anticipated early 2027 and the planning scheme anticipates March 2027 consultation.",
+        "Clifton renaming is closed despite an active Consultation Open timeline label.",
+        "Water and wastewater service standards still invite comments in their introduction but the actual deadline was 8 August 2024.",
+        "Cranley concept-plan review shows a plan and contact route but no specific current feedback invitation or form; construction and review stages were not counted as live surveys."
+      ],
+      "gaps": [
+        "West Creek has no confirmed closing date or timezone for its published opening hour.",
+        "Older Economic Development Strategy next-round timing is 2024 and is not treated as upcoming in 2026.",
+        "Individual notified development applications were not enumerated."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://yoursay.tr.qld.gov.au/projects",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "toowoomba-west-creek-master-plan-2026",
+        "toowoomba-mclachlan-park-next-round",
+        "toowoomba-new-planning-scheme-2027"
+      ],
+      "otherLeads": [
+        {
+          "title": "Cranley Escarpment concept-plan review",
+          "url": "https://yoursay.tr.qld.gov.au/cranley-escarpment",
+          "note": "The page marks Concept Plan Review current and says further opportunities to view the plan in 2026, but it does not clearly invite new submissions or supply a current response tool. The first survey round is expressly closed."
+        }
+      ]
+    },
+    {
+      "councilId": "qld-council-6950",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.torres.qld.gov.au/Contact-Us",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Contact Us page directly read and says Council is seeking No Smoking on Douglas Street feedback, but gives no topic-specific response link or dates. Housing survey closed 11 January 2026 and corporate-plan consultation was historical. Douglas Street lead retained as unverified.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Housing summit community survey: Survey closed 11 January 2026; summit was in February 2026."
+      ],
+      "sources": [
+        {
+          "url": "https://www.torres.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.torres.qld.gov.au/Contact-Us",
+          "title": "Official source reviewed",
+          "note": "No Smoking on Douglas Street feedback is mentioned without a dated topic-specific response route.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.torres.qld.gov.au/Council/Media-Releases/MEDIA-RELEASE-Community-Housing-Consultations",
+          "title": "Official source reviewed",
+          "note": "Housing survey closed 11 January 2026.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "torres-shire-no-smoking-on-douglas-street-feedback-check"
+      ]
+    },
+    {
+      "councilId": "qld-council-6960",
+      "checked": "2026-11-07",
+      "portalUrl": "https://tsirc.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current canonical home, news and event area directly read. Community economic-opportunity story identified; no dated new consultation window confirmed. Existing separate deputation/meeting procedures should be retained.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.tsirc.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://tsirc.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Current news and the empty upcoming-events area reviewed.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-7010",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.townsville.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Fresh published homepage lists four current coastal consultations. All four detailed invitations were read and accept community input now.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 4
+      },
+      "findings": [],
+      "gaps": [
+        "Recent projects and public notices need continued monitoring. Survey privacy conditions beyond the invitation have not been independently reviewed."
+      ],
+      "closedExclusions": [
+        "Community Sentiment Survey closed 30 October 2026; cached homepage labels must not be used to reopen it."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.townsville.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "townsville-semp-2026",
+        "townsville-bushland-beach-semp-2026",
+        "townsville-toolakea-semp-2026",
+        "townsville-cungulla-semp-review-2026"
+      ],
+      "sectionsReviewed": [
+        "Current consultations: 4",
+        "Each current project detail",
+        "Recent-project headings"
+      ]
+    },
+    {
+      "councilId": "qld-council-7300",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.weipatownauthority.com.au/Your-WTA/Contact-Information/Submit-a-Request-Report-an-Issue",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current home and linked Have Your Say destination directly read. Have Your Say and Provide Feedback both lead to the same issue-report form, not a project consultation catalogue. Development submissions have a formal notified-application route; current notified applications were not enumerated.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.weipatownauthority.com.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.weipatownauthority.com.au/Your-WTA/Contact-Information/Submit-a-Request-Report-an-Issue",
+          "title": "Official source reviewed",
+          "note": "Have Your Say and Provide Feedback both resolve to the generic service-request form.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.weipatownauthority.com.au/Doing-Business/Building-and-Development/Development-Approval",
+          "title": "Official source reviewed",
+          "note": "Formal notified-development submission instructions are published; current applications were not enumerated.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-7310",
+      "checked": "2026-11-07",
+      "portalUrl": "https://haveyoursay.wdrc.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Reviewed Open, Active and Closed homepage sections, Thomas Jack Park activity invitation and Volunteer Strategy detail. Found a current ideas EOI distinct from construction.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 10
+      },
+      "findings": [],
+      "gaps": [
+        "Open is a project category, not reliable proof that all listed projects accept input. Christmas display competition is not counted as a Council decision consultation."
+      ],
+      "closedExclusions": [
+        "Volunteer Strategy detail says the October feedback round has completed.",
+        "Revised Flood Studies invitation dates are 28 August to 20 September 2026, despite remaining in the Open homepage section."
+      ],
+      "sources": [
+        {
+          "url": "https://haveyoursay.wdrc.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [
+        "western-downs-thomas-jack-park-activation-2026"
+      ],
+      "sectionsReviewed": [
+        "Open: 4 listed projects",
+        "Active: 3 listed projects",
+        "Closed: 3 listed projects",
+        "Thomas Jack Park detail",
+        "Volunteer Strategy detail"
+      ]
+    },
+    {
+      "councilId": "qld-council-7340",
+      "checked": "2026-11-07",
+      "portalUrl": "https://yoursay.whitsundayrc.qld.gov.au/",
+      "coverageStatus": "Project details reviewed; scope remains partial",
+      "summary": "Fresh published homepage has two Current Consultation cards but both detailed pages identify closed submission rounds. Construction projects are kept separate and not treated as accepting input.",
+      "scope": "Official public project pages, current portal sections and relevant council notices were examined for an actual contribution invitation. A project, publication or committee listing alone is not an accepting-input record.",
+      "enumeration": {
+        "Entries counted in this review": 2
+      },
+      "findings": [],
+      "gaps": [
+        "Christmas display competition and assistance grants are not counted as a public policy consultation. Statutory development assessment notices require separate review. This is not evidence that no other local invitation exists."
+      ],
+      "closedExclusions": [
+        "Whitsunday Water standards feedback closed 3 November 2026.",
+        "Flying-fox assistance grant says applications closed for review.",
+        "Environment strategy, basketball court, CBA policy and Australia Day nominations are listed Recently Closed."
+      ],
+      "sources": [
+        {
+          "url": "https://yoursay.whitsundayrc.qld.gov.au/",
+          "title": "Official participation source"
+        }
+      ],
+      "recordIds": [],
+      "sectionsReviewed": [
+        "Current consultations: 2",
+        "Construction projects: 3",
+        "Recently closed projects: 4",
+        "Water standards detail",
+        "Flying-fox grant detail"
+      ]
+    },
+    {
+      "councilId": "qld-council-7400",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.winton.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home was inaccessible. Official meeting-index sources are visible, but no current contribution invitation was verified through the targeted search. Current notices, newsletters and project-by-project enumeration remain incomplete.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.winton.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-7550",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.woorabinda.qld.gov.au/News-and-Updates/Council-News/Youth-Precinct-Survey",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current homepage and Youth Precinct Survey notice were readable through the source check; later detail access returned 403. The Council-linked Microsoft form was read by the parent agent and explicitly no longer accepts responses. It is staged for the archive with unknown actual closing date.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.woorabinda.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.woorabinda.qld.gov.au/News-and-Updates/Council-News/Youth-Precinct-Survey",
+          "title": "Official source reviewed",
+          "note": "July 2026 invitation remains featured; the response form was subsequently observed closed.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": [
+        "woorabinda-youth-precinct-survey-2026-closed"
+      ]
+    },
+    {
+      "councilId": "qld-council-7570",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.wujalwujalcouncil.qld.gov.au/News-articles/20261119-Higher-Places-Evacuation-Exercise",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current homepage and 3 November Higher Places notice directly read. The 19 November community evacuation exercise is a genuine upcoming participation activity. Drone surveys and recovery-supply delivery notices are not treated as public feedback invitations.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.wujalwujalcouncil.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        },
+        {
+          "url": "https://www.wujalwujalcouncil.qld.gov.au/News-articles/20261119-Higher-Places-Evacuation-Exercise",
+          "title": "Official source reviewed",
+          "note": "Upcoming community preparedness exercise on 19 November 2026.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": [
+        "wujal-wujal-higher-places-2026"
+      ]
+    },
+    {
+      "councilId": "qld-council-760",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.btrc.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Current homepage and news links reviewed. October tour-operator EOI is procurement. A Tambo industrial-land news item was identified but its detail returned 403; no actual public response route was established.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.btrc.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Official home or canonical redirected home reviewed through the source check or ordinary HTTPS.",
+          "access": "official-page-read"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-7600",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.yarrabah.qld.gov.au/",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "The website returned an empty challenge document rather than readable content. Source reader also returned no page text. Current opportunities could not be enumerated; no zero-opportunity conclusion is drawn.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [],
+      "sources": [
+        {
+          "url": "https://www.yarrabah.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blank-challenge"
+        }
+      ],
+      "recordIds": []
+    },
+    {
+      "councilId": "qld-council-900",
+      "checked": "2026-11-07",
+      "portalUrl": "https://www.boulia.qld.gov.au/Council/Council-Meetings",
+      "coverageStatus": "Partial discovery; current list incomplete",
+      "summary": "Home and current meeting page returned 403. Official indexed community meetings were 28 March and 21 May 2026. Corporate Plan 2026-2031 is now published. The meeting page has a written-correspondence route; no active new project call confirmed.",
+      "scope": "Official public consultation pages and identified invitations. This is not a complete survey of every development application, procurement or third-party process affecting the area.",
+      "enumeration": {},
+      "findings": [],
+      "gaps": [
+        "This review does not establish an exhaustive current-project inventory. Unverified or inaccessible sources are not counted as zero opportunities."
+      ],
+      "closedExclusions": [
+        "Boulia corporate-plan community morning: The event on 28 March 2026 is past; the corporate plan was subsequently published."
+      ],
+      "sources": [
+        {
+          "url": "https://www.boulia.qld.gov.au/",
+          "title": "Official source reviewed",
+          "note": "Home was not readable; source-specific alternatives and search limits are noted.",
+          "access": "blocked"
+        },
+        {
+          "url": "https://www.boulia.qld.gov.au/Council/Council-Meetings",
+          "title": "Official source reviewed",
+          "note": "Current 2026 schedule and correspondence five working days before a meeting are indexed; direct access returned 403.",
+          "access": "indexed-only"
+        },
+        {
+          "url": "https://www.boulia.qld.gov.au/Events-directory/Community-Meeting",
+          "title": "Official source reviewed",
+          "note": "Community discussion on 21 May 2026 is past.",
+          "access": "indexed-only"
+        }
+      ],
+      "recordIds": [
+        "boulia-shire-written-correspondence-for-boulia-council-meetings-check"
+      ]
+    }
+  ],
+  "checked": "2026-11-07"
+}

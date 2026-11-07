@@ -1,6 +1,7 @@
 """Separate public-body directories, with participation kept on its own path."""
 from council_pathways import render as render_pathways,coverage as pathway_coverage,pathway_count
 from council_bodies import render as render_bodies,extra_invitations,uncertain_body
+from council_projects import render as render_projects
 import re
 
 def chooser(s,page,title,description,items):
@@ -132,15 +133,17 @@ def build_directories(s):
   if extra_invitations(s,council,s.COUNCIL_BODIES.get(council['id'],{})):anchors.append('<a href="#standing-invitations">Standing invitations</a>')
   if council['id'] in s.COUNCIL_PATHWAYS:anchors.append('<a href="#participation-pathways">Source links</a>')
   if anchors:body+='<nav class="council-sections" aria-label="On this council page">'+' '.join(anchors)+'</nav>'
-  if current:body+=s.section('Current invitations','Recorded invitations, with their own dates and uncertainty. Project coverage remains incomplete.',s.filters(page,current,scope_label=council['name']),'current-invitations')
+  if current:body+=s.section('Current invitations','Open, upcoming and standing routes, including clearly tagged leads needing confirmation.',s.filters(page,current,scope_label=council['name']),'current-invitations')
+  body+=render_projects(s,page,council)
   if review:
    body+='<p class="prose">'+s.e(review['summary'])+'</p><p class="status-strip">Participation sources checked '+s.pretty_date(review['checked'])+'.</p>'
    if review.get('consultationUrl'):body+='<p>'+s.link(page,review['consultationUrl'],'Official consultation portal','button button-secondary')+'</p><p class="prose">'+s.e(review['consultationNote'])+'</p>'
-   if not current:body+='<p class="notice">No dated invitation has been verified for this council in this review. Use its official portal for other projects. The standing procedures below may still provide a way to take part.</p>'
+   if not current:body+='<p class="notice">No dated invitation is recorded here. This is not a finding that no opportunity exists. Use its official sources for other projects; standing procedures may also provide a way to take part.</p>'
    body+='<section id="standing-procedures" class="participation-section"><h2>Petitions, questions and speaking</h2><p class="prose">These are standing procedures, each with its own eligibility, approval and publication rules.</p>'
    for m in review['mechanisms']:
     body+='<details class="participation-method"><summary>'+s.e(m['title'])+'</summary><dl class="fact-list">'+''.join('<dt>'+s.e(label)+'</dt><dd>'+s.e(m[key])+'</dd>' for label,key in [('How it works','method'),('Timing and limits','timing'),('Eligibility','eligibility'),('What may become public','disclosure'),('What was checked','verification')])+'</dl>'
     if m.get('sourceUrl'):body+='<p>'+s.link(page,m['sourceUrl'],'Official procedure')+'</p>'
+    for source in m.get('relatedSources',[]):body+='<p>'+s.link(page,source['url'],source['title'])+('<br><small>'+s.e(source['access'])+'</small>' if source.get('access') else '')+'</p>'
     body+='</details>'
    body+='</section>'
    if review['gaps']:body+='<aside class="notice"><strong>Coverage and access limits</strong><ul>'+''.join('<li>'+s.e(gap)+'</li>' for gap in review['gaps'])+'</ul></aside>'
@@ -150,7 +153,7 @@ def build_directories(s):
   body_audit=s.COUNCIL_BODIES.get(council['id'],{})
   official=(body_audit.get('sourceUrl') if body_audit.get('reviewOutcome') else None) or s.COUNCIL_PATHWAYS.get(council['id'],{}).get('sourceUrl') or council['officialUrl']
   body+='<div class="button-row">'+s.link(page,official,'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Identity checked '+s.pretty_date(council['directoryChecked'])+'; participation check dates shown above.</p>'
-  if records:
+  if s.council_has_archive(council['id']):
    body+=s.archive_link(page,route,council['name'])
    closed=[r for r in records if r['status']=='closed'];archive='archive/'+route+'index.html'
    archive_body=s.hero(council['name']+' archive.','Closed participation rounds for this council only.',cls='archive-hero')+'<p>'+s.link(archive,route,'Return to current '+council['name']+' participation')+'</p>'

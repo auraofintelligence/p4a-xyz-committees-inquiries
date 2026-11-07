@@ -82,6 +82,7 @@
   if (!form) return;
   form.hidden = false;
   const cards = [...document.querySelectorAll('[data-record]')];
+  const searchText = new Map(cards.map(card=>[card,fold(card.textContent+' '+card.dataset.search)]));
   const container = document.querySelector('[data-records]');
   const count = document.querySelector('[data-results-count]');
   const empty = document.querySelector('[data-empty]');
@@ -117,7 +118,7 @@
         && (!topic.value || card.dataset.topics.split(' ').includes(topic.value))
         && (!method.value || method.value===card.dataset.method)
         && (!body.value || body.value===card.dataset.body)
-        && terms.every(term=>fold(card.dataset.search).includes(term));
+        && terms.every(term=>searchText.get(card).includes(term));
       if(matchesOtherFilters){candidates.all++;candidates[card.dataset.status]=(candidates[card.dataset.status]||0)+1;}
       const visible=matchStatus&&matchesOtherFilters;
       card.hidden = !visible; if (visible) shown++;

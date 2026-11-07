@@ -3,6 +3,7 @@ from pathlib import Path
 from datetime import date
 from html.parser import HTMLParser
 import hashlib
+import html
 import json
 import re
 from urllib.parse import unquote,urlsplit
@@ -214,6 +215,32 @@ def validate():
                 if unquote(u.fragment) not in parsed[dest_name].ids:broken.append((name,target))
     assert not broken,broken[:10]
     validate_navigation(parsed,pages,committees,records)
+    project_audits=json.loads((ROOT/'data/council-project-audits.json').read_text(encoding='utf8'))['audits']
+    assert len({a['councilId'] for a in project_audits})==len(project_audits),'Duplicate project audit'
+    for audit in project_audits:
+        assert audit['councilId'] in council_ids and audit['councilId']!='qld-council-6250'
+        assert date.fromisoformat(audit['checked'])<=checked
+        assert all(audit.get(k) for k in ('scope','summary','coverageStatus','sources'))
+        assert len(set(audit['recordIds']))==len(audit['recordIds']) and set(audit['recordIds'])<={r['id'] for r in records if r.get('councilId')==audit['councilId']},audit['councilId']+': invalid project record references'
+        assert all(s['url'].startswith(('https://','http://')) for s in audit['sources'])
+        assert not any(k in audit for k in ('html','evidenceExcerpt','rawSource'))
+    audited_ids={a['councilId'] for a in project_audits}
+    for council in councils:
+        if council['id']=='qld-council-6250':continue
+        route='councils/'+council['jurisdiction']+'/'+council['slug']+'/index.html'
+        source=pages[route].read_text(encoding='utf8')
+        assert 'data-project-coverage' in source,route+': project review depth not visible'
+        if council['id'] not in audited_ids:assert 'Current consultation catalogue not yet systematically reviewed' in source,route+': unreviewed project coverage hidden'
+    for record in records:
+        if record.get('uncertaintyReason') and record['status'] not in ('unverified','closed'):
+            detail=pages['opportunities/'+record['id']+'/index.html'].read_text(encoding='utf8')
+            assert 'Details needing confirmation:' in detail and 'uncertain' in detail.lower(),record['id']+': field uncertainty not visible'
+        if record.get('event'):
+            detail=pages['opportunities/'+record['id']+'/index.html'].read_text(encoding='utf8')
+            event=record['event']
+            for field in ('starts','ends','startTime','endTime'):
+                if event.get(field):assert event[field] in detail,record['id']+': confirmed event time missing'
+            if event.get('note'):assert html.escape(event['note'],quote=True) in detail,record['id']+': event qualification missing'
     views=['queensland/index.html','australia/index.html']+['states/'+j+'/index.html' for j in ('nsw','vic','wa','sa','tas','act','nt')]
     active_views=list(views)
     for council in councils:
@@ -231,11 +258,12 @@ def validate():
             assert source.count('<li data-council-body>')==len(audit['committees']),route+': a named body is missing'
             from build import source_key
             from council_bodies import procedure_key,uncertain_body
-            body_section=re.search(r'<section id="council-committees"[^>]*>.*?</section>',source,re.S)
+            body_section=re.search(r'<section id=(?:"council-committees"|council-committees)[\s>][^>]*>.*?</section>',source,re.S)
             assert body_section,route+': missing council body section'
             assert body_section[0].count('class="status-badge status-unverified"')==sum(uncertain_body(b) for b in audit['committees']),route+': uncertainty labels do not match source status'
             procedure_sources={procedure_key(source_key,council['id'],m['sourceUrl']) for m in council.get('review',{}).get('mechanisms',[])}
-            extras=[i for i in audit['standingInvitations'] if procedure_key(source_key,council['id'],i['url']) not in procedure_sources]
+            represented={(v['title'].casefold(),procedure_key(source_key,council['id'],v['url'])) for r in records if r.get('councilId')==council['id'] for v in r.get('replacesStandingInvitations',[])}
+            extras=[i for i in audit['standingInvitations'] if procedure_key(source_key,council['id'],i['url']) not in procedure_sources and (i['title'].casefold(),procedure_key(source_key,council['id'],i['url'])) not in represented]
             assert source.count('data-standing-invitation')==len(extras),route+': a standing invitation is missing'
         directory='councils/'+council['jurisdiction']+'/index.html'
         assert not parsed[directory].records,directory+': council chooser must not combine opportunity records'
@@ -279,7 +307,7 @@ def validate():
         try:text=path.read_text(encoding='utf-8')
         except UnicodeError:continue
         assert not any(token.lower() in text.lower() for token in forbidden), 'Forbidden punctuation in '+str(path)
-    size=sum(p.stat().st_size for p in files);assert size<10_000_000, 'Pages artifact over the small national-directory budget'
+    size=sum(p.stat().st_size for p in files);assert size<12_000_000, 'Pages artifact over the small national-directory budget'
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls=[n.text for n in ET.parse(OUT/'sitemap.xml').findall('s:url/s:loc',ns)]
     assert len(urls)==len(pages)-1 and len(urls)==len(set(urls))

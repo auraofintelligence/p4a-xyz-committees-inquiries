@@ -28,7 +28,8 @@ def procedure_key(source_key,council_id,url):
 
 def extra_invitations(s,council,audit):
     covered={procedure_key(s.source_key,council['id'],m['sourceUrl']) for m in council.get('review',{}).get('mechanisms',[])}
-    return [i for i in audit.get('standingInvitations',[]) if procedure_key(s.source_key,council['id'],i['url']) not in covered]
+    represented={(v['title'].casefold(),procedure_key(s.source_key,council['id'],v['url'])) for r in s.council_records(council['id']) for v in r.get('replacesStandingInvitations',[])}
+    return [i for i in audit.get('standingInvitations',[]) if procedure_key(s.source_key,council['id'],i['url']) not in covered and (i['title'].casefold(),procedure_key(s.source_key,council['id'],i['url'])) not in represented]
 
 def coverage_table(s,page):
     body='<div class="coverage-table-wrap"><table class="coverage-table"><caption>Council body inventories and additional standing methods; these are not open-call counts</caption><thead><tr><th>Location</th><th>Audited areas</th><th>Body entries</th><th>Uncertain or historical</th><th>Additional methods</th></tr></thead><tbody>'
