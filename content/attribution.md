@@ -6,6 +6,8 @@ Theme source: `auraofintelligence/p4a-xyz-cinema`, commit `043baba223a5478322b2a
 
 The main project’s [LICENCE.md](../LICENCE.md) remains unchanged. Short summaries of official invitations are original paraphrases. Official publications retain their own rights; linking does not imply endorsement.
 
+Council and local-area identities, canonical place links and published official links are a minimal import from P4A's canonical council data and route registry at commit `c8dc0f994032f31b7c90af0bdf9288c897b64b36`. The original directory check dates are retained. New procedure reviews and participation research are recorded separately; importing a council identity does not verify its current participation opportunities.
+
 Archivo: Copyright 2020 The Archivo Project Authors, [Omnibus-Type](https://github.com/Omnibus-Type/Archivo). The [SIL Open Font License](../assets/fonts/archivo-OFL.txt) is retained.
 
 JetBrains Mono: Copyright 2020 The JetBrains Mono Project Authors, [JetBrains](https://github.com/JetBrains/JetBrainsMono). The [SIL Open Font License](../assets/fonts/jetbrains-mono-OFL.txt) is retained.

@@ -1,7 +1,7 @@
 {
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "checkTimezone": "Australia/Brisbane",
-  "scope": "All open/upcoming parliamentary subject areas, beginning with Minjerribah and Redland City; exact index coverage and remaining gaps recorded below.",
+  "scope": "All parliamentary committee directories and open/upcoming participation subjects, beginning with Minjerribah and Redland City. Committee entries, inquiry activity and permission to participate remain distinct; exact coverage and remaining gaps are recorded below.",
   "theme": {
     "source": "auraofintelligence/p4a-xyz-cinema@043baba223a5478322b2a7351c3bb41095d227e1",
     "sha256": "0752bea9d7592efc15e93de411b508b9a2379b66e63c3b837808ca05114b1a7f"
@@ -22,7 +22,8 @@
       "sourceUrl": "https://www.parliament.qld.gov.au/work-of-committees/inquiries",
       "note": "All 58 current-inquiry rows were reviewed. Three current written-submission invitations were checked in detail. The main text of all 47 entries with no listed submission date was also checked; no additional public invitation was found there. Those entries include institutional oversight and portfolio briefings. Linked attachments and future invitations may add participation options.",
       "status": "Current list and undated inquiry pages reviewed",
-      "observedOpenCount": null
+      "observedOpenCount": null,
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "federal",
@@ -32,31 +33,34 @@
         "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Submissions_Open",
         "https://www.aph.gov.au/Committees"
       ],
-      "liveOpenCallCount": 12,
-      "finding": "All 13 entries displayed in the live accepting-submissions index and all 13 individual pages have been reviewed without topic filtering. Twelve calls have consistent current invitations; women's health remains unverified because the live index says 31 January 2027 while its live detail still says 9 October 2026. The separate medical-specialists survey and Perth Defence estate community-hearing registration are also recorded. This is a dated audit of the official submission index, not a guarantee that all other forms of federal participation are covered.",
+      "liveOpenCallCount": 11,
+      "finding": "The live submission index was rechecked on 7 November and displays 12 entries after the 6 November technology round closed. All 12 are represented: eleven have consistent invitations and Women’s Health retains conflicting official deadlines. Individual detail pages retain their own check dates. Additional checked routes include the specialist-care and cyber-security surveys, Perth Defence estate hearing registration and the Senate productivity inquiry’s later invitation for further evidence. These additional routes are not all in the submission index. Other federal participation remains incomplete.",
       "enumeratedOpenCallCount": 12,
       "indexComplete": true,
       "detailComplete": true,
       "individualInquiryPagesReviewed": 13,
-      "additionalVerifiedSurveyCount": 1,
-      "indexDisplayedSubmissionEntries": 13,
-      "enumeratedSubmissionEntries": 13,
-      "confirmedOpenInquiryCount": 12,
+      "additionalVerifiedSurveyCount": 2,
+      "indexDisplayedSubmissionEntries": 12,
+      "enumeratedSubmissionEntries": 12,
+      "confirmedOpenInquiryCount": 11,
       "unresolvedOfficialDeadlineConflicts": 1,
       "additionalVerifiedHearingRegistrationCount": 1,
       "completeVerifiedOpenCoverage": false,
       "sourceUrl": "https://www.aph.gov.au/Parliamentary_Business/Committees/Submissions_Open",
-      "note": "All 13 entries in the current parliamentary submissions index are represented and their detail pages checked. Twelve have consistent invitations. Women’s Health has conflicting official deadlines and carries an uncertainty tag. The specialist-care survey and Perth hearing registration are listed separately, alongside ACCC consultations.",
-      "status": "Official index and detail pages reviewed",
-      "observedOpenCount": 13
+      "note": "The live submission index was rechecked on 7 November and displays 12 entries after the 6 November technology round closed. All 12 are represented: eleven have consistent invitations and Women’s Health retains conflicting official deadlines. Individual detail pages retain their own check dates. Additional checked routes include the specialist-care and cyber-security surveys, Perth Defence estate hearing registration and the Senate productivity inquiry’s later invitation for further evidence. These additional routes are not all in the submission index. Other federal participation remains incomplete.",
+      "status": "Submission index rechecked; individual detail dates retained",
+      "observedOpenCount": 12,
+      "checked": "2026-11-07",
+      "additionalVerifiedFurtherEvidenceCount": 1
     },
     {
       "jurisdiction": "nsw",
       "sourceUrl": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiries-open-for-submission",
-      "status": "Open-submission index reviewed",
+      "status": "61 committee entries and 66 centrally Current inquiries reconciled",
       "observedOpenCount": 2,
       "representedOpenCount": 2,
-      "note": "Both entries in the official open-submissions list and their inquiry pages were checked. Future changes require a new review."
+      "note": "All 61 committee entries are available in the separate committee directory. The central inquiry filter returns 66 current entries. Direct inquiry pages show two written-submission calls, closed contribution rounds, final-report conflicts and uncertain participation. Full committee coverage is not a claim that every committee is receiving submissions.",
+      "checked": "2026-11-07"
     },
     {
       "jurisdiction": "act",
@@ -64,7 +68,8 @@
       "status": "Index and active inquiry pages reviewed",
       "observedOpenCount": 7,
       "representedOpenCount": 7,
-      "note": "The seven dated calls in the official index are included. The Economics annual-report inquiry separately invites submissions without a confirmed deadline. Six other annual-report inquiries have upcoming hearings; witness participation is by committee arrangement."
+      "note": "The seven dated calls in the official index are included. The Economics annual-report inquiry separately invites submissions without a confirmed deadline. Six other annual-report inquiries have upcoming hearings; witness participation is by committee arrangement.",
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "vic",
@@ -72,7 +77,8 @@
       "status": "Parliamentary transition",
       "observedOpenCount": 0,
       "representedOpenCount": 0,
-      "note": "The 60th Parliament expired on 3 November 2026. Its committees ceased and incomplete inquiries lapsed. The Sentencing Advisory Council’s planned April 2027 consultation is listed separately. Other Victorian government consultations have not been exhaustively surveyed."
+      "note": "The 60th Parliament expired on 3 November 2026. Its committees ceased and incomplete inquiries lapsed. The Sentencing Advisory Council’s planned April 2027 consultation is listed separately. Other Victorian government consultations have not been exhaustively surveyed.",
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "tas",
@@ -86,17 +92,19 @@
       ],
       "verifiedOpenSubmissionCount": 2,
       "verifiedUpcomingHearingProgrammeCount": 2,
-      "verifiedUpcomingCommitteeProgrammeCount": 1
+      "verifiedUpcomingCommitteeProgrammeCount": 1,
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "sa",
       "sourceUrl": "https://www.parliament.sa.gov.au/en/Committees/Committees-Detail",
-      "status": "Partial invitation review",
-      "note": "Nineteen current committees were identified. Official calls confirm the energy and foster/kinship inquiries, plus the separate AI Royal Commission consultation. Three older advertised calls are closed and archived. A current Men’s Health invitation remains uncertain. Not every committee attachment or ongoing inquiry could be fully assessed.",
+      "status": "Committee directory reviewed; invitation coverage remains partial",
+      "note": "Nineteen current committee entries are included. The energy and foster/kinship submission rounds ended on 6 November and are archived without implying the inquiries ended. Four other advertised rounds are retained in the SA archive. The separate AI Royal Commission invitation is included. Men’s Health remains uncertain. Current inquiry links are attached to their committees, but not every attachment or ongoing inquiry could be fully assessed.",
       "sourceUrls": [
         "https://www.parliament.sa.gov.au/en/News",
         "https://www.parliament.sa.gov.au/en/Committees/Committees-Detail"
-      ]
+      ],
+      "checked": "2026-11-07"
     },
     {
       "jurisdiction": "wa",
@@ -104,7 +112,8 @@
       "status": "Open-submission index and detail pages reviewed",
       "note": "Both entries in the official open-submissions list were checked. Their published closing dates are 20 December 2026, without times. The guardianship invitation has a lived-experience restriction; its earlier general submission round is closed.",
       "observedOpenCount": 2,
-      "representedOpenCount": 2
+      "representedOpenCount": 2,
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "nt",
@@ -115,14 +124,24 @@
       "sourceUrls": [
         "https://parliament.nt.gov.au/committees/inquiries",
         "https://parliament.nt.gov.au/committees/upcoming-public-hearings"
-      ]
+      ],
+      "checked": "2026-11-06"
     },
     {
       "jurisdiction": "qld",
       "label": "Minjerribah / Redland",
       "sourceUrl": "https://yoursay.redland.qld.gov.au/projects",
       "status": "Local catalogue audited; community coverage partial",
-      "note": "114 Your Say project pages reviewed: most are closed or archived. Budget, animal-law and preliminary City Plan invitations are distinguished from ongoing petitions and community routes. Community organisation coverage is selective; island-specific closed consultations retain their history."
+      "note": "114 Your Say project pages reviewed: most are closed or archived. Budget, animal-law and preliminary City Plan invitations are distinguished from ongoing petitions and community routes. Community organisation coverage is selective; island-specific closed consultations retain their history.",
+      "checked": "2026-11-06"
+    },
+    {
+      "jurisdiction": "qld",
+      "label": "Council participation coverage",
+      "sourceUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/c8dc0f994032f31b7c90af0bdf9288c897b64b36/content/places/councils.json",
+      "checked": "2026-11-07",
+      "status": "Full existing P4A local-area directory imported; participation research is partial",
+      "note": "536 council identities and 16 separately labelled special bodies or unincorporated areas are available. Participation mechanisms were researched individually for 18 councils outside Redland; the remaining profiles explicitly say they have not been checked. Council project coverage is not a complete national consultation survey."
     }
   ],
   "records": [
@@ -1018,7 +1037,7 @@
       "title": "The use of technology to assist in improving productivity",
       "purpose": "Examine technology and productivity under the inquiry terms of reference.",
       "body": "House Standing Committee on Economics",
-      "status": "open",
+      "status": "closed",
       "verification": "Official invitation, inquiry detail and supporting index reviewed on 2026-11-06. Field-specific uncertainty is stated separately.",
       "verificationFields": [
         "status",
@@ -1086,7 +1105,10 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusChecked": "2026-11-07",
+      "statusNote": "The published 6 November 2026 submission deadline has passed. This archives that contribution round; it does not say the inquiry has ended. An extension or late acceptance has not been verified. The underlying source review keeps its original date.",
+      "committeeId": "federal-house-17"
     },
     {
       "id": "federal-intelligence-administration-25",
@@ -1163,7 +1185,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-69"
     },
     {
       "id": "federal-paraquat",
@@ -1226,7 +1249,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-senate-ruralandregionalaffairsandtransport-references"
     },
     {
       "id": "federal-wa-health-agreement",
@@ -1234,7 +1258,7 @@
       "type": "parliamentary inquiry",
       "title": "2025 National Health Reform Agreement with Western Australia",
       "purpose": "Examine the agreement concerning Western Australian public hospitals, including Perth's northern suburbs, population needs, emergency services and ageing.",
-      "body": "Senate Community Affairs Committee",
+      "body": "Senate Community Affairs References Committee",
       "status": "open",
       "verification": "Official invitation, inquiry detail and supporting index reviewed on 2026-11-06. Field-specific uncertainty is stated separately.",
       "verificationFields": [
@@ -1259,7 +1283,7 @@
         "https://www.aph.gov.au/Parliamentary_Business/Committees/Submissions_Open",
         "https://www.aph.gov.au/search/url/Inquiry/27459_39_"
       ],
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "detailCoverage": "Individual live page reviewed. Deadline time/timezone are unknown unless explicitly stated. Additional confidentiality rules, if not stated, remain for shared official-guidance review.",
       "kind": "parliamentary inquiry",
       "sourceUrl": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Community_Affairs/WAHospitals",
@@ -1296,7 +1320,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-senate-communityaffairs-references"
     },
     {
       "id": "federal-contaminated-blood",
@@ -1367,7 +1392,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-senate-communityaffairs-references"
     },
     {
       "id": "federal-medical-specialists",
@@ -1438,7 +1464,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-house-24188"
     },
     {
       "id": "federal-postal-services",
@@ -1505,7 +1532,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-house-24185"
     },
     {
       "id": "federal-defence-afv-facilities-stage3",
@@ -1576,7 +1604,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-74"
     },
     {
       "id": "federal-defence-estate",
@@ -1647,7 +1676,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-68"
     },
     {
       "id": "federal-civil-preparedness",
@@ -1719,7 +1749,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-24197"
     },
     {
       "id": "federal-womens-health",
@@ -1799,7 +1830,8 @@
         }
       ],
       "relatedLinks": [],
-      "uncertaintyReason": "The official submissions index gives 31 January 2027, while the inquiry page still gives 9 October 2026. Confirm the current closing date with the committee."
+      "uncertaintyReason": "The official submissions index gives 31 January 2027, while the inquiry page still gives 9 October 2026. Confirm the current closing date with the committee.",
+      "committeeId": "federal-senate-24202"
     },
     {
       "id": "federal-ndis-annual-report-2",
@@ -1871,7 +1903,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-79"
     },
     {
       "id": "federal-asic-oversight",
@@ -1949,7 +1982,8 @@
           "before": "If your evidence starts with a contract, renewal or unexplained charge, use ",
           "after": " to record the wording, fees and relevant dates before deciding what to contribute."
         }
-      ]
+      ],
+      "committeeId": "federal-joint-25"
     },
     {
       "id": "qld-intimate-image-creation-8617",
@@ -1966,7 +2000,7 @@
       "jurisdiction": "qld",
       "type": "parliamentary bill inquiry",
       "status": "open",
-      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed by root in the official page through its background in-app browser on 6 November 2026.",
+      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed on the official page on 6 November 2026.",
       "verificationFields": [
         "status",
         "purpose",
@@ -2026,7 +2060,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "qld-committee-275"
     },
     {
       "id": "qld-rural-regional-adjustment-8616",
@@ -2040,11 +2075,10 @@
         "note": "10am Friday 20 November 2026 is confirmed by the live detail-page timeline; the body text supplies only the date. Timezone is not stated."
       },
       "proceedings": "A public hearing is scheduled for 2 December; an advertised hearing does not guarantee a right to speak.",
-      "prioritySuggestion": "Potential relevance to food security, small business, regional assistance and disaster resilience. Root must match actual existing P4A systems; this is editorial relevance, not official endorsement.",
       "jurisdiction": "qld",
       "type": "parliamentary bill inquiry",
       "status": "open",
-      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed by root in the official page through its background in-app browser on 6 November 2026.",
+      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed on the official page on 6 November 2026.",
       "verificationFields": [
         "status",
         "purpose",
@@ -2091,7 +2125,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "qld-committee-270"
     },
     {
       "id": "qld-nonfatal-strangulation-8618",
@@ -2108,7 +2143,7 @@
       "jurisdiction": "qld",
       "type": "parliamentary bill inquiry",
       "status": "open",
-      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed by root in the official page through its background in-app browser on 6 November 2026.",
+      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed on the official page on 6 November 2026.",
       "verificationFields": [
         "status",
         "purpose",
@@ -2162,7 +2197,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "qld-committee-275"
     },
     {
       "id": "federal-medical-specialists-survey",
@@ -2224,7 +2260,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-house-24188"
     },
     {
       "id": "federal-defence-estate-perth-registration",
@@ -2297,7 +2334,8 @@
           "supports": "Supporting invitation or guidance"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "federal-joint-68"
     },
     {
       "id": "act-fuel-prices",
@@ -2322,7 +2360,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2345,7 +2383,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-economics-2c-industry-and-recreation"
     },
     {
       "id": "act-gambling-amendment",
@@ -2370,7 +2409,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2400,7 +2439,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "act-committee-economics-2c-industry-and-recreation"
     },
     {
       "id": "act-domestic-violence-agencies",
@@ -2425,7 +2465,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2455,7 +2495,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "act-committee-legal-affairs"
     },
     {
       "id": "act-suicide-prevention-bill",
@@ -2480,7 +2521,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2510,7 +2551,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "act-committee-social-policy"
     },
     {
       "id": "act-operation-kingfisher",
@@ -2535,7 +2577,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2558,7 +2600,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-integrity-commission-and-statutory-office-holders"
     },
     {
       "id": "act-electoral-eligibility",
@@ -2583,7 +2626,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2612,7 +2655,8 @@
           "before": "To work out which laws and public responsibilities touch your circumstances, begin with ",
           "after": " and carry that context into your research."
         }
-      ]
+      ],
+      "committeeId": "act-committee-integrity-commission-and-statutory-office-holders"
     },
     {
       "id": "act-anti-consorting",
@@ -2637,7 +2681,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
       "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2660,7 +2704,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "act-committee-legal-affairs"
     },
     {
       "id": "nsw-net-zero-2026",
@@ -2715,7 +2760,14 @@
           "supports": "Participation conditions and supporting evidence"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "nsw-committee-328",
+      "events": [
+        {
+          "date": "2026-11-27",
+          "label": "Hearing - Macquarie Room, Parliament House, Sydney"
+        }
+      ]
     },
     {
       "id": "nsw-firearms-reforms-repeal",
@@ -2769,6 +2821,33 @@
           "label": "Australian Legal Engine",
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
+        }
+      ],
+      "committeeId": "nsw-committee-203",
+      "events": [
+        {
+          "date": "2026-11-13",
+          "label": "Hearing - Macquarie Room, Parliament House, Sydney"
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Hearing - Venue to be confirmed, Dubbo"
+        },
+        {
+          "date": "2026-12-07",
+          "label": "Hearing - Macquarie Room, Parliament House, Sydney"
+        },
+        {
+          "date": "2026-12-16",
+          "label": "Hearing - Venue to be announced, Singleton"
+        },
+        {
+          "date": "2027-01-20",
+          "label": "Hearing - Venue to be advised, Griffith"
+        },
+        {
+          "date": "2027-02-02",
+          "label": "Hearing - Macquarie Room, Parliament House, Sydney"
         }
       ]
     },
@@ -2825,7 +2904,8 @@
           "supports": "Participation conditions and supporting evidence"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "tas-committee-2efb165f4fd5"
     },
     {
       "id": "vic-sentencing-act-review-2027",
@@ -2875,7 +2955,7 @@
       "jurisdiction": "sa",
       "level": "state-territory",
       "kind": "parliamentary inquiry",
-      "status": "open",
+      "status": "closed",
       "purpose": "Examine electricity/gas costs, reliability, security, planning and competitiveness, including emerging high-energy demand industries.",
       "body": "Legislative Council Select Committee on Energy Affordability and Competitiveness in South Australia",
       "method": "Written submissions or expression of interest to give oral evidence by email scenergy@parliament.sa.gov.au or post to committee at Parliament House, GPO Box572, Adelaide5001.",
@@ -2922,7 +3002,10 @@
           "before": "If your evidence starts with a contract, renewal or unexplained charge, use ",
           "after": " to record the wording, fees and relevant dates before deciding what to contribute."
         }
-      ]
+      ],
+      "statusChecked": "2026-11-07",
+      "statusNote": "The published 6 November 2026 submission deadline has passed. This archives that contribution round; it does not say the inquiry has ended. An extension or late acceptance has not been verified. The underlying source review keeps its original date.",
+      "committeeId": "sa-committee-468"
     },
     {
       "id": "sa-ai-royal-commission-scoping",
@@ -3042,7 +3125,8 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "tas-committee-2efb165f4fd5"
     },
     {
       "id": "sa-foster-kinship-assistance",
@@ -3050,7 +3134,7 @@
       "jurisdiction": "sa",
       "level": "state-territory",
       "kind": "parliamentary inquiry",
-      "status": "open",
+      "status": "closed",
       "purpose": "Review adequacy of financial assistance provided by the Department for Child Protection to formal and informal foster and kinship carers.",
       "body": "Social Development Committee",
       "method": "Written submission to SDC@parliament.sa.gov.au or the committee secretary, GPO Box572, Adelaide5001.",
@@ -3083,7 +3167,10 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusChecked": "2026-11-07",
+      "statusNote": "The published 6 November 2026 submission deadline has passed. This archives that contribution round; it does not say the inquiry has ended. An extension or late acceptance has not been verified. The underlying source review keeps its original date.",
+      "committeeId": "sa-committee-456"
     },
     {
       "id": "tas-ai-data-centres-hearings",
@@ -3223,7 +3310,7 @@
       "sourceUrl": "https://www.parliament.wa.gov.au/parliament/commit.nsf/0/122F04875BE62E6548258DD2000316C6?OpenDocument#Details",
       "eligibility": "The official committee summary says the general period has closed and the remaining route is for people with lived experience of the guardianship and administration system. Read its plain-English submission and survey guide for the current scope and arrangements.",
       "evidenceNote": "Live open-submissions index contains this inquiry with 20 December 2026 deadline. Direct inquiry and terms tabs checked. Commenced 2 April 2026; 17 June 2027 is the report date, not a submission date. A guide for making a submission/completing the online survey is linked.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Assembly guidance says submissions are normally public. Names and contact information are required; signatures and personal contact details are removed for publication. Ask the committee about partial/full confidentiality before including sensitive information.",
       "parliamentary": true,
       "groups": [],
@@ -3265,7 +3352,8 @@
           "before": "To work out which laws and public responsibilities touch your circumstances, begin with ",
           "after": " and carry that context into your research."
         }
-      ]
+      ],
+      "committeeId": "wa-committee-lant0004a982"
     },
     {
       "id": "tas-government-business-scrutiny-2026",
@@ -3326,7 +3414,8 @@
           "supports": "Participation conditions and supporting evidence"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "tas-committee-09a637adb74d"
     },
     {
       "id": "act-annual-reports-economics",
@@ -3356,7 +3445,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; The inquiry page labels submissions open despite omission from the index's seven-item open box. No cutoff is given; fresh browser recheck recommended.",
       "evidenceNote": "The inquiry page labels submissions open despite omission from the index's seven-item open box. No cutoff is given; fresh browser recheck recommended.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3372,7 +3461,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-economics-2c-industry-and-recreation"
     },
     {
       "id": "act-annual-reports-environment",
@@ -3402,7 +3492,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3418,7 +3508,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-epc"
     },
     {
       "id": "act-annual-reports-integrity",
@@ -3448,7 +3539,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3464,7 +3555,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-integrity-commission-and-statutory-office-holders"
     },
     {
       "id": "act-annual-reports-legal",
@@ -3494,7 +3586,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3510,7 +3602,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-legal-affairs"
     },
     {
       "id": "act-annual-reports-accounts",
@@ -3540,7 +3633,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3556,7 +3649,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-public-accounts-and-administration"
     },
     {
       "id": "act-annual-reports-social",
@@ -3586,7 +3680,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3602,7 +3696,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-social-policy"
     },
     {
       "id": "act-annual-reports-transport",
@@ -3632,7 +3727,7 @@
       "sourceDateChecked": "2026-11-06",
       "verification": "direct official inquiry and public-hearing schedule pages; Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
       "evidenceNote": "Direct page status Ongoing and separately advertises the 9–20 November public hearings.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Public hearings are live streamed and recordings/transcripts are published. Witness names and evidence can become public. Confirm treatment of written evidence and confidentiality with the committee before including sensitive details.",
       "parliamentary": true,
       "groups": [],
@@ -3648,7 +3743,8 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "act-committee-tcs"
     },
     {
       "jurisdiction": "wa",
@@ -3674,7 +3770,7 @@
       "sourceUrl": "https://www.parliament.wa.gov.au/parliament/commit.nsf/0/BC622B0793D8C1B148258E980006FC4E?OpenDocument#Details",
       "eligibility": "Relevant evidence within the terms of reference. The inquiry excludes defining individual professions'/clinicians' tasks; primary care, private hospitals, community health and aged care; and Commonwealth matters except to clarify responsibilities.",
       "evidenceNote": "Live open-submissions index contains this inquiry with 20 December 2026 deadline. Direct inquiry and terms tabs checked. Commenced 22 October 2026; 18 November 2027 is the report date, not a submission date.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-07",
       "disclosure": "Assembly guidance says submissions are normally public. Names and contact information are required; signatures and personal contact details are removed for publication. Ask the committee about partial/full confidentiality before including sensitive information.",
       "parliamentary": true,
       "groups": [],
@@ -3703,7 +3799,8 @@
           "supports": "Participation conditions and supporting evidence"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "wa-committee-lant0004a8be"
     },
     {
       "id": "sa-social-worker-registration-2026",
@@ -3744,7 +3841,9 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "sa-committee-465",
+      "statusChecked": "2026-11-07"
     },
     {
       "id": "sa-real-estate-professionals-2026",
@@ -3785,7 +3884,9 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "sa-committee-464",
+      "statusChecked": "2026-11-07"
     },
     {
       "id": "sa-roxby-downs-bill-2026",
@@ -3833,7 +3934,9 @@
           "before": "For a provision-by-provision research trail, the ",
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
-      ]
+      ],
+      "committeeId": "sa-committee-461",
+      "statusChecked": "2026-11-07"
     },
     {
       "id": "sa-mens-health-wellbeing-2026",
@@ -3874,8 +3977,899 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "committeeId": "sa-committee-467"
+    },
+    {
+      "id": "sydney-edmund-resch-reserve-2026",
+      "title": "Share ideas for Edmund Resch Reserve",
+      "jurisdiction": "nsw",
+      "participationLevel": "council",
+      "councilId": "nsw-council-17200",
+      "kind": "council consultation",
+      "body": "City of Sydney",
+      "status": "open",
+      "purpose": "Help develop a concept design for upgrading Edmund Resch Reserve in Redfern by sharing how the park is used and what could improve.",
+      "method": "Use the survey with a City account, email via the linked project contact or post feedback to the City. In-person discussion can be arranged with the project officer.",
+      "deadline": {
+        "date": "2026-11-25",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "time",
+        "timezoneNote": "5pm is explicitly published. Sydney local time is a reasonable inference but no timezone label is confirmed on the page."
+      },
+      "eligibility": "Local users, community groups and residents are invited; no exclusion of other respondents is stated.",
+      "disclosure": "The project page does not explain whether feedback or names will be published. Review the survey's collection notice or ask the project officer before including sensitive information.",
+      "sourceUrl": "https://www.cityofsydney.nsw.gov.au/proposed-works-maintenance/share-your-ideas-for-edmund-resch-reserve",
+      "checked": "2026-11-07",
+      "verification": "Official project body directly read: open for feedback, 28 October to 25 November 2026, closing 5pm.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Sydney",
+      "sources": [
+        {
+          "url": "https://www.cityofsydney.nsw.gov.au/proposed-works-maintenance/share-your-ideas-for-edmund-resch-reserve",
+          "title": "Official project invitation",
+          "supports": "Official project body directly read: open for feedback, 28 October to 25 November 2026, closing 5pm.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-plan-directions-2026",
+      "title": "Plan for Melbourne Directions Paper",
+      "jurisdiction": "vic",
+      "participationLevel": "council",
+      "councilId": "vic-lga-343",
+      "kind": "council consultation",
+      "body": "City of Melbourne",
+      "status": "open",
+      "purpose": "Inform a long-term plan for the location of homes, jobs, services, transport and public spaces in Melbourne.",
+      "method": "Complete the survey, upload a submission or attend a project pop-up using the official project links.",
+      "deadline": {
+        "date": "2026-12-06",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "Only the closing date is published; no closing hour or timezone is invented."
+      },
+      "eligibility": "Community feedback invited; no narrow eligibility restriction is stated on the project page.",
+      "disclosure": "Public portal posts show usernames; consultation reports may quote feedback. The portal describes deidentification of survey responses in its Knowledge Bank. Review the specific contribution tool before providing identifying details.",
+      "sourceUrl": "https://participate.melbourne.vic.gov.au/plan-for-melbourne",
+      "checked": "2026-11-07",
+      "verification": "Official project body directly read: consultation 22 October to 6 December 2026.",
+      "connections": [
+        {
+          "url": "https://p4a.xyz/pages/twinkle-housing.html",
+          "title": "Twinkle 05: Housing",
+          "type": "twinkle",
+          "reason": "The plan directly concerns where future homes will be located alongside jobs, services and transport."
+        }
+      ],
+      "priority": 1,
+      "groups": [],
+      "place": "Melbourne City Council",
+      "sources": [
+        {
+          "url": "https://participate.melbourne.vic.gov.au/plan-for-melbourne",
+          "title": "Official project invitation",
+          "supports": "Official project body directly read: consultation 22 October to 6 December 2026.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "cairns-dog-off-leash-review",
+      "title": "Cairns dog off-leash areas review",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-2080",
+      "kind": "council consultation",
+      "body": "Cairns Regional Council",
+      "status": "open",
+      "purpose": "Comment on proposed dog-access changes and the balance between off-leash spaces and other park users.",
+      "method": "Follow the official project page's feedback tools; some tools do not render in text retrieval.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "label": "13 December; year not stated in retrieved page",
+        "note": "The open project page says Closing: 13 December. Do not silently invent a year, time or timezone."
+      },
+      "eligibility": "Community feedback is invited; no additional restriction was confirmed. Under-18 portal users should review the parent or guardian terms.",
+      "disclosure": "Portal terms say posted contributions may remain online and may be made public; Council and platform privacy policies apply.",
+      "sourceUrl": "https://haveyoursay.cairns.qld.gov.au/dog-off-leash-areas-review",
+      "checked": "2026-11-07",
+      "verification": "Official index places it under Open and the direct project page invites feedback. The printed cutoff lacks its year; interactive form completeness was not verified.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Cairns Regional",
+      "sources": [
+        {
+          "url": "https://haveyoursay.cairns.qld.gov.au/dog-off-leash-areas-review",
+          "title": "Official project invitation",
+          "supports": "Official index places it under Open and the direct project page invites feedback. The printed cutoff lacks its year; interactive form completeness was not verified.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "fremantle-draft-local-government-property-and-public-places-local-law-2026",
+      "title": "Draft Local Government Property and Public Places Local Law 2026",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-53430",
+      "kind": "council consultation",
+      "body": "City of Fremantle",
+      "status": "open",
+      "purpose": "Review and replace two existing local laws governing activities, facilities, public places and local government property.",
+      "method": "Read FAQs and key documents and provide feedback through the official survey. Staff meeting requests are subject to availability; group meetings capped at ten.",
+      "deadline": {
+        "date": "2026-12-06",
+        "time": "17:00",
+        "timezone": "AWST",
+        "timezoneConfirmed": true
+      },
+      "eligibility": "Public submissions invited; no residence restriction stated in the indexed official notice.",
+      "disclosure": "Feedback will be reviewed and presented to Council. Publication of identifiable individual responses was not confirmed.",
+      "sourceUrl": "https://mysay.fremantle.wa.gov.au/draft-property-and-public-places-local-law-2026?tool=survey_tool",
+      "checked": "2026-11-07",
+      "verification": "Official project notice explicitly gives 5pm AWST Sunday 6 December 2026.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Fremantle",
+      "sources": [
+        {
+          "url": "https://mysay.fremantle.wa.gov.au/draft-property-and-public-places-local-law-2026?tool=survey_tool",
+          "title": "Official project invitation",
+          "supports": "Official project notice explicitly gives 5pm AWST Sunday 6 December 2026.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "bunbury-help-shape-bunbury-s-reconciliation-journey",
+      "title": "Help Shape Bunbury's Reconciliation Journey",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-51190",
+      "kind": "council consultation",
+      "body": "City of Bunbury, developing its RAP with Marrak Holdings",
+      "status": "open",
+      "purpose": "Identify priorities and actions for the next Reconciliation Action Plan, including culture, heritage, relationships and partnerships.",
+      "method": "Complete the official survey; anonymous completion is offered.",
+      "deadline": {
+        "date": "2026-11-23",
+        "time": null,
+        "timezone": null,
+        "timezoneConfirmed": false
+      },
+      "eligibility": "Aboriginal and Torres Strait Islander peoples, community members, businesses, groups and organisations are invited.",
+      "disclosure": "Survey responses are strictly confidential and may be anonymous. Project team, Marrak Holdings and RAP Working Group review them; findings reported as a community summary.",
+      "sourceUrl": "https://communityconnect.bunbury.wa.gov.au/help-shape-bunburys-reconciliation-journey",
+      "checked": "2026-11-07",
+      "verification": "Official page gives Monday 23 November 2026, with no clock time.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Bunbury",
+      "sources": [
+        {
+          "url": "https://communityconnect.bunbury.wa.gov.au/help-shape-bunburys-reconciliation-journey",
+          "title": "Official project invitation",
+          "supports": "Official page gives Monday 23 November 2026, with no clock time.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "onkaparinga-road-network-plan",
+      "title": "Road Network Plan",
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-45340",
+      "kind": "council consultation",
+      "body": "City of Onkaparinga",
+      "status": "open",
+      "purpose": "Help balance road safety, access, traffic, freight, walking, cycling, public transport and environmental priorities in the draft strategic plan.",
+      "method": "Ten-minute survey hosted by newfocus; alternatively write, phone the project officer or speak with staff at Council offices.",
+      "deadline": {
+        "date": "2026-11-23",
+        "time": null,
+        "timezone": null,
+        "timezoneConfirmed": false
+      },
+      "eligibility": "Anyone using or interested in Onkaparinga's roads, including residents, businesses, commuters, visitors and freight operators. Driving is not required.",
+      "disclosure": "Council will report a summary. Survey redirects to newfocus, whose privacy terms should be read separately.",
+      "sourceUrl": "https://yoursay.onkaparinga.sa.gov.au/road-network-plan",
+      "checked": "2026-11-07",
+      "verification": "Official FAQ says engagement runs 3 to 23 November 2026. It is strategic feedback rather than a road maintenance request.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Onkaparinga",
+      "sources": [
+        {
+          "url": "https://yoursay.onkaparinga.sa.gov.au/road-network-plan",
+          "title": "Official project invitation",
+          "supports": "Official FAQ says engagement runs 3 to 23 November 2026. It is strategic feedback rather than a road maintenance request.",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "port-adelaide-enfield-2027-and-beyond",
+      "title": "2027 and beyond",
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-45890",
+      "kind": "council consultation",
+      "body": "City of Port Adelaide Enfield",
+      "status": "unverified",
+      "purpose": "Inform 2027-28 annual plans and budget by rating objectives, identifying important and less important services, and sharing challenges.",
+      "method": "Official online survey.",
+      "deadline": {
+        "date": "2026-11-29",
+        "time": null,
+        "timezone": null,
+        "timezoneConfirmed": false
+      },
+      "eligibility": "Survey offers residents, workers, students, property/business owners, regular service/place users, other connections and none of these.",
+      "disclosure": "Selected comments may be shared on Participate PAE or PAE communications without personal information.",
+      "sourceUrl": "https://participate.cityofpae.sa.gov.au/2027-and-beyond",
+      "checked": "2026-11-07",
+      "verification": "Official indexed project shows OPEN and a Sunday 29 November 2026 closing date. Direct fetch returned a cache miss, so access gap remains explicit.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Port Adelaide Enfield",
+      "sources": [
+        {
+          "url": "https://participate.cityofpae.sa.gov.au/2027-and-beyond",
+          "title": "Official project invitation",
+          "supports": "Official indexed project shows OPEN and a Sunday 29 November 2026 closing date. Direct fetch returned a cache miss, so access gap remains explicit.",
+          "access": "Official indexed notice; direct project access gap"
+        }
+      ],
+      "uncertaintyReason": "The official indexed notice says open, but the individual project page could not be read. Current access and participation terms need confirmation."
+    },
+    {
+      "id": "act-omnibus-bills",
+      "title": "Inquiry into Omnibus Bills",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Review bill naming, explanatory statements, omnibus legislation and possible Standing Order changes to support parliamentary scrutiny.",
+      "body": "Standing Committee on Administration and Procedure",
+      "status": "unverified",
+      "method": "Inquiry page and committee table label the inquiry Open, but no public invitation, submission deadline or submission conditions were found, including its Submissions tab. Confirm arrangements with the committee before preparing evidence.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "See the inquiry terms and current participation notice. A committee contact is not itself an open invitation.",
+      "disclosure": "Publication and confidentiality arrangements for any new contribution need confirmation before sending sensitive information.",
+      "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/administration-and-procedure/inquiry-into-omnibus-bills",
+      "checked": "2026-11-07",
+      "verification": "Direct official source read on 7 November 2026. Reporting date by 6 November 2026 is not a submission deadline. The label remains Open on 7 November; reporting status may lag.",
+      "priority": 0,
+      "connections": [],
+      "place": "Australian Capital Territory",
+      "committeeId": "act-committee-administration-and-procedure",
+      "sources": [
+        {
+          "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/administration-and-procedure/inquiry-into-omnibus-bills",
+          "title": "Official inquiry or participation notice",
+          "supports": "Reporting date by 6 November 2026 is not a submission deadline. The label remains Open on 7 November; reporting status may lag.",
+          "access": "Direct official source read on 7 November 2026."
+        }
+      ],
+      "uncertaintyReason": "Reporting date by 6 November 2026 is not a submission deadline. The label remains Open on 7 November; reporting status may lag."
+    },
+    {
+      "id": "act-latimer-house-principles",
+      "title": "Review of the Implementation of the Latimer House Principles in the ACT, 11th Assembly",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Review the report tabled by the Speaker on implementation of Latimer House Principles under continuing resolution 8A.",
+      "body": "Standing Committee on Administration and Procedure",
+      "status": "unverified",
+      "method": "The inquiry is labelled Open, but no public invitation, deadline or submission conditions were visible on the main page or Submissions tab.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "See the inquiry terms and current participation notice. A committee contact is not itself an open invitation.",
+      "disclosure": "Publication and confidentiality arrangements for any new contribution need confirmation before sending sensitive information.",
+      "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/administration-and-procedure/inquiry-into-the-review-of-the-implementation-of-the-latimer-house-principles-in-the-act11th-assembly",
+      "checked": "2026-11-07",
+      "verification": "Direct official source read on 7 November 2026. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Australian Capital Territory",
+      "committeeId": "act-committee-administration-and-procedure",
+      "sources": [
+        {
+          "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/administration-and-procedure/inquiry-into-the-review-of-the-implementation-of-the-latimer-house-principles-in-the-act11th-assembly",
+          "title": "Official inquiry or participation notice",
+          "supports": "Direct official source read on 7 November 2026.",
+          "access": "Direct official source read on 7 November 2026."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "sa-adelaide-parklands-petition",
+      "title": "Adelaide Park Lands petition",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Consider the petition concerning Park Lands development, referred to the Environment, Resources and Development Committee on 2 September 2026. Petition requests include halting MotoGP redevelopment, returning Possum Park and John E Brown Park to Crown land under City care, reviewing golf course and motor sport laws, protecting planning, state/national and Kaurna heritage and environmental safeguards, and enabling responsible works through proper development processes.",
+      "body": "Environment, Resources and Development Committee",
+      "status": "closed",
+      "method": "Official current-work folder exists, but no public submission call, eligibility or closing date was found. Do not treat it as an open submission opportunity.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "See the inquiry terms and current participation notice. A committee contact is not itself an open invitation.",
+      "disclosure": "Publication and confidentiality arrangements for any new contribution need confirmation before sending sensitive information.",
+      "sourceUrl": "https://www.parliament.sa.gov.au/Search/Result?id=448&type=committee",
+      "checked": "2026-11-07",
+      "verification": "Official two-page scanned referral and petition visually read. Clerk letter dated 3 September records Council referral resolution on 2 September 2026. No open public submission notice was found. The petition sought a Legislative Council committee review; the observed actual referral is to the Environment, Resources and Development Committee. Petition requests are not presented as adopted committee terms of reference.",
+      "priority": 0,
+      "connections": [],
+      "place": "South Australia",
+      "committeeId": "sa-committee-448",
+      "sources": [
+        {
+          "url": "https://www.parliament.sa.gov.au/Search/Result?id=448&type=committee",
+          "title": "Official inquiry or participation notice",
+          "supports": "The petition sought a Legislative Council committee review; the observed actual referral is to the Environment, Resources and Development Committee. Petition requests are not presented as adopted committee terms of reference.",
+          "access": "Official two-page scanned referral and petition visually read. Clerk letter dated 3 September records Council referral resolution on 2 September 2026. No open public submission notice was found."
+        }
+      ],
+      "uncertaintyReason": "The petition sought a Legislative Council committee review; the observed actual referral is to the Environment, Resources and Development Committee. Petition requests are not presented as adopted committee terms of reference.",
+      "statusChecked": "2026-11-07"
+    },
+    {
+      "id": "sa-housing-trust-hearing",
+      "title": "South Australian Housing Trust public hearing",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "parliamentary public hearing",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Follow public scrutiny of South Australian Housing Trust public hearing.",
+      "body": "Statutory Authorities Review Committee",
+      "status": "upcoming",
+      "method": "Observe representatives of the Housing Trust give evidence. Enter via Parliament House main steps on North Terrace or follow live audio through the Parliament homepage.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "Public observation as advertised. Giving evidence requires committee arrangements.",
+      "disclosure": "Hearing evidence is public. Housing Trust notice explicitly advertises online live audio. Check the committee before providing personal evidence.",
+      "sourceUrl": "https://www.parliament.sa.gov.au/Search/Result?id=397&type=committee",
+      "checked": "2026-11-07",
+      "verification": "Direct official source read on 7 November 2026. ",
+      "priority": 0,
+      "connections": [],
+      "place": "South Australia",
+      "committeeId": "sa-committee-397",
+      "sources": [
+        {
+          "url": "https://www.parliament.sa.gov.au/Search/Result?id=397&type=committee",
+          "title": "Official inquiry or participation notice",
+          "supports": "Direct official source read on 7 November 2026.",
+          "access": "Direct official source read on 7 November 2026."
+        }
+      ]
+    },
+    {
+      "id": "sa-budget-torrens-darlington",
+      "title": "Budget and Finance: Torrens to Darlington Alliance",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "parliamentary public hearing",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Follow public scrutiny of Torrens to Darlington Alliance.",
+      "body": "Budget and Finance Committee",
+      "status": "upcoming",
+      "method": "Scheduled public meeting. Observation is separate from giving evidence; no unrestricted public speaking invitation is advertised.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "Public observation as advertised. Giving evidence requires committee arrangements.",
+      "disclosure": "Hearing evidence is public. Housing Trust notice explicitly advertises online live audio. Check the committee before providing personal evidence.",
+      "sourceUrl": "https://www.parliament.sa.gov.au/Search/Result?id=460&type=committee",
+      "checked": "2026-11-07",
+      "verification": "Direct official source read on 7 November 2026. ",
+      "priority": 0,
+      "connections": [],
+      "place": "South Australia",
+      "committeeId": "sa-committee-460",
+      "sources": [
+        {
+          "url": "https://www.parliament.sa.gov.au/Search/Result?id=460&type=committee",
+          "title": "Official inquiry or participation notice",
+          "supports": "Direct official source read on 7 November 2026.",
+          "access": "Direct official source read on 7 November 2026."
+        }
+      ]
+    },
+    {
+      "id": "sa-pwc-concordia",
+      "title": "Public Works: Concordia Stage 1 Water Project",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "parliamentary public hearing",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Follow public scrutiny of Concordia Stage 1 Water Project.",
+      "body": "Public Works Committee",
+      "status": "upcoming",
+      "method": "Observe the scheduled SA Water presentation and member questions. This is not an open microphone session.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No clock time invented. Where a clock time is shown the source did not explicitly name a timezone."
+      },
+      "eligibility": "Public may attend witness examination unless the Committee determines otherwise; deliberations are private. Speaking or written evidence from affected parties requires Committee arrangements.",
+      "disclosure": "PWC May 2026 guide says hearings are public except confidential matters; transcripts generally become public about one week after the hearing. Requests for private evidence are decided by the Committee.",
+      "sourceUrl": "https://www.parliament.sa.gov.au/Search/Result?id=451&type=committee",
+      "checked": "2026-11-07",
+      "verification": "Direct official source read on 7 November 2026. Public access and witness rules corroborated by the official PWC May 2026 guide. ",
+      "priority": 0,
+      "connections": [],
+      "place": "South Australia",
+      "committeeId": "sa-committee-451",
+      "sources": [
+        {
+          "url": "https://www.parliament.sa.gov.au/Search/Result?id=451&type=committee",
+          "title": "Official inquiry or participation notice",
+          "supports": "Direct official source read on 7 November 2026. Public access and witness rules corroborated by the official PWC May 2026 guide.",
+          "access": "Direct official source read on 7 November 2026. Public access and witness rules corroborated by the official PWC May 2026 guide."
+        }
+      ]
+    },
+    {
+      "id": "wa-veticare",
+      "title": "Inquiry into 'Veticare'",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Examine barriers to affordable veterinary services, a publicly funded Veticare model, desexing and microchipping, support and retention for veterinary workers, subsidies and the wellbeing benefits of companion animals.",
+      "body": "Public Administration Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/21E68A3555CE056148258D4D002091B7?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt0000304a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/21E68A3555CE056148258D4D002091B7?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-annual-reports-2025-26",
+      "title": "2025-26 Annual Reports",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary public hearing",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Scrutinise 2025-26 agency annual reports through advertised departmental hearings.",
+      "body": "Estimates and Financial Operations Committee",
+      "status": "upcoming",
+      "method": "Follow the advertised hearings listed on the committee website and confirm the session access or broadcast arrangement. Giving oral evidence requires Committee arrangements. No general written submission deadline is asserted.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/0A11693D473FA79F48258E98000B942B?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. Upcoming hearing list supplies the four agency sessions. General public written submissions and unrestricted public speaking are not verified.",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt00002c1a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/0A11693D473FA79F48258E98000B942B?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Upcoming hearing list supplies the four agency sessions. General public written submissions and unrestricted public speaking are not verified.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ]
+    },
+    {
+      "id": "wa-budget-estimates-2026-27",
+      "title": "2026-27 Budget Estimates",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Scrutinise 2026-27 government budget estimates. The indexed inquiry page lists the June 2026 hearings and no public submissions; no future general public submission call was verified.",
+      "body": "Estimates and Financial Operations Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/838283EF6B3A084448258DF000025AEF?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt00002c1a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/838283EF6B3A084448258DF000025AEF?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-artificial-intelligence",
+      "title": "Inquiry into artificial intelligence in Western Australia",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Examine current and future AI applications and impacts, government service delivery and value for money, governance, procurement and risk, workforce and State finances, and AI infrastructure opportunities and costs.",
+      "body": "Estimates and Financial Operations Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/DEEB17550EA90A6948258E590000C7EA?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt00002c1a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/DEEB17550EA90A6948258E590000C7EA?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-statutory-office-holders",
+      "title": "Consultation with Statutory Office Holders",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Consult statutory office holders as listed in the current Council inquiry directory. The current inquiry-specific participation conditions were not accessible.",
+      "body": "Public Administration Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/D8E404FA96CFBF6D48258DA90014BFB7?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt0000304a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/D8E404FA96CFBF6D48258DA90014BFB7?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-auditor-general-consultation-2025-28",
+      "title": "Consultation with the Auditor General 2025 - 2028",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Consult with the Auditor General during 2025-28. The current inquiry lists reports, correspondence and a past hearing, without a general public call or future deadline.",
+      "body": "Estimates and Financial Operations Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/D0E8DAF62561BDF048258CD00015EEAD?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt00002c1a",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/D0E8DAF62561BDF048258CD00015EEAD?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-judicial-commission-bill-2026",
+      "title": "Judicial Commission Bill 2026",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Examine Judicial Commission Bill 2026. Committee association is confirmed by the current Council inquiry directory; detailed bill inquiry participation conditions were inaccessible.",
+      "body": "Legislation Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/EB4EDDB986807A2948258E6E00058D52?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. ",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lcnt00002ea6",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/EB4EDDB986807A2948258E6E00058D52?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "The inquiry is listed, but a currently accepting public participation route was not confirmed."
+    },
+    {
+      "id": "wa-global-decarbonisation",
+      "title": "Inquiry into the role of Western Australia in the global effort on decarbonisation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "parliamentary inquiry",
+      "parliamentary": true,
+      "groups": [],
+      "purpose": "Examine Western Australia contributions to global decarbonisation. Committee and current inquiry association are verified; detailed current public participation arrangements were not accessible.",
+      "body": "Economics and Industry Standing Committee",
+      "status": "unverified",
+      "method": "Current inquiry, but a current public submission invitation and deadline have not been verified. Retained submission forms and contact details alone do not establish that submissions are open.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "timezoneNote": "No closing clock time or timezone was confirmed."
+      },
+      "eligibility": "Participation scope and any current invitation must be confirmed from the inquiry notice. Witness participation is separate from public observation.",
+      "disclosure": "Names and evidence may become public. Check inquiry-specific confidentiality arrangements before sending sensitive material.",
+      "sourceUrl": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/2BCD8A1AE86B145548258D8D001903BC?OpenDocument#Details",
+      "checked": "2026-11-07",
+      "verification": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403. Current Economics and Industry committee page confirms this inquiry. Evidence in individual stakeholder submissions has not been substituted for Committee participation rules.",
+      "priority": 0,
+      "connections": [],
+      "place": "Western Australia",
+      "committeeId": "wa-committee-lant0004a8ba",
+      "sources": [
+        {
+          "url": "https://www.parliament.wa.gov.au/Parliament/commit.nsf/WCurrentNameNew/2BCD8A1AE86B145548258D8D001903BC?OpenDocument#Details",
+          "title": "Official inquiry or participation notice",
+          "supports": "Current Economics and Industry committee page confirms this inquiry. Evidence in individual stakeholder submissions has not been substituted for Committee participation rules.",
+          "access": "Current inquiry title and detail URL freshly observed in normal browser. Further official indexed inquiry or committee evidence checked where available; direct web fetch remains 403."
+        }
+      ],
+      "uncertaintyReason": "Current Economics and Industry committee page confirms this inquiry. Evidence in individual stakeholder submissions has not been substituted for Committee participation rules."
+    },
+    {
+      "id": "federal-cyber-security-sme-survey",
+      "jurisdiction": "federal",
+      "title": "Cyber security preparedness: survey for small organisations",
+      "body": "House Select Committee on Cyber Security for Small to Medium Sized Businesses and Organisations",
+      "purpose": "Hear from small to medium business and not-for-profit operators about cyber security preparedness, within the inquiry into guidance, standards, services, training and supply-chain participation.",
+      "status": "open",
+      "method": "Follow the survey link on the official inquiry page to complete the advertised ten-minute survey. The survey is separate from the inquiry's closed written-submission window. The survey also welcomes follow-up written information after completion, while the inquiry page labels the original written round closed.",
+      "deadline": {
+        "date": "2027-01-29",
+        "time": null,
+        "timezone": null,
+        "note": "The live official inquiry page says the survey will be open until 29 January 2027. Only the date is stated; no time or timezone is confirmed."
+      },
+      "eligibility": "The official invitation addresses people who operate a small to medium business or a not-for-profit organisation. No further eligibility conditions were verified.",
+      "disclosure": "The survey asks for name and email for validation. Its committee notice says identifying information stays with the secretariat and will not be published; reported findings are deidentified. The Microsoft Forms footer also says no separate owner privacy statement has been supplied. Review both notices before responding.",
+      "privacyVerified": true,
+      "additionalSources": [],
+      "checked": "2026-11-07",
+      "verification": "Live official inquiry page reviewed on 7 November 2026. Its participation phase is recorded separately from the original submission window. The linked survey introduction and collection notice were also read; no form was filled or submitted.",
+      "writtenSubmissionStatus": "closed",
+      "connections": [
+        {
+          "url": "https://p4a.xyz/pages/sovereignty-stack.html",
+          "title": "Sovereignty Stack",
+          "type": "system",
+          "reason": "Cyber preparedness, secure procurement, staff capability and recovery for small organisations overlap with the existing Sovereignty Stack work on data custody, permissions, incident response and tested recovery."
+        }
+      ],
+      "priority": 1,
+      "kind": "parliamentary inquiry survey",
+      "sourceUrl": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Cyber_Security_for_Small_to_Medium_Sized_Businesses_and_Organisations/Cybersecuritybusiness",
+      "participationLevel": "federal",
+      "parliamentary": true,
+      "groups": [],
+      "place": "Australia",
+      "committeeId": "federal-house-24199",
+      "sources": [
+        {
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Cyber_Security_for_Small_to_Medium_Sized_Businesses_and_Organisations/Cybersecuritybusiness",
+          "title": "Official inquiry and participation page",
+          "supports": "Live official inquiry page reviewed on 7 November 2026. Its participation phase is recorded separately from the original submission window. The linked survey introduction and collection notice were also read; no form was filled or submitted.",
+          "access": "Live official page reviewed 7 November 2026"
+        }
+      ]
+    },
+    {
+      "id": "federal-senate-productivity-environment-evidence",
+      "jurisdiction": "federal",
+      "title": "Productivity in Australia: further evidence on environment-related industries",
+      "body": "Senate Select Committee on Productivity in Australia",
+      "purpose": "Receive further or supplementary evidence on strategic productivity growth and related policy measures in the environment sector and industries including agriculture, forestry, fishing and mining.",
+      "status": "open",
+      "participationPhase": "further and supplementary submissions on the additional environment-related topic",
+      "method": "Use the official inquiry page and discussion paper to prepare further or supplementary written evidence addressing the additional environment-related topic.",
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "note": "A later live invitation welcomes further and supplementary submissions but states no new cutoff. The page retains 27 March 2026 for the original submission window. Its 31 March 2027 date is the report deadline, not a submission deadline.",
+        "label": "Further evidence invited; no new closing date published"
+      },
+      "eligibility": "The later invitation expressly includes supplementary submissions from people who have already contributed. No residency restriction or additional eligibility limit was confirmed.",
+      "disclosure": "The committee decides whether to accept and publish evidence. If accepted, a submission may appear online with your name. Keep personal contact details out of the main document. If you do not want publication, state that request and your reasons on the front; confidentiality is not automatic.",
+      "additionalSources": [
+        "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/How_to_make_a_submission"
+      ],
+      "checked": "2026-11-07",
+      "verification": "Live official inquiry page reviewed on 7 November 2026. Its participation phase is recorded separately from the original submission window.",
+      "reportDueDate": "2027-03-31",
+      "connections": [],
+      "priority": 0,
+      "distinction": "This is the Senate select committee's later evidence invitation, separate from the House technology and productivity inquiry whose 6 November deadline has passed.",
+      "kind": "parliamentary inquiry",
+      "sourceUrl": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Productivity_in_Australia/ProductivityinAustralia",
+      "participationLevel": "federal",
+      "parliamentary": true,
+      "groups": [],
+      "place": "Australia",
+      "committeeId": "federal-senate-24195",
+      "events": [
+        {
+          "date": "2026-11-30",
+          "label": "Scheduled public hearing; attendance and witness arrangements are set by the committee."
+        },
+        {
+          "date": "2026-12-04",
+          "label": "Scheduled public hearing; attendance and witness arrangements are set by the committee."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Productivity_in_Australia/ProductivityinAustralia",
+          "title": "Official inquiry and participation page",
+          "supports": "Live official inquiry page reviewed on 7 November 2026. Its participation phase is recorded separately from the original submission window.",
+          "access": "Live official page reviewed 7 November 2026"
+        },
+        {
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/How_to_make_a_submission",
+          "title": "Senate submission guidance",
+          "supports": "Publication and confidentiality conditions.",
+          "access": "Live official page reviewed 7 November 2026"
+        }
+      ]
     }
   ],
-  "navigationPolicy": "Select the responsible jurisdiction first. Australia is federal only; each state view is state level only. No combined human opportunity view. Current and uncertain records are visible by default. Closed records go to that jurisdiction’s own archive."
+  "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive."
 }

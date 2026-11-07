@@ -85,3 +85,38 @@
 .participation-site .human-site-map{padding-inline:0;width:100%}
 @media(max-width:800px){.participation-nav{align-items:start;flex-direction:column;gap:.3rem}.participation-nav-links{justify-content:flex-start;gap:.15rem .5rem}.participation-place-menu>div{left:0;right:auto}}
 @media(max-width:560px){.participation-nav-links{font-size:.8rem}.participation-place-menu>div{width:23rem;max-width:calc(100vw - 3rem);grid-template-columns:1fr}.participation-site .site-footer{padding-inline:1rem}}
+.participation-site .directory-hero h1{font-size:clamp(1.9rem,4.8vw,4.5rem);max-width:27ch}
+.participation-site .directory-hero{padding:1.5rem 0 .25rem;gap:1rem;grid-template-columns:minmax(0,1fr)}
+.participation-site .directory-hero .lead{line-height:1.5;margin-bottom:.5rem}
+#participation-search,#directory-search{scroll-margin-top:7rem}
+.level-tabs{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0 1.5rem}
+.level-tab{display:inline-flex;align-items:center;min-height:44px;padding:.7rem 1rem;border:1px solid var(--line);border-radius:.6rem;color:var(--muted);text-decoration:none}
+.level-tab.is-current{border-color:var(--gold);color:var(--gold);background:var(--glass-strong)}
+.filter-search{display:grid;gap:.5rem;font-weight:700;margin-bottom:1rem}
+.filter-toolbar{display:flex;align-items:end;flex-wrap:wrap;gap:.75rem 1.3rem;margin:1rem 0}
+.filter-toolbar>label:not(.connected-filter){display:grid;gap:.4rem;min-width:12rem}
+.filter-toolbar .connected-filter{display:flex;align-items:center;gap:.5rem;min-height:44px}
+.filter-toolbar input[type=checkbox]{width:1.1rem;height:1.1rem;min-height:0;accent-color:var(--green)}
+.status-choices{display:flex;flex-wrap:wrap;gap:.4rem}
+.status-choices button,.filter-toolbar button,.directory-search button{min-height:44px;padding:.6rem .8rem;border:1px solid var(--line);border-radius:.5rem;background:var(--glass);color:var(--muted);font:inherit;cursor:pointer}
+.status-choices button[aria-pressed=true]{color:var(--gold);border-color:var(--gold);background:var(--glass-strong)}
+.status-choices span{opacity:.85;font-size:.85em;margin-left:.3rem}
+.filter-refinements>summary,.participation-method>summary{cursor:pointer;min-height:44px;padding:.7rem 0;color:var(--gold);font-weight:700}
+.filter-refinements .filter-grid{padding:1rem 0}
+.participation-action{border-left:2px solid var(--gold);padding-left:.75rem;color:var(--text)!important}
+.topic-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:.7rem 0}
+.topic-tags>span{padding:.25rem .5rem;border:1px solid var(--line);border-radius:.35rem;font-size:.75rem;color:var(--muted)}
+.directory-search{display:flex;gap:1rem;align-items:end;flex-wrap:wrap;padding:1.2rem 0}
+.directory-search>label{display:grid;gap:.4rem;flex:1;min-width:12rem;font-weight:650}
+.directory-search>label:first-child{flex:3}
+.directory-search :is(input,select),.filter-toolbar select{width:100%;min-height:44px;padding:.7rem;border:1px solid var(--line);border-radius:.4rem;background:#170b26;color:var(--text);font:inherit}
+.body-directory{list-style:none;margin:0;padding:0}
+.body-directory-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem;padding:1.3rem 0;border-bottom:1px solid var(--line)}
+.participation-site .body-directory-row h2{font-family:var(--font-body);font-size:1.14rem;line-height:1.4;text-transform:none;font-stretch:100%;text-shadow:none;max-width:none}
+.body-directory-row p,.directory-status{font-size:.84rem;color:var(--muted);line-height:1.6}
+.body-directory-row>div:last-child{display:grid;gap:.5rem;align-content:center}
+.participation-method{border-bottom:1px solid var(--line);padding:.4rem 0}
+.participation-method .fact-list{padding:1rem 0}
+.inquiry-source-list li{margin:1rem 0;padding:.7rem 0;border-bottom:1px solid var(--line)}
+.inquiry-source-list p{font-size:.9rem;color:var(--muted);line-height:1.6}
+@media(max-width:560px){.participation-site .directory-hero h1{font-size:clamp(1.65rem,8vw,2.5rem)}.body-directory-row{grid-template-columns:minmax(0,1fr);gap:.3rem}.body-directory-row>div:last-child{display:flex;align-items:center;flex-wrap:wrap;gap:.5rem 1rem}.filter-toolbar>label:not(.connected-filter){flex:1;min-width:10rem}.directory-search>label{min-width:100%}}

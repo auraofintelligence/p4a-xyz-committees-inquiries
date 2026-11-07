@@ -1,5 +1,21 @@
 # Participation source review
 
+## 7 November expansion
+
+The federal submissions index was rechecked on 7 November after the technology round's 6 November close: twelve listed entries remain, including the uncertain Women's Health date conflict. Individual inquiry pages retain their own review dates.
+
+The original participation-only import was insufficient as a committee directory. The site now separates all parliamentary committee entries, inquiry activity, and verified invitations. The new directory has 214 entries across all parliaments, including expressly labelled statutory-role or grouped entries. NSW's 61 directory entries were completely loaded and joined to the 66 entries returned by the official Current inquiry filter. Several direct inquiry pages report final results despite that central Current label. Those source conflicts are retained rather than recast as open public invitations.
+
+Fresh research also covered all current directories in Queensland, NT, Tasmania, WA, SA and ACT. Victoria's expiry notice remains authoritative. The federal live count is 67, correcting a cached 68-entry list that retained a former select committee. Eight Senate subject links represent separate legislation and references committees. Committee inclusion alone never produces an open-submission badge.
+
+All existing P4A council identities are now discoverable through a separate local-government chooser. The compact import keeps names, kinds, source dates and links; election and member data are not copied. Eighteen additional councils have individually checked participation procedures, and other council profiles remain explicitly unchecked. Council portal tiles sometimes describe closed projects as active or under review, so dated calls require their own evidence.
+
+The cyber survey and Senate productivity further-evidence invitation were verified live outside the original submissions-only index. The cyber form's collection notice was read without entering information. It asks for validation details but says identifiers remain confidential and reported findings are deidentified. Its separate Microsoft footer qualification is retained. The Senate invitation has no new cutoff; its old general deadline and future reporting date are not substituted for one. Behaviour codes is currently marked submissions closed.
+
+Published 6 November contribution deadlines have passed. Those rounds move to their own archives; no conclusion of the entire inquiry is implied, and underlying source-review dates remain visible. New controls preserve all records by default, state active filters, and keep council, state and federal participation separate.
+
+## Original 6 November snapshot
+
 Checked 6 November 2026, Australia/Brisbane. This is a dated research snapshot. Rebuilding pages does not refresh sources.
 
 The founder’s place is the starting path. Minjerribah / North Stradbroke Island, Quandamooka governance, community activity and Redland City Council are described on their own terms. Council participation requires its actual rules. Requests to address a Redland meeting require approval; councillor question and remote-attendance provisions are not represented as public entitlements. Watching a livestream does not create a speaking right.

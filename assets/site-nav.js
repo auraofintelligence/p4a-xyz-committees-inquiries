@@ -177,6 +177,8 @@
         { href: 'pages/your-relevance.html', title: 'Start your law map', note: 'A private first step for prospective members: your life, laws and civic areas.' },
         { href: local('index.html'), title: 'Committees & inquiries', note: 'Choose a jurisdiction, then search its open and upcoming participation opportunities.' },
         { href: local('homelands/'), title: 'Minjerribah and Redland participation', note: 'The founder’s starting path through community, Council, Queensland and Commonwealth decisions.' },
+        { href: local('councils/'), title: 'Find your council', note: 'Choose a state or territory, then one council and its participation routes.' },
+        { href: local('committees/'), title: 'All parliamentary committees', note: 'Choose a parliament and search its committee directory, separately from open invitations.' },
         { href: local('queensland/'), title: 'Queensland inquiry invitations', note: 'Parliamentary and state public invitations, with exact source limits.' },
         { href: local('australia/'), title: 'Federal inquiry invitations', note: 'Senate, House and joint committee submission calls.' },
         { href: local('take-part/'), title: 'How to take part', note: 'Methods, deadlines, privacy and following the response.' },

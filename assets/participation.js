@@ -32,6 +32,28 @@
   const places = document.querySelector('.participation-place-menu');
   document.addEventListener('click',e=>{if(places?.open && !places.contains(e.target))places.open=false;});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&places?.open){places.open=false;places.querySelector('summary').focus();}});
+  const fold = value => value.toLocaleLowerCase('en-AU').normalize('NFKD').replace(/\p{M}/gu,'');
+  const words = value => fold(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+  const directoryForm = document.querySelector('[data-directory-search]');
+  if (directoryForm) {
+    directoryForm.hidden=false;
+    const entries=[...document.querySelectorAll('[data-directory-row]')];
+    const list=document.querySelector('.body-directory');
+    const field=directoryForm.elements.search, sort=directoryForm.elements.sort;
+    const updateDirectory=()=>{
+      let shown=0;
+      const terms=words(field.value);
+      const sorted=[...entries].sort((a,b)=>(sort.value==='priority'?Number(b.dataset.priority)-Number(a.dataset.priority)||Number(b.dataset.participation)-Number(a.dataset.participation):sort.value==='participation'?Number(b.dataset.participation)-Number(a.dataset.participation):0)||a.dataset.name.localeCompare(b.dataset.name));
+      for(const entry of sorted){entry.hidden=!terms.every(term=>fold(entry.dataset.search).includes(term));if(!entry.hidden)shown++;list.append(entry);}
+      document.querySelector('[data-directory-count]').textContent=`${shown} of ${entries.length} entries shown.`;
+      document.querySelector('[data-directory-empty]').hidden=shown!==0;
+    };
+    directoryForm.addEventListener('submit',e=>e.preventDefault());
+    directoryForm.addEventListener('input',updateDirectory);
+    directoryForm.addEventListener('change',updateDirectory);
+    directoryForm.addEventListener('reset',()=>{field.value='';sort.value='name';updateDirectory();});
+    updateDirectory();
+  }
   const form = document.querySelector('[data-filters]');
   if (!form) return;
   form.hidden = false;
@@ -44,37 +66,53 @@
   const jurisdiction = form.querySelector('[name=jurisdiction]');
   const order = form.querySelector('[name=order]');
   const connected = form.querySelector('[name=connected]');
+  const topic=form.querySelector('[name=topic]'), method=form.querySelector('[name=method]'), body=form.querySelector('[name=body]');
   const params = new URLSearchParams(location.search);
-  for (const field of [search, status, order]) {
+  for (const field of [search, status, order, topic, method, body]) {
     if (params.has(field.name)) field.value = params.get(field.name);
   }
   connected.checked = params.get('connected') === 'yes';
+  if(!['all','available','open','upcoming','ongoing','unverified','closed'].includes(status.value))status.value=status.dataset.default;
   function update(save = true) {
-    const text = search.value.trim().toLocaleLowerCase('en-AU');
+    const terms = words(search.value);
     let shown = 0;
+    const candidates={all:0};
     const sorted = [...cards].sort((a,b) => {
       const priority = Number(b.dataset.priority) - Number(a.dataset.priority);
       const dates = (a.dataset.deadline || '9999').localeCompare(b.dataset.deadline || '9999');
       if (order.value === 'deadline') return dates || priority;
       if (order.value === 'title') return a.dataset.title.localeCompare(b.dataset.title);
+      if (order.value === 'checked') return b.dataset.checked.localeCompare(a.dataset.checked)||priority||dates;
       return priority || dates || a.dataset.title.localeCompare(b.dataset.title);
     });
     for (const card of sorted) {
       const matchStatus = status.value === 'all' || (status.value === 'available' ? ['open','upcoming'].includes(card.dataset.status) : card.dataset.status === status.value);
-      const matchJurisdiction = !jurisdiction.value || jurisdiction.value === card.dataset.jurisdiction && (jurisdiction.value === 'federal' || card.dataset.level === 'state');
-      const visible = matchStatus && matchJurisdiction
+      const matchJurisdiction = (!jurisdiction.value || jurisdiction.value === card.dataset.jurisdiction) && (!form.dataset.level || form.dataset.level===card.dataset.level);
+      const matchesOtherFilters = matchJurisdiction
         && (!connected.checked || Number(card.dataset.priority) > 0)
-        && (!text || card.dataset.search.includes(text));
+        && (!topic.value || card.dataset.topics.split(' ').includes(topic.value))
+        && (!method.value || method.value===card.dataset.method)
+        && (!body.value || body.value===card.dataset.body)
+        && terms.every(term=>fold(card.dataset.search).includes(term));
+      if(matchesOtherFilters){candidates.all++;candidates[card.dataset.status]=(candidates[card.dataset.status]||0)+1;}
+      const visible=matchStatus&&matchesOtherFilters;
       card.hidden = !visible; if (visible) shown++;
       container.append(card);
     }
-    const unverifiedCount = cards.filter(card=>card.dataset.status==='unverified').length;
+    const unverifiedCount = candidates.unverified||0;
     const hiddenStatusNote = status.value==='available' && unverifiedCount ? ` ${unverifiedCount} uncertain record${unverifiedCount===1?' is':'s are'} hidden by your selected status filter. Select All records to show everything in this jurisdiction.` : '';
-    count.textContent = `${shown} of ${cards.length} records shown in this jurisdiction.${hiddenStatusNote} ${connected.checked ? 'Showing P4A topic matches.' : ''}`;
+    const active=[];
+    if(search.value.trim())active.push(`Search: ${search.value.trim()}`);
+    if(status.value!=='all')active.push('Status: '+({available:'Open and upcoming',open:'Open',upcoming:'Upcoming',ongoing:'Standing routes',unverified:'Uncertain',closed:'Closed'}[status.value]));
+    for(const [field,label] of [[topic,'Topic'],[method,'Route']])if(field.value)active.push(label+': '+field.selectedOptions[0].text.replace(/ \(\d+\)$/,''));
+    if(body.value)active.push('Body: '+body.value);
+    if(connected.checked)active.push('P4A matches only');
+    count.textContent = `${shown} of ${cards.length} records shown in ${form.dataset.scopeLabel}.${hiddenStatusNote} ${active.length?'Filters: '+active.join('; ')+'.':'All records in this view are visible.'}`;
+    form.querySelectorAll('[data-status-choice]').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.statusChoice===status.value));button.querySelector('span').textContent=candidates[button.dataset.statusChoice]||0;});
     empty.hidden = shown !== 0;
     if (save) {
       const query = new URLSearchParams();
-      for (const field of [search,status,jurisdiction,order]) if (field.value && field.value !== field.dataset.default) query.set(field.name, field.value);
+      for (const field of [search,status,order,topic,method,body]) if (field.value && field.value !== field.dataset.default) query.set(field.name, field.value);
       if (connected.checked) query.set('connected','yes');
       history.replaceState(null,'',location.pathname + (query.size ? '?' + query : '') + location.hash);
     }
@@ -82,8 +120,9 @@
   form.addEventListener('submit',e => e.preventDefault());
   form.addEventListener('input',() => update());
   form.addEventListener('change',() => update());
+  form.querySelectorAll('[data-status-choice]').forEach(button=>button.addEventListener('click',()=>{status.value=button.dataset.statusChoice;update();}));
   form.querySelector('[data-reset]').addEventListener('click',() => {
-    search.value='';status.value=status.dataset.default;jurisdiction.value=jurisdiction.dataset.default;order.value='priority';connected.checked=false;update();
+    search.value='';status.value=status.dataset.default;jurisdiction.value=jurisdiction.dataset.default;order.value='priority';topic.value='';method.value='';body.value='';connected.checked=false;update();
   });
   window.addEventListener('popstate',() => location.reload());
   update(false);
