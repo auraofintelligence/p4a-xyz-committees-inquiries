@@ -86,7 +86,7 @@ def validate_navigation(parsed,pages,committees,records):
         assert sum(a.get('aria-current')=='location' for a in navigation['parliaments'])<=1,page+': multiple current parliaments'
         for link in navigation['links']:
             route=destination(page,link)
-            assert (not route.startswith('councils/') or route==participation['redland']) and '/places/' not in route,page+': unrelated place navigation in committees menu'
+            assert (not route.startswith('councils/') or route==participation['redland'] or (route=='councils/index.html' and ' '.join(link['label'].split())=='Council participation')) and '/places/' not in route,page+': unrelated place navigation in committees menu'
     for chooser in ('inquiries/index.html','committees/index.html','homelands/index.html'):
         assert chooser in parsed and not parsed[chooser].records,chooser+': chooser combines participation records'
     cases=[('inquiries/index.html','inquiries',None),('committees/index.html','committees',None)]

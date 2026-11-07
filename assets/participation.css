@@ -99,7 +99,7 @@
 .homelands-body{padding:1.2rem}
 .participation-site .homelands-body h2{font-size:1.6rem;margin:0 0 .6rem}
 .homelands-body p{color:var(--muted);line-height:1.6;margin:.5rem 0 1rem}
-@media(max-width:650px){.committee-navigation-controls{grid-template-columns:minmax(0,1fr);gap:.8rem}.committee-browse-link{flex:1;padding:.65rem .5rem;font-size:.83rem}.participation-nav-heading{align-items:start;gap:.4rem;margin-bottom:.6rem}.participation-nav-help{gap:.3rem .8rem;justify-content:flex-end;font-size:.75rem}.participation-nav-help a{min-height:28px}.participation-nav-title{font-size:.8rem;max-width:17ch}.participation-parliament-menu>div{min-width:0}.homelands-body .button-row{gap:.5rem}}
+@media(max-width:650px){.committee-navigation-controls{grid-template-columns:minmax(0,1fr);gap:.8rem}.committee-browse-link{flex:1;padding:.65rem .5rem;font-size:.83rem}.participation-nav-heading{align-items:start;flex-direction:column;gap:.4rem;margin-bottom:.6rem}.participation-nav-help{gap:.3rem .8rem;justify-content:flex-start;font-size:.75rem}.participation-nav-help a{min-height:28px}.participation-nav-title{font-size:.8rem;max-width:none}.participation-parliament-menu>div{min-width:0}.homelands-body .button-row{gap:.5rem}}
 @media(max-width:400px){.parliament-grid{grid-template-columns:minmax(0,1fr)}.parliament-choice.is-federal{grid-column:auto}}
 .participation-site .site-footer{margin-top:2rem}
 .participation-research-date{font-size:.82rem}
