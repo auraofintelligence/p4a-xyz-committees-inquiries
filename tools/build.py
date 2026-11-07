@@ -247,11 +247,8 @@ def build():
         dest=OUT/path;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/path,dest)
     (OUT/'.nojekyll').write_text('',encoding='utf-8')
     (OUT/'data').mkdir(exist_ok=True)
-    shutil.copyfile(ROOT/'data/registry.json',OUT/'data/registry.json')
-    shutil.copyfile(ROOT/'data/councils.json',OUT/'data/councils.json')
-    shutil.copyfile(ROOT/'data/redland-committees.json',OUT/'data/redland-committees.json')
-    if (ROOT/'data/council-pathways.json').exists():(OUT/'data/council-pathways.json').write_text(json.dumps(COUNCIL_PATHWAY_DATA,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8')
-    if (ROOT/'data/committees.json').exists():shutil.copyfile(ROOT/'data/committees.json',OUT/'data/committees.json')
+    for name,data in [('registry',DATA),('councils',COUNCIL_DATA),('redland-committees',REDLAND_COMMITTEES),('committees',COMMITTEE_DATA),('council-pathways',COUNCIL_PATHWAY_DATA)]:
+        (OUT/('data/'+name+'.json')).write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8')
     local=[r for r in RECORDS if 'homelands' in r.get('groups',[])]
     available=[r for r in RECORDS if r['status'] in ('open','upcoming')]
     parliament=[r for r in available if r.get('parliamentary') and r['status']=='open']
@@ -343,8 +340,10 @@ def build():
     body+='<p class="notice">Latest source checks '+pretty_date(CHECKED)+'. Individual records retain their own review dates. Rebuilding does not refresh sources. Use the current official invitation before acting.</p>'
     body+='<div class="prose"><h2>Committees, inquiries and invitations</h2><p>The parliamentary directory contains '+str(len(COMMITTEES))+' entries from the reviewed official directories. A committee can have several inquiries, and an inquiry can continue after submissions close. Directory totals therefore describe bodies and listed roles, not open calls.</p><p>'+link(page,'committees/','Choose a parliament and browse its committees')+'. Each parliament’s Inquiries &amp; participation view keeps checked invitations separate and shows every current record, including uncertainty.</p><h2>Council coverage</h2><p>'+link(page,'councils/','The council chooser')+' includes 536 council identities and 16 separately labelled local bodies or unincorporated areas from existing P4A data. Redland retains its dedicated homeland path. '+str(sum(bool(c.get('review')) for c in COUNCILS))+' other councils have individually reviewed procedures. New pathway audits separately identify official destinations, indexed-only leads and source gaps. Detailed conditions remain unverified unless expressly reviewed. National consultation coverage remains incomplete.</p></div>'
     body+=coverage_table(page)
+    from council_pathways import coverage_table as council_coverage_table
+    body+=council_coverage_table(SimpleNamespace(**globals()),page)
     body+='<div class="prose"><h2>What the labels mean</h2><ul><li><strong>Open:</strong> a directly checked official invitation is accepting participation at the research date.</li><li><strong>Upcoming:</strong> an official source announces a future opening or a participation event, with restrictions shown.</li><li><strong>Standing route:</strong> a continuing mechanism with its own eligibility and application rules.</li><li><strong>Closed:</strong> the specific contribution round ended; a later project stage may continue.</li><li><strong>Unverified:</strong> a lead, inaccessible detail or ambiguous invitation that needs follow-up.</li></ul><h2>Coverage and evidence</h2><p>Every entry from an enumerated open-call index is represented, even where there is no P4A match. Current-inquiry lists can include closed submission windows, ongoing institutional scrutiny and hearings with invited witnesses. Those are reviewed separately. The directory does not assert coverage of every council, community organisation, government consultation or unpublished future inquiry.</p><p>Short summaries are original paraphrases. Each detail page retains its official links, field-level limits, eligibility, publication conditions and check date. Source-page copies, contact lists and browser material are not published.</p></div>'
-    body+='<p>'+link(page,'data/registry.json','Download the dated public records','text-link')+' · '+link(page,REPO+'/blob/main/content/research-notes.md','Research and maintenance notes','text-link')+'</p>'
+    body+='<p>'+link(page,'data/registry.json','Download the dated public records','text-link')+' · '+link(page,'data/council-pathways.json','Council pathway audit','text-link')+' · '+link(page,REPO+'/blob/main/content/research-notes.md','Research and maintenance notes','text-link')+'</p>'
     write(page,'Sources & coverage',body)
     from directory_pages import build_directories
     build_directories(SimpleNamespace(**globals()))

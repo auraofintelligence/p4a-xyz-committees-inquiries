@@ -138,10 +138,10 @@
     {
       "jurisdiction": "qld",
       "label": "Council participation coverage",
-      "sourceUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/c8dc0f994032f31b7c90af0bdf9288c897b64b36/content/places/councils.json",
+      "sourceUrl": "https://github.com/auraofintelligence/p4a-xyz-committees-inquiries/blob/main/data/council-pathways.json",
       "checked": "2026-11-07",
-      "status": "Queensland pathway audit expanded; national council work continues",
-      "note": "536 council identities and 16 separately labelled local bodies or unincorporated areas remain discoverable. The 77 Queensland areas outside Redland were searched: 54 have directly verified routes, 15 currently have indexed-only leads, and eight still need source or discovery follow-up. Twenty indexed links remain uncertain. Twenty-one councils outside Redland have separately reviewed procedures. Redland’s established work is preserved. This is not a complete national inventory of open council projects."
+      "status": "Nationwide council pathway audit completed; conditions and project coverage remain partial",
+      "note": "All 550 remaining P4A local areas were individually searched, with Redland’s existing work and the ACT’s no-separate-council explanation retained. The audit records 738 directly read official routes, 12 official links with limited destination access and 199 clearly uncertain indexed leads. Every ordinary council has a located route or prior procedure review except Yarrabah, whose access gap and official contact-directory fallback are explicit. Twenty-one councils outside Redland have separately reviewed procedures. Seventeen new dated council invitations are included. This does not claim exhaustive coverage of every project or fully checked conditions for every route."
     }
   ],
   "records": [
@@ -5011,6 +5011,488 @@
           "title": "Official project invitation and collection notice",
           "supports": "Purpose, survey route, date-only closing date and publication conditions",
           "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "litchfield-draft-strategic-plan-2026-2029",
+      "title": "Draft Strategic Plan 2026-2029",
+      "jurisdiction": "nt",
+      "participationLevel": "council",
+      "councilId": "nt-council-72300",
+      "kind": "council consultation",
+      "body": "Litchfield Council",
+      "status": "open",
+      "purpose": "Inform the council’s strategic priorities for community connection, services, local opportunities, places and accountable delivery.",
+      "method": "Read the draft plan and use the linked online feedback form or the published email route.",
+      "deadline": {
+        "date": "2026-11-17",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The official notice publishes a closing date without a time or timezone."
+      },
+      "eligibility": "Community feedback invited; no narrower eligibility restriction was confirmed on the notice.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.litchfield.nt.gov.au/your-council/news/2026/have-your-say-draft-strategic-plan-2026-2029",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Litchfield",
+      "sources": [
+        {
+          "url": "https://www.litchfield.nt.gov.au/your-council/news/2026/have-your-say-draft-strategic-plan-2026-2029",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "barossa-character-area-project-2026",
+      "title": "Barossa Character Area Project",
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-40310",
+      "kind": "council consultation",
+      "body": "The Barossa Council",
+      "status": "open",
+      "purpose": "Share local knowledge and views about the region’s character to inform future planning work. This research exercise is separate from the later State-led Code Amendment.",
+      "method": "Complete the survey or send written feedback by post or email. The page also offers an 11 November community session at Barossa Park, Lyndoch, with an RSVP link.",
+      "deadline": {
+        "date": "2026-11-27",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time",
+        "timezoneNote": "The official notice publishes a closing time but does not expressly state a timezone."
+      },
+      "eligibility": "Community and interested people invited; no narrower eligibility restriction was confirmed on the page.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.barossa.sa.gov.au/community-and-wellbeing/your-barossa-your-say/barossa-character-area-project",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Barossa",
+      "sources": [
+        {
+          "url": "https://www.barossa.sa.gov.au/community-and-wellbeing/your-barossa-your-say/barossa-character-area-project",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "holdfast-bay-floating-wellness-pavilion-2026",
+      "title": "Floating Wellness Pavilion proposed commercial lease",
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-42600",
+      "kind": "council consultation",
+      "body": "City of Holdfast Bay",
+      "status": "open",
+      "purpose": "Comment on a proposed commercial lease over land and water at Patawalonga Lake for a floating wellness facility before the council decides whether to grant the lease.",
+      "method": "Follow the official proposal and feedback link. A further drop-in information session is advertised at Wigley Reserve on 11 November, 4 pm to 5.30 pm.",
+      "deadline": {
+        "date": "2026-11-19",
+        "time": "15:00",
+        "timezone": null,
+        "precision": "date-time",
+        "timezoneNote": "The official notice publishes a closing time but does not expressly state a timezone."
+      },
+      "eligibility": "Residents, businesses and visitors to the area are expressly encouraged to comment.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.holdfast.sa.gov.au/proposed-floating-wellness-pavilion-at-patawalonga-lake",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Holdfast Bay",
+      "sources": [
+        {
+          "url": "https://www.holdfast.sa.gov.au/proposed-floating-wellness-pavilion-at-patawalonga-lake",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "capel-local-law-review-2026",
+      "title": "Review of Capel local laws",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-51400",
+      "kind": "council consultation",
+      "body": "Shire of Capel",
+      "status": "open",
+      "purpose": "Review the continued relevance and effectiveness of local rules covering meetings, waste, roads, parking, health, fencing, animals and other council matters.",
+      "method": "Send a written submission to the CEO through the linked online form, email, post or in-person delivery as set out in the notice.",
+      "deadline": {
+        "date": "2026-12-03",
+        "time": "16:00",
+        "timezone": null,
+        "precision": "date-time",
+        "timezoneNote": "The official notice publishes a closing time but does not expressly state a timezone."
+      },
+      "eligibility": "Members of the public are invited to make written submissions.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.capel.wa.gov.au/news/public-notice-local-law-review/416",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Capel",
+      "sources": [
+        {
+          "url": "https://www.capel.wa.gov.au/news/public-notice-local-law-review/416",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "irwin-milo-road-crossing-closure-2026",
+      "title": "Proposed Milo Road Crossing temporary closure",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-54060",
+      "kind": "council consultation",
+      "body": "Shire of Irwin",
+      "status": "open",
+      "purpose": "Comment on a proposed temporary crossing closure for upgrade works, including detours, property access and impacts on local activities, before the council makes a decision.",
+      "method": "Send a written submission by email or post, identify the proposed Milo Road closure, and include the requested name, contact details and issues for consideration.",
+      "deadline": {
+        "date": "2026-11-27",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time",
+        "timezoneNote": "The official notice publishes a closing time but does not expressly state a timezone."
+      },
+      "eligibility": "Any person may comment; affected residents, landowners, businesses and transport operators are encouraged to identify access requirements.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://irwin.wa.gov.au/community-engagement/",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Irwin",
+      "sources": [
+        {
+          "url": "https://irwin.wa.gov.au/community-engagement/",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "melville-wn-malcolm-playground-2026",
+      "title": "WN Malcolm Playground renewal",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-55320",
+      "kind": "council consultation",
+      "body": "City of Melville",
+      "status": "open",
+      "purpose": "Choose whether to renew or replace the playground and indicate a preferred playground design.",
+      "method": "Use the project voting tool or the printable voting form. Survey responses are not accepted through the contact email address.",
+      "deadline": {
+        "date": "2026-11-15",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The official notice publishes a closing date without a time or timezone.",
+        "label": "Midnight Sunday, 15 November 2026; timezone not stated",
+        "note": "The page uses the word midnight. Its date convention and timezone should be confirmed rather than replacing that label with an invented numeric hour."
+      },
+      "eligibility": "One vote per person is counted. Playground suppliers may follow the project but their votes are excluded.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.melvilletalks.com.au/wnmalcomplay",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Melville",
+      "sources": [
+        {
+          "url": "https://www.melvilletalks.com.au/wnmalcomplay",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "south-perth-draft-council-plan-2027-2037",
+      "title": "Draft Council Plan 2027-2037",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-57840",
+      "kind": "council consultation",
+      "body": "City of South Perth",
+      "status": "open",
+      "purpose": "Give feedback on the ten-year council plan that will guide priorities, decision-making and budgets.",
+      "method": "Complete the online feedback form or use a hard-copy form at the Civic Centre or South Perth and Manning Libraries. The page offers drop-in sessions on 18 and 28 November.",
+      "deadline": {
+        "date": "2026-12-01",
+        "time": "16:00",
+        "timezone": null,
+        "precision": "date-time",
+        "timezoneNote": "The official notice publishes a closing time but does not expressly state a timezone."
+      },
+      "eligibility": "Community feedback invited; alternative formats are available on request.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://yoursay.southperth.wa.gov.au/council-plan",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "South Perth",
+      "sources": [
+        {
+          "url": "https://yoursay.southperth.wa.gov.au/council-plan",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "subiaco-markyt-scorecard-2026",
+      "title": "MARKYT Community Scorecard 2026",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-57980",
+      "kind": "council consultation",
+      "body": "City of Subiaco",
+      "status": "open",
+      "purpose": "Share views on local services, facilities, programs and priorities for the community’s future.",
+      "method": "Follow the linked CATALYSE scorecard survey; the project page estimates five to ten minutes with more time available for written answers.",
+      "deadline": {
+        "date": "2026-11-09",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The official notice publishes a closing date without a time or timezone."
+      },
+      "eligibility": "Community members aged fourteen or older are invited.",
+      "disclosure": "The official project page says responses remain confidential under the Privacy Act and Australian Privacy Principles. The study is independently managed by CATALYSE.",
+      "sourceUrl": "https://www.haveyoursay.subiaco.wa.gov.au/scorecard-2026",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Subiaco",
+      "sources": [
+        {
+          "url": "https://www.haveyoursay.subiaco.wa.gov.au/scorecard-2026",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "id": "waroona-hamel-speed-zoning-2026",
+      "title": "Hamel area speed-zoning review",
+      "jurisdiction": "wa",
+      "participationLevel": "council",
+      "councilId": "wa-council-58820",
+      "kind": "council consultation",
+      "body": "Shire of Waroona",
+      "status": "open",
+      "purpose": "Inform whether a consistent speed limit across the Hamel area should be investigated, including traffic conditions and road-safety concerns.",
+      "method": "Send feedback to the published council email address. This feedback precedes any formal speed-zoning application and additional traffic counts.",
+      "deadline": {
+        "date": "2026-11-20",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The official notice publishes a closing date without a time or timezone."
+      },
+      "eligibility": "Residents and road users are invited to comment.",
+      "disclosure": "The reviewed invitation did not confirm whether contributors’ names or responses will be published. The contribution tool’s collection and publication notice still needs checking.",
+      "sourceUrl": "https://www.waroona.wa.gov.au/community/community-engagement/current-consultation.aspx",
+      "checked": "2026-11-07",
+      "verification": "The official invitation text was directly retrieved and reviewed on 7 November 2026; purpose, contribution route and closing date are confirmed. Unconfirmed publication conditions are stated separately.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Waroona",
+      "sources": [
+        {
+          "url": "https://www.waroona.wa.gov.au/community/community-engagement/current-consultation.aspx",
+          "title": "Official council invitation",
+          "access": "Direct official page reviewed",
+          "supports": "Purpose, contribution method, eligibility where stated and published closing date; missing timezone and publication terms remain explicit."
+        }
+      ]
+    },
+    {
+      "jurisdiction": "vic",
+      "participationLevel": "council",
+      "councilId": "vic-lga-350",
+      "body": "Moorabool Shire Council",
+      "status": "open",
+      "checked": "2026-11-07",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Moorabool Shire",
+      "id": "moorabool-fair-access-policy-2026",
+      "title": "Fair Access Policy Review",
+      "kind": "council survey",
+      "purpose": "Update the Fair Access Policy and Action Plan for inclusive community sport and recreation.",
+      "method": "Complete the five-to-seven-minute community survey or quick poll. The project offers an anonymous survey link.",
+      "deadline": {
+        "date": "2026-11-09",
+        "time": "17:00",
+        "timezone": "AEST",
+        "precision": "datetime",
+        "note": "The official invitation explicitly publishes 5pm AEST. Its stated timezone is retained."
+      },
+      "eligibility": "All community members are invited, including people who do not currently participate in sport. Club membership is not required.",
+      "disclosure": "The platform policy says survey responses are not publicly displayed. Screen names and contributions to public mapping, forums or idea tools may be public. Check the chosen tool’s notice.",
+      "sourceUrl": "https://haveyoursay.moorabool.vic.gov.au/fair-access-policy-",
+      "verification": "Official project invitation, survey options, deadline and platform privacy policy read. No form was completed.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.moorabool.vic.gov.au/fair-access-policy-",
+          "title": "Official project invitation",
+          "supports": "Official project invitation, survey options, deadline and platform privacy policy read. No form was completed.",
+          "access": "Official project page read"
+        },
+        {
+          "url": "https://haveyoursay.moorabool.vic.gov.au/privacy-policy",
+          "title": "Portal privacy policy",
+          "supports": "Survey and public mapping publication conditions",
+          "access": "Official privacy page read"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "vic",
+      "participationLevel": "council",
+      "councilId": "vic-lga-350",
+      "body": "Moorabool Shire Council",
+      "status": "open",
+      "checked": "2026-11-07",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Moorabool Shire",
+      "id": "moorabool-maddingley-park-precinct-2026",
+      "title": "Maddingley Park Master Plan and Precinct Plan",
+      "kind": "council consultation",
+      "purpose": "Guide recreation, open space, community facilities and connections around Maddingley Park, Siberia and MARC.",
+      "method": "Complete the survey, use the interactive map or attend a listed community pop-up. A further exhibition of draft plans is announced for 2027.",
+      "deadline": {
+        "date": "2026-12-17",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The detail invitation publishes Thursday 17 December 2026 without a closing hour or timezone."
+      },
+      "eligibility": "Anyone interested, including residents, visitors, clubs, students and people who do not currently use the precinct.",
+      "disclosure": "Survey responses are not publicly displayed under the platform policy. Map comments and screen names may be public. Read the chosen feedback tool’s collection notice.",
+      "sourceUrl": "https://haveyoursay.moorabool.vic.gov.au/maddingley-park-master-plan-review-precinct-development",
+      "verification": "Detail page expressly invites November-December engagement. The index’s September-October label describes preparation, not the contribution deadline.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.moorabool.vic.gov.au/maddingley-park-master-plan-review-precinct-development",
+          "title": "Official project invitation",
+          "supports": "Detail page expressly invites November-December engagement. The index’s September-October label describes preparation, not the contribution deadline.",
+          "access": "Official project page read"
+        },
+        {
+          "url": "https://haveyoursay.moorabool.vic.gov.au/privacy-policy",
+          "title": "Portal privacy policy",
+          "supports": "Survey and public mapping publication conditions",
+          "access": "Official privacy page read"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-42110",
+      "body": "Regional Council of Goyder",
+      "status": "open",
+      "checked": "2026-11-07",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Goyder",
+      "id": "goyder-community-leases-2026",
+      "title": "Eudunda and Booborowie community lease consultation",
+      "kind": "council consultation",
+      "purpose": "Comment on the proposed Eudunda Sporting Club and Booborowie Recreation Ground leases.",
+      "method": "Read the draft leases and send community comment to the email or postal address on the official notice.",
+      "deadline": {
+        "date": "2026-11-18",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "datetime",
+        "note": "The official notice publishes 5pm but does not name a timezone. Confirm the applicable local time with Council."
+      },
+      "eligibility": "Community comment is invited. The notice states no further restriction.",
+      "disclosure": "The invitation does not state whether submissions or names will become public. Check before providing personal information.",
+      "sourceUrl": "https://www.goyder.sa.gov.au/community/latest-news/2026/community-leases-public-consultation",
+      "verification": "Official invitation, draft-lease links, response methods and closing date/time read. Timezone and publication conditions are not stated.",
+      "sources": [
+        {
+          "url": "https://www.goyder.sa.gov.au/community/latest-news/2026/community-leases-public-consultation",
+          "title": "Official project invitation",
+          "supports": "Official invitation, draft-lease links, response methods and closing date/time read. Timezone and publication conditions are not stated.",
+          "access": "Official project page read"
+        }
+      ]
+    },
+    {
+      "jurisdiction": "sa",
+      "participationLevel": "council",
+      "councilId": "sa-council-44210",
+      "body": "Mid Murray Council",
+      "status": "open",
+      "checked": "2026-11-07",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Mid Murray",
+      "id": "mid-murray-waste-recycling-review-2026",
+      "title": "Waste and Recycling Review 2026",
+      "kind": "council survey",
+      "purpose": "Shape future roadside recycling, possible green waste services and staged delivery across township, rural and shack communities.",
+      "method": "Residents can provide feedback through the online survey, letter to the Chief Executive Officer or email route on the official project page. Assistance and alternative formats are offered.",
+      "deadline": {
+        "date": "2026-11-19",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "datetime",
+        "note": "The official invitation publishes 5pm but does not name a timezone. Confirm the applicable local time with Council."
+      },
+      "eligibility": "Residents are invited to take part. Alternative formats and help can be requested from Council.",
+      "disclosure": "Council says it will summarise feedback and will not publish respondents' personal details in reporting. The portal's public-posting terms may apply to other tools.",
+      "sourceUrl": "https://engagement.mid-murray.sa.gov.au/waste-and-recycling-review-2026",
+      "verification": "Official invitation, response methods, closing date/time and project reporting privacy statement read. The source does not name a timezone.",
+      "sources": [
+        {
+          "url": "https://engagement.mid-murray.sa.gov.au/waste-and-recycling-review-2026",
+          "title": "Official project invitation",
+          "supports": "Official invitation, response methods, closing date/time and project reporting privacy statement read. The source does not name a timezone.",
+          "access": "Official project page read"
         }
       ]
     }

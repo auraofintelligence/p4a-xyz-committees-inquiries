@@ -1,5 +1,6 @@
 """Separate public-body directories, with participation kept on its own path."""
 from council_pathways import render as render_pathways,coverage as pathway_coverage,pathway_count
+import re
 
 def chooser(s,page,title,description,items):
  body=s.hero(title,description,cls='directory-hero')
@@ -56,13 +57,13 @@ def searchable_list(s,page,label,rows,kind):
    audit=s.COUNCIL_PATHWAYS.get(row['id']);route_count=pathway_count(s,row)
    count=len([r for r in records if r['status'] in ('open','upcoming','ongoing')])
    status='Participation rules checked '+s.pretty_date(review['checked']) if review else 'Participation sources not yet checked'
-   if audit and not review:status=str(route_count)+' official participation pathways found' if route_count else 'Sources checked; participation route needs follow-up'
-   if audit and not review and not route_count and audit['pathways']:status=str(len(audit['pathways']))+' uncertain participation links'
+   if audit and not review:status=str(route_count)+' official participation pathway'+('s' if route_count!=1 else '')+' found' if route_count else 'Sources checked; participation route needs follow-up'
+   if audit and not review and not route_count and audit['pathways']:status=str(len(audit['pathways']))+' uncertain participation link'+('s' if len(audit['pathways'])!=1 else '')
    if row['id']=='qld-council-6250':status='Minjerribah and Redland participation path'
    type_label={'council':'Council','special-local-body':'Special local body','unincorporated-area':'Unincorporated area'}[row['kind']]
    note=type_label+' · '+status
    search=row['name']+' '+type_label+' '+(' '.join(m['title']+' '+m['type']+' '+m['method'] for m in review['mechanisms']) if review else '')
-   if audit:search+=' '+' '.join(p['title']+' '+p['type'] for p in audit['pathways'])
+   if audit:search+=' '+' '.join(p['title']+' '+p['type']+' '+p.get('method','') for p in audit['pathways'])
   else:
    url=s.committee_route(row);records=s.committee_records(row)
    count=len([r for r in records if r['status'] in ('open','upcoming','ongoing')])
@@ -74,7 +75,11 @@ def searchable_list(s,page,label,rows,kind):
   action=str(count)+' participation record'+('s' if count!=1 else '') if count else str(uncertain)+' participation record'+('s' if uncertain!=1 else '')+' to confirm' if uncertain else str(len(review['mechanisms']))+' checked participation procedures' if kind=='council' and review else 'Participation not yet checked' if kind=='council' else 'No current invitation recorded'
   if kind=='council' and audit and not count and not uncertain and not review:action='Official pathways available' if route_count else 'Source follow-up needed'
   if kind=='council':count+=route_count+(len(review['mechanisms']) if review else 0)
-  items.append('<li class="body-directory-row" data-directory-row data-name="'+s.e(row['name'].lower())+'" data-search="'+s.e(search.lower())+'" data-participation="'+str(count)+'" data-priority="'+str(priority)+'"><div><h2>'+s.link(page,url,row['name'])+'</h2><p>'+s.e(note)+'</p></div><div><span class="directory-status">'+s.e(action)+'</span>'+s.link(page,url,'Open '+('local area' if kind=='council' and row['kind']!='council' else kind),'text-link')+'</div></li>')
+  if kind=='council':
+   for term in ('petition','consultation','meeting','question','deputation','submission'):
+    if re.search(r'\b'+term+r's?\b',search,re.I):search+=' '+term+' '+term+'s'
+  search=' '.join(dict.fromkeys(re.findall(r"[\w'-]+",search.lower())))
+  items.append('<li class="body-directory-row" data-directory-row data-name="'+s.e(row['name'].lower())+'" data-search="'+s.e(search)+'" data-participation="'+str(count)+'" data-priority="'+str(priority)+'"><div><h2>'+s.link(page,url,row['name'])+'</h2><p>'+s.e(note)+'</p></div><div><span class="directory-status">'+s.e(action)+'</span>'+s.link(page,url,'Open '+('local area' if kind=='council' and row['kind']!='council' else kind),'text-link')+'</div></li>')
  return controls+'<ul class="body-directory">'+''.join(items)+'</ul><p data-directory-empty class="notice" hidden>No matching '+s.e(label)+'. Try fewer words.</p>'
 
 def build_directories(s):
@@ -120,7 +125,8 @@ def build_directories(s):
   elif council['id'] not in s.COUNCIL_PATHWAYS:
    body+='<p class="notice"><strong>Participation sources not yet checked.</strong> This council or local area is included so you can find it. Current consultations, petition rules, public questions and speaking procedures have not been verified here. This does not mean no opportunities exist.</p>'
   body+=render_pathways(s,page,council)
-  body+='<div class="button-row">'+s.link(page,council['officialUrl'],'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Directory source checked '+s.pretty_date(council['directoryChecked'])+'. Importing its name and links does not refresh that source date.</p>'
+  official=s.COUNCIL_PATHWAYS.get(council['id'],{}).get('sourceUrl') or council['officialUrl']
+  body+='<div class="button-row">'+s.link(page,official,'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Identity directory checked '+s.pretty_date(council['directoryChecked'])+'. Participation sources retain the review dates shown above.</p>'
   if records:
    body+=s.archive_link(page,route,council['name'])
    closed=[r for r in records if r['status']=='closed'];archive='archive/'+route+'index.html'

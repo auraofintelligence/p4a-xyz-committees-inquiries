@@ -1,6 +1,15 @@
 # Participation source review
 
-## 7 November council pathways
+## 7 November national council pathway pass
+Final review removed five unrelated or closed route leads (rates, address maintenance, historical petition news and a closed policy consultation). Two governance-rule project sources are explicitly marked with unverified current stages, separate from meeting calendars. Council route search matches singular and plural participation terms.
+
+All 550 remaining local areas were searched individually, while Redland and the existing ACT explanation were preserved. The final audit contains 949 pathway links: 738 directly read official pages, 12 official links whose destination details remain limited, and 199 explicitly uncertain indexed sources. Every ordinary council has a located route or an existing reviewed procedure except Yarrabah, whose source-access gap and official contact-directory fallback remain explicit. New source resolutions distinguish current Southern Limestone Coast, Roper Gulf and other changed websites from inherited identity links.
+
+Seventeen new dated council invitations were verified across Queensland, Victoria, WA, SA and NT. Unknown timezones stay null; Moorabool’s expressly published AEST is retained, and Melville’s published midnight wording is preserved without inventing a numeric hour. Private survey responses, public map posts and unreviewed disclosure conditions remain distinct. No form was submitted and no person contacted. Source verification distinguishes direct reads, official links and indexed-only leads; HTTP success pages containing access challenges were excluded. Competition links were not counted as petition mechanisms.
+
+This is completed pathway discovery within available official sources, not a complete survey of every local project, every condition or every council committee. Raw downloads and research excerpts remain outside the repository. Existing Redland and parliamentary participation records are unchanged.
+
+## 7 November early Queensland council pathways
 
 Following the council-only scope clarification, Queensland’s 77 local areas outside Redland were individually searched. The early publication includes 82 directly reviewed routes across 54 councils and 20 indexed-only routes with explicit uncertainty. Access and discovery gaps remain visible. Ipswich, Moreton Bay and Sunshine Coast have additional procedure reviews, and four Sunshine Coast survey invitations have date-only November deadlines and directly reviewed collection notices. Existing Redland data and all earlier participation records remain unchanged. State and federal parliamentary research was not reopened.
 
