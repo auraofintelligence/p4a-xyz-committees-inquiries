@@ -17,7 +17,6 @@ REPO = 'https://github.com/auraofintelligence/p4a-xyz-committees-inquiries'
 P4A = 'https://p4a.xyz/'
 NAMES = {'qld':'Queensland','nsw':'New South Wales','vic':'Victoria','wa':'Western Australia','sa':'South Australia','tas':'Tasmania','act':'ACT','nt':'Northern Territory','federal':'Commonwealth'}
 STATUS = {'open':'Open','upcoming':'Upcoming','closed':'Closed','unverified':'Uncertain','ongoing':'Standing route'}
-NAV = [('homelands/','Minjerribah & Redland'),('queensland/','Queensland'),('australia/','Australia'),('take-part/','How to take part')]
 DATA = json.loads((ROOT/'data/registry.json').read_text(encoding='utf-8-sig'))
 RECORDS = DATA['records']
 CHECKED = DATA['checked']
@@ -26,6 +25,7 @@ COUNCILS = COUNCIL_DATA['councils']
 COUNCIL_BY_ID = {c['id']:c for c in COUNCILS}
 COMMITTEE_DATA = json.loads((ROOT/'data/committees.json').read_text(encoding='utf-8')) if (ROOT/'data/committees.json').exists() else {'committees':[], 'directories':[]}
 COMMITTEES = COMMITTEE_DATA['committees']
+REDLAND_COMMITTEES=json.loads((ROOT/'data/redland-committees.json').read_text(encoding='utf-8'))
 TOPICS = {'housing':'Housing & planning','health':'Health & care','environment':'Environment & animals','economy':'Work, costs & economy','rights':'Rights & justice','democracy':'Elections & democracy','technology':'Technology & data','infrastructure':'Transport & infrastructure','community':'Community & culture','governance':'Government & accountability'}
 PAGES = []
 ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ('assets/participation.css','assets/participation.js','assets/site-nav.js')}
@@ -77,13 +77,13 @@ def ordered(records):
 
 def jurisdiction_route(r):
     if r.get('councilId'):return council_route(COUNCIL_BY_ID[r['councilId']])
-    if r['participationLevel'] in ('council','community'):return 'homelands/'
+    if r['participationLevel'] in ('council','community'):return 'councils/qld/redland/'
     if r['jurisdiction']=='qld':return 'queensland/'
     if r['jurisdiction']=='federal':return 'australia/'
     return 'states/'+r['jurisdiction']+'/'
 
 def council_route(council):
-    return 'homelands/' if council['id']=='qld-council-6250' else 'councils/'+council['jurisdiction']+'/'+council['slug']+'/'
+    return 'councils/'+council['jurisdiction']+'/'+council['slug']+'/'
 
 def council_records(ident):
     return [r for r in RECORDS if r.get('councilId')==ident or (ident=='qld-council-6250' and 'homelands' in r.get('groups',[]))]
@@ -113,10 +113,36 @@ def committee_records(committee):
         if r.get('committeeId')==committee['id'] or source_key(r['sourceUrl']) in sources or same_qld or same_path:result.append(r)
     return result
 
-def level_tabs(page,j,selected='inquiries'):
-    route='australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/'
-    count=sum(c['jurisdiction']==j for c in COMMITTEES)
-    return '<nav class="level-tabs" aria-label="Browse this parliament">'+link(page,route,'Inquiries & participation','level-tab'+(' is-current' if selected=='inquiries' else ''))+link(page,'committees/'+j+'/','All committees ('+str(count)+')','level-tab'+(' is-current' if selected=='committees' else ''))+'</nav>'
+def browse_route(view,j=None):
+    if not j:return view+'/'
+    if view=='committees':return 'committees/'+j+'/'
+    return 'councils/qld/redland/' if j=='redland' else 'australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/'
+
+def navigation_context(page):
+    if page=='archive/homelands/index.html':return 'inquiries','redland'
+    path=page.removeprefix('archive/')
+    view='committees' if path.startswith('committees/') else 'inquiries'
+    if path.startswith('opportunities/'):
+        record=next(r for r in RECORDS if r['id']==path.split('/')[1])
+        if record['participationLevel'] in ('state','federal'):return view,record['jurisdiction']
+        return view,'redland' if 'homelands' in record.get('groups',[]) else None
+    if path.startswith('councils/qld/redland/'):return view,'redland'
+    if path.startswith('australia/'):return view,'federal'
+    if path.startswith('queensland/'):return view,'qld'
+    parts=path.split('/')
+    if len(parts)>2 and parts[0] in ('committees','states') and parts[1] in (*NAMES,'redland'):return view,parts[1]
+    return view,None
+
+def section_navigation(page):
+    view,j=navigation_context(page)
+    def choice(target,label,current=False,cls=''):
+        return '<a href="'+e(rel(page,target))+'"'+(' class="'+cls+'"' if cls else '')+(' aria-current="location"' if current else '')+'>'+e(label)+'</a>'
+    active=page.startswith(('inquiries/','committees/','states/','queensland/','australia/','opportunities/','archive/','councils/qld/redland/'))
+    task_links=''.join(choice(browse_route(key,j),label,active and key==view,'committee-browse-link') for key,label in [('inquiries','Inquiries & participation'),('committees','All committees')])
+    names={'redland':'Redland City Council','federal':'Australian Parliament',**{k:v+' '+('Assembly' if k in ('act','nt') else 'Parliament') for k,v in NAMES.items() if k!='federal'}}
+    choices=''.join(choice(browse_route(view,key),names[key],j==key) for key in ['redland','federal','qld','nsw','vic','wa','sa','tas','act','nt'])
+    selected=names[j] if j else 'Choose a parliament or Redland'
+    return '<nav class="participation-nav" aria-label="Committees and inquiries" data-browse="'+view+'" data-parliament="'+(j or '')+'"><div class="participation-nav-heading"><div class="participation-nav-title">'+link(page,'index.html','Committees & inquiries')+'</div><div class="participation-nav-help">'+choice('homelands/','Homelands',page=='homelands/index.html')+choice('take-part/','Participation help',page=='take-part/index.html')+'</div></div><div class="committee-navigation-controls"><div class="committee-browse"><span class="committee-nav-label">Browse</span><div>'+task_links+'</div></div><details class="participation-parliament-menu"><summary><span class="committee-nav-label">Parliament / council</span><span class="committee-current-scope">'+e(selected)+' <span aria-hidden="true">⌄</span></span></summary><div>'+choices+'</div></details></div></nav>'
 
 def topic_keys(r):
     if r.get('topics'):return r['topics']
@@ -174,7 +200,7 @@ def hero(title, description, eyebrow='P4A · committees & participation', side='
 def chrome(page, title, body, description):
     doors=[('pages/maps.html','Maps'),('pages/architecture.html','System'),('pages/twinkle.html','Twinkle'),('pages/states.html','States'),('pages/starter-field-kit.html','Start local'),('pages/deployment-gear.html','Gear')]
     nav=''.join(link(page,P4A+p,t) for p,t in doors)
-    section_nav='<nav class="participation-nav" aria-label="Committees and inquiries"><div class="participation-nav-title">'+link(page,'index.html','Committees & inquiries')+'</div><div class="participation-nav-links">'+link(page,'homelands/','Homelands')+link(page,'councils/','Councils')+link(page,'committees/','All committees')+link(page,'queensland/','Queensland')+link(page,'australia/','Australia')+'<details class="participation-place-menu"><summary>States & territories <span aria-hidden="true">⌄</span></summary><div>'+''.join(link(page,'queensland/' if j=='qld' else 'states/'+j+'/',NAMES[j]) for j in NAMES if j!='federal')+'</div></details>'+link(page,'take-part/','Taking part')+'</div></nav>'
+    section_nav=section_navigation(page)
     map_assets=f'<link rel="stylesheet" href="{e(rel(page,"assets/site-map.css"))}"><script src="{e(rel(page,"assets/site-map.js"))}" defer></script>' if page=='pages/site-map.html' else ''
     return f'''<!doctype html>
 <html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#3f0f75"><title>{e(title)} | P4A</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{e(BASE+('' if page=='index.html' else page.removesuffix('index.html')))}"><link rel="icon" href="{e(rel(page,'assets/favicon.svg'))}"><link rel="stylesheet" href="{e(rel(page,'styles.css'))}"><link rel="stylesheet" href="{asset(page,'assets/participation.css')}">{map_assets}<script src="{asset(page,'assets/site-nav.js')}" defer></script><script src="{asset(page,'assets/participation.js')}" defer></script></head>
@@ -221,6 +247,7 @@ def build():
     (OUT/'data').mkdir(exist_ok=True)
     shutil.copyfile(ROOT/'data/registry.json',OUT/'data/registry.json')
     shutil.copyfile(ROOT/'data/councils.json',OUT/'data/councils.json')
+    shutil.copyfile(ROOT/'data/redland-committees.json',OUT/'data/redland-committees.json')
     if (ROOT/'data/committees.json').exists():shutil.copyfile(ROOT/'data/committees.json',OUT/'data/committees.json')
     local=[r for r in RECORDS if 'homelands' in r.get('groups',[])]
     available=[r for r in RECORDS if r['status'] in ('open','upcoming')]
@@ -230,27 +257,27 @@ def build():
     body+='<p class="prose">To map the rules and public responsibilities that touch your own life, start with '+link(page,'https://auraofintelligence.github.io/australian-law-2012-lukes-relevance/pages/your-relevance.html','Your Relevance in Luke’s law workbench')+'.</p>'
     body+='<div class="button-row">'+link(page,'homelands/','Begin with Minjerribah & Redland','button')+'</div>'
     body+=f'<div class="status-strip"><span>Checked {pretty_date(CHECKED)}</span><span>'+link(page,'sources/','Coverage, gaps & verification')+'</span></div>'
-    routes=[('homelands/','01 · Local','Minjerribah & Redland','Island community participation and Redland City Council consultations, petitions and meeting rules.'),('queensland/','02 · State','Queensland','Queensland Parliament and state-government opportunities. Search within this state level.'),('australia/','03 · Commonwealth','Australia','Federal Parliament and Commonwealth opportunities. Search within the national level.')]
+    routes=[('homelands/','01 · Homelands','Committees affecting home','Committees and inquiries for Redland City, Queensland and Australia, each in its own view.'),('queensland/','02 · State','Queensland','Queensland Parliament and state-government opportunities. Search within this state level.'),('australia/','03 · Commonwealth','Australia','Federal Parliament and Commonwealth opportunities. Search within the national level.')]
     routes.append(('councils/','04 · Councils','Find another council','Choose a state, then your council. Checked participation rules and current invitations stay with that council.'))
-    body+=section('Choose the body you want to influence','Each level has its own list and search. P4A topic matches are highlighted within the selected level. Use States & territories in the navigation for another jurisdiction.','<div class="route-grid">'+''.join('<a class="route-card feature-panel" href="'+e(rel(page,p))+'"><p class="eyebrow">'+e(t)+'</p><h3>'+e(title)+'</h3><p>'+e(d)+'</p></a>' for p,t,title,d in routes)+'</div>')
+    body+=section('Choose the body you want to influence','Each level has its own list and search. P4A topic matches are highlighted within the selected level. Use Inquiries & participation and choose a parliament for another jurisdiction.','<div class="route-grid">'+''.join('<a class="route-card feature-panel" href="'+e(rel(page,p))+'"><p class="eyebrow">'+e(t)+'</p><h3>'+e(title)+'</h3><p>'+e(d)+'</p></a>' for p,t,title,d in routes)+'</div>')
     body+='<p>'+link(page,'committees/','Browse every reviewed committee directory','button button-secondary')+'</p>'
     write(page,'Committees, inquiries & participation',body,'Open and upcoming public participation, beginning with Minjerribah and Redland City, with meaningful P4A connections highlighted.')
 
-    page='homelands/index.html'
-    body=hero('Begin on Minjerribah.','Start with the decisions and community work that touch island life, alongside Redland City’s actual consultation, petition and meeting processes.','The homelands · Minjerribah & Redland City')
+    page='councils/qld/redland/index.html'
+    body=hero('Redland City participation.','Start with the decisions and community work that touch island life, alongside Redland City’s actual consultation, petition and meeting processes.','The homelands · Minjerribah & Redland City')
     body+='<div class="prose"><p>Minjerribah / North Stradbroke Island is on Quandamooka Country. Country, community governance, a council boundary and a parliamentary electorate have distinct roles. The island’s participation routes include community-led work as well as government decisions about land, water, services and access.</p><p>Follow '+link(page,'https://qyac.net.au/','Quandamooka Yoolooburrabee Aboriginal Corporation')+' for its own governance and community notices. A general council consultation does not convey Traditional Owners’ consent. Nation or member-specific processes keep their own eligibility.</p></div>'
     body+=section('Open invitations and upcoming community participation','Each card explains whether it is an inquiry, consultation, community expression of interest or event.',cards(page,[r for r in local if r['status'] in ('open','upcoming')]))
     body+=section('Use the council and community routes','Public addresses require approval. Petitions have their own rules. Watching a livestream is observation; no public remote-speaking entitlement has been verified.',cards(page,[r for r in local if r['status']=='ongoing']))
     uncertain_local=[r for r in local if r['status']=='unverified']
     if uncertain_local:body+=section('Uncertain invitations','These records remain visible with their source limitations.',cards(page,uncertain_local))
-    body+=archive_link(page,'homelands/','Minjerribah & Redland')
+    body+=archive_link(page,'councils/qld/redland/','Minjerribah & Redland')
     body+=section('The connected P4A place journeys','Return to existing context and keep the participation record alongside the place.','<nav class="button-row" aria-label="P4A places">'+link(page,P4A+'pages/minjerribah.html','Minjerribah','button button-secondary')+link(page,P4A+'states/qld/councils/redland/index.html','Redland City','button button-secondary')+link(page,P4A+'states/qld/index.html','Queensland','button button-secondary')+link(page,P4A+'states/qld/places/federal/index.html','Federal representation','button button-secondary')+'</nav>')
-    write(page,'Minjerribah & Redland City',body)
+    write(page,'Redland City participation',body)
 
     for j,route in [('qld','queensland'),('federal','australia')]:
         page=route+'/index.html';rs=[r for r in RECORDS if r['jurisdiction']==j and r['participationLevel'] in ('state','federal') and r['status']!='closed']
         description='Public submission calls, relevant state consultations and clearly labelled standing routes.' if j=='qld' else 'Senate, House and joint committee invitations, alongside relevant federal consultations.'
-        body=hero('Queensland participation.' if j=='qld' else 'Have a say nationally.',description,cls='directory-hero')+level_tabs(page,j)
+        body=hero('Queensland participation.' if j=='qld' else 'Have a say nationally.',description,cls='directory-hero')
         body+='<div class="notice">Every record for this level is shown by default. Status and uncertainty tags explain what is known. '+link(page,'sources/','Review source coverage and gaps')+'.</div>'
         body+=filters(page,rs,scope_label='Australia' if j=='federal' else NAMES[j])
         body+=archive_link(page,route+'/', 'Australian' if j=='federal' else NAMES[j])
@@ -260,7 +287,7 @@ def build():
     for j,name in NAMES.items():
         if j in ('qld','federal'): continue
         page='states/'+j+'/index.html'; rs=[r for r in RECORDS if r['jurisdiction']==j and r['participationLevel']=='state' and r['status']!='closed']
-        body=hero(name+'.','Find a way to contribute, or browse this parliament’s complete reviewed committee directory.',cls='directory-hero')+level_tabs(page,j)
+        body=hero(name+'.','Find a way to contribute, or browse this parliament’s complete reviewed committee directory.',cls='directory-hero')
         rows=[c for c in DATA['coverage'] if c['jurisdiction']==j]
         body+=filters(page,rs,scope_label=name) if rs else '<p class="notice">No open or upcoming call has been verified in this review. This does not establish that no participation opportunity exists. Use the official source below or the committee directory.</p>'
         body+='<details class="participation-method"><summary>Source coverage for '+e(name)+'</summary>'+coverage_table(page,rows)+'</details>'
@@ -268,7 +295,7 @@ def build():
         body+='<p>'+link(page,P4A+'states/'+j+'/index.html','P4A '+name+' portal','text-link')+' · '+link(page,P4A+'states/'+j+'/places/state/index.html','State / territory representation','text-link')+' · '+link(page,P4A+'states/'+j+'/places/federal/index.html','Federal representation','text-link')+'</p>'
         write(page,name+' participation',body)
 
-    scopes=[('homelands/','Minjerribah & Redland')]+[('australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/', 'Australian' if j=='federal' else name) for j,name in NAMES.items()]
+    scopes=[('councils/qld/redland/','Minjerribah & Redland')]+[('australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/', 'Australian' if j=='federal' else name) for j,name in NAMES.items()]
     for route,label in scopes:
         page=archive_route(route)+'index.html'
         archived=[r for r in RECORDS if jurisdiction_route(r)==route and r['status']=='closed']
@@ -278,6 +305,9 @@ def build():
         body+=filters(page,archived,scope_label=label+' archive') if archived else '<p class="notice">There are no closed records in this jurisdiction’s archive yet.</p>'
         body+='<p class="prose">A closed submission round can be followed by hearings, a report or another consultation. Use each original record to follow verified developments. Moving a record here does not refresh its source date or assert an outcome.</p>'
         write(page,label+' archive',body)
+
+    page='archive/homelands/index.html'
+    write(page,'Redland archive',hero('Redland archive.','Closed local participation rounds remain with Redland City and Minjerribah.',cls='archive-hero')+'<p>'+link(page,'archive/councils/qld/redland/','Open the Redland and Minjerribah archive','button')+'</p>')
 
     for r in RECORDS:
         page='opportunities/'+r['id']+'/index.html'
@@ -317,11 +347,11 @@ def build():
     build_directories(SimpleNamespace(**globals()))
     page='pages/site-map.html'
     intro='<section class="human-map-intro"><p class="eyebrow">P4A · Find your way</p><h1>Where would you like to go?</h1><p class="human-lead">Choose a public body, then search its participation opportunities. The directory below keeps each jurisdiction separate.</p><p class="human-map-date">Navigation reviewed '+pretty_date(CHECKED)+'. Source facts keep their own check dates.</p><div class="human-start-grid"><article><h2>Choose a jurisdiction</h2><p>Start with the public body whose decisions you want to influence.</p>'+link(page,'index.html','Choose your starting place')+'</article><article><h2>Follow the local path</h2><p>Minjerribah community and Redland City Council participation.</p>'+link(page,'homelands/','Open the local path')+'</article><article><h2>Keep exploring P4A</h2><p>The main site map connects the wider workbench.</p>'+link(page,P4A+'pages/site-map.html','Every P4A room')+'</article></div><div class="human-filter" hidden data-site-filter><label for="site-map-search">Find a page or topic</label><div><input id="site-map-search" type="search" placeholder="Try Redland, housing, health…" autocomplete="off"><button type="button" data-site-clear>Clear</button></div><p role="status" aria-live="polite" data-site-search-status></p></div></section>'
-    groups=[('start','Start here',[('index.html','Committees and inquiries'),('take-part/index.html','How to take part'),('sources/index.html','Sources and coverage')])]
-    for key,label,route in [('local','Minjerribah & Redland City','homelands/')]+[(j,'Australia · Commonwealth' if j=='federal' else name,'australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/') for j,name in NAMES.items()]:
+    groups=[('start','Start here',[('index.html','Committees and inquiries'),('homelands/index.html','Homelands committees and inquiries'),('inquiries/index.html','Choose a parliament for inquiries'),('committees/index.html','Choose a parliament for committees'),('take-part/index.html','How to take part'),('sources/index.html','Sources and coverage')])]
+    for key,label,route in [('local','Minjerribah & Redland City','councils/qld/redland/')]+[(j,'Australia · Commonwealth' if j=='federal' else name,'australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/') for j,name in NAMES.items()]:
         rs=[r for r in RECORDS if ('homelands' in r.get('groups',[]) if key=='local' else r['jurisdiction']==key and r['participationLevel'] in ('state','federal'))]
         groups.append((key,label,[(route+'index.html',label+' participation'),(archive_route(route)+'index.html',label+' archive')]+[('opportunities/'+r['id']+'/index.html',r['title']) for r in ordered(rs)]))
-    groups.append(('body-choices','Find a public body',[('councils/index.html','Council chooser'),('committees/index.html','Committee chooser')]))
+    groups.append(('body-choices','Find a public body',[('councils/index.html','Council chooser'),('committees/index.html','Committee chooser'),('committees/redland/index.html','Redland committees')]))
     for j,name in NAMES.items():
         if j!='federal':
             council_items=[('councils/'+j+'/index.html',name+' council directory')]

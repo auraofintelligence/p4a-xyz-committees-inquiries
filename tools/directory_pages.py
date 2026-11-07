@@ -5,6 +5,46 @@ def chooser(s,page,title,description,items):
  body+='<div class="route-grid">'+''.join('<a class="route-card feature-panel" href="'+s.e(s.rel(page,url))+'"><h2>'+s.e(name)+'</h2><p>'+s.e(note)+'</p></a>' for url,name,note in items)+'</div>'
  s.write(page,title,body)
 
+def parliament_chooser(s,view):
+ page=view+'/index.html'
+ title='Find an inquiry.' if view=='inquiries' else 'Find a committee.'
+ description='Choose one parliament to see its inquiries, submissions and other participation routes.' if view=='inquiries' else 'Choose one parliament to browse its committee directory.'
+ body=s.hero(title,description,cls='directory-hero')
+ body+='<div class="parliament-grid">'
+ for j in ['federal','qld','nsw','vic','wa','sa','tas','act','nt']:
+  name='Australian' if j=='federal' else s.NAMES[j]
+  count=sum(c['jurisdiction']==j for c in s.COMMITTEES) if view=='committees' else sum(r['jurisdiction']==j and r['participationLevel'] in ('state','federal') and r['status']!='closed' for r in s.RECORDS)
+  note=str(count)+(' committee directory entries' if view=='committees' else ' current participation records')
+  if j=='vic' and view=='committees':note='Parliament has expired; official past committees linked'
+  body+='<a class="parliament-choice'+(' is-federal' if j=='federal' else '')+'" href="'+s.e(s.rel(page,s.browse_route(view,j)))+'"><h2>'+s.e(name)+'</h2><p>'+s.e(note)+'</p><span aria-hidden="true">›</span></a>'
+ body+='</div><p class="prose">'+('A committee listing does not mean submissions are open.' if view=='committees' else 'Every current record is visible in its chosen jurisdiction, including clearly tagged uncertainty.')+' '+s.link(page,'homelands/','For Minjerribah: Redland, Queensland and Australian committees and inquiries')+'.</p>'
+ s.write(page,title,body)
+
+def homelands(s):
+ page='homelands/index.html'
+ body=s.hero('Committees affecting home.','P4A’s founder and designer lives on North Stradbroke Island / Minjerribah. These are the local, state and Australian bodies whose committees and inquiries can bind or influence his life.',cls='directory-hero')
+ body+='<p class="prose">Choose one level below. Its committees and participation opportunities stay in their own view.</p><div class="homelands-path">'
+ for j,label,note in [('redland','Redland City','Local council committees and participation affecting Minjerribah and the wider Redland area.'),('qld','Queensland','Queensland Parliament’s committees, inquiries and state participation routes.'),('federal','Australian','Federal parliamentary committees, inquiries and public submissions.')]:
+  body+='<article class="homelands-body feature-panel"><h2>'+s.e(label)+'</h2><p>'+s.e(note)+'</p><div class="button-row">'+s.link(page,s.browse_route('inquiries',j),'Inquiries & participation','button button-secondary')+s.link(page,s.browse_route('committees',j),'All committees','button button-secondary')+'</div></article>'
+ body+='</div><p class="prose">For other Australian jurisdictions, use the parliament selector in this committees and inquiries menu.</p>'
+ s.write(page,'Homelands committees and inquiries',body)
+
+def redland_committees(s):
+ page='committees/redland/index.html';data=s.REDLAND_COMMITTEES
+ body=s.hero('Redland committees.','Council committees and working-group listings relevant to Minjerribah and Redland City. Listing, current operation and a public invitation are separate facts.',cls='directory-hero')
+ body+='<p class="notice">'+s.e(data['note'])+'</p><div class="homelands-path">'
+ for entry in data['entries']:
+  if 'not a committee' in entry['kind']:continue
+  body+='<article class="homelands-body feature-panel"><p class="eyebrow">'+s.e(entry['status'])+'</p><h2>'+s.e(entry['name'])+'</h2><p>'+s.e(entry['purpose'])+'</p><p><strong>Participation:</strong> '+s.e(entry['participation'])+'</p><p><strong>Uncertainty:</strong> '+s.e(entry['uncertainty'])+'</p><details class="participation-method"><summary>Sources and verification</summary><p>'+s.e(entry['verification'])+'</p><p>'+s.link(page,entry['sourceUrl'],'Official committee source')+'</p>'
+  for source in entry.get('relatedSources',[]):body+='<p>'+s.link(page,source['url'],source['label'])+'<br>'+s.e(source['note'])+'</p>'
+  body+='<p>Checked '+s.pretty_date(entry['checked'])+'.</p></details></article>'
+ body+='</div><h2>Related arrangements</h2>'
+ for entry in data['entries']:
+  if 'not a committee' not in entry['kind']:continue
+  body+='<details class="participation-method"><summary>'+s.e(entry['name'])+'</summary><p><strong>'+s.e(entry['kind'])+'.</strong> '+s.e(entry['purpose'])+'</p><p>'+s.e(entry['verification'])+' '+s.e(entry['uncertainty'])+'</p><p>'+s.link(page,entry['sourceUrl'],'Official agreement listing')+'</p></details>'
+ body+='<div class="prose"><h2>Council meeting participation</h2><p>General Meetings have their own public-address, deputation and petition rules. They are not committee inquiry hearings. '+s.link(page,'councils/qld/redland/','See Redland participation and current local invitations')+'.</p></div><details class="participation-method"><summary>Coverage and access limits</summary><ul>'+''.join('<li>'+s.e(gap)+'</li>' for gap in data['gaps'])+'</ul><p>'+s.link(page,data['sourceUrl'],'Official committees and working groups directory')+'</p></details>'
+ s.write(page,'Redland committees',body)
+
 def searchable_list(s,page,label,rows,kind):
  total=len(rows)
  controls='<form class="directory-search" id="directory-search" data-directory-search hidden><label>Find '+s.e(label)+'<input type="search" name="search" placeholder="Type a name, subject or participation route" autocomplete="off"></label><label>Sort<select name="sort"><option value="name">A to Z</option><option value="participation">Participation recorded first</option><option value="priority">P4A matched invitations first</option></select></label><button type="reset">Clear</button></form><p data-directory-count aria-live="polite">'+str(total)+' '+s.e(label)+'.</p>'
@@ -31,6 +71,10 @@ def searchable_list(s,page,label,rows,kind):
  return controls+'<ul class="body-directory">'+''.join(items)+'</ul><p data-directory-empty class="notice" hidden>No matching '+s.e(label)+'. Try fewer words.</p>'
 
 def build_directories(s):
+ homelands(s)
+ redland_committees(s)
+ parliament_chooser(s,'inquiries')
+ parliament_chooser(s,'committees')
  jurisdictions=[j for j in s.NAMES if j!='federal']
  items=[]
  for j in jurisdictions:
@@ -75,14 +119,9 @@ def build_directories(s):
    archive_body+=s.filters(archive,closed,scope_label=council['name']) if closed else '<p class="notice">There are no closed records in this council’s archive yet.</p>'
    s.write(archive,council['name']+' archive',archive_body)
   s.write(page,council['name']+' participation',body)
- choices=[]
- for j,name in s.NAMES.items():
-  count=sum(c['jurisdiction']==j for c in s.COMMITTEES)
-  choices.append(('committees/'+j+'/', 'Australia' if j=='federal' else name,str(count)+' committee entries in the reviewed directory.'))
- chooser(s,'committees/index.html','Find a committee.','Choose a parliament first. Committee membership in a directory does not mean it is accepting public submissions.',choices)
  for j,name in s.NAMES.items():
   page='committees/'+j+'/index.html';committees=[c for c in s.COMMITTEES if c['jurisdiction']==j]
-  body=s.hero(('Australian' if j=='federal' else name)+' committees.','Browse all committee entries from this parliament’s reviewed official directory, separately from invitations to participate.',cls='directory-hero')+s.level_tabs(page,j,'committees')
+  body=s.hero(('Australian' if j=='federal' else name)+' committees.','Browse all committee entries from this parliament’s reviewed official directory, separately from invitations to participate.',cls='directory-hero')
   audit=next((a for a in s.COMMITTEE_DATA.get('directories',[]) if a['jurisdiction']==j),{})
   body+='<p class="notice">'+s.e(audit.get('note','Directory review is still incomplete; no complete coverage claim is made.'))
   if audit.get('sourceUrl'):body+=' '+s.link(page,audit['sourceUrl'],'Official committee directory')
@@ -92,7 +131,7 @@ def build_directories(s):
   s.write(page,name+' committees',body)
  for committee in s.COMMITTEES:
   page=s.committee_route(committee)+'index.html';j=committee['jurisdiction'];records=s.committee_records(committee)
-  body=s.hero(committee['name']+'.',committee.get('purpose') or 'A committee entry in this parliament’s official directory. Use the official source for its remit and powers.',s.NAMES[j]+' · committee',cls='directory-hero')+s.level_tabs(page,j,'committees')
+  body=s.hero(committee['name']+'.',committee.get('purpose') or 'A committee entry in this parliament’s official directory. Use the official source for its remit and powers.',s.NAMES[j]+' · committee',cls='directory-hero')
   body+='<dl class="fact-list">'+''.join('<dt>'+s.e(label)+'</dt><dd>'+s.e(value)+'</dd>' for label,value in [('House / administering house',committee.get('house') or committee.get('administeringHouse') or 'Not confirmed'),('Committee type',committee.get('type') or 'Not confirmed'),('Directory / activity status',committee.get('status') or 'Listed in the reviewed directory; current operation not independently confirmed'),('What was checked',committee.get('verification') or 'Name and official link from the parliamentary directory. Listing is not a public invitation.'),('Checked',s.pretty_date(committee['checked']))])+'</dl>'
   if committee.get('houseNote'):body+='<p class="prose">'+s.e(committee['houseNote'])+'</p>'
   if committee.get('currentName') and committee['currentName']!=committee['name']:body+='<p class="notice">The directory lists this body as '+s.e(committee['name'])+'. Its separately verified current name is '+s.e(committee['currentName'])+'. The source naming difference is retained.</p>'

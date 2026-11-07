@@ -1,0 +1,76 @@
+{
+  "checked": "2026-11-07",
+  "checkTimezone": "Australia/Brisbane",
+  "sourceUrl": "https://www.redland.qld.gov.au/About-Council/Committees-and-working-groups",
+  "listedDirectoryEntryCount": 2,
+  "committeeBodyCount": null,
+  "complete": false,
+  "note": "Redland's official directory contains a combined coastal-committee entry and a partnership agreement. The Audit & Risk Management Committee is independently confirmed by its current Council policy. These are different types of bodies and arrangements, so this page does not present three entries as three committees. General Meetings and Special Meetings are Council meetings, not committee inquiries. Their public-address, deputation and petition procedures are separate participation routes.",
+  "gaps": [
+    "The two directory detail pages returned access errors during this review. Their listing is verified; current membership, meeting frequency and any recruitment opportunity are not confirmed.",
+    "The published coastal terms of reference describe arrangements established in 2014. Their continued publication does not verify that every named group is still operating or accepting new members.",
+    "This review does not establish a complete inventory of every Council working group, network or advisory body. No general open-submission invitation to these committees was verified."
+  ],
+  "entries": [
+    {
+      "id": "redland-audit-risk-management",
+      "name": "Audit & Risk Management Committee",
+      "kind": "Statutory oversight and advisory committee",
+      "status": "Current policy verified; no public invitation verified",
+      "sourceUrl": "https://www.redland.qld.gov.au/files/assets/public/v/1/about-council/documents/GOV_011_P_Audit_and_Risk_Management_Committee_Policy.pdf",
+      "checked": "2026-11-07",
+      "purpose": "Provide independent oversight and advice on governance, risk, internal control, audit and financial reporting. Operational decisions remain with Council management and councillors.",
+      "verification": "Official policy GOV-011-P version 15 was directly read. It is approved and effective from 15 July 2026, with a review date of 15 July 2028.",
+      "participation": "No public submission, attendance, speaking or membership application route was verified for this committee. Council's General Meeting public-address procedure must not be treated as a right to address this committee.",
+      "uncertainty": "Current membership, committee meeting access and any contribution arrangements were not independently verified."
+    },
+    {
+      "id": "redland-coastal-adaptation-amity-point",
+      "name": "Coastal Adaptation and Amity Point Shoreline Erosion committees",
+      "kind": "Combined official committee and reference-group directory entry",
+      "status": "Listed; current operation and participation unverified",
+      "sourceUrl": "https://www.redland.qld.gov.au/About-Council/Committees-and-working-groups/Coastal-Adaptation-and-Amity-Point-Shoreline-Erosion-committees",
+      "checked": "2026-11-07",
+      "purpose": "The published entry describes coastal adaptation and shoreline erosion planning, including Amity Point on Minjerribah. It refers to a steering committee, community reference groups and input from QYAC.",
+      "verification": "The current official directory link was directly read. Detail text was available in the official search-index result, but opening the detail page returned 403. Historical official terms of reference were also located.",
+      "participation": "No current recruitment or open-submission invitation was verified. Historical community representation and nomination arrangements do not establish a current general right to join or speak.",
+      "uncertainty": "The combined listing is retained as one entry, without inventing a current count of underlying bodies. The live directory does not confirm present membership or meeting dates.",
+      "relatedSources": [
+        {
+          "url": "https://www.redland.qld.gov.au/files/assets/public/v/1/about-council/documents/coastal_adaptation_steering_committee___terms_of_reference.pdf",
+          "label": "Published Coastal Adaptation Steering Committee terms of reference",
+          "note": "Historical establishment arrangements refer to a March 2014 resolution. No current recruitment date verified."
+        },
+        {
+          "url": "https://www.redland.qld.gov.au/download/downloads/id/2294/amity_point_shoreline_erosion_management_plan_reference_group_-_terms_of_reference.pdf",
+          "label": "Published Amity Point reference-group terms of reference",
+          "note": "Historical nomination and representation process; continued publication does not prove a current opening."
+        }
+      ]
+    },
+    {
+      "id": "redland-udia-agreement",
+      "name": "Memorandum of Understanding between Redland City Council and UDIA",
+      "kind": "Related partnership agreement, not a committee",
+      "status": "Listed agreement; detail access limited",
+      "sourceUrl": "https://www.redland.qld.gov.au/About-Council/Committees-and-working-groups/Memorandum-of-Understanding-between-Redland-City-Council-and-UDIA",
+      "checked": "2026-11-07",
+      "purpose": "The official directory lists a memorandum between Council and the Urban Development Institute of Australia. Its presence in this directory does not make the agreement a committee or inquiry.",
+      "verification": "Name and link directly verified in Council's Committees and working groups directory. The agreement detail page returned 403.",
+      "participation": "No public participation invitation verified. Follow the official agreement source for its actual terms.",
+      "uncertainty": "The detail text, current agreement terms and any associated forum were not independently verified."
+    }
+  ],
+  "generalMeetingSources": [
+    {
+      "url": "https://www.redland.qld.gov.au/About-Council/Council-meetings/Council-meeting-public-gallery-public-participation-and-petitions",
+      "label": "General Meeting public addresses, deputations and petitions",
+      "note": "Directly read on 7 November. Applications require approval and are due noon on the preceding Monday. Approved speakers normally have up to five minutes within a total 15-minute period. Meeting participants and public-gallery attendees may appear in the livestream. No timezone is explicitly stated."
+    },
+    {
+      "url": "https://www.redland.qld.gov.au/About-Council/Council-meetings/Council-meeting-schedule",
+      "label": "Council meeting schedule",
+      "note": "The next published General Meetings are 18 November and 16 December 2026 at 9:30am. No timezone is explicitly stated. These are Council meetings, not committee inquiry hearings."
+    }
+  ]
+}

@@ -29,7 +29,7 @@
       link.target = '_blank'; link.rel = 'noopener noreferrer';
     }
   });
-  const places = document.querySelector('.participation-place-menu');
+  const places = document.querySelector('.participation-parliament-menu');
   document.addEventListener('click',e=>{if(places?.open && !places.contains(e.target))places.open=false;});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&places?.open){places.open=false;places.querySelector('summary').focus();}});
   const fold = value => value.toLocaleLowerCase('en-AU').normalize('NFKD').replace(/\p{M}/gu,'');

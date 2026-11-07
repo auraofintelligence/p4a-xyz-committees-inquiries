@@ -2,6 +2,10 @@
 
 ## 7 November expansion
 
+Navigation now separates its Browse task from the selected parliament or council, preserving both on task/body switches. Homelands is specifically the three bodies affecting the founder's location: Redland City, Queensland and Australian. Its landing page contains six scoped links and no combined record list. Original local participation records retain their dates and detail URLs, with their primary view and archive moved to the Redland route.
+
+Redland's current Audit & Risk Management Committee policy was checked separately from its combined coastal/Amity Point directory listing. The latter's current operation and participation remain uncertain because the detail page was inaccessible and published terms refer to historical arrangements. The UDIA memorandum remains explicitly an agreement, not a committee. Council General Meeting speaking rules are not represented as a right to address a committee. These local findings do not inflate the 214 parliamentary directory-entry count.
+
 The federal submissions index was rechecked on 7 November after the technology round's 6 November close: twelve listed entries remain, including the uncertain Women's Health date conflict. Individual inquiry pages retain their own review dates.
 
 The original participation-only import was insufficient as a committee directory. The site now separates all parliamentary committee entries, inquiry activity, and verified invitations. The new directory has 214 entries across all parliaments, including expressly labelled statutory-role or grouped entries. NSW's 61 directory entries were completely loaded and joined to the 66 entries returned by the official Current inquiry filter. Several direct inquiry pages report final results despite that central Current label. Those source conflicts are retained rather than recast as open public invitations.

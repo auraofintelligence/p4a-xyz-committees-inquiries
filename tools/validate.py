@@ -14,8 +14,28 @@ OUT=ROOT/'_site'
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True);self.links=[];self.ids=[];self.h1=0;self.records=[];self.title=False
+        self.section_navigation=None;self.legacy_level_tabs=0
+        self._navigation_stack=[];self._navigation_link=None;self._parliament_summary=None
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        classes=a.get('class','').split()
+        if 'level-tabs' in classes:self.legacy_level_tabs+=1
+        if tag=='nav' and 'participation-nav' in classes:
+            assert self.section_navigation is None, 'Repeated committees navigation'
+            self.section_navigation={'links':[],'browse':[],'parliaments':[],'summaries':[]}
+            self._navigation_stack.append((tag,a))
+        elif self._navigation_stack:
+            ancestor_classes={c for _,attributes in self._navigation_stack for c in attributes.get('class','').split()}
+            if tag=='a':
+                self._navigation_link={**a,'label':''}
+                self.section_navigation['links'].append(self._navigation_link)
+                if 'committee-browse' in ancestor_classes:self.section_navigation['browse'].append(self._navigation_link)
+                if 'participation-parliament-menu' in ancestor_classes:self.section_navigation['parliaments'].append(self._navigation_link)
+            if tag=='summary' and 'participation-parliament-menu' in ancestor_classes:
+                self._parliament_summary={'label':''}
+                self.section_navigation['summaries'].append(self._parliament_summary)
+            if tag not in {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}:
+                self._navigation_stack.append((tag,a))
         if 'id' in a:self.ids.append(a['id'])
         if tag=='h1':self.h1+=1
         if tag=='title':self.title=True
@@ -26,6 +46,72 @@ class Page(HTMLParser):
             if target:self.links.append(target)
         if tag=='a' and a.get('href','').startswith('https://') and not a['href'].startswith('https://p4a.xyz/'):
             assert a.get('target')=='_blank' and 'noopener' in a.get('rel',''), 'External link policy'
+
+    def handle_data(self,text):
+        if self._navigation_link is not None:self._navigation_link['label']+=text
+        if self._parliament_summary is not None:self._parliament_summary['label']+=text
+
+    def handle_endtag(self,tag):
+        if not self._navigation_stack:return
+        if tag=='a':self._navigation_link=None
+        if tag=='summary':self._parliament_summary=None
+        for i in range(len(self._navigation_stack)-1,-1,-1):
+            if self._navigation_stack[i][0]==tag:
+                self._navigation_stack=self._navigation_stack[:i]
+                break
+
+
+def validate_navigation(parsed,pages,committees,records):
+    """Check that task and parliament switches keep a visitor in one scope."""
+    def destination(page,link):
+        target=urlsplit(link['href'])
+        assert not target.scheme and not target.netloc,(page,'Section navigation leaves this P4A section')
+        result=(pages[page].parent/unquote(target.path)).resolve()
+        assert result.is_relative_to(OUT.resolve()),(page,link['href'])
+        if result.is_dir():result/='index.html'
+        return result.relative_to(OUT).as_posix()
+    jurisdictions=('federal','qld','nsw','vic','wa','sa','tas','act','nt')
+    participation={'federal':'australia/index.html','qld':'queensland/index.html',**{j:'states/'+j+'/index.html' for j in jurisdictions if j not in ('federal','qld')}}
+    committee_routes={j:'committees/'+j+'/index.html' for j in jurisdictions}
+    participation['redland']='councils/qld/redland/index.html';committee_routes['redland']='committees/redland/index.html'
+    for page,document in parsed.items():
+        navigation=document.section_navigation
+        assert navigation is not None,page+': missing committees navigation'
+        assert not document.legacy_level_tabs,page+': duplicated task navigation'
+        labels=[' '.join(a['label'].split()) for a in navigation['browse']]
+        assert labels==['Inquiries & participation','All committees'],page+': task choices are unclear'
+        assert len(navigation['parliaments'])==10,page+': committee-scope choices are missing or duplicated'
+        assert len(navigation['summaries'])==1 and 'Parliament' in navigation['summaries'][0]['label'],page+': missing parliament label'
+        assert sum(a.get('aria-current')=='location' for a in navigation['browse'])<=1,page+': multiple current tasks'
+        assert sum(a.get('aria-current')=='location' for a in navigation['parliaments'])<=1,page+': multiple current parliaments'
+        for link in navigation['links']:
+            route=destination(page,link)
+            assert (not route.startswith('councils/') or route==participation['redland']) and '/places/' not in route,page+': unrelated place navigation in committees menu'
+    for chooser in ('inquiries/index.html','committees/index.html','homelands/index.html'):
+        assert chooser in parsed and not parsed[chooser].records,chooser+': chooser combines participation records'
+    cases=[('inquiries/index.html','inquiries',None),('committees/index.html','committees',None)]
+    for j in ('nsw','qld','federal'):
+        cases.extend([(participation[j],'inquiries',j),(committee_routes[j],'committees',j)])
+        committee=next(c for c in committees if c['jurisdiction']==j)
+        cases.append(('committees/'+j+'/'+committee['id']+'/index.html','committees',j))
+        opportunity=next(r for r in records if r['jurisdiction']==j and r.get('parliamentary') and r['status']!='closed')
+        cases.append(('opportunities/'+opportunity['id']+'/index.html','inquiries',j))
+    cases.extend([(participation['redland'],'inquiries','redland'),(committee_routes['redland'],'committees','redland')])
+    for page,task,jurisdiction in cases:
+        navigation=parsed[page].section_navigation
+        browse=navigation['browse'];parliaments=navigation['parliaments']
+        selected=[a for a in browse if a.get('aria-current')=='location']
+        assert len(selected)==1 and ' '.join(selected[0]['label'].split())==('All committees' if task=='committees' else 'Inquiries & participation'),page+': current task is not stated'
+        expected=committee_routes if task=='committees' else participation
+        assert {destination(page,a) for a in parliaments}==set(expected.values()),page+': changing parliament loses the selected task'
+        assert destination(page,browse[0])==(participation[jurisdiction] if jurisdiction else 'inquiries/index.html'),page+': inquiry switch loses the selected parliament'
+        assert destination(page,browse[1])==(committee_routes[jurisdiction] if jurisdiction else 'committees/index.html'),page+': committee switch loses the selected parliament'
+        selected_parliaments=[a for a in parliaments if a.get('aria-current')=='location']
+        assert len(selected_parliaments)==(1 if jurisdiction else 0),page+': selected parliament is ambiguous'
+        if jurisdiction:assert destination(page,selected_parliaments[0])==expected[jurisdiction],page+': wrong selected parliament'
+    for page,document in parsed.items():
+        if page.startswith('councils/') and page!=participation['redland']:
+            assert not any(a.get('aria-current')=='location' for a in document.section_navigation['parliaments']),page+': council profile pretends a parliament is selected'
 
 def validate():
     data=json.loads((ROOT/'data/registry.json').read_text(encoding='utf-8'))
@@ -87,14 +173,18 @@ def validate():
                 dest_name=dest.relative_to(OUT).as_posix()
                 if unquote(u.fragment) not in parsed[dest_name].ids:broken.append((name,target))
     assert not broken,broken[:10]
-    views=['homelands/index.html','queensland/index.html','australia/index.html']+['states/'+j+'/index.html' for j in ('nsw','vic','wa','sa','tas','act','nt')]
+    validate_navigation(parsed,pages,committees,records)
+    views=['queensland/index.html','australia/index.html']+['states/'+j+'/index.html' for j in ('nsw','vic','wa','sa','tas','act','nt')]
     active_views=list(views)
     for council in councils:
-        if council['id']=='qld-council-6250':continue
         route='councils/'+council['jurisdiction']+'/'+council['slug']+'/index.html'
         assert route in parsed,route
         active_views.append(route)
-        assert all(r['data-council']==council['id'] and r['data-level']=='council' for r in parsed[route].records),route+': another council appears here'
+        if council['id']=='qld-council-6250':
+            local_ids={r['id'] for r in records if r.get('councilId')==council['id'] or 'homelands' in r.get('groups',[])}
+            assert all(r['data-id'] in local_ids and r['data-level'] in ('council','community') for r in parsed[route].records),route+': unrelated local participation'
+        else:
+            assert all(r['data-council']==council['id'] and r['data-level']=='council' for r in parsed[route].records),route+': another council appears here'
         directory='councils/'+council['jurisdiction']+'/index.html'
         assert not parsed[directory].records,directory+': council chooser must not combine opportunity records'
     views=list(active_views)
@@ -104,6 +194,8 @@ def validate():
     assert len(all_view_records)==len(records), 'A record is missing or repeated across jurisdiction views'
     assert {r['data-id'] for r in all_view_records}==ids
     assert not parsed['councils/index.html'].records and not parsed['committees/index.html'].records
+    assert not parsed['archive/homelands/index.html'].records,'Legacy homeland archive must point to the scoped Redland archive without duplicating records'
+    assert not parsed['committees/redland/index.html'].records,'A council committee listing must not imply a public invitation'
     for committee in committees:
         route='committees/'+committee['jurisdiction']+'/'+committee['id']+'/index.html'
         assert route in parsed,route
