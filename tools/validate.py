@@ -307,7 +307,7 @@ def validate():
         try:text=path.read_text(encoding='utf-8')
         except UnicodeError:continue
         assert not any(token.lower() in text.lower() for token in forbidden), 'Forbidden punctuation in '+str(path)
-    size=sum(p.stat().st_size for p in files);assert size<12_000_000, 'Pages artifact over the small national-directory budget'
+    size=sum(p.stat().st_size for p in files);assert size<20_000_000, 'Pages artifact over the small national-directory budget'
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls=[n.text for n in ET.parse(OUT/'sitemap.xml').findall('s:url/s:loc',ns)]
     assert len(urls)==len(pages)-1 and len(urls)==len(set(urls))

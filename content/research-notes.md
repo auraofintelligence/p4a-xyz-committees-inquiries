@@ -1,5 +1,11 @@
 # Participation source review
 
+## National council continuation and publication snapshot
+
+On 7 November 2026 the operator requested publication, then renewed the research continuation after a reset. Added 694 council participation records, retained existing parliament and Queensland/Redland work, and recorded 369 scoped project reviews. The exact 182 unfinished areas (NSW 100, WA 82), known uncurated leads and remaining source gaps are linked in [remaining-council-research.md](remaining-council-research.md). Full available portal pagination was used where recovered; stale Published, Active and Open labels were checked against invitation text, dates and tools. State/third-party referrals remain labelled. Some fields and catalogues are still unverified.
+
+The expanded artifact is approximately 18.6 MB with a documented 20 MB ceiling. Raw source pages, form copies, caches, screenshots and staging helpers remain outside the repository and deployment artifact. Structured exclusions, referrals and enumeration facts now render as readable text. Existing Twinkles and the main P4A repository are unchanged. Validation and deployment are checked before reporting live publication. Research continues on the exact pending list after the renewed instruction.
+
 ## 7 November current council project correction
 
 The earlier body and pathway passes did not systematically enumerate live contribution projects. The operator's checks of Moreton Bay, Bundaberg and Burke exposed that gap. Current-project research now has its own canonical audit and visible depth labels, separately from committee inventories, standing procedures and official navigation links. All 76 Queensland local areas outside the earlier Redland and Brisbane project reviews have new scoped audit rows; many remain partial or source-limited. Other councils expressly state that current-project enumeration is unchecked. Neither an empty invitation list nor a complete body directory proves that no opportunities exist.
