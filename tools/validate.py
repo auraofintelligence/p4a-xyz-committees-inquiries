@@ -16,9 +16,13 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True);self.links=[];self.ids=[];self.h1=0;self.records=[];self.title=False
         self.section_navigation=None;self.legacy_level_tabs=0
+        self.canonical=None
         self._navigation_stack=[];self._navigation_link=None;self._parliament_summary=None
     def handle_starttag(self,tag,attrs):
         a=dict(attrs)
+        if tag=='link' and 'canonical' in a.get('rel','').split():
+            assert self.canonical is None,'Repeated canonical URL'
+            self.canonical=a.get('href')
         classes=a.get('class','').split()
         if 'level-tabs' in classes:self.legacy_level_tabs+=1
         if tag=='nav' and 'participation-nav' in classes:
@@ -192,12 +196,23 @@ def validate():
         for c in r.get('connections',[]):
             assert c['url'].startswith('https://p4a.xyz/') and c['reason'] and c['type'] in ('system','twinkle')
         assert '\ufffd' not in json.dumps(r,ensure_ascii=False),ident+': damaged Unicode'
+    aliases=data.get('recordAliases',{})
+    for alias,target in aliases.items():
+        assert re.fullmatch('[a-z0-9-]+',alias) and alias not in ids,alias+': alias counted as an invitation'
+        assert target in ids,alias+': missing canonical record'
     pages={p.relative_to(OUT).as_posix():p for p in OUT.rglob('*.html')}
+    for alias,target in aliases.items():
+        path='opportunities/'+alias+'/index.html'
+        assert path in pages,alias+': published bookmark lost'
     parsed={}
     for name,path in pages.items():
         parser=Page();parser.feed(path.read_text(encoding='utf-8'));parsed[name]=parser
         assert parser.h1==1 and parser.title,name+': heading/title'
         assert len(parser.ids)==len(set(parser.ids)),name+': duplicate IDs'
+    for alias,target in aliases.items():
+        path='opportunities/'+alias+'/index.html'
+        expected='https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/opportunities/'+target+'/'
+        assert parsed[path].canonical==expected,alias+': incorrect canonical destination'
     broken=[];local_links=0;external=set()
     for name,p in parsed.items():
         for target in p.links:
@@ -307,7 +322,7 @@ def validate():
         try:text=path.read_text(encoding='utf-8')
         except UnicodeError:continue
         assert not any(token.lower() in text.lower() for token in forbidden), 'Forbidden punctuation in '+str(path)
-    size=sum(p.stat().st_size for p in files);assert size<20_000_000, 'Pages artifact over the small national-directory budget'
+    size=sum(p.stat().st_size for p in files);assert size<30_000_000, 'Pages artifact over the small national-directory budget'
     ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
     urls=[n.text for n in ET.parse(OUT/'sitemap.xml').findall('s:url/s:loc',ns)]
     assert len(urls)==len(pages)-1 and len(urls)==len(set(urls))

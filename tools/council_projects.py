@@ -14,8 +14,36 @@ def item(s,page,value):
     note=value.get('note') or value.get('reason') or value.get('finding') or value.get('purpose') or ''
     extra=' '.join(str(value[k]) for k in ('scope','disclosure') if value.get(k))
     text=s.link(page,value['url'],title or 'Official source') if value.get('url') else s.e(title)
+    if value.get('body') and value['body']!=title:
+        text+='<p><strong>Responsible body:</strong> '+s.e(value['body'])+'</p>'
     if note:text+=('<p>' if text else '')+s.e(note)+('</p>' if text else '')
+    for key,label in [('status','Status'),('method','How to take part'),('eligibility','Who can take part')]:
+        if value.get(key):
+            detail=s.STATUS.get(value[key],value[key]) if key=='status' else value[key]
+            text+='<p><strong>'+label+':</strong> '+s.e(detail)+'</p>'
+    if value.get('deadline'):
+        deadline=value['deadline']
+        timing=s.pretty_date(deadline['date']) if deadline.get('date') else 'No closing date confirmed'
+        if deadline.get('time'):timing+=' at '+deadline['time']
+        if deadline.get('timezone'):timing+=' ('+deadline['timezone']+')'
+        if deadline.get('note'):timing+='. '+deadline['note']
+        text+='<p><strong>Timing:</strong> '+s.e(timing)+'</p>'
+    for event in value.get('events',[]):
+        timing=event.get('label','Participation event')
+        if event.get('date'):timing+=': '+s.pretty_date(event['date'])
+        if event.get('time'):timing+=' at '+event['time']
+        if event.get('endTime'):timing+=' to '+event['endTime']
+        if event.get('note'):timing+='. '+event['note']
+        text+='<p>'+s.e(timing)+'</p>'
+    if value.get('uncertainty') or value.get('uncertaintyReason'):
+        text+='<p><strong>Needs confirmation:</strong> '+s.e(value.get('uncertainty') or value['uncertaintyReason'])+'</p>'
     if extra:text+='<p>'+s.e(extra)+'</p>'
+    if value.get('checked'):text+='<p>Checked '+s.pretty_date(value['checked'])+'.</p>'
+    seen={value.get('url')}
+    for source in value.get('sources',[]):
+        if source.get('url') and source['url'] not in seen:
+            text+='<p>'+s.link(page,source['url'],source.get('title','Official supporting source'))+'</p>'
+            seen.add(source['url'])
     return text
 
 
@@ -44,6 +72,8 @@ def coverage(s,page):
     counts={}
     for audit in rows:
         status=audit['coverageStatus'];counts[status]=counts.get(status,0)+1
-    body='<section class="participation-section"><h2>Current council consultations</h2><p>'+str(len(rows))+' local areas have a separately recorded project-level review. This is distinct from finding a consultation portal, standing procedure or committee list. A partial review or blocked source is not a finding of zero opportunities. Redland and Brisbane retain their earlier dated project reviews.</p><ul>'+''.join('<li>'+s.e(status)+': '+str(count)+'</li>' for status,count in sorted(counts.items()))+'</ul><p>Other council pages state that current-project enumeration remains unchecked. Future refreshes must revisit current lists, pagination, individual contribution tools, dates and collection notices, rather than treating a published project as an open invitation.</p><p>'+s.link(page,s.REPO+'/blob/main/data/council-project-audits.json','Council project research and source-access gaps')+'</p></section>'
-    body+='<p>'+s.link(page,s.REPO+'/blob/main/content/remaining-council-research.md','Remaining council research: exact areas and known leads')+'</p>'
+    pending=[c for c in s.COUNCILS if c['id']!='qld-council-6250' and c['id'] not in s.COUNCIL_PROJECTS]
+    depth=(str(len(pending))+' other local areas still lack a separately recorded project review.') if pending else 'Every listed local area outside the dedicated Redland research now has a recorded review scope, including special-area authority explanations. Some current catalogues remain inaccessible or only partly enumerated.'
+    body='<section class="participation-section"><h2>Current council consultations</h2><p>'+str(len(rows))+' local areas have a separately recorded project-level review. This is distinct from finding a consultation portal, standing procedure or committee list. A partial review or blocked source is not a finding of zero opportunities. Redland and Brisbane retain their earlier dated project reviews.</p><ul>'+''.join('<li>'+s.e(status)+': '+str(count)+'</li>' for status,count in sorted(counts.items()))+'</ul><p>'+s.e(depth)+' Future refreshes must revisit current lists, pagination, individual contribution tools, dates and collection notices, rather than treating a published project as an open invitation.</p><p>'+s.link(page,s.REPO+'/blob/main/data/council-project-audits.json','Council project research and source-access gaps')+'</p></section>'
+    body+='<p>'+s.link(page,s.REPO+'/blob/main/content/remaining-council-research.md','Remaining council research: source gaps and refresh work')+'</p>'
     return body

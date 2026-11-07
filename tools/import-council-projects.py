@@ -56,6 +56,9 @@ def merge(paths):
             assert all(ident in records and records[ident]['councilId']==row['councilId'] for ident in ids)
             audits[row['councilId']]=normalize(row,ids)
     data['records']=list(records.values());check_text(data)
+    # Advance the publication's latest-check label only from actual imported evidence.
+    # Individual record dates are preserved, and a rebuild never refreshes research.
+    data['checked']=max([data['checked'],*[r['checked'] for r in records.values()],*[a['checked'] for a in audits.values()]])
     projects['checked']=max(a['checked'] for a in audits.values());projects['audits']=sorted(audits.values(),key=lambda a:a['councilId'])
     registry_path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
     audit_path.write_text(json.dumps(projects,ensure_ascii=False,indent=2)+'\n',encoding='utf8')

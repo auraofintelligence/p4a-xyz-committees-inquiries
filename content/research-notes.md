@@ -1,6 +1,16 @@
 # Participation source review
 
-## National council continuation and publication snapshot
+## 8 November national council review
+
+The national continuation now has 1,746 participation records and 551 separately recorded local-area project reviews, alongside dedicated Redland research. Every listed area has a recorded scope or authority explanation. This is a scoped national pass, with source-access, catalogue, form, deadline and privacy gaps explicitly retained. The [remaining-work list](remaining-council-research.md) names priority gaps and the 24 ordinary councils still lacking a named-body inventory.
+
+Records distinguish 987 open calls, 220 upcoming opportunities, 231 standing routes, 244 uncertain records and 64 closed rounds. There are 166 evidenced P4A connections to unchanged Twinkles and systems. The new Defence Estate method is a single federal record; Council pages show other-body referrals separately.
+
+Six duplicate invitation entries were consolidated into existing stable records. Five previously published duplicate detail URLs retain canonical pointer pages; the additional Sydney duplicate had not been published. Exact Forbes and Macedon Ranges method replacements remove older duplicate standing entries without hiding distinct methods on shared source pages. New project evidence recovered eight named bodies in six formerly empty profiles, bringing the inventory to 3,099 entries across 522 areas, with 1,503 uncertain or historical entries. Original identities, election work, Redland and parliamentary records remain intact; Melville and Port Adelaide Enfield have directly supported research updates.
+
+The importer advances the latest-check label only from dated evidence. Individual source dates stay unchanged on rebuild. The final 2,623-page artifact is 27,634,870 bytes, within the 30 MB working ceiling for the expanded national directory. Raw sources, screenshots and preview files are excluded. No submission, contact, enrolment or automation was performed. Validation passed for 2,623 HTML pages and 84,680 local links, with zero em dashes and all three JavaScript syntax checks passing. Browser checks covered 320, 390 and 768 pixel layouts, search, uncertainty filters, body-preserving navigation, scoped archives and a preserved invitation bookmark.
+
+## 7 November interim publication snapshot
 
 On 7 November 2026 the operator requested publication, then renewed the research continuation after a reset. Added 694 council participation records, retained existing parliament and Queensland/Redland work, and recorded 369 scoped project reviews. The exact 182 unfinished areas (NSW 100, WA 82), known uncurated leads and remaining source gaps are linked in [remaining-council-research.md](remaining-council-research.md). Full available portal pagination was used where recovered; stale Published, Active and Open labels were checked against invitation text, dates and tools. State/third-party referrals remain labelled. Some fields and catalogues are still unverified.
 

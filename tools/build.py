@@ -19,6 +19,7 @@ NAMES = {'qld':'Queensland','nsw':'New South Wales','vic':'Victoria','wa':'Weste
 STATUS = {'open':'Open','upcoming':'Upcoming','closed':'Closed','unverified':'Uncertain','ongoing':'Standing route'}
 DATA = json.loads((ROOT/'data/registry.json').read_text(encoding='utf-8-sig'))
 RECORDS = DATA['records']
+RECORD_ALIASES = DATA.get('recordAliases', {})
 CHECKED = DATA['checked']
 COUNCIL_DATA = json.loads((ROOT/'data/councils.json').read_text(encoding='utf-8'))
 COUNCILS = COUNCIL_DATA['councils']
@@ -146,7 +147,8 @@ def navigation_context(page):
     path=page.removeprefix('archive/')
     view='committees' if path.startswith('committees/') else 'inquiries'
     if path.startswith('opportunities/'):
-        record=next(r for r in RECORDS if r['id']==path.split('/')[1])
+        ident=path.split('/')[1]
+        record=next(r for r in RECORDS if r['id']==RECORD_ALIASES.get(ident,ident))
         if record['participationLevel'] in ('state','federal'):return view,record['jurisdiction']
         return view,'redland' if 'homelands' in record.get('groups',[]) else None
     if path.startswith('councils/qld/redland/'):return view,'redland'
@@ -229,9 +231,12 @@ def chrome(page, title, body, description):
     doors=[('pages/maps.html','Maps'),('pages/architecture.html','System'),('pages/twinkle.html','Twinkle'),('pages/states.html','States'),('pages/starter-field-kit.html','Start local'),('pages/deployment-gear.html','Gear')]
     nav=''.join(link(page,P4A+p,t) for p,t in doors)
     section_nav=section_navigation(page)
+    canonical=page
+    if page.startswith('opportunities/') and page.split('/')[1] in RECORD_ALIASES:
+        canonical='opportunities/'+RECORD_ALIASES[page.split('/')[1]]+'/index.html'
     map_assets=f'<link rel="stylesheet" href="{e(rel(page,"assets/site-map.css"))}"><script src="{asset(page,"assets/site-map.js")}" defer></script>' if page=='pages/site-map.html' else ''
     return f'''<!doctype html>
-<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#3f0f75"><title>{e(title)} | P4A</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{e(BASE+('' if page=='index.html' else page.removesuffix('index.html')))}"><link rel="icon" href="{e(rel(page,'assets/favicon.svg'))}"><link rel="stylesheet" href="{e(rel(page,'styles.css'))}"><link rel="stylesheet" href="{asset(page,'assets/participation.css')}">{map_assets}<script src="{asset(page,'assets/site-nav.js')}" defer></script><script src="{asset(page,'assets/participation.js')}" defer></script></head>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#3f0f75"><title>{e(title)} | P4A</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{e(BASE+('' if canonical=='index.html' else canonical.removesuffix('index.html')))}"><link rel="icon" href="{e(rel(page,'assets/favicon.svg'))}"><link rel="stylesheet" href="{e(rel(page,'styles.css'))}"><link rel="stylesheet" href="{asset(page,'assets/participation.css')}">{map_assets}<script src="{asset(page,'assets/site-nav.js')}" defer></script><script src="{asset(page,'assets/participation.js')}" defer></script></head>
 <body class="participation-site" data-theme="royal"><span id="nt" hidden>opens a new tab</span><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{P4A}index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a><nav class="site-nav" data-nav aria-label="Primary">{nav}</nav><button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button></header>
 <main id="main">{section_nav}{body}</main>
 <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class. A civic workbench, started on Minjerribah.</p><p class="participation-research-date">Latest source checks {pretty_date(CHECKED)}. Individual records retain their own dates. {link(page,'sources/','Coverage and source limits')}.</p></div><nav class="footer-links" aria-label="Footer links">{link(page,'pages/site-map.html','Site map')}{link(page,P4A+'pages/site-map.html','All P4A pages')}{link(page,'LICENCE.md','Strange But True licence')}{link(page,REPO,'Committees source',cue=False)}{link(page,'robots.txt','robots.txt')}</nav></footer><a class="back-top" href="#main" aria-label="Back to top">↑ Top</a></body></html>'''
@@ -365,6 +370,13 @@ def build():
         return_route=archive_route(jurisdiction_route(r)) if r['status']=='closed' else jurisdiction_route(r)
         body+='<aside class="feature-panel"><p class="eyebrow">Your next step</p><h3>Read the official invitation.</h3><p>Check its terms, deadline and publication conditions before sending anything.</p>'+link(page,r['sourceUrl'],'Open official source','button')+'<p>'+link(page,'take-part/','Prepare a useful contribution','text-link')+'</p><p>'+link(page,return_route,'Return to this jurisdiction’s archive' if r['status']=='closed' else 'Return to this jurisdiction','text-link')+'</p></aside></div>'
         write(page,r['title'],body)
+
+    for alias,ident in RECORD_ALIASES.items():
+        record=next(r for r in RECORDS if r['id']==ident)
+        page='opportunities/'+alias+'/index.html'
+        body=hero(record['title'],'This invitation is now kept in one record with its source checks and participation details.')
+        body+='<p>'+link(page,'opportunities/'+ident+'/','Open the participation record','button')+'</p>'
+        write(page,record['title'],body)
 
     page='take-part/index.html'
     body=hero('Make your contribution useful.','Choose a real invitation, understand its scope and decide what you are comfortable putting on the public record.')

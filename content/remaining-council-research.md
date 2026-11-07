@@ -1,206 +1,49 @@
 # Remaining council participation research
 
-Research resumed on 7 November 2026 after the operator renewed the continuation instruction. This is the pending-work snapshot for the current publication. Pending means unfinished research, not zero opportunities.
+Snapshot: 8 November 2026, Australia/Brisbane. Individual source checks retain their own dates.
 
-There are 182 local-area project reviews left: 100 in New South Wales and 82 in Western Australia. All other jurisdictions have a recorded scoped review or their dedicated Redland explanation. Completed reviews still have source-specific gaps; a recorded review does not certify exhaustive coverage.
+Every listed local area outside the dedicated Redland research now has a recorded project-review scope: 551 reviews, including special-area authority explanations. No area remains wholly unstarted in this pass. Some catalogues and contribution tools remain inaccessible or partly reviewed. A scoped review is not an exhaustive inventory, and an access failure is not a finding of zero opportunities.
 
-## Already found, still to reconcile
+The registry contains 1,746 records across separate responsible-body views: 987 open, 220 upcoming, 231 standing routes, 244 uncertain and 64 closed rounds. Different rounds or methods can belong to one project. Closed rounds remain in their own council or parliamentary archive.
 
-These are research leads, not verified participation instructions. Check current official conditions before acting.
+## Priority source and condition gaps
 
-- NSW: reconcile Central Coast's flood, safety, finance, waterways and community-group invitations; Cessnock's flood, public-land and tree routes; Clarence Valley's transport/youth and wildlife mapping; and the other cached project lists before adding their records.
-- NSW: the Liverpool-to-Yass Valley group of 60 areas has not started its detailed reconciliation. Existing source reads include Liverpool, Orange, North Sydney, Port Stephens, Shellharbour, Wollongong and Wollondilly.
-- WA: finish the remaining large portals and current notices, including Perth, Rockingham, South Perth, Stirling, Subiaco, Swan, Victoria Park, Wanneroo, Busselton, Canning, Cockburn, Joondalup, Kalamunda and Kwinana where still pending below.
-- WA: Narembeen's housing-interest and visitor forms were read in a live browser but are not yet curated into records. Narrogin's Strategic Community Plan survey and annual budget-request route also remain to be curated.
-- WA: the public news/notice expansion retrieved 1,046 additional visible links. Their dates, actual invitation text and tools still need reconciliation; downloaded pages alone do not establish open opportunities.
-- Reviewed areas: resolve the remaining source gaps recorded in each profile, including Buloke, Murrindindi and Nillumbik catalogue access; the Bass Coast Nature Positive detail; Geelong's youth-election participation route; and Cape Jaffa's announced forum.
-- Publication maintenance: recheck time-sensitive calls and source conflicts before changing statuses or moving a round into its own council archive. No automation, submission, contact or enrolment was performed.
+This is a selected follow-up list. Each council page records its full scope and gaps under Current contribution research. The [canonical project audits](https://github.com/auraofintelligence/p4a-xyz-committees-inquiries/blob/main/data/council-project-audits.json) retain the complete recorded inventory.
 
-## New South Wales (100)
+| Area | What still needs checking | Official source |
+| --- | --- | --- |
+| [Yarrabah Aboriginal Shire](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/qld/yarrabah-aboriginal-shire/) | **Source blocked.** The homepage supplies a challenge/empty document and the reader failed. Current projects, named-body continuation and public contribution rules remain source-limited; zero registry calls is not zero opportunities. | [Source](https://www.yarrabah.qld.gov.au/) |
+| [Somerset Regional](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/qld/somerset-regional/) | **Source blocked; open invitation known.** Council announcement confirms the Biosecurity Plan invitation through 2 December, but the actual destination returns 403. Exact contribution method and collection/publication rules remain unread. The youth-network detail is separately blocked and not confirmed recruitment. | [Source](https://www.somerset.qld.gov.au/BiosecurityPlan) |
+| [Gladstone Regional](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/qld/gladstone-regional/) | **Conflicting tool and invitation fields.** Evaluation feedback form says 3 December at 23:59 while timeline says 4 December; timezone unknown. Separate steering EOI online tool closed 5 November although timeline and download/email invitation advertise 4 December. Do not merge methods or call the entire project closed. | [Source](https://conversations.gladstone.qld.gov.au/access-and-inclusion-action-plan-evaluation-framework) |
+| [Lachlan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lachlan/) | **Source blocked; deadline chronology unresolved.** The indexed financial-statements lead prints 12 November at 17:00 but presentation on 25 November. Source, financial attachment and tool remain unread; current acceptance and intended deadline require primary clarification. | [Source](https://www.lachlan.nsw.gov.au/Council/Keep-In-Touch/Public-Exhibition) |
+| [Cambridge](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/cambridge/) | **Source blocked; current indexed call.** Official indexed evidence invites community/youth LAMP surveys through 16 November, but direct pages return 403. Actual questionnaires, identity fields and privacy/publication terms remain unverified. Wider consultation pagination is also inaccessible. | [Source](https://www.cambridge.wa.gov.au/Plan-Build/Planning/Current-Planning-Development-Projects/Leisure-Assets-Master-Plan-LAMP) |
+| [Gwydir](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/gwydir/) | **Source blocked; catalogue unknown.** The official exhibition page returns 403. Actual current items, pagination and response tools remain unread. Searches did not establish a significant dated call; this is not a zero-current-call finding. | [Source](https://www.gwydir.nsw.gov.au/Council/Governance/Council-Documents-for-Public-Exhibition) |
+| [Buloke Shire Council](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/vic/buloke-shire-council/) | **Catalogue access gap.** The actual current consultation catalogue could not be enumerated. Standing methods and historical documents do not establish that no current invitation exists. | [Source](https://www.buloke.vic.gov.au/have-your-say) |
+| [Murrindindi Shire Council](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/vic/murrindindi-shire-council/) | **Catalogue access gap.** Current project catalogue and actual response rounds remain unenumerated despite official homepage/portal checks. Retain its scoped access-gap status rather than treating the empty project inventory as complete. | [Source](https://theloop.murrindindi.vic.gov.au/) |
+| [Nillumbik Shire Council](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/vic/nillumbik-shire-council/) | **Catalogue access gap.** Current project catalogue could not be enumerated. The separate official Alan Marshall Have Your Say lead also needs current-round reconciliation; no verified current call is inferred from a headline. | [Source](https://participate.nillumbik.vic.gov.au/) |
+| [Litchfield](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nt/litchfield/) | **Tool access failure; acceptance conflict.** The hub advertises Annual Community Survey 2026, but detail and actual response tool failed. Separately, the library survey online tool explicitly reports closure while Council still advertises hard-copy feedback, whose acceptance is unknown. Privacy conditions are incomplete. | [Source](https://litchfield.nt.gov.au/community/your-say-litchfield/annual-community-survey-2026) |
+| [Huon Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/tas/huon-valley/) | **Unknown deadline and lodgement fields.** The new round opened 7 November and has a public ideas board, but its closing widget could not be reliably paired with a date. Separately, the AGM motion page says midnight 1 December, while its widget says 12:00am and the online return form is missing. | [Source](https://engage.huonvalley.tas.gov.au/huonville-reimagined) |
+| [Mitcham](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/sa/mitcham/) | **Partial dynamic project enumeration.** The standing parks and footpath feedback routes are verified, but dynamic map markers were not fully enumerated. Individual project invitations and marker-specific deadlines therefore remain a coverage gap. | [Source](https://yoursay.mitchamcouncil.sa.gov.au/parks-and-open-space-projects) |
+| [Ballina](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/ballina/) | **Unknown deadline chronology; tool/publication limits.** Financial-statements page closes 16 November but schedules formal presentation on 26 November; listed email is malformed. Embedded response tool was not fully exposed. Several policy calls have separate unread embedded questionnaires and collection terms. | [Source](https://www.yoursayballina.com.au/annual-financial-statements-30-june-2026) |
+| [Ku-ring-gai](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/ku-ring-gai/) | **Identity-gated tool; unknown publication conditions.** Heritage feedback has separate paper 13 November at 17:00 and online midnight 15 November cutoffs. Timezone/midnight convention and later survey questions or publication conditions remain unconfirmed; not registering must not be described as anonymous. | [Source](https://yoursay.krg.nsw.gov.au/heritage-strategy-2026) |
+| [Lake Grace](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/lake-grace/) | **Unknown closing/acceptance field after document review.** The September residential-land business-plan notice and its 45-page attachment have been read, but no advertised closing date was supplied. Current acceptance cannot be inferred from a statutory minimum. Names/confidentiality terms remain unestablished. | [Source](https://www.lakegrace.wa.gov.au/publicnotices/public-notice-major-land-transaction/123) |
 
-- [ ] [Central Coast (NSW)](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/central-coast-nsw/)
-- [ ] [Central Darling](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/central-darling/)
-- [ ] [Cessnock](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/cessnock/)
-- [ ] [Clarence Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/clarence-valley/)
-- [ ] [Coffs Harbour](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/coffs-harbour/)
-- [ ] [Cowra](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/cowra/)
-- [ ] [Cumberland](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/cumberland/)
-- [ ] [Dubbo](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/dubbo/)
-- [ ] [Dungog](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/dungog/)
-- [ ] [Edward River](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/edward-river/)
-- [ ] [Eurobodalla](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/eurobodalla/)
-- [ ] [Fairfield](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/fairfield/)
-- [ ] [Federation](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/federation/)
-- [ ] [Forbes](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/forbes/)
-- [ ] [Georges River](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/georges-river/)
-- [ ] [Gilgandra](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/gilgandra/)
-- [ ] [Glen Innes Severn](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/glen-innes-severn/)
-- [ ] [Goulburn Mulwaree](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/goulburn-mulwaree/)
-- [ ] [Greater Hume](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/greater-hume/)
-- [ ] [Griffith](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/griffith/)
-- [ ] [Gunnedah](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/gunnedah/)
-- [ ] [Gwydir](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/gwydir/)
-- [ ] [Hawkesbury](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/hawkesbury/)
-- [ ] [Hay](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/hay/)
-- [ ] [Hilltops](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/hilltops/)
-- [ ] [Hornsby](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/hornsby/)
-- [ ] [Hunters Hill](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/hunters-hill/)
-- [ ] [Inner West](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/inner-west/)
-- [ ] [Inverell](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/inverell/)
-- [ ] [Junee](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/junee/)
-- [ ] [Kempsey](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/kempsey/)
-- [ ] [Kiama](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/kiama/)
-- [ ] [Ku-ring-gai](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/ku-ring-gai/)
-- [ ] [Kyogle](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/kyogle/)
-- [ ] [Lachlan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lachlan/)
-- [ ] [Lake Macquarie](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lake-macquarie/)
-- [ ] [Lane Cove](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lane-cove/)
-- [ ] [Leeton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/leeton/)
-- [ ] [Lismore](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lismore/)
-- [ ] [Lithgow](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lithgow/)
-- [ ] [Liverpool](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/liverpool/)
-- [ ] [Liverpool Plains](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/liverpool-plains/)
-- [ ] [Lockhart](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lockhart/)
-- [ ] [Maitland](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/maitland/)
-- [ ] [Mid-Coast](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/mid-coast/)
-- [ ] [Mid-Western](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/mid-western/)
-- [ ] [Moree Plains](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/moree-plains/)
-- [ ] [Mosman](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/mosman/)
-- [ ] [Murray River](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/murray-river/)
-- [ ] [Murrumbidgee](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/murrumbidgee/)
-- [ ] [Muswellbrook](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/muswellbrook/)
-- [ ] [Nambucca Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/nambucca-valley/)
-- [ ] [Narrabri](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/narrabri/)
-- [ ] [Narrandera](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/narrandera/)
-- [ ] [Narromine](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/narromine/)
-- [ ] [Newcastle](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/newcastle/)
-- [ ] [North Sydney](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/north-sydney/)
-- [ ] [Northern Beaches](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/northern-beaches/)
-- [ ] [Oberon](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/oberon/)
-- [ ] [Orange](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/orange/)
-- [ ] [Parkes](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/parkes/)
-- [ ] [Parramatta](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/parramatta/)
-- [ ] [Penrith](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/penrith/)
-- [ ] [Port Macquarie-Hastings](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/port-macquarie-hastings/)
-- [ ] [Port Stephens](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/port-stephens/)
-- [ ] [Queanbeyan-Palerang](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/queanbeyan-palerang/)
-- [ ] [Randwick](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/randwick/)
-- [ ] [Richmond Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/richmond-valley/)
-- [ ] [Ryde](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/ryde/)
-- [ ] [Shellharbour](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/shellharbour/)
-- [ ] [Shoalhaven](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/shoalhaven/)
-- [ ] [Singleton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/singleton/)
-- [ ] [Snowy Monaro](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/snowy-monaro/)
-- [ ] [Snowy Valleys](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/snowy-valleys/)
-- [ ] [Strathfield](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/strathfield/)
-- [ ] [Sutherland](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/sutherland/)
-- [ ] [Sydney](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/sydney/)
-- [ ] [Tamworth](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/tamworth/)
-- [ ] [Temora](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/temora/)
-- [ ] [Tenterfield](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/tenterfield/)
-- [ ] [The Hills](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/the-hills/)
-- [ ] [Tweed](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/tweed/)
-- [ ] [Unincorporated NSW](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/unincorporated-nsw/)
-- [ ] [Upper Hunter](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/upper-hunter/)
-- [ ] [Upper Lachlan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/upper-lachlan/)
-- [ ] [Uralla](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/uralla/)
-- [ ] [Wagga Wagga](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/wagga-wagga/)
-- [ ] [Walcha](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/walcha/)
-- [ ] [Walgett](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/walgett/)
-- [ ] [Warren](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/warren/)
-- [ ] [Warrumbungle](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/warrumbungle/)
-- [ ] [Waverley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/waverley/)
-- [ ] [Weddin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/weddin/)
-- [ ] [Wentworth](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/wentworth/)
-- [ ] [Willoughby](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/willoughby/)
-- [ ] [Wingecarribee](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/wingecarribee/)
-- [ ] [Wollondilly](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/wollondilly/)
-- [ ] [Wollongong](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/wollongong/)
-- [ ] [Woollahra](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/woollahra/)
-- [ ] [Yass Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/yass-valley/)
+## Named bodies still needing an inventory
 
-## Western Australia (82)
+The body audit records 3,099 named committee, panel and working-group entries across 522 areas. 1,503 entries retain uncertainty or historical-source labels. Eight names recovered from the project research were added to six previously empty profiles. Proposed bodies and unknown current terms remain explicit.
 
-- [ ] [Augusta Margaret River](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/augusta-margaret-river/)
-- [ ] [Boyup Brook](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/boyup-brook/)
-- [ ] [Bridgetown-Greenbushes](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/bridgetown-greenbushes/)
-- [ ] [Broomehill-Tambellup](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/broomehill-tambellup/)
-- [ ] [Busselton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/busselton/)
-- [ ] [Cambridge](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/cambridge/)
-- [ ] [Canning](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/canning/)
-- [ ] [Capel](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/capel/)
-- [ ] [Cockburn](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/cockburn/)
-- [ ] [Collie](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/collie/)
-- [ ] [Cottesloe](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/cottesloe/)
-- [ ] [Esperance](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/esperance/)
-- [ ] [Exmouth](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/exmouth/)
-- [ ] [Fremantle](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/fremantle/)
-- [ ] [Gosnells](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/gosnells/)
-- [ ] [Greater Geraldton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/greater-geraldton/)
-- [ ] [Jerramungup](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/jerramungup/)
-- [ ] [Joondalup](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/joondalup/)
-- [ ] [Kalamunda](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kalamunda/)
-- [ ] [Kalgoorlie-Boulder](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kalgoorlie-boulder/)
-- [ ] [Karratha](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/karratha/)
-- [ ] [Katanning](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/katanning/)
-- [ ] [Kellerberrin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kellerberrin/)
-- [ ] [Kent](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kent/)
-- [ ] [Kojonup](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kojonup/)
-- [ ] [Kondinin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kondinin/)
-- [ ] [Koorda](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/koorda/)
-- [ ] [Kulin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kulin/)
-- [ ] [Kwinana](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/kwinana/)
-- [ ] [Laverton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/laverton/)
-- [ ] [Mosman Park](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/mosman-park/)
-- [ ] [Mount Magnet](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/mount-magnet/)
-- [ ] [Mukinbudin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/mukinbudin/)
-- [ ] [Mundaring](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/mundaring/)
-- [ ] [Murchison](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/murchison/)
-- [ ] [Narembeen](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/narembeen/)
-- [ ] [Narrogin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/narrogin/)
-- [ ] [Nedlands](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/nedlands/)
-- [ ] [Ngaanyatjarraku](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/ngaanyatjarraku/)
-- [ ] [Northam](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/northam/)
-- [ ] [Northampton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/northampton/)
-- [ ] [Nungarin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/nungarin/)
-- [ ] [Peppermint Grove](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/peppermint-grove/)
-- [ ] [Perenjori](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/perenjori/)
-- [ ] [Perth](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/perth/)
-- [ ] [Pingelly](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/pingelly/)
-- [ ] [Plantagenet](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/plantagenet/)
-- [ ] [Port Hedland](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/port-hedland/)
-- [ ] [Quairading](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/quairading/)
-- [ ] [Ravensthorpe](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/ravensthorpe/)
-- [ ] [Rockingham](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/rockingham/)
-- [ ] [Sandstone](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/sandstone/)
-- [ ] [Serpentine-Jarrahdale](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/serpentine-jarrahdale/)
-- [ ] [Shark Bay](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/shark-bay/)
-- [ ] [South Perth](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/south-perth/)
-- [ ] [Stirling](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/stirling/)
-- [ ] [Subiaco](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/subiaco/)
-- [ ] [Swan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/swan/)
-- [ ] [Tammin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/tammin/)
-- [ ] [Three Springs](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/three-springs/)
-- [ ] [Toodyay](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/toodyay/)
-- [ ] [Trayning](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/trayning/)
-- [ ] [Upper Gascoyne](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/upper-gascoyne/)
-- [ ] [Victoria Park](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/victoria-park/)
-- [ ] [Victoria Plains](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/victoria-plains/)
-- [ ] [Vincent](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/vincent/)
-- [ ] [Wagin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wagin/)
-- [ ] [Wandering](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wandering/)
-- [ ] [Wanneroo](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wanneroo/)
-- [ ] [Waroona](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/waroona/)
-- [ ] [West Arthur](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/west-arthur/)
-- [ ] [Westonia](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/westonia/)
-- [ ] [Wickepin](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wickepin/)
-- [ ] [Williams](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/williams/)
-- [ ] [Wiluna](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wiluna/)
-- [ ] [Wongan-Ballidu](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wongan-ballidu/)
-- [ ] [Woodanilling](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/woodanilling/)
-- [ ] [Wyalkatchem](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wyalkatchem/)
-- [ ] [Wyndham-East Kimberley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/wyndham-east-kimberley/)
-- [ ] [Yalgoo](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/yalgoo/)
-- [ ] [Yilgarn](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/yilgarn/)
-- [ ] [York](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/wa/york/)
+24 ordinary council body inventories still have no named entry. This is independent of whether their pages have current invitations or standing participation methods:
 
+[Bathurst](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/bathurst/), [Berrigan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/berrigan/), [Bogan](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/bogan/), [Byron](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/byron/), [Cessnock](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/cessnock/), [Clarence Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/clarence-valley/), [Fairfield](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/fairfield/), [Glen Innes Severn](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/glen-innes-severn/), [Greater Hume](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/greater-hume/), [Gwydir](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/gwydir/), [Lake Macquarie](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lake-macquarie/), [Lismore](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/lismore/), [Mid-Coast](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/mid-coast/), [Murray River](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/murray-river/), [Narrabri](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/narrabri/), [Oberon](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/oberon/), [Parkes](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/parkes/), [Singleton](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/singleton/), [Tweed](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/tweed/), [Walgett](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/walgett/), [Warrumbungle](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/warrumbungle/), [Willoughby](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/willoughby/), [Yass Valley](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/nsw/yass-valley/), [Aurukun Shire](https://auraofintelligence.github.io/p4a-xyz-committees-inquiries/councils/qld/aurukun-shire/).
+
+Four other empty inventories are special or unincorporated areas with their own responsible-authority explanations. The [body audit](https://github.com/auraofintelligence/p4a-xyz-committees-inquiries/blob/main/data/council-bodies.json) distinguishes blocked, indexed, partial and historical evidence.
+
+## Continuing work
+
+- Revisit access-limited catalogues through their normal public sources and confirm actual project lists and pagination.
+- Read outstanding blank contribution tools, collection notices, identity requirements and method-specific restrictions. Never equate a visible form with a currently accepting round.
+- Reconcile conflicting dates, midnight conventions, malformed contact routes and separate online/paper cutoffs. Keep unknown hours and timezones unfilled.
+- Review individual planning notices, dynamic map markers, smaller newsletters and channels outside the screened project catalogues. Routine individual development applications were not all transcribed.
+- Confirm current committee terms, appointment outcomes and body-specific attendance, question, agenda-item and speaking rules. A listed body is not an invitation.
+- Recheck time-sensitive records and move verified ended contribution rounds to the responsible body's archive while retaining their published detail links.
+- Configure recurring source checks only when requested. No automation, submission, contact or enrolment was performed.

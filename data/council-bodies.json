@@ -82,14 +82,40 @@
       "checked": "2026-11-07",
       "sourceUrl": "https://www.armidale.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "source-blocked",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/governance/op-budget-2025-26.pdf (HTTP 403; source content not read.); https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/governance/arc_delivery_program_2022-2026.pdf (HTTP 403; source content not read.); https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/ocm-attachments-26-march-2025.pdf (HTTP 403; source content not read.); https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/aric-expression-of-interest-information-pack-2026.pdf (HTTP 403; source content not read.)",
         "Further specific inventory checks: https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/ocm-attachments-26-march-2025.pdf (Reader source access: https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/ocm-attachments-26-march-2025.pdf: (400) Timeout fetching); https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/governance/op-budget-2025-26.pdf (Reader source access: https://www.armidale.nsw.gov.au/files/assets/public/v/1/council/documents/governance/op-budget-2025-26.pdf: (403) Forbidden)",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://yoursay.armidale.nsw.gov.au/new-england-future-fund",
+          "access": "Official source read on 2026-11-07 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "New England Future Fund Board of Guardians",
+          "url": "https://yoursay.armidale.nsw.gov.au/new-england-future-fund",
+          "purpose": "The governance-framework consultation concerns updated Board of Guardians terms of reference for renewable-energy agreement contributions and community benefits.",
+          "kind": "proposed fund-governance body",
+          "status": "proposed; establishment and current membership unconfirmed",
+          "participation": "The current invitation is to comment on the governance framework by 10 November 2026. It is not an invitation to join the Board. Sitting or speaking rights were not established.",
+          "verification": "The canonical armidale-future-fund-governance-2026 record reports the official page was read on 2026-11-07. It explicitly calls both bodies proposed; current establishment and appointments are not inferred."
+        },
+        {
+          "name": "New England Future Fund Community Benefit Panel",
+          "url": "https://yoursay.armidale.nsw.gov.au/new-england-future-fund",
+          "purpose": "The governance-framework consultation concerns new Community Benefit Panel procedures for distributing community benefits from renewable-energy agreements.",
+          "kind": "proposed community-benefit panel",
+          "status": "proposed; establishment and current membership unconfirmed",
+          "participation": "Comment on the proposed governance framework by 10 November 2026 through the published written routes. No Panel recruitment or right to address a meeting was verified.",
+          "verification": "The canonical armidale-future-fund-governance-2026 record reports the official project read on 2026-11-07. The proposed Panel is distinct from the Board of Guardians. Current operation, membership and specific public contribution rules remain unconfirmed."
+        }
+      ],
       "standingInvitations": []
     },
     {
@@ -1157,14 +1183,31 @@
       "checked": "2026-11-07",
       "sourceUrl": "https://www.campbelltown.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "source-blocked",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/council-and-councillors/documents/meeting-and-minutes-2025/november/attachment8.2.1-annualreport2024-25.pdf (HTTP 403; source content not read.); https://www.campbelltown.nsw.gov.au/Council-and-Councillors/Meetings-and-Minutes/2026-Business-Papers (HTTP 403; source content not read.); https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/7/council-and-councillors/documents/new-code-of-meeting-practice-2025.pdf (HTTP 403; source content not read.)",
         "Further specific inventory checks: https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/7/council-and-councillors/documents/new-code-of-meeting-practice-2025.pdf (HTTP 403; source content not read.); https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/council-and-councillors/documents/meeting-and-minutes-2025/november/attachment8.2.1-annualreport2024-25.pdf (Reader source access: https://www.campbelltown.nsw.gov.au/files/sharedassets/public/v/1/council-and-councillors/documents/meeting-and-minutes-2025/november/attachment8.2.1-annualreport2024-25.pdf: (403) Forbidden)",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://overtoyou.campbelltown.nsw.gov.au/campbelltown-youth-action-team-application",
+          "access": "Official source read on 2026-11-07 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Campbelltown Youth Action Team",
+          "url": "https://overtoyou.campbelltown.nsw.gov.au/campbelltown-youth-action-team-application",
+          "purpose": "Young people can contribute perspectives on Council policy, planning and projects and develop youth-led actions through a 12-month team.",
+          "kind": "youth advisory team",
+          "status": "historical invitation; current term and intake unverified",
+          "participation": "The official application page describes a 12-month team for people aged 14 to 24 who live, work or study locally. Its current intake is unverified: the homepage still links a page last updated in March 2025, with no current dates or confirmation of rolling applications.",
+          "verification": "The canonical campbelltown-youth-action-team record preserves a direct official-page read on 2026-11-07. The blank application and current acceptance were not established, so the body is visible with uncertainty rather than presented as current recruitment."
+        }
+      ],
       "standingInvitations": []
     },
     {
@@ -3446,17 +3489,34 @@
     },
     {
       "councilId": "nsw-council-13910",
-      "checked": "2026-11-07",
+      "checked": "2026-11-08",
       "sourceUrl": "https://www.hilltops.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "source-blocked",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/05/Code-of-Meeting-Practice-adopted-14-January-2025.pdf (HTTP 200 access challenge or error page, not source content.); https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/07/Delivery-Program-2025-2029-Operational-Plan-2025-2026-adopted-28-May-2025.pdf (HTTP 200 access challenge or error page, not source content.); https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/04/Attachment-2-Draft-Hilltops-Council-Delivery-Program-2025-2029-and-Operational-Plan-2025-2026.pdf (HTTP 200 access challenge or error page, not source content.)",
         "Further specific inventory checks: https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/07/Delivery-Program-2025-2029-Operational-Plan-2025-2026-adopted-28-May-2025.pdf (HTTP 200 access challenge or error page, not source content.); https://www.hilltops.nsw.gov.au/wp-content/uploads/2025/04/Attachment-2-Draft-Hilltops-Council-Delivery-Program-2025-2029-and-Operational-Plan-2025-2026.pdf (HTTP 200 access challenge or error page, not source content.)",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://www.hilltops.nsw.gov.au/council/have-your-say/",
+          "access": "Official source read on 2026-11-08 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Biosecurity Weeds Advisory Committee",
+          "url": "https://www.hilltops.nsw.gov.au/council/have-your-say/",
+          "purpose": "Join a forum for local weed strategies, regional priorities, education and cooperation between Council, landholders and community stakeholders.",
+          "kind": "biosecurity advisory committee",
+          "status": "current recruiting body; terms of reference read",
+          "participation": "Community representatives and large rural landholders may nominate until 24 November 2026 at 09:00, timezone unconfirmed. Six to twelve members include two councillors, with appointments for the Council term. Terms separately encourage independent experts and community members to attend and speak; no next meeting or further speaking registration rule was confirmed. Members have confidentiality and conflict-of-interest duties.",
+          "verification": "The canonical hilltops-biosecurity-weeds-committee-eoi-2026 and hilltops-biosecurity-committee-community-speaking records were checked 2026-11-08. The recruiting notice, complete EOI and terms were read. A source postcode conflict remains; the verified email route avoids it. This confirms this named body, not the entire Hilltops inventory."
+        }
+      ],
       "standingInvitations": []
     },
     {
@@ -3819,17 +3879,43 @@
     },
     {
       "councilId": "nsw-council-14350",
-      "checked": "2026-11-07",
+      "checked": "2026-11-08",
       "sourceUrl": "https://www.kempsey.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "source-blocked",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees (HTTP 403; source content not read.); https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/corporate-performance/planning-amp-reporting/2025-web-ready/ceps-2025-28-vfinal.pdf (HTTP 403; source content not read.); https://www.kempsey.nsw.gov.au/files/sharedassets/public/v/1/docs/departments/community-partnerships/comm-dev/community-grants-sample-applications/final-2-community-grants-guidelines-2025-2026.pdf (HTTP 403; source content not read.); https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees (Official web reader could not read the destination (HTTP 403).)",
         "Further specific inventory checks: https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees (Official web reader could not read the destination (HTTP 403).); https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees (Reader source access: https://www.kempsey.nsw.gov.au/Your-Council/About-Council/Committees: (403) Forbidden)",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://yoursay.macleay.nsw.gov.au/",
+          "access": "Official source read on 2026-11-08 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Australia Day Awards Committee",
+          "url": "https://yoursay.macleay.nsw.gov.au/",
+          "purpose": "A Council awards body explicitly named in the recently reviewed nomination round. Detailed remit and decision powers were not retained in the project audit.",
+          "kind": "awards committee",
+          "status": "recent nomination round; current appointments unconfirmed",
+          "participation": "The project audit confirms committee nominations closed 30 September 2026. A current vacancy, selected membership and public speaking rules were not established.",
+          "verification": "Canonical Kempsey project audit checked 2026-11-08 records this exact body name and the closed September nomination round after reviewing recent project details. The individual detail URL was not retained in canonical evidence; the recorded official project catalogue is linked without inventing a detail URL."
+        },
+        {
+          "name": "First Nations Advisory Group",
+          "url": "https://yoursay.macleay.nsw.gov.au/",
+          "purpose": "A Council advisory group explicitly named in a reviewed prior recruitment round. Its detailed remit and current term were not retained in the project audit.",
+          "kind": "First Nations advisory group",
+          "status": "historical 2025 recruitment; current term unverified",
+          "participation": "The reviewed recruitment round closed in August 2025. Current appointments, eligibility and public contribution arrangements were not confirmed. No Traditional Owner consent or endorsement is inferred from the existence of a Council advisory group.",
+          "verification": "Canonical Kempsey project audit checked 2026-11-08 explicitly records this group and the closed August 2025 recruitment. The individual detail URL was not retained; the actual recorded Council project catalogue is linked. This is historical evidence of the named group, not a verified current membership invitation."
+        }
+      ],
       "standingInvitations": []
     },
     {
@@ -6669,18 +6755,35 @@
     },
     {
       "councilId": "nsw-council-16380",
-      "checked": "2026-11-07",
+      "checked": "2026-11-08",
       "sourceUrl": "https://www.pmhc.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "no-current-names",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.pmhc.nsw.gov.au/files/assets/public/v/1/document-files/your-council/publications/registers/cumulative-resolution-register-as-at-june-2025.pdf (HTTP 403; source content not read.); https://www.pmhc.nsw.gov.au/files/assets/public/v/9/document-files/your-council/publications/codes/code-of-meeting-practice-december-2025-adopted.pdf (HTTP 403; source content not read.)",
         "Documents were read but a complete current committee inventory has not yet been verified: https://haveyoursay.pmhc.nsw.gov.au/draft-establishment-and-management-of-committees-policy",
         "The committee-establishment policy consultation is closed and reports an October 2025 resolution. It explains committee policy but does not enumerate current bodies. The current appointment register and meeting-code sources returned 403.",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://haveyoursay.pmhc.nsw.gov.au/",
+          "access": "Official source read on 2026-11-08 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Community Voice Panel",
+          "url": "https://haveyoursay.pmhc.nsw.gov.au/",
+          "purpose": "Join the research panel through which residents are invited to contribute to Council planning and service feedback.",
+          "kind": "community research panel; not a formal decision committee",
+          "status": "current published panel invitation; intake and terms unverified",
+          "participation": "The homepage invites local residents aged 15 or over and links Place Score enrolment. Detailed selection, guardian, consent, storage and current acceptance conditions were not readable. This is a research-feedback panel, not a Council meeting-speaking entitlement.",
+          "verification": "The canonical port-macquarie-hastings-community-voice-panel-standing-resident-invitation-2026 record reports the actual current homepage invitation read on 2026-11-08. The external form exposed no readable initial conditions and was not completed."
+        }
+      ],
       "standingInvitations": [
         {
           "title": "Speak in a Public Forum Port Macquarie Hastings Council",
@@ -7473,17 +7576,34 @@
     },
     {
       "councilId": "nsw-council-17100",
-      "checked": "2026-11-07",
+      "checked": "2026-11-08",
       "sourceUrl": "https://www.strathfield.nsw.gov.au",
       "coverageStatus": "partial",
-      "reviewOutcome": "source-blocked",
+      "reviewOutcome": "current-records-partial",
       "gaps": [
+        "Later project evidence recovered only the explicitly named bodies below. Earlier blocked-source and uncertainty notes are preserved as the limits of those earlier inventory checks. This is a partial additive recovery, not a complete current committee directory or confirmation of every body term.",
         "Named-inventory source access remains incomplete: https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/council-meetings/2025/ordinary-council-meeting-25-november-2025-agenda.pdf (HTTP 403; source content not read.); https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/access-to-information/agency-info-guide-gipaa-lr-v1-2.pdf (HTTP 403; source content not read.); https://www.strathfield.nsw.gov.au/Council/Council-Meetings/11-August-2026-Strategy-and-Policy-Committee-Meeting (HTTP 403; source content not read.)",
         "Further specific inventory checks: https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/reports-and-registers/annual-reports/strathfield-council_annual-report-2024-25_final.pdf (Reader source access: https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/reports-and-registers/annual-reports/strathfield-council_annual-report-2024-25_final.pdf: (403) Forbidden); https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/council-meetings/2025/ordinary-council-meeting-25-november-2025-agenda.pdf (Reader source access: https://www.strathfield.nsw.gov.au/files/assets/public/v/1/council/council-meetings/2025/ordinary-council-meeting-25-november-2025-agenda.pdf: (400) Content length is too large: 53701171)",
-        "No current named-body inventory was verified for this council after the stated document checks. This is not a finding that the council has no committees."
+        "Later project and recruitment evidence recovered the limited named entries shown here. A complete current body inventory, every present term and all body-specific contribution rules remain unverified."
       ],
-      "directories": [],
-      "committees": [],
+      "directories": [
+        {
+          "title": "Project or recruitment source for a partial named-body recovery",
+          "url": "https://haveyoursay.strathfield.nsw.gov.au/eoi-events-committee",
+          "access": "Official source read on 2026-11-08 as recorded in the canonical participation evidence; not a complete body directory"
+        }
+      ],
+      "committees": [
+        {
+          "name": "Events Committee",
+          "url": "https://haveyoursay.strathfield.nsw.gov.au/eoi-events-committee",
+          "purpose": "A Council events committee explicitly identified in the reviewed member expression-of-interest notice. The full remit is not retained in the project audit.",
+          "kind": "events committee",
+          "status": "recent recruitment; current appointment outcome unconfirmed",
+          "participation": "The actual expression-of-interest round ended 30 October 2026 despite an Open catalogue label. No current membership application, meeting-speaking route or appointment outcome was confirmed.",
+          "verification": "Canonical Strathfield project audit checked 2026-11-08 explicitly records the named Events Committee notice and its closed recruitment date. This recovers the body name only; it does not reopen recruitment or establish a complete inventory."
+        }
+      ],
       "standingInvitations": []
     },
     {
