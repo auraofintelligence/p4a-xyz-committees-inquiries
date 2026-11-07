@@ -32,7 +32,7 @@ COUNCIL_BODY_DATA=json.loads((ROOT/'data/council-bodies.json').read_text(encodin
 COUNCIL_BODIES={a['councilId']:a for a in COUNCIL_BODY_DATA['audits']}
 TOPICS = {'housing':'Housing & planning','health':'Health & care','environment':'Environment & animals','economy':'Work, costs & economy','rights':'Rights & justice','democracy':'Elections & democracy','technology':'Technology & data','infrastructure':'Transport & infrastructure','community':'Community & culture','governance':'Government & accountability'}
 PAGES = []
-ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ('assets/participation.css','assets/participation.js','assets/site-nav.js')}
+ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ('assets/participation.css','assets/participation.js','assets/site-nav.js','assets/site-map.js')}
 
 def e(value):
     return html.escape(str(value or ''), quote=True)
@@ -205,17 +205,25 @@ def chrome(page, title, body, description):
     doors=[('pages/maps.html','Maps'),('pages/architecture.html','System'),('pages/twinkle.html','Twinkle'),('pages/states.html','States'),('pages/starter-field-kit.html','Start local'),('pages/deployment-gear.html','Gear')]
     nav=''.join(link(page,P4A+p,t) for p,t in doors)
     section_nav=section_navigation(page)
-    map_assets=f'<link rel="stylesheet" href="{e(rel(page,"assets/site-map.css"))}"><script src="{e(rel(page,"assets/site-map.js"))}" defer></script>' if page=='pages/site-map.html' else ''
+    map_assets=f'<link rel="stylesheet" href="{e(rel(page,"assets/site-map.css"))}"><script src="{asset(page,"assets/site-map.js")}" defer></script>' if page=='pages/site-map.html' else ''
     return f'''<!doctype html>
 <html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#3f0f75"><title>{e(title)} | P4A</title><meta name="description" content="{e(description)}"><link rel="canonical" href="{e(BASE+('' if page=='index.html' else page.removesuffix('index.html')))}"><link rel="icon" href="{e(rel(page,'assets/favicon.svg'))}"><link rel="stylesheet" href="{e(rel(page,'styles.css'))}"><link rel="stylesheet" href="{asset(page,'assets/participation.css')}">{map_assets}<script src="{asset(page,'assets/site-nav.js')}" defer></script><script src="{asset(page,'assets/participation.js')}" defer></script></head>
 <body class="participation-site" data-theme="royal"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="brand" href="{P4A}index.html" aria-label="P4A home"><span class="brand-mark">P4A</span><span class="brand-text"><strong>Purple Party</strong><span>for Australia</span></span></a><nav class="site-nav" data-nav aria-label="Primary">{nav}</nav><button class="index-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-index"><span class="index-toggle-lines" aria-hidden="true"><i></i><i></i><i></i></span><span class="index-toggle-label">Index</span></button></header>
 <main id="main">{section_nav}{body}</main>
 <footer class="site-footer"><div><p>P4A is currently a proposed movement and drafting project. Content is exploratory unless explicitly marked as adopted policy.</p><p>p4a.xyz - Less splash, more class. A civic workbench, started on Minjerribah.</p><p class="participation-research-date">Latest source checks {pretty_date(CHECKED)}. Individual records retain their own dates. {link(page,'sources/','Coverage and source limits')}.</p></div><nav class="footer-links" aria-label="Footer links">{link(page,'pages/site-map.html','Site map')}{link(page,P4A+'pages/site-map.html','All P4A pages')}{link(page,'LICENCE.md','Strange But True licence')}{link(page,REPO,'Committees source',cue=False)}{link(page,'robots.txt','robots.txt')}</nav></footer><a class="back-top" href="#main" aria-label="Back to top">↑ Top</a></body></html>'''
 
+def compact_html(document):
+    """Omit only HTML-optional end tags at explicitly permitted boundaries."""
+    document=re.sub(r'</li>(?=<(?:li\b|/(?:ul|ol)>))','',document)
+    document=re.sub(r'</dt>(?=<(?:dt|dd)\b)','',document)
+    document=re.sub(r'</dd>(?=<(?:dt\b|dd\b|/dl>))','',document)
+    document=re.sub(r'</p>(?=<(?:p\b|div\b|h[1-6]\b|ul\b|ol\b|dl\b|form\b|/(?:div|li)>))','',document)
+    return document
+
 def write(page, title, body, description=''):
     dest=OUT/page
     dest.parent.mkdir(parents=True, exist_ok=True)
-    dest.write_text(chrome(page,title,body,description or title),encoding='utf-8')
+    dest.write_text(compact_html(chrome(page,title,body,description or title)),encoding='utf-8')
     PAGES.append((page,title))
 
 def coverage_table(page, rows=None):
@@ -372,7 +380,7 @@ def build():
             groups.append(('councils-'+j,name+' councils',council_items))
         groups.append(('committees-'+j,('Australia' if j=='federal' else name)+' committees',[('committees/'+j+'/index.html',name+' committee directory')]+[(committee_route(c)+'index.html',c['name']) for c in COMMITTEES if c['jurisdiction']==j]))
     for key,label,items in groups:
-        intro+='<details class="human-directory" id="map-'+key+'" data-site-group'+(' open' if key=='start' else '')+'><summary><strong>'+label+'</strong><span>'+str(len(items))+' pages</span></summary><ul>'+''.join('<li data-site-page data-search="'+e((t+' '+p+' '+label).lower())+'">'+link(page,p,t)+'</li>' for p,t in items)+'</ul></details>'
+        intro+='<details class="human-directory" id="map-'+key+'" data-site-group'+(' open' if key=='start' else '')+'><summary><strong>'+label+'</strong><span>'+str(len(items))+' pages</span></summary><ul>'+''.join('<li data-site-page>'+link(page,p,t)+'</li>' for p,t in items)+'</ul></details>'
     write(page,'Find your way', '<div class="human-site-map">'+intro+'</div>')
     write('404.html','Page not found',hero('Find your way back.','This participation page could not be found.')+'<div class="button-row">'+link('404.html','index.html','Home','button')+link('404.html','index.html','Choose a jurisdiction','button button-secondary')+'</div>')
     urls=[BASE+('' if p=='index.html' else p.removesuffix('index.html')) for p,t in PAGES if p!='404.html']

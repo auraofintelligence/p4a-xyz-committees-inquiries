@@ -51,7 +51,7 @@
       const terms=words(bodySearch.elements.search.value);let shown=0;
       for(const body of bodies){body.hidden=!terms.every(term=>fold(body.textContent).includes(term));if(!body.hidden)shown++;}
       for(const group of document.querySelectorAll('[data-body-group]'))group.hidden=![...group.querySelectorAll('[data-council-body]')].some(body=>!body.hidden);
-      document.querySelector('[data-body-count]').textContent=`${shown} of ${bodies.length} named bodies shown; inventory may be incomplete.`;
+      document.querySelector('[data-body-count]').textContent=`${shown} of ${bodies.length} body entries shown; inventory may be incomplete.`;
     };
     bodySearch.addEventListener('submit',e=>e.preventDefault());
     bodySearch.addEventListener('input',updateBodies);

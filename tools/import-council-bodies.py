@@ -23,7 +23,7 @@ def merge(paths):
             ident=row['councilId'];assert ident in identities,ident
             if ident=='qld-council-6250':continue
             date.fromisoformat(row['checked'])
-            audit={k:clean(row[k]) for k in ('councilId','checked','sourceUrl','coverageStatus') if row.get(k)}
+            audit={k:clean(row[k]) for k in ('councilId','checked','sourceUrl','coverageStatus','reviewOutcome') if row.get(k)}
             audit['gaps']=[clean(v) for v in row.get('gaps',[])]
             audit['directories']=[]
             for entry in row.get('committeeDirectories',row.get('directories',[])):

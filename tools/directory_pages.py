@@ -1,6 +1,6 @@
 """Separate public-body directories, with participation kept on its own path."""
 from council_pathways import render as render_pathways,coverage as pathway_coverage,pathway_count
-from council_bodies import render as render_bodies,extra_invitations
+from council_bodies import render as render_bodies,extra_invitations,uncertain_body
 import re
 
 def chooser(s,page,title,description,items):
@@ -50,7 +50,7 @@ def redland_committees(s):
 
 def searchable_list(s,page,label,rows,kind):
  total=len(rows)
- controls='<form class="directory-search" id="directory-search" data-directory-search hidden><label>Find '+s.e(label)+'<input type="search" name="search" placeholder="Type a name, subject or participation route" autocomplete="off"></label><label>Sort<select name="sort"><option value="name">A to Z</option><option value="participation">Invitations recorded first</option><option value="priority">P4A matched invitations first</option></select></label><button type="reset">Clear</button></form><p data-directory-count aria-live="polite">'+str(total)+' '+s.e(label)+'.</p>'
+ controls='<form class="directory-search" id="directory-search" data-directory-search hidden><label>Find '+s.e(label)+'<input type="search" name="search" placeholder="Type a name, subject or participation route" autocomplete="off"></label><label>Sort<select name="sort"><option value="name">A to Z</option><option value="participation">Participation routes first</option><option value="priority">P4A matched invitations first</option></select></label><button type="reset">Clear</button></form><p data-directory-count aria-live="polite">'+str(total)+' '+s.e(label)+'.</p>'
  items=[]
  for row in rows:
   if kind=='council':
@@ -68,8 +68,8 @@ def searchable_list(s,page,label,rows,kind):
    if audit:search+=' '+' '.join(p['title']+' '+p['type']+' '+p.get('method','') for p in audit['pathways'])
    bodies=s.COUNCIL_BODIES.get(row['id'],{})
    if bodies.get('committees'):
-    note+=' · '+str(len(bodies['committees']))+' body entries'
-    unverified_bodies=sum(b.get('status') in ('unverified','historical-source') for b in bodies['committees'])
+    note+=' · '+str(len(bodies['committees']))+(' body entry' if len(bodies['committees'])==1 else ' body entries')
+    unverified_bodies=sum(uncertain_body(b) for b in bodies['committees'])
     if unverified_bodies:note+=' ('+str(unverified_bodies)+' uncertain)'
    search+=' '+' '.join(b['name']+' '+b.get('purpose','') for b in bodies.get('committees',[]))+' '+' '.join(b['title']+' '+b['method'] for b in bodies.get('standingInvitations',[]))
   else:
@@ -84,15 +84,16 @@ def searchable_list(s,page,label,rows,kind):
   if kind=='council':
    badges=[]
    if count:badges.append(str(count)+' open / upcoming')
-   standing=sum(r['status']=='ongoing' for r in records)+len(extra_invitations(s,row,bodies))
-   if standing:badges.append(str(standing)+' standing routes')
+   standing=sum(r['status']=='ongoing' for r in records)+len(extra_invitations(s,row,bodies))+len(review['mechanisms'] if review else [])
+   if standing:badges.append(str(standing)+(' standing route' if standing==1 else ' standing routes'))
    if uncertain:badges.append(str(uncertain)+' uncertain')
    action=' · '.join(badges) if badges else 'Invitations not catalogued'
   if kind=='council':
    for term in ('petition','consultation','meeting','question','deputation','submission'):
     if re.search(r'\b'+term+r's?\b',search,re.I):search+=' '+term+' '+term+'s'
   search=' '.join(dict.fromkeys(re.findall(r"[\w'-]+",search.lower())))
-  items.append('<li class="body-directory-row" data-directory-row data-name="'+s.e(row['name'].lower())+'" data-search="'+s.e(search)+'" data-participation="'+str(count)+'" data-priority="'+str(priority)+'"><div><h2>'+s.link(page,url,row['name'])+'</h2><p>'+s.e(note)+'</p></div><div><span class="directory-status">'+s.e(action)+'</span>'+s.link(page,url,'Open '+('local area' if kind=='council' and row['kind']!='council' else kind),'text-link')+'</div></li>')
+  sort_count=count+standing if kind=='council' else count
+  items.append('<li class="body-directory-row" data-directory-row data-name="'+s.e(row['name'].lower())+'" data-search="'+s.e(search)+'" data-participation="'+str(sort_count)+'" data-priority="'+str(priority)+'"><div><h2>'+s.link(page,url,row['name'])+'</h2><p>'+s.e(note)+'</p></div><div><span class="directory-status">'+s.e(action)+'</span>'+s.link(page,url,'Open '+('local area' if kind=='council' and row['kind']!='council' else kind),'text-link')+'</div></li>')
  return controls+'<ul class="body-directory">'+''.join(items)+'</ul><p data-directory-empty class="notice" hidden>No matching '+s.e(label)+'. Try fewer words.</p>'
 
 def build_directories(s):
@@ -120,7 +121,7 @@ def build_directories(s):
  for council in s.COUNCILS:
   if council['id']=='qld-council-6250':continue
   route=s.council_route(council);page=route+'index.html';review=council.get('review');records=s.council_records(council['id'])
-  body=s.hero(council['name']+'.','Participation in this local area, with each route’s own rules and source limits.',s.NAMES[council['jurisdiction']]+' · local participation',cls='directory-hero')
+  body=s.hero(council['name']+'.','Local participation, conditions and source limits.',s.NAMES[council['jurisdiction']]+' · local participation',cls='directory-hero')
   body+='<p>'+s.link(page,'councils/'+council['jurisdiction']+'/','Choose another local area in '+s.NAMES[council['jurisdiction']])+'</p>'
   if council['kind']!='council':body+='<p class="notice">This is an '+('unincorporated area' if council['kind']=='unincorporated-area' else 'area with a special local body')+'. It is not presented as an ordinary elected council. Use the official source to identify the responsible authority.</p>'
   current=[r for r in records if r['status']!='closed']
@@ -146,8 +147,9 @@ def build_directories(s):
   elif council['id'] not in s.COUNCIL_PATHWAYS:
    body+='<p class="notice"><strong>Participation sources not yet checked.</strong> This council or local area is included so you can find it. Current consultations, petition rules, public questions and speaking procedures have not been verified here. This does not mean no opportunities exist.</p>'
   body+=render_bodies(s,page,council)+render_pathways(s,page,council)
-  official=s.COUNCIL_PATHWAYS.get(council['id'],{}).get('sourceUrl') or council['officialUrl']
-  body+='<div class="button-row">'+s.link(page,official,'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Identity directory checked '+s.pretty_date(council['directoryChecked'])+'. Participation sources retain the review dates shown above.</p>'
+  body_audit=s.COUNCIL_BODIES.get(council['id'],{})
+  official=(body_audit.get('sourceUrl') if body_audit.get('reviewOutcome') else None) or s.COUNCIL_PATHWAYS.get(council['id'],{}).get('sourceUrl') or council['officialUrl']
+  body+='<div class="button-row">'+s.link(page,official,'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Identity checked '+s.pretty_date(council['directoryChecked'])+'; participation check dates shown above.</p>'
   if records:
    body+=s.archive_link(page,route,council['name'])
    closed=[r for r in records if r['status']=='closed'];archive='archive/'+route+'index.html'

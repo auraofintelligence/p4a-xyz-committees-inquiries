@@ -25,7 +25,7 @@ def render(s,page,council):
     audit=s.COUNCIL_PATHWAYS.get(council['id'])
     if not audit:return ''
     routes=audit['pathways']
-    body='<section id="participation-pathways" class="council-pathways" data-council-pathways="'+s.e(council['id'])+'"><h2>Official participation pathways</h2><p class="prose">Sources checked '+s.pretty_date(audit['checked'])+'. Each route has its own eligibility, timing, publication and recording rules. Conditions not expressly reviewed below remain unverified. A link does not establish an open invitation or permission to speak.</p>'
+    body='<section id="participation-pathways" class="council-pathways" data-council-pathways="'+s.e(council['id'])+'"><h2>Official participation pathways</h2><p class="prose">Sources checked '+s.pretty_date(audit['checked'])+' unless noted. Unstated timing, eligibility and publication rules remain unverified. Links alone do not establish an open invitation or permission to speak.</p>'
     if routes:
         labels={'consultation':'Consultations and feedback','consultation-project':'Consultation project; status unverified','petitions':'Petitions','meeting-participation':'Questions and speaking','meeting-information':'Meetings and agendas','community-reference':'Community reference groups'}
         body+='<ul class="council-pathway-list">'
@@ -38,11 +38,22 @@ def render(s,page,council):
             if method:body+='<p>'+s.e(method)+'</p>'
             if route['access']=='indexed-only':body+='<p class="pathway-limits"><strong>Uncertain:</strong> official indexed source only. The current destination could not be read.</p>'
             elif route['access'] not in ('page-read','directly-reviewed','direct-read'):body+='<p class="pathway-limits">Official link verified; destination access or detailed conditions remain limited.</p>'
-            body+='<details class="participation-method"><summary>Source and conditions checked</summary><p>'+s.e(route['verification'])+'</p>'
+            verification=route['verification']
+            generic_verification=route['access']=='page-read' and verification in (
+                'Official participation page read. Individual project invitations and detailed procedures remain partial.',
+                'Official participation page opened and read on '+s.pretty_date(route['checked'])+'. The pathway is verified; current invitations and procedure details require their own checks.'
+            )
+            if generic_verification and not any(route.get(k) for k in ('timing','eligibility','disclosure')) and s.source_key(route['sourceUrl'])==s.source_key(route['url']) and route['checked']==audit['checked']:
+                body+='<p class="pathway-limits">Official page read.</p></li>'
+                continue
+            if generic_verification:verification='Official page read; individual project invitations and detailed conditions remain partial.'
+            body+='<details class="participation-method"><summary>Source and conditions checked</summary><p>'+s.e(verification)+'</p>'
             for field,label in [('timing','Timing'),('eligibility','Eligibility'),('disclosure','What may become public')]:
                 if route.get(field):body+='<p><strong>'+label+':</strong> '+s.e(route[field])+'</p>'
-            source=s.link(page,route['sourceUrl'],'Official source identifying this route') if s.source_key(route['sourceUrl'])!=s.source_key(route['url']) else 'Official page linked above'
-            body+='<p>'+source+' · checked '+s.pretty_date(route['checked'])+'</p></details></li>'
+            source=s.link(page,route['sourceUrl'],'Source identifying this route') if s.source_key(route['sourceUrl'])!=s.source_key(route['url']) else ''
+            if route['checked']!=audit['checked']:source+=(' · ' if source else '')+'checked '+s.pretty_date(route['checked'])
+            if source:body+='<p>'+source+'</p>'
+            body+='</details></li>'
         body+='</ul>'
     else:
         body+='<p class="notice">No direct participation pathway was confirmed in this source check. This does not mean no route exists. Use the council’s published source and the access notes below.</p>'

@@ -7,6 +7,7 @@
   const status = root.querySelector('[data-site-search-status]');
   const groups = [...root.querySelectorAll('[data-site-group]')];
   const items = [...root.querySelectorAll('[data-site-page]')];
+  const searchable = new Map(items.map(item => [item, [item.textContent, item.querySelector('a').getAttribute('href'), item.closest('[data-site-group]').querySelector('summary strong').textContent].join(' ').toLocaleLowerCase('en-AU')]));
   const initial = new Map(groups.map(group => [group, group.open]));
   if (!input || !filter) return;
   filter.hidden = false;
@@ -14,7 +15,7 @@
     const words = input.value.toLocaleLowerCase('en-AU').trim().split(/\s+/).filter(Boolean);
     let matches = 0;
     items.forEach(item => {
-      item.hidden = !words.every(word => item.dataset.search.includes(word));
+      item.hidden = !words.every(word => searchable.get(item).includes(word));
       if (!item.hidden) matches++;
     });
     groups.forEach(group => {

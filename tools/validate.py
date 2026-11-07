@@ -137,11 +137,13 @@ def validate():
             assert date.fromisoformat(pathway['checked'])<=checked
             assert 'evidenceExcerpt' not in pathway and 'html' not in pathway
     body_audits=json.loads((ROOT/'data/council-bodies.json').read_text(encoding='utf8'))['audits']
+    from council_bodies import REVIEW_OUTCOMES
     assert len({a['councilId'] for a in body_audits})==len(body_audits)
     for audit in body_audits:
         assert audit['councilId'] in council_ids and audit['councilId']!='qld-council-6250'
         assert date.fromisoformat(audit['checked'])<=checked
         assert audit.get('coverageStatus')
+        if audit.get('reviewOutcome'):assert audit['reviewOutcome'] in REVIEW_OUTCOMES,audit['councilId']+': unknown research outcome'
         if audit.get('sourceUrl'):assert audit['sourceUrl'].startswith(('https://','http://'))
         else:assert next(c for c in councils if c['id']==audit['councilId'])['kind']!='council' and not audit['committees'] and not audit['standingInvitations'] and audit['gaps']
         assert len({(b['name'].casefold(),b['url']) for b in audit['committees']})==len(audit['committees'])
@@ -228,7 +230,10 @@ def validate():
             source=pages[route].read_text(encoding='utf8')
             assert source.count('<li data-council-body>')==len(audit['committees']),route+': a named body is missing'
             from build import source_key
-            from council_bodies import procedure_key
+            from council_bodies import procedure_key,uncertain_body
+            body_section=re.search(r'<section id="council-committees"[^>]*>.*?</section>',source,re.S)
+            assert body_section,route+': missing council body section'
+            assert body_section[0].count('class="status-badge status-unverified"')==sum(uncertain_body(b) for b in audit['committees']),route+': uncertainty labels do not match source status'
             procedure_sources={procedure_key(source_key,council['id'],m['sourceUrl']) for m in council.get('review',{}).get('mechanisms',[])}
             extras=[i for i in audit['standingInvitations'] if procedure_key(source_key,council['id'],i['url']) not in procedure_sources]
             assert source.count('data-standing-invitation')==len(extras),route+': a standing invitation is missing'
