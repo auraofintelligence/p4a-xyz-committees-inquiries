@@ -2222,7 +2222,49 @@
       "kind": "council",
       "officialUrl": "https://www.ipswich.qld.gov.au/",
       "p4aUrl": "https://p4a.xyz/states/qld/councils/ipswich-city/index.html",
-      "directoryChecked": "2026-10-17"
+      "directoryChecked": "2026-10-17",
+      "review": {
+        "checked": "2026-11-07",
+        "summary": "Ipswich distinguishes Ordinary Meeting public participation, petitions and observation of council or committee meetings.",
+        "consultationUrl": "https://www.shapeyouripswich.com.au/",
+        "consultationNote": "Council directly links this engagement portal. Its project pages could not be read during this review; individual invitations remain unchecked.",
+        "gaps": [
+          "The linked speaking policy and application PDFs were inaccessible, so application deadlines and speaking limits are unverified.",
+          "Current portal projects and petition-form publication details need their own review."
+        ],
+        "mechanisms": [
+          {
+            "title": "Apply to participate at an Ordinary Meeting",
+            "type": "public-address",
+            "method": "Use the linked public-participation application for council strategies, policies or current agenda matters.",
+            "timing": "The meeting page links the policy and form; their application cutoff was not verified.",
+            "eligibility": "Community members, subject to Council’s policy and application. No committee speaking entitlement is inferred.",
+            "disclosure": "Ordinary meetings are livestreamed and retained; verify form-specific privacy conditions.",
+            "sourceUrl": "https://www.ipswich.qld.gov.au/About-Council/Council-Meetings",
+            "verification": "Ordinary Meeting participation invitation directly read; linked policy/form access gaps retained."
+          },
+          {
+            "title": "Lodge a petition",
+            "type": "petition",
+            "method": "Use the council petition template and submit a compliant petition via a councillor or the published delivery routes.",
+            "timing": "A continuing route; no fixed closing date is stated.",
+            "eligibility": "At least ten supporters; the meeting procedures govern compliance.",
+            "disclosure": "A petition may be considered in public proceedings. Treatment of signatory details was not verified.",
+            "sourceUrl": "https://www.ipswich.qld.gov.au/About-Council/Council-Meetings",
+            "verification": "Minimum supporter count and lodgement routes directly read."
+          },
+          {
+            "title": "Observe council and committee meetings",
+            "type": "observation",
+            "method": "Attend public Ordinary or committee meetings or use the council livestream.",
+            "timing": "Check current schedules, agendas and any closure notices.",
+            "eligibility": "Public observation; it does not establish permission to address a committee.",
+            "disclosure": "Streams and meeting records are retained publicly.",
+            "sourceUrl": "https://www.ipswich.qld.gov.au/About-Council/Council-Meetings",
+            "verification": "Attendance, streaming and published records directly read."
+          }
+        ]
+      }
     },
     {
       "id": "qld-council-3980",
@@ -2398,7 +2440,39 @@
       "kind": "council",
       "officialUrl": "https://www.moretonbay.qld.gov.au/",
       "p4aUrl": "https://p4a.xyz/states/qld/councils/moreton-bay-city/index.html",
-      "directoryChecked": "2026-10-17"
+      "directoryChecked": "2026-10-17",
+      "review": {
+        "checked": "2026-11-07",
+        "summary": "Community Comment is an application-based speaking route at General Meetings; public observation and online consultation are separate.",
+        "consultationUrl": "https://yoursay.moretonbay.qld.gov.au/",
+        "consultationNote": "Use current project invitations. Some contribution tools require registration; anonymous browsing is available.",
+        "gaps": [
+          "Current linked application and policy PDFs could not be read. Detailed speaking limits and form-specific collection conditions need confirmation.",
+          "Petition procedures and every current project have not been fully reviewed."
+        ],
+        "mechanisms": [
+          {
+            "title": "Apply for a Community Comment session",
+            "type": "public-address",
+            "method": "Residents and ratepayers may apply to address a General Meeting. Submit the council application to the CEO.",
+            "timing": "Council must receive it seven days before the meeting. Sessions exclude the first and last annual meetings and specified election-transition meetings; check the published schedule.",
+            "eligibility": "City residents and ratepayers; speaking requires the application process.",
+            "disclosure": "Meetings are public and recordings are available. Confirm the application form’s personal-information conditions.",
+            "sourceUrl": "https://www.moretonbay.qld.gov.au/Council/Meetings",
+            "verification": "Meeting page directly read, including eligibility, advance application and excluded meetings."
+          },
+          {
+            "title": "Observe General and Committee meetings",
+            "type": "observation",
+            "method": "Attend to observe or use published recordings.",
+            "timing": "Check the current agenda; capacity can limit gallery access.",
+            "eligibility": "Members of the public; observation does not confer a speaking right.",
+            "disclosure": "Meeting video recordings are published.",
+            "sourceUrl": "https://www.moretonbay.qld.gov.au/Council/Meetings",
+            "verification": "Public gallery access and recordings directly confirmed."
+          }
+        ]
+      }
     },
     {
       "id": "qld-council-5250",
@@ -2588,7 +2662,39 @@
       "kind": "council",
       "officialUrl": "https://www.sunshinecoast.qld.gov.au/",
       "p4aUrl": "https://p4a.xyz/states/qld/councils/sunshine-coast-regional/index.html",
-      "directoryChecked": "2026-10-17"
+      "directoryChecked": "2026-10-17",
+      "review": {
+        "checked": "2026-11-07",
+        "summary": "Use the consultation portal for individual projects, petition under its specific rules, or observe meetings. A general public speaking entitlement was not verified.",
+        "consultationUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/",
+        "consultationNote": "Project surveys have their own collection notices. Portal terms warn that posts may remain public; under-18 users should involve a parent or guardian in the terms.",
+        "gaps": [
+          "A current public-question or deputation application route was not verified. Attendance and councillor teleconference rules are not a public speaking right.",
+          "Not every portal project or planning submission has been reviewed."
+        ],
+        "mechanisms": [
+          {
+            "title": "Prepare and lodge a petition",
+            "type": "petition",
+            "method": "Keep it within council powers, state the request on each page, identify a lead petitioner and lodge via a Divisional Councillor or the CEO.",
+            "timing": "No fixed closing date. A petition received at an Ordinary Meeting is referred for action rather than debated immediately.",
+            "eligibility": "Minimum ten signatures and 250 words. Online petitions must be downloaded and emailed to a Divisional Councillor.",
+            "disclosure": "Petitions used as development-application submissions expose individual details publicly, including through search engines. General petition privacy needs its own check.",
+            "sourceUrl": "https://www.sunshinecoast.qld.gov.au/council/council-meetings/petitioning-council",
+            "verification": "Petition preparation, lodgement, referral and development-submission disclosure directly read."
+          },
+          {
+            "title": "Observe public council meetings",
+            "type": "observation",
+            "method": "Attend open proceedings or watch the council video stream.",
+            "timing": "Check meeting dates and current agendas. Closed portions may exclude the public.",
+            "eligibility": "Gallery observation, not a verified speaking application.",
+            "disclosure": "Council publishes video, agendas and minutes.",
+            "sourceUrl": "https://www.sunshinecoast.qld.gov.au/council/council-meetings",
+            "verification": "Meeting information and current linked Standing Orders reviewed."
+          }
+        ]
+      }
     },
     {
       "id": "qld-council-6820",

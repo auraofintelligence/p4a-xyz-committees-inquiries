@@ -1,4 +1,5 @@
 """Separate public-body directories, with participation kept on its own path."""
+from council_pathways import render as render_pathways,coverage as pathway_coverage,pathway_count
 
 def chooser(s,page,title,description,items):
  body=s.hero(title,description,cls='directory-hero')
@@ -52,12 +53,16 @@ def searchable_list(s,page,label,rows,kind):
  for row in rows:
   if kind=='council':
    url=s.council_route(row);review=row.get('review');records=s.council_records(row['id'])
+   audit=s.COUNCIL_PATHWAYS.get(row['id']);route_count=pathway_count(s,row)
    count=len([r for r in records if r['status'] in ('open','upcoming','ongoing')])
    status='Participation rules checked '+s.pretty_date(review['checked']) if review else 'Participation sources not yet checked'
+   if audit and not review:status=str(route_count)+' official participation pathways found' if route_count else 'Sources checked; participation route needs follow-up'
+   if audit and not review and not route_count and audit['pathways']:status=str(len(audit['pathways']))+' uncertain participation links'
    if row['id']=='qld-council-6250':status='Minjerribah and Redland participation path'
    type_label={'council':'Council','special-local-body':'Special local body','unincorporated-area':'Unincorporated area'}[row['kind']]
    note=type_label+' · '+status
    search=row['name']+' '+type_label+' '+(' '.join(m['title']+' '+m['type']+' '+m['method'] for m in review['mechanisms']) if review else '')
+   if audit:search+=' '+' '.join(p['title']+' '+p['type'] for p in audit['pathways'])
   else:
    url=s.committee_route(row);records=s.committee_records(row)
    count=len([r for r in records if r['status'] in ('open','upcoming','ongoing')])
@@ -67,6 +72,8 @@ def searchable_list(s,page,label,rows,kind):
   search+=' '+' '.join(' '.join([r['title'],r['purpose'],r['method']]+[s.TOPICS[k] for k in s.topic_keys(r)]+[c['reason'] for c in r.get('connections',[])]) for r in records if r['status']!='closed')
   priority=max((r.get('priority',0) for r in records if r['status'] in ('open','upcoming','ongoing')),default=0)
   action=str(count)+' participation record'+('s' if count!=1 else '') if count else str(uncertain)+' participation record'+('s' if uncertain!=1 else '')+' to confirm' if uncertain else str(len(review['mechanisms']))+' checked participation procedures' if kind=='council' and review else 'Participation not yet checked' if kind=='council' else 'No current invitation recorded'
+  if kind=='council' and audit and not count and not uncertain and not review:action='Official pathways available' if route_count else 'Source follow-up needed'
+  if kind=='council':count+=route_count+(len(review['mechanisms']) if review else 0)
   items.append('<li class="body-directory-row" data-directory-row data-name="'+s.e(row['name'].lower())+'" data-search="'+s.e(search.lower())+'" data-participation="'+str(count)+'" data-priority="'+str(priority)+'"><div><h2>'+s.link(page,url,row['name'])+'</h2><p>'+s.e(note)+'</p></div><div><span class="directory-status">'+s.e(action)+'</span>'+s.link(page,url,'Open '+('local area' if kind=='council' and row['kind']!='council' else kind),'text-link')+'</div></li>')
  return controls+'<ul class="body-directory">'+''.join(items)+'</ul><p data-directory-empty class="notice" hidden>No matching '+s.e(label)+'. Try fewer words.</p>'
 
@@ -86,7 +93,7 @@ def build_directories(s):
  for j in jurisdictions:
   page='councils/'+j+'/index.html';rows=[r for r in s.COUNCILS if r['jurisdiction']==j]
   body=s.hero(s.NAMES[j]+' councils.','Search the existing P4A local-area directory, then open one council to see its checked participation routes.',cls='directory-hero')
-  body+='<p class="notice">Council identities and published official links come from P4A’s existing directory. A directory entry is not a verified open consultation. Each profile says whether participation sources have been checked. Special local bodies and unincorporated areas are labelled separately.</p>'
+  body+='<details class="participation-method"><summary>Research coverage for '+s.e(s.NAMES[j])+'</summary><p>Council identities and published official links come from P4A’s existing directory. An entry is not a verified open consultation. Special local bodies and unincorporated areas are labelled separately.</p>'+pathway_coverage(s,rows)+'</details>'
   if j=='act':body+='<p class="notice">The ACT has no separate elected local councils. The Assembly and ACT Government perform territory and local functions. '+s.link(page,'states/act/','ACT participation')+' · '+s.link(page,'https://www.parliament.act.gov.au/visit-and-learn/learn/resources/fs/levels-of-gov','Official explanation')+'.</p>'
   body+=searchable_list(s,page,'local areas in '+s.NAMES[j],rows,'council')
   body+='<p>'+s.link(page,'councils/','Choose another state or territory')+'</p>'
@@ -97,11 +104,12 @@ def build_directories(s):
   body=s.hero(council['name']+'.','Participation in this local area, with each route’s own rules and source limits.',s.NAMES[council['jurisdiction']]+' · local participation',cls='directory-hero')
   body+='<p>'+s.link(page,'councils/'+council['jurisdiction']+'/','Choose another local area in '+s.NAMES[council['jurisdiction']])+'</p>'
   if council['kind']!='council':body+='<p class="notice">This is an '+('unincorporated area' if council['kind']=='unincorporated-area' else 'area with a special local body')+'. It is not presented as an ordinary elected council. Use the official source to identify the responsible authority.</p>'
+  current=[r for r in records if r['status']!='closed']
+  if current:body+=s.section('Current invitations','Each invitation keeps its own participation method, closing date and uncertainty labels.',s.filters(page,current,scope_label=council['name']))
   if review:
    body+='<p class="prose">'+s.e(review['summary'])+'</p><p class="status-strip">Participation sources checked '+s.pretty_date(review['checked'])+'.</p>'
    if review.get('consultationUrl'):body+='<p>'+s.link(page,review['consultationUrl'],'Official consultation portal','button button-secondary')+'</p><p class="prose">'+s.e(review['consultationNote'])+'</p>'
-   current=[r for r in records if r['status']!='closed']
-   body+=s.section('Current invitations','Participation and uncertainty labels describe the checked invitation, not the council’s general activity.',s.filters(page,current,scope_label=council['name'])) if current else '<p class="notice">No dated invitation has been verified for this council in this review. Use its official portal for other projects. The standing procedures below may still provide a way to take part.</p>'
+   if not current:body+='<p class="notice">No dated invitation has been verified for this council in this review. Use its official portal for other projects. The standing procedures below may still provide a way to take part.</p>'
    body+='<section class="participation-section"><h2>Ways to take part</h2><p class="prose">These are standing procedures, each with its own eligibility, approval and publication rules.</p>'
    for m in review['mechanisms']:
     body+='<details class="participation-method"><summary>'+s.e(m['title'])+'</summary><dl class="fact-list">'+''.join('<dt>'+s.e(label)+'</dt><dd>'+s.e(m[key])+'</dd>' for label,key in [('How it works','method'),('Timing and limits','timing'),('Eligibility','eligibility'),('What may become public','disclosure'),('What was checked','verification')])+'</dl>'
@@ -109,8 +117,9 @@ def build_directories(s):
     body+='</details>'
    body+='</section>'
    if review['gaps']:body+='<aside class="notice"><strong>Coverage and access limits</strong><ul>'+''.join('<li>'+s.e(gap)+'</li>' for gap in review['gaps'])+'</ul></aside>'
-  else:
+  elif council['id'] not in s.COUNCIL_PATHWAYS:
    body+='<p class="notice"><strong>Participation sources not yet checked.</strong> This council or local area is included so you can find it. Current consultations, petition rules, public questions and speaking procedures have not been verified here. This does not mean no opportunities exist.</p>'
+  body+=render_pathways(s,page,council)
   body+='<div class="button-row">'+s.link(page,council['officialUrl'],'Published official source','button button-secondary')+s.link(page,council['p4aUrl'],'Existing P4A place context','button button-secondary')+'</div><p class="prose">Directory source checked '+s.pretty_date(council['directoryChecked'])+'. Importing its name and links does not refresh that source date.</p>'
   if records:
    body+=s.archive_link(page,route,council['name'])

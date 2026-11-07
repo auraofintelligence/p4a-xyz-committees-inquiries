@@ -1,0 +1,1972 @@
+{
+  "scope": "Official council participation destinations, separate from detailed procedure reviews and dated invitations. A verified link is not a verified open call.",
+  "audits": [
+    {
+      "councilId": "qld-council-1000",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.brisbane.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community engagement | Brisbane City Council",
+          "url": "https://www.brisbane.qld.gov.au/about-council/contact-council/community-engagement",
+          "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/contact-council/community-engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "petitions",
+          "title": "Petitions | Brisbane City Council",
+          "url": "https://www.brisbane.qld.gov.au/about-council/contact-council/petitions",
+          "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/contact-council/petitions",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read this council’s own petition requirements and submission steps. Signature thresholds, permitted subject matter and publication rules differ between councils.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-1750",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.bulloo.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings 2026 | Bulloo Shire Council",
+          "url": "https://www.bulloo.qld.gov.au/About-Council/Meeting-Agenda-Minutes/Council-Meetings-2026",
+          "sourceUrl": "https://www.bulloo.qld.gov.au/About-Council/Meeting-Agenda-Minutes/Council-Meetings-2026",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-1820",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.bundaberg.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council meetings | Bundaberg Regional Council",
+          "url": "https://www.bundaberg.qld.gov.au/Council/Council-meetings",
+          "sourceUrl": "https://www.bundaberg.qld.gov.au/Council/Council-meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-1900",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.burdekin.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Consultations and Surveys | Burdekin Shire Council",
+          "url": "https://www.burdekin.qld.gov.au/Community/Community-consultations-and-surveys",
+          "sourceUrl": "https://www.burdekin.qld.gov.au/Community/Community-consultations-and-surveys",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Burdekin Shire Council",
+          "url": "https://www.burdekin.qld.gov.au/About-council/Council-meetings",
+          "sourceUrl": "https://www.burdekin.qld.gov.au/About-council/Council-meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-1950",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.burke.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Burke Shire Council",
+          "url": "https://www.burke.qld.gov.au/Our-council/Council-Meetings",
+          "sourceUrl": "https://www.burke.qld.gov.au/Our-council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-2080",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.cairns.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Cairns Regional Council",
+          "url": "https://www.cairns.qld.gov.au/council/meetings",
+          "sourceUrl": "https://www.cairns.qld.gov.au/council/meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-2250",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.carpentaria.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Consultation | Carpentaria Shire Council",
+          "url": "https://www.carpentaria.qld.gov.au/Community/Community-Consultation",
+          "sourceUrl": "https://www.carpentaria.qld.gov.au/Community/Community-Consultation",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Carpentaria Shire Council",
+          "url": "https://www.carpentaria.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.carpentaria.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-2260",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.cassowarycoast.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings and Agendas | Cassowary Coast Regional Council",
+          "url": "https://www.cassowarycoast.qld.gov.au/Our-Council/About-Council/Council-Meetings-and-Agendas",
+          "sourceUrl": "https://www.cassowarycoast.qld.gov.au/Our-Council/About-Council/Council-Meetings-and-Agendas",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-2270",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://chrc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Reference Groups",
+          "url": "https://haveyoursay.chrc.qld.gov.au/community-reference-groups",
+          "sourceUrl": "https://chrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open."
+        },
+        {
+          "type": "petitions",
+          "title": "Petitions and deputations",
+          "url": "https://chrc.qld.gov.au/council/council-meetings/petitions-to-council/",
+          "sourceUrl": "https://chrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Read this council’s own petition requirements and submission steps. Signature thresholds, permitted subject matter and publication rules differ between councils."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Central Highlands Regional CouncilCouncil meetings, minutes and agendas - Central Highlands Regional Council",
+          "url": "https://chrc.qld.gov.au/council/council-meetings/",
+          "sourceUrl": "https://chrc.qld.gov.au/council/council-meetings/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "consultation",
+          "title": "Have Your Say, Central Highlands",
+          "url": "https://haveyoursay.chrc.qld.gov.au/",
+          "sourceUrl": "https://haveyoursay.chrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-2310",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.charterstowers.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Current Minutes & Agendas | Charters Towers Regional Council",
+          "url": "https://www.charterstowers.qld.gov.au/Council/Meetings-and-minutes/Current-minutes-agendas",
+          "sourceUrl": "https://www.charterstowers.qld.gov.au/Council/Meetings-and-minutes/Current-minutes-agendas",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-2330",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.cherbourg.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (202). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-2450",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.cloncurry.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Cloncurry Shire Council",
+          "url": "https://www.cloncurry.qld.gov.au/Our-Council/Council-Meetings",
+          "sourceUrl": "https://www.cloncurry.qld.gov.au/Our-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-250",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.aurukun.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meetings and Agendas 2026 - Aurukun Shire Council",
+          "url": "https://www.aurukun.qld.gov.au/meetings-and-agendas-2026/",
+          "sourceUrl": "https://www.aurukun.qld.gov.au/meetings-and-agendas-2026/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-2500",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.cook.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement - Cook Shire Council",
+          "url": "https://www.cook.qld.gov.au/community-engagement/",
+          "sourceUrl": "https://www.cook.qld.gov.au/community-engagement/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings - Cook Shire Council",
+          "url": "https://www.cook.qld.gov.au/council/council-meetings-2/",
+          "sourceUrl": "https://www.cook.qld.gov.au/council/council-meetings-2/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-2600",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.croydon.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-2750",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.diamantina.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Have Your Say | Diamantina Shire Council",
+          "url": "https://www.diamantina.qld.gov.au/Council/Have-Your-Say",
+          "sourceUrl": "https://www.diamantina.qld.gov.au/Council/Have-Your-Say",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Diamantina Shire Council",
+          "url": "https://www.diamantina.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.diamantina.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-2770",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.doomadgee.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting Dates – Doomadgee Aboriginal Shire Council",
+          "url": "https://www.doomadgee.qld.gov.au/our-council/council-meeting-dates/",
+          "sourceUrl": "https://www.doomadgee.qld.gov.au/our-council/council-meeting-dates/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-2810",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://douglas.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Projects & Consultation",
+          "url": "https://douglas.qld.gov.au/projects/",
+          "sourceUrl": "https://douglas.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting Live Stream",
+          "url": "https://douglas.qld.gov.au/council-meetings/council-meeting-live-stream/",
+          "sourceUrl": "https://douglas.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        },
+        {
+          "type": "committee-information",
+          "title": "Audit Committee",
+          "url": "https://douglas.qld.gov.au/audit-committee/",
+          "sourceUrl": "https://douglas.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings - Douglas Shire Council",
+          "url": "https://douglas.qld.gov.au/council-meetings/",
+          "sourceUrl": "https://douglas.qld.gov.au/council-meetings/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "committee-information",
+          "title": "Advisory Committees - Douglas Shire Council",
+          "url": "https://douglas.qld.gov.au/advisory-committees/",
+          "sourceUrl": "https://douglas.qld.gov.au/advisory-committees/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-300",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.balonne.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "committee-information",
+          "title": "Committees and Advisory Groups | Balonne Shire Council",
+          "url": "https://www.balonne.qld.gov.au/About-Council/Council/Meetings/Committees-and-Advisory-Groups",
+          "sourceUrl": "https://www.balonne.qld.gov.au/About-Council/Council/Meetings/Committees-and-Advisory-Groups",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3100",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.etheridge.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meetings | Etheridge Shire Council",
+          "url": "https://www.etheridge.qld.gov.au/Council/Meetings",
+          "sourceUrl": "https://www.etheridge.qld.gov.au/Council/Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3200",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.flinders.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "committee-information",
+          "title": "Community Advisory Committee (CAC) | Flinders Shire Council",
+          "url": "https://www.flinders.qld.gov.au/Your-Council/Advisory-Committees/Community-Advisory-Committee-CAC-Have-Your-Say-on-Local-Issues",
+          "sourceUrl": "https://www.flinders.qld.gov.au/Your-Council/Advisory-Committees/Community-Advisory-Committee-CAC-Have-Your-Say-on-Local-Issues",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-3220",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.frasercoast.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "speaking",
+          "title": "Community Presentations | Fraser Coast Regional Council",
+          "url": "https://www.frasercoast.qld.gov.au/About-Council/Council-Meetings/Community-Presentations",
+          "sourceUrl": "https://www.frasercoast.qld.gov.au/About-Council/Council-Meetings/Community-Presentations",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read this council’s own public-speaking, question or deputation procedure before applying. No unconditional right to speak is inferred.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3360",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.gladstone.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement | Gladstone Regional Council",
+          "url": "https://www.gladstone.qld.gov.au/Community/Community-Engagement",
+          "sourceUrl": "https://www.gladstone.qld.gov.au/Community/Community-Engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3430",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.goldcoast.qld.gov.au/Home",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Lodge a submission to have your say on a development application",
+          "url": "https://www.goldcoast.qld.gov.au/Planning-building/Development-applications/Have-your-say-on-a-development-application",
+          "sourceUrl": "https://www.goldcoast.qld.gov.au/Home",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open."
+        },
+        {
+          "type": "petitions",
+          "title": "Submit a petition to Council",
+          "url": "https://www.goldcoast.qld.gov.au/Council/Council-meetings/Submit-a-petition-to-Council",
+          "sourceUrl": "https://www.goldcoast.qld.gov.au/Council/Council-meetings/Submit-a-petition-to-Council",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read this council’s own petition requirements and submission steps. Signature thresholds, permitted subject matter and publication rules differ between councils.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council meetings",
+          "url": "https://www.goldcoast.qld.gov.au/Council/Council-meetings",
+          "sourceUrl": "https://www.goldcoast.qld.gov.au/Council/Council-meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-3610",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.grc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Goondiwindi Regional Council",
+          "url": "https://www.grc.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.grc.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3620",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.gympie.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Have Your Say | Gympie Regional Council",
+          "url": "https://www.gympie.qld.gov.au/Council/Projects-and-Works/Have-Your-Say",
+          "sourceUrl": "https://www.gympie.qld.gov.au/Council/Projects-and-Works/Have-Your-Say",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-370",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.banana.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meetings & Agendas | Banana Shire Council",
+          "url": "https://www.banana.qld.gov.au/Council/Meetings-Agendas",
+          "sourceUrl": "https://www.banana.qld.gov.au/Council/Meetings-Agendas",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3800",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.hinchinbrook.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-3830",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.hopevale.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Hope Vale Aboriginal Shire Council",
+          "url": "https://www.hopevale.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.hopevale.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3960",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.ipswich.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement : Ipswich City Council",
+          "url": "https://www.ipswich.qld.gov.au/Live/Our-Community/Community-Engagement",
+          "sourceUrl": "https://www.ipswich.qld.gov.au/Live/Our-Community/Community-Engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings : Ipswich City Council",
+          "url": "https://www.ipswich.qld.gov.au/About-Council/Council-Meetings",
+          "sourceUrl": "https://www.ipswich.qld.gov.au/About-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-3980",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.isaac.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings - Isaac Regional Council",
+          "url": "https://www.isaac.qld.gov.au/Your-Council/Council-Meetings",
+          "sourceUrl": "https://www.isaac.qld.gov.au/Your-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-410",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.barcaldinerc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Barcaldine Regional Council",
+          "url": "https://www.barcaldinerc.qld.gov.au/Our-Council/Council-Meetings",
+          "sourceUrl": "https://www.barcaldinerc.qld.gov.au/Our-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-4420",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.kowanyama.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings, Agendas and Minutes - Kowanyama Aboriginal Shire Council",
+          "url": "https://www.kowanyama.qld.gov.au/council/council-meetings-agendas-and-minutes/",
+          "sourceUrl": "https://www.kowanyama.qld.gov.au/council/council-meetings-agendas-and-minutes/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-450",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.barcoo.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Forums - Barcoo Shire Council",
+          "url": "https://www.barcoo.qld.gov.au/about-council/have-you-say-consult/community-forums",
+          "sourceUrl": "https://www.barcoo.qld.gov.au/about-council/have-you-say-consult/community-forums",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-4530",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.livingstone.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Home | Get Involved Livingstone Shire",
+          "url": "https://getinvolved.livingstone.qld.gov.au/",
+          "sourceUrl": "https://getinvolved.livingstone.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings and Agendas | Livingstone Shire Council",
+          "url": "https://www.livingstone.qld.gov.au/Your-Council/About-Council/Council-Meetings-and-Agendas",
+          "sourceUrl": "https://www.livingstone.qld.gov.au/Your-Council/About-Council/Council-Meetings-and-Agendas",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-4570",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://lockhart.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings & Minutes | Lockhart River Aboriginal Shire Council",
+          "url": "https://lockhart.qld.gov.au/publications/council-meetings-minutes/",
+          "sourceUrl": "https://lockhart.qld.gov.au/publications/council-meetings-minutes/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-4580",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.lockyervalley.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Have your say - Lockyer Valley Regional Council",
+          "url": "https://www.lockyervalley.qld.gov.au/our-council/have-your-say",
+          "sourceUrl": "https://www.lockyervalley.qld.gov.au/our-council/have-your-say",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Meetings and Committees",
+          "url": "https://www.lockyervalley.qld.gov.au/our-council/meetings",
+          "sourceUrl": "https://www.lockyervalley.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-4590",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.logan.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-4710",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.longreach.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Forums | Longreach Regional Council",
+          "url": "https://www.longreach.qld.gov.au/Community/Events/Community-Forums",
+          "sourceUrl": "https://www.longreach.qld.gov.au/Community/Events/Community-Forums",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Our Meeting Minutes and Agendas | Longreach Regional Council",
+          "url": "https://www.longreach.qld.gov.au/About-Council/Council/Our-Meeting-Minutes-and-Agendas",
+          "sourceUrl": "https://www.longreach.qld.gov.au/About-Council/Council/Our-Meeting-Minutes-and-Agendas",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "committee-information",
+          "title": "Standing Committees | Longreach Regional Council",
+          "url": "https://www.longreach.qld.gov.au/About-Council/Council/Our-Meeting-Minutes-and-Agendas/Standing-Committees",
+          "sourceUrl": "https://www.longreach.qld.gov.au/About-Council/Council/Our-Meeting-Minutes-and-Agendas/Standing-Committees",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-4770",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.mackay.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement | Mackay Regional Council",
+          "url": "https://www.mackay.qld.gov.au/Community/Community-Engagement",
+          "sourceUrl": "https://www.mackay.qld.gov.au/Community/Community-Engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "petitions",
+          "title": "Petitions | Mackay Regional Council",
+          "url": "https://www.mackay.qld.gov.au/Council/Governance/Petitions",
+          "sourceUrl": "https://www.mackay.qld.gov.au/Council/Governance/Petitions",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read this council’s own petition requirements and submission steps. Signature thresholds, permitted subject matter and publication rules differ between councils.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council meeting livestream | Mackay Regional Council",
+          "url": "https://www.mackay.qld.gov.au/Council/Council-Meetings/Livestream",
+          "sourceUrl": "https://www.mackay.qld.gov.au/Council/Council-Meetings/Livestream",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-4800",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.mckinlay.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-4830",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.mapoon.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Mapoon Aboriginal Shire Council",
+          "url": "https://www.mapoon.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.mapoon.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-4860",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.maranoa.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement | Maranoa Regional Council",
+          "url": "https://www.maranoa.qld.gov.au/About-Council/Council/Community-Engagement",
+          "sourceUrl": "https://www.maranoa.qld.gov.au/About-Council/Council/Community-Engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings and Agendas | Maranoa Regional Council",
+          "url": "https://www.maranoa.qld.gov.au/About-Council/Council/Council-Meetings-and-Agendas",
+          "sourceUrl": "https://www.maranoa.qld.gov.au/About-Council/Council/Council-Meetings-and-Agendas",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-4880",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://msc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings",
+          "url": "https://msc.qld.gov.au/council/about-council/meetings-minutes-and-agendas/",
+          "sourceUrl": "https://msc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        },
+        {
+          "type": "committee-information",
+          "title": "Committees",
+          "url": "https://msc.qld.gov.au/council/about-council/committees/",
+          "sourceUrl": "https://msc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak.",
+        "The homepage linked a community-resilience pop-up event, but it is not treated as a continuing consultation portal or a verified current invitation."
+      ]
+    },
+    {
+      "councilId": "qld-council-5010",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.moretonbay.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "How we engage | Your Say Moreton Bay",
+          "url": "https://yoursay.moretonbay.qld.gov.au/how-we-engage",
+          "sourceUrl": "https://yoursay.moretonbay.qld.gov.au/how-we-engage",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council meetings - City of Moreton Bay",
+          "url": "https://www.moretonbay.qld.gov.au/Council/Meetings?OC_EA_EmergencyAnnouncementList_Dismiss=77327ae4-7d0e-4446-b7ef-763e075bf5cd",
+          "sourceUrl": "https://www.moretonbay.qld.gov.au/Council/Meetings?OC_EA_EmergencyAnnouncementList_Dismiss=77327ae4-7d0e-4446-b7ef-763e075bf5cd",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-5250",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.mornington.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Mornington Shire Council | Agendas & Minutes - Mornington Shire Council",
+          "url": "https://www.mornington.qld.gov.au/agendas-minutes/",
+          "sourceUrl": "https://www.mornington.qld.gov.au/agendas-minutes/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-5300",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.mountisa.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Community Engagement | Mount Isa City Council",
+          "url": "https://www.mountisa.qld.gov.au/Community/Community-Engagement",
+          "sourceUrl": "https://www.mountisa.qld.gov.au/Community/Community-Engagement",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Mount Isa City Council",
+          "url": "https://www.mountisa.qld.gov.au/City-Council/Council/Council-Meetings",
+          "sourceUrl": "https://www.mountisa.qld.gov.au/City-Council/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-5600",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.murweh.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Agendas and Minutes | Shire of Murweh",
+          "url": "https://www.murweh.qld.gov.au/Council/About-Council/Agendas-and-Minutes",
+          "sourceUrl": "https://www.murweh.qld.gov.au/Council/About-Council/Agendas-and-Minutes",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-5670",
+      "checked": "2026-11-07",
+      "status": "no-pathway-confirmed",
+      "sourceUrl": "https://www.napranum.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak.",
+        "No directly readable participation destination was confirmed from the homepage. This is not evidence that no route exists."
+      ]
+    },
+    {
+      "councilId": "qld-council-5740",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.noosa.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "speaking",
+          "title": "Public Participation | Noosa Shire Council",
+          "url": "https://www.noosa.qld.gov.au/About-Council/Councillors-and-meetings/Public-participation",
+          "sourceUrl": "https://www.noosa.qld.gov.au/About-Council/Councillors-and-meetings/Public-participation",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Read this council’s own public-speaking, question or deputation procedure before applying. No unconditional right to speak is inferred.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings & Minutes | Noosa Shire Council",
+          "url": "https://www.noosa.qld.gov.au/About-Council/Councillors-and-meetings/Council-Meetings-and-Minutes",
+          "sourceUrl": "https://www.noosa.qld.gov.au/About-Council/Councillors-and-meetings/Council-Meetings-and-Minutes",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-5760",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://northburnett.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings",
+          "url": "https://northburnett.qld.gov.au/councillors/council-meetings/",
+          "sourceUrl": "https://northburnett.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-5780",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.nparc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | NPARC",
+          "url": "https://www.nparc.qld.gov.au/Our-council/Council-meetings",
+          "sourceUrl": "https://www.nparc.qld.gov.au/Our-council/Council-meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-5790",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "http://www.palmcouncil.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting Dates | Palm Island Aboriginal Shire Council",
+          "url": "https://www.palmcouncil.qld.gov.au/My-Council/Council-Meeting-Dates",
+          "sourceUrl": "https://www.palmcouncil.qld.gov.au/My-Council/Council-Meeting-Dates",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-5800",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.paroo.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Paroo Shire Council",
+          "url": "https://www.paroo.qld.gov.au/Council/Council-Publications/Council-Meetings",
+          "sourceUrl": "https://www.paroo.qld.gov.au/Council/Council-Publications/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-6070",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.pormpuraaw.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting Information - Pormpuraaw Aboriginal Shire Council",
+          "url": "https://www.pormpuraaw.qld.gov.au/our-council/council-meeting-information/",
+          "sourceUrl": "https://www.pormpuraaw.qld.gov.au/our-council/council-meeting-information/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-6150",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://quilpie.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Review Council Meeting Documents",
+          "url": "https://quilpie.qld.gov.au/council-meetings/",
+          "sourceUrl": "https://quilpie.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-6300",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.richmond.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting",
+          "url": "https://www.richmond.qld.gov.au/council/council-meeting",
+          "sourceUrl": "https://www.richmond.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-6370",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.rockhamptonregion.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meeting Agendas and Minutes Rockhampton Regional Council",
+          "url": "https://www.rockhamptonregion.qld.gov.au/AboutCouncil/Meeting-Agendas-and-Minutes",
+          "sourceUrl": "https://www.rockhamptonregion.qld.gov.au/AboutCouncil/Meeting-Agendas-and-Minutes",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-6510",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.scenicrim.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "2026 Meeting Minutes and Agendas | Scenic Rim Regional Council",
+          "url": "https://www.scenicrim.qld.gov.au/Our-Council/Meetings-and-Agendas/2026-Meeting-Minutes-and-Agendas",
+          "sourceUrl": "https://www.scenicrim.qld.gov.au/Our-Council/Meetings-and-Agendas/2026-Meeting-Minutes-and-Agendas",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-6580",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.somerset.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Somerset Regional Council",
+          "url": "https://www.somerset.qld.gov.au/Your-Council/Council-Meetings",
+          "sourceUrl": "https://www.somerset.qld.gov.au/Your-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-6630",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.southburnett.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | South Burnett Regional Council",
+          "url": "https://www.southburnett.qld.gov.au/Your-Council/About-Council/Council-Meetings",
+          "sourceUrl": "https://www.southburnett.qld.gov.au/Your-Council/About-Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-6660",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.sdrc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Have your say",
+          "url": "https://www.sdrc.qld.gov.au/living-here/have-your-say",
+          "sourceUrl": "https://www.sdrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings",
+          "url": "https://www.sdrc.qld.gov.au/council/council-meetings",
+          "sourceUrl": "https://www.sdrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        },
+        {
+          "type": "committee-information",
+          "title": "Council Advisory Committees",
+          "url": "https://www.sdrc.qld.gov.au/council/council-advisory-committees",
+          "sourceUrl": "https://www.sdrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-6720",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.sunshinecoast.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Have your Say Sunshine Coast",
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/?utm_source=sunshine%2Bcoast%2Bcouncil&utm_medium=website",
+          "sourceUrl": "https://www.sunshinecoast.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council meetings",
+          "url": "https://www.sunshinecoast.qld.gov.au/council/council-meetings",
+          "sourceUrl": "https://www.sunshinecoast.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Council's official homepage directly links this destination; the linked page was read successfully. This verifies a pathway, not every individual invitation or legal procedure.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak."
+        },
+        {
+          "type": "consultation",
+          "title": "Community engagement",
+          "url": "https://www.sunshinecoast.qld.gov.au/living-and-community/community-engagement",
+          "sourceUrl": "https://www.sunshinecoast.qld.gov.au/living-and-community/community-engagement",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-6820",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.trc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings - TRC - Tablelands Regional Council",
+          "url": "https://www.trc.qld.gov.au/our-council/meetings/",
+          "sourceUrl": "https://www.trc.qld.gov.au/our-council/meetings/",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak.",
+        "No directly readable participation destination was confirmed from the homepage. This is not evidence that no route exists.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-6910",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.tr.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Engaging with us Toowoomba Regional Council",
+          "url": "https://www.tr.qld.gov.au/Council/Contact-Council/Have-your-say/Engaging-with-us",
+          "sourceUrl": "https://www.tr.qld.gov.au/Council/Contact-Council/Have-your-say/Engaging-with-us",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "speaking",
+          "title": "Public meeting conduct rules Toowoomba Regional Council",
+          "url": "https://www.tr.qld.gov.au/Council/Councillors-and-meetings/Public-meeting-conduct-rules",
+          "sourceUrl": "https://www.tr.qld.gov.au/Council/Councillors-and-meetings/Public-meeting-conduct-rules",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Read this council’s own public-speaking, question or deputation procedure before applying. No unconditional right to speak is inferred.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-6950",
+      "checked": "2026-11-07",
+      "status": "source-access-gap",
+      "sourceUrl": "https://www.torres.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred."
+      ]
+    },
+    {
+      "councilId": "qld-council-6960",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://tsirc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meetings | Torres Strait Island Regional Council",
+          "url": "https://tsirc.qld.gov.au/about-us/meetings/",
+          "sourceUrl": "https://tsirc.qld.gov.au/about-us/meetings/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak."
+      ]
+    },
+    {
+      "councilId": "qld-council-7010",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.townsville.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meetings, Agendas & Minutes - Townsville City Council",
+          "url": "https://www.townsville.qld.gov.au/about-council/council-meetings/meetings-agendas-and-minutes",
+          "sourceUrl": "https://www.townsville.qld.gov.au/about-council/council-meetings/meetings-agendas-and-minutes",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "committee-information",
+          "title": "Advisory Committees - Townsville City Council",
+          "url": "https://www.townsville.qld.gov.au/about-council/council-meetings/advisory-committees",
+          "sourceUrl": "https://www.townsville.qld.gov.au/about-council/council-meetings/advisory-committees",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Read the committee or advisory-group page for its purpose and current membership or invitation arrangements. A listed committee is not necessarily accepting public submissions.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-7300",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.weipatownauthority.com.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "WTA Meetings & Minutes | Weipa Town Authority",
+          "url": "https://www.weipatownauthority.com.au/Your-WTA/Governance/WTA-Meetings-and-Minutes",
+          "sourceUrl": "https://www.weipatownauthority.com.au/Your-WTA/Governance/WTA-Meetings-and-Minutes",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-7310",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.wdrc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings Western Downs Regional Council",
+          "url": "https://www.wdrc.qld.gov.au/Council/About-WDRC/Council-Meetings",
+          "sourceUrl": "https://www.wdrc.qld.gov.au/Council/About-WDRC/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-7340",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.whitsundayrc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "consultation",
+          "title": "Your Say Whitsunday",
+          "url": "https://yoursay.whitsundayrc.qld.gov.au/",
+          "sourceUrl": "https://yoursay.whitsundayrc.qld.gov.au/",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use this official engagement or consultation route to find the relevant project and its own participation steps. This route alone is not proof that a particular project is open.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        },
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings & Agendas | Whitsunday Regional Council",
+          "url": "https://www.whitsundayrc.qld.gov.au/Home/Helpful-Links/Council-Meetings-Agendas",
+          "sourceUrl": "https://www.whitsundayrc.qld.gov.au/Home/Helpful-Links/Council-Meetings-Agendas",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-7400",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.winton.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Meeting Dates | Winton Shire Council",
+          "url": "https://www.winton.qld.gov.au/Council/Council-Meetings/Meeting-Dates",
+          "sourceUrl": "https://www.winton.qld.gov.au/Council/Council-Meetings/Meeting-Dates",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-7550",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.woorabinda.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings and Minutes | Woorabinda Aboriginal Shire Council",
+          "url": "https://www.woorabinda.qld.gov.au/Our-Council/Council-Meetings-and-Minutes",
+          "sourceUrl": "https://www.woorabinda.qld.gov.au/Our-Council/Council-Meetings-and-Minutes",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    },
+    {
+      "councilId": "qld-council-7570",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.wujalwujalcouncil.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings and Agenda - Wujal Wujal Aboriginal Shire Council",
+          "url": "https://www.wujalwujalcouncil.qld.gov.au/Council/Council-Meetings-and-Agenda",
+          "sourceUrl": "https://www.wujalwujalcouncil.qld.gov.au/Council/Council-Meetings-and-Agenda",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-760",
+      "checked": "2026-11-07",
+      "status": "pathways-verified",
+      "sourceUrl": "https://www.btrc.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meeting Dates | Blackall-Tambo Regional Council",
+          "url": "https://www.btrc.qld.gov.au/Council/Council-Meetings/Council-Meeting-Dates",
+          "sourceUrl": "https://www.btrc.qld.gov.au/Council/Council-Meetings/Council-Meeting-Dates",
+          "checked": "2026-11-07",
+          "access": "page-read",
+          "verification": "Official participation page opened and read on 7 November 2026. The pathway is verified; current invitations and procedure details require their own checks.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "The homepage returned an access error, but the specific official destinations below were independently recovered and read. The homepage error does not mean these routes are unavailable."
+      ]
+    },
+    {
+      "councilId": "qld-council-7600",
+      "checked": "2026-11-07",
+      "status": "no-pathway-confirmed",
+      "sourceUrl": "https://www.yarrabah.qld.gov.au/",
+      "pathways": [],
+      "limits": [
+        "This is a direct-link pathway review. Individual project deadlines, eligibility and publication conditions require their own checks; discovery of a meeting or committee page does not establish a right to speak.",
+        "No directly readable participation destination was confirmed from the homepage. This is not evidence that no route exists."
+      ]
+    },
+    {
+      "councilId": "qld-council-900",
+      "checked": "2026-11-07",
+      "status": "indexed-pathways-only",
+      "sourceUrl": "https://www.boulia.qld.gov.au/",
+      "pathways": [
+        {
+          "type": "meeting-information",
+          "title": "Council Meetings | Boulia Shire Council",
+          "url": "https://www.boulia.qld.gov.au/Council/Council-Meetings",
+          "sourceUrl": "https://www.boulia.qld.gov.au/Council/Council-Meetings",
+          "checked": "2026-11-07",
+          "access": "indexed-only",
+          "verification": "Official page is indexed but could not be opened directly in this check. Treat the pathway as unverified until the live source can be checked.",
+          "method": "Use the official meeting page for schedules, agendas and minutes. Check any gallery, booking or access conditions there. Observing a meeting is different from being approved to speak.",
+          "disclosure": "Publication, privacy and recording conditions require their own check before contributing."
+        }
+      ],
+      "limits": [
+        "Official homepage could not be read directly in this review (403). No public participation mechanism was inferred.",
+        "Some official destinations could only be checked through indexed material; those individual links remain explicitly unverified."
+      ]
+    }
+  ]
+}

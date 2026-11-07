@@ -140,8 +140,8 @@
       "label": "Council participation coverage",
       "sourceUrl": "https://github.com/auraofintelligence/p4a-xyz-cinema/blob/c8dc0f994032f31b7c90af0bdf9288c897b64b36/content/places/councils.json",
       "checked": "2026-11-07",
-      "status": "Full existing P4A local-area directory imported; participation research is partial",
-      "note": "536 council identities and 16 separately labelled special bodies or unincorporated areas are available. Participation mechanisms were researched individually for 18 councils outside Redland; the remaining profiles explicitly say they have not been checked. Council project coverage is not a complete national consultation survey."
+      "status": "Queensland pathway audit expanded; national council work continues",
+      "note": "536 council identities and 16 separately labelled local bodies or unincorporated areas remain discoverable. The 77 Queensland areas outside Redland were searched: 54 have directly verified routes, 15 currently have indexed-only leads, and eight still need source or discovery follow-up. Twenty indexed links remain uncertain. Twenty-one councils outside Redland have separately reviewed procedures. Redland’s established work is preserved. This is not a complete national inventory of open council projects."
     }
   ],
   "records": [
@@ -4867,6 +4867,150 @@
           "title": "Senate submission guidance",
           "supports": "Publication and confidentiality conditions.",
           "access": "Live official page reviewed 7 November 2026"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-buderim-bridge-2026",
+      "title": "Buderim Forest Park Bridge renewal",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-6720",
+      "kind": "council survey",
+      "body": "Sunshine Coast Council",
+      "status": "open",
+      "purpose": "Share preferences about replacing the pedestrian bridge and its design, setting and visitor experience.",
+      "method": "Read the concept information, then complete the online survey linked on the official project page. Check the project for any remaining in-person sessions.",
+      "deadline": {
+        "date": "2026-11-27",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The source publishes a closing date without an hour or timezone."
+      },
+      "eligibility": "Council invites community feedback, including local knowledge and park or street users. No additional project-specific eligibility restriction was confirmed. Portal terms ask under-18 users to involve a parent or guardian.",
+      "disclosure": "The survey collection notice says feedback is deidentified before AI analysis and public reporting. Council may use contact details for project updates. Read the notice before contributing.",
+      "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/buderim-forest-park-bridge-renewal",
+      "checked": "2026-11-07",
+      "verification": "Official project invitation, engagement period 2026-11-02 to 2026-11-27 and survey collection notice directly reviewed. No form was completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Sunshine Coast Regional",
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/buderim-forest-park-bridge-renewal",
+          "title": "Official project invitation and collection notice",
+          "supports": "Purpose, survey route, date-only closing date and publication conditions",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-kenilworth-streetscape-2026",
+      "title": "Elizabeth Street upgrade, Kenilworth: concept design",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-6720",
+      "kind": "council survey",
+      "body": "Sunshine Coast Council",
+      "status": "open",
+      "purpose": "Comment on proposed street furniture, paths, planting, wayfinding and the town centre’s character.",
+      "method": "Read the concept information, then complete the online survey linked on the official project page. Check the project for any remaining in-person sessions.",
+      "deadline": {
+        "date": "2026-11-13",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The source publishes a closing date without an hour or timezone."
+      },
+      "eligibility": "Council invites community feedback, including local knowledge and park or street users. No additional project-specific eligibility restriction was confirmed. Portal terms ask under-18 users to involve a parent or guardian.",
+      "disclosure": "The survey collection notice says feedback is deidentified before AI analysis and public reporting. Council may use contact details for project updates. Read the notice before contributing. Third-party providers assist with collection and analysis and may store personal information under council agreements.",
+      "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/kenilworth-streetscape-upgrade",
+      "checked": "2026-11-07",
+      "verification": "Official project invitation, engagement period 2026-10-19 to 2026-11-13 and survey collection notice directly reviewed. No form was completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Sunshine Coast Regional",
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/kenilworth-streetscape-upgrade",
+          "title": "Official project invitation and collection notice",
+          "supports": "Purpose, survey route, date-only closing date and publication conditions",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-friendship-park-dog-area-2026",
+      "title": "Future dog exercise area at The Friendship Park",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-6720",
+      "kind": "council survey",
+      "body": "Sunshine Coast Council",
+      "status": "open",
+      "purpose": "Share local knowledge, design preferences and concerns about a proposed dog exercise area at The Friendship Park in Maroochydore.",
+      "method": "Read the concept information, then complete the online survey linked on the official project page. Check the project for any remaining in-person sessions.",
+      "deadline": {
+        "date": "2026-11-13",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The source publishes a closing date without an hour or timezone."
+      },
+      "eligibility": "Council invites community feedback, including local knowledge and park or street users. No additional project-specific eligibility restriction was confirmed. Portal terms ask under-18 users to involve a parent or guardian.",
+      "disclosure": "The survey collection notice says feedback is deidentified before AI analysis and public reporting. Council may use contact details for project updates. Read the notice before contributing. Third-party providers assist with collection and analysis and may store personal information under council agreements.",
+      "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/future-dog-exercise-area-friendship-park-maroochydore",
+      "checked": "2026-11-07",
+      "verification": "Official project invitation, engagement period 2026-10-19 to 2026-11-13 and survey collection notice directly reviewed. No form was completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Sunshine Coast Regional",
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/future-dog-exercise-area-friendship-park-maroochydore",
+          "title": "Official project invitation and collection notice",
+          "supports": "Purpose, survey route, date-only closing date and publication conditions",
+          "access": "Direct official page reviewed"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-oconnors-park-dog-area-2026",
+      "title": "Proposed dog exercise area at O’Connors Park",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "councilId": "qld-council-6720",
+      "kind": "council survey",
+      "body": "Sunshine Coast Council",
+      "status": "open",
+      "purpose": "Comment on potential dog exercise area designs, park use and local concerns at O’Connors Park in Mooloolaba.",
+      "method": "Read the concept information, then complete the online survey linked on the official project page. Check the project for any remaining in-person sessions. A pop-up is listed for 11 November 2026, 2 to 3:30 pm; timezone is not stated.",
+      "deadline": {
+        "date": "2026-11-13",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "timezoneNote": "The source publishes a closing date without an hour or timezone."
+      },
+      "eligibility": "Council invites community feedback, including local knowledge and park or street users. No additional project-specific eligibility restriction was confirmed. Portal terms ask under-18 users to involve a parent or guardian.",
+      "disclosure": "The survey collection notice says feedback is deidentified before AI analysis and public reporting. Council may use contact details for project updates. Read the notice before contributing. Third-party providers assist with collection and analysis and may store personal information under council agreements.",
+      "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/proposed-dog-exercise-area-oconnors-park-mooloolaba",
+      "checked": "2026-11-07",
+      "verification": "Official project invitation, engagement period 2026-10-19 to 2026-11-13 and survey collection notice directly reviewed. No form was completed.",
+      "connections": [],
+      "priority": 0,
+      "groups": [],
+      "place": "Sunshine Coast Regional",
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/proposed-dog-exercise-area-oconnors-park-mooloolaba",
+          "title": "Official project invitation and collection notice",
+          "supports": "Purpose, survey route, date-only closing date and publication conditions",
+          "access": "Direct official page reviewed"
         }
       ]
     }

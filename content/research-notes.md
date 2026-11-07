@@ -1,5 +1,11 @@
 # Participation source review
 
+## 7 November council pathways
+
+Following the council-only scope clarification, Queensland’s 77 local areas outside Redland were individually searched. The early publication includes 82 directly reviewed routes across 54 councils and 20 indexed-only routes with explicit uncertainty. Access and discovery gaps remain visible. Ipswich, Moreton Bay and Sunshine Coast have additional procedure reviews, and four Sunshine Coast survey invitations have date-only November deadlines and directly reviewed collection notices. Existing Redland data and all earlier participation records remain unchanged. State and federal parliamentary research was not reopened.
+
+Pathway audits are separate from council identities, detailed procedure reviews and dated project invitations. Finding an official portal or meeting page does not establish an open call, permission to speak or a complete inventory of local consultations. National council follow-up continues after the early Queensland publication.
+
 ## 7 November expansion
 
 Navigation now separates its Browse task from the selected parliament or council, preserving both on task/body switches. Homelands is specifically the three bodies affecting the founder's location: Redland City, Queensland and Australian. Its landing page contains six scoped links and no combined record list. Original local participation records retain their dates and detail URLs, with their primary view and archive moved to the Redland route.

@@ -123,6 +123,19 @@ def validate():
     assert len({(c['jurisdiction'],c['slug']) for c in councils})==len(councils)
     assert len({c['id'] for c in committees})==len(committees)
     council_ids={c['id'] for c in councils};committee_ids={c['id'] for c in committees}
+    pathway_file=ROOT/'data/council-pathways.json'
+    pathways=json.loads(pathway_file.read_text(encoding='utf8'))['audits'] if pathway_file.exists() else []
+    assert len({a['councilId'] for a in pathways})==len(pathways)
+    for audit in pathways:
+        assert audit['councilId'] in council_ids and audit['councilId']!='qld-council-6250'
+        assert date.fromisoformat(audit['checked'])<=checked
+        assert audit['sourceUrl'].startswith(('https://','http://'))
+        assert len({p['url'] for p in audit['pathways']})==len(audit['pathways'])
+        for pathway in audit['pathways']:
+            assert all(pathway.get(k) for k in ('title','type','url','sourceUrl','verification','access','checked'))
+            assert pathway['url'].startswith(('https://','http://')) and pathway['sourceUrl'].startswith(('https://','http://'))
+            assert date.fromisoformat(pathway['checked'])<=checked
+            assert 'evidenceExcerpt' not in pathway and 'html' not in pathway
     for c in committees:
         assert re.fullmatch('[a-z0-9-]+',c['id']),c['id']
         assert c['name'] and c['sourceUrl'].startswith('https://')
