@@ -23110,7 +23110,7 @@
       "body": "Casey City Council",
       "status": "open",
       "purpose": "Tell Council about local concerns, priorities and opportunities associated with future data-centre development to inform Council advocacy.",
-      "method": "Complete the project survey or provide the written submission invited by its official detail. Printed materials can be requested for the activity-centre projects.",
+      "method": "Complete the online survey, email caseycc@casey.vic.gov.au, phone 03 9705 5200, or write to City of Casey, PO Box 1000, Narre Warren VIC 3805. Printed materials are available on request.",
       "deadline": {
         "date": "2026-11-15",
         "time": "23:59",
@@ -23118,16 +23118,16 @@
         "precision": "datetime",
         "note": "The official invitation does not state a timezone."
       },
-      "eligibility": "Community input is invited. Any additional form or project conditions were not established in this check; read the official invitation before contributing.",
-      "disclosure": "Feedback is analysed for themes and Council planning or advocacy. Whether individual names or responses will be published was not established; read the actual survey or submission notice.",
+      "eligibility": "Council invites community feedback about potential future data-centre development in Casey.",
+      "disclosure": "Council accepts anonymous submissions. The project page links the Council privacy policy and collection statement. Publication of individual submissions was not confirmed.",
       "sourceUrl": "https://conversations.casey.vic.gov.au/data-centres",
-      "checked": "2026-11-07",
-      "verification": "Fresh official project detail read on 7 November 2026. The specific invitation, contribution route and stated timing were checked. No response, registration or consent was made.",
+      "checked": "2026-11-13",
+      "verification": "Official project page, consultation cutoff, all four feedback routes and anonymity option reviewed on 13 November 2026.",
       "sources": [
         {
           "url": "https://conversations.casey.vic.gov.au/data-centres",
           "title": "Official project invitation",
-          "supports": "Purpose, responsible body, actual contribution method, published timing and stated conditions.",
+          "supports": "Project scope, 15 November cutoff, four ways to participate and anonymous submissions",
           "access": "Fresh ordinary public HTTPS detail read"
         }
       ],
