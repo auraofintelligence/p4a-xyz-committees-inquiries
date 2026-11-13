@@ -5942,26 +5942,26 @@
       "councilId": "qld-council-5010",
       "body": "City of Moreton Bay",
       "status": "open",
-      "checked": "2026-11-07",
+      "checked": "2026-11-13",
       "kind": "community consultation",
       "purpose": "Use residents' flood experiences to inform the drainage improvement and flood mitigation study.",
       "method": "Provide flood photographs, measurements and experiences through the published feedback route or send written, postal or telephone feedback.",
-      "eligibility": "The invitation seeks people affected by flooding around Grant and Shields streets in Redcliffe. The overall feedback period was extended to 10 November; the separate meeting-booking text still ends on 3 November.",
+      "eligibility": "Council seeks people affected by flooding around Grant and Shields streets in Redcliffe.",
       "disclosure": "Council's collection notice allows project and related Council uses and sharing with external project workers. The source does not promise anonymity or specify publication of individual property evidence.",
       "deadline": {
-        "date": "2026-11-10",
-        "time": null,
+        "date": "2026-11-13",
+        "time": "23:59",
         "timezone": null,
-        "precision": "date",
-        "note": "A date is published without a closing hour or timezone."
+        "precision": "date-time-zone-unconfirmed",
+        "note": "Council’s extension notice and project page give 13 November. The live feedback tool displays 11:59 pm without an explicit timezone."
       },
       "sourceUrl": "https://yoursay.moretonbay.qld.gov.au/grant-street-and-shields-street-redcliffe-flood-mitigation",
-      "verification": "Fresh page confirms the one-week extension to 10 November 2026. The old meeting-booking period was retained as a source limitation, not presented as a current booking entitlement.",
+      "verification": "Council’s live project, extension notice and feedback tool directly reviewed on 13 November 2026. Older timeline and meeting-booking dates on the page are separate from the current feedback cutoff.",
       "sources": [
         {
           "url": "https://yoursay.moretonbay.qld.gov.au/grant-street-and-shields-street-redcliffe-flood-mitigation",
           "title": "Official participation invitation",
-          "supports": "Purpose, contribution methods, eligibility, timing and stated collection conditions.",
+          "supports": "Purpose, response methods, privacy and the current 13 November deadline displayed by the live tool",
           "access": "Fresh official page read"
         }
       ],
