@@ -74286,6 +74286,50 @@
           "title": "Open the official survey and submission form"
         }
       ]
+    },
+    {
+      "id": "qld-bromelton-energy-resource-centre-2026",
+      "title": "Bromelton Energy and Resource Centre development application",
+      "jurisdiction": "qld",
+      "participationLevel": "state",
+      "kind": "state development application consultation",
+      "body": "Queensland Office of the Coordinator-General",
+      "place": "Bromelton State Development Area, Scenic Rim",
+      "status": "open",
+      "purpose": "Comment on the material change of use application to build and operate a waste-to-energy facility, ash and residue processing facilities, and a visitor and education centre.",
+      "method": "Use the online submission link, email sdainfo@coordinatorgeneral.qld.gov.au, or write to The Coordinator-General, c/- State Development Areas, PO Box 15517, City East Qld 4002.",
+      "opens": "2026-10-01",
+      "deadline": {
+        "date": "2026-11-16",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The application invitation gives a closing date without a cutoff time or timezone."
+      },
+      "eligibility": "Public submissions are invited. Include each submitter's signature, name and address, the grounds of the submission and supporting facts or circumstances.",
+      "disclosure": "Submissions may be made public and provided to the applicant on request. The consultation collects contact information and says approved AI tools may be used to process submissions.",
+      "sourceUrl": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
+      "checked": "2026-11-13",
+      "verification": "Official invitation and Coordinator-General consultation listing directly read on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
+          "title": "Official application and submission invitation",
+          "access": "directly read",
+          "supports": "Application scope, dates, participation methods, valid submission requirements and disclosure"
+        },
+        {
+          "url": "https://www.coordinatorgeneral.qld.gov.au/news-and-resources/have-your-say",
+          "title": "Coordinator-General open consultations",
+          "access": "directly read",
+          "supports": "Current listing and closing date"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
