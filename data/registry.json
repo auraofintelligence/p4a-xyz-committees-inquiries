@@ -2484,10 +2484,10 @@
       "jurisdiction": "act",
       "level": "state-territory",
       "kind": "parliamentary inquiry",
-      "status": "open",
+      "status": "closed",
       "purpose": "Public evidence on Domestic Violence Agencies Amendment Bill 2026. Read the linked terms of reference before preparing a contribution.",
       "body": "Standing Committee on Legal Affairs",
-      "method": "Email (preferred) to LACommitteeLegal@parliament.act.gov.au or post to the named committee, ACT Legislative Assembly, GPO Box 1020, Canberra ACT 2601.",
+      "method": "The advertised period for written submissions has ended. Check the official inquiry page for further proceedings.",
       "deadline": {
         "date": "2026-11-13",
         "time": "17:00",
@@ -2499,9 +2499,9 @@
       "publicity": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/legal-affairs/inquiry-into-domestic-violence-agencies-amendment-bill-2026",
       "sourceDateChecked": "2026-11-06",
-      "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-07",
+      "verification": "Official inquiry page and Assembly media-release index reviewed after the advertised closing time on 13 November. The recorded closure refers to the published written-submission period.",
+      "evidenceNote": "The inquiry page retained its open label after the advertised 5 pm cutoff. No extension was found in the official inquiry or committee notices on 13 November 2026.",
+      "checked": "2026-11-13",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2521,7 +2521,13 @@
           "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/legal-affairs/inquiry-into-domestic-violence-agencies-amendment-bill-2026",
           "title": "Official inquiry or participation invitation",
           "access": "Primary source reviewed; any unresolved field is noted above",
-          "supports": "Purpose, responsible body, participation route and source-specific conditions"
+          "supports": "Terms of reference, original submission methods and publication conditions, advertised cutoff retained on 13 November"
+        },
+        {
+          "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/media-releases",
+          "title": "ACT Legislative Assembly committee notices",
+          "access": "directly read",
+          "supports": "Original call listed; no extension located for this inquiry"
         }
       ],
       "relatedLinks": [
@@ -2532,7 +2538,8 @@
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
       ],
-      "committeeId": "act-committee-legal-affairs"
+      "committeeId": "act-committee-legal-affairs",
+      "statusChecked": "2026-11-13"
     },
     {
       "id": "act-suicide-prevention-bill",
