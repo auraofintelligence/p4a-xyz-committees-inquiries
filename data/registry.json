@@ -74374,6 +74374,56 @@
       ],
       "priority": 1,
       "relatedLinks": []
+    },
+    {
+      "id": "federal-dewr-workplace-ai-guide-draft-2026",
+      "title": "Draft best practice guide on adopting AI in the workplace",
+      "jurisdiction": "federal",
+      "participationLevel": "federal",
+      "kind": "government consultation",
+      "body": "Department of Employment and Workplace Relations",
+      "place": "Australia",
+      "status": "open",
+      "purpose": "Comment on how the draft guide can help workplaces adopt AI responsibly, including consultation with workers, skills and implementation.",
+      "method": "Read the draft guide and complete the online feedback form linked on the official consultation page.",
+      "opens": "2026-11-11",
+      "deadline": {
+        "date": "2027-01-27",
+        "time": "23:59",
+        "timezone": "AEDT",
+        "precision": "date-time"
+      },
+      "eligibility": "The department invites workers, unions, employers, industry groups, governments, not-for-profits, academics and the public.",
+      "disclosure": "The department says it may publish individual submissions. Detailed form collection terms were not verified.",
+      "sourceUrl": "https://consultations.dewr.gov.au/adopting-ai-in-the-workplace-best-practice-guide-draft",
+      "checked": "2026-11-13",
+      "verification": "Official consultation hub and department announcement directly reviewed on 13 November 2026. The hub records opening on 11 November and the department announced the call on 12 November.",
+      "sources": [
+        {
+          "url": "https://consultations.dewr.gov.au/adopting-ai-in-the-workplace-best-practice-guide-draft",
+          "title": "Official invitation and draft guide",
+          "access": "directly read in a browser",
+          "supports": "Opening date, closing time and timezone, online form, eligibility and possible publication"
+        },
+        {
+          "url": "https://www.dewr.gov.au/workplace-relations/announcements/consultation-now-open-draft-best-practice-guide-adoption-ai-workplace",
+          "title": "Department announcement",
+          "access": "directly read",
+          "supports": "Consultation announcement, guide scope and closing time"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [
+        {
+          "type": "system",
+          "title": "Workforce transition",
+          "url": "https://p4a.xyz/pages/workforce-transition.html",
+          "reason": "The guide addresses how workers participate in AI adoption, job changes and skills development."
+        }
+      ],
+      "priority": 1,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
