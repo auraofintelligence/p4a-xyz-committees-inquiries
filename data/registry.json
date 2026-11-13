@@ -5735,27 +5735,27 @@
     },
     {
       "id": "brisbane-fortitude-valley-draft-plan-2026",
-      "title": "Fortitude Valley draft precinct plan consultation expected",
+      "title": "Fortitude Valley draft precinct plan",
       "jurisdiction": "qld",
       "participationLevel": "council",
       "councilId": "qld-council-1000",
       "kind": "council consultation",
       "body": "Brisbane City Council",
-      "status": "upcoming",
-      "purpose": "A future draft-plan round will seek feedback on housing, connections, heritage, public space and the local economy.",
-      "method": "A further participation round is announced for later 2026. The canonical project page has not yet published its confirmed opening date, closing date or contribution instructions. Recheck that page before attempting a submission.",
+      "status": "open",
+      "purpose": "Comment on the draft precinct plan for homes, public space, connections, heritage, entertainment and the local economy.",
+      "method": "Make a formal written submission via City Plan online, by email to urban.renewal@brisbane.qld.gov.au, or by post to Urban Renewal, Brisbane City Council, GPO Box 1434, Brisbane Qld 4001. Council also offers separate bookable Talk to a Planner sessions.",
       "deadline": {
-        "date": null,
-        "time": null,
+        "date": "2026-12-18",
+        "time": "23:59",
         "timezone": null,
-        "precision": "unknown",
-        "timezoneNote": "No confirmed opening or closing date or timezone is published on the canonical page."
+        "precision": "date-time-zone-unconfirmed",
+        "timezoneNote": "The statutory notice specifies 11:59 pm on Friday 18 December 2026. It does not state a timezone."
       },
-      "eligibility": "The next round’s contribution conditions have not yet been published on the canonical project page.",
-      "disclosure": "Project-specific collection and publication conditions have not been fully reviewed. Check the notice before contributing; public idea posts may have different visibility from survey responses.",
+      "eligibility": "Any person can submit. Include each submitter's name and residential or business address, an email or postal address for correspondence, and reasons with supporting facts. Sign postal submissions and follow the electronic lodgement instructions online.",
+      "disclosure": "Council will publish a consultation report. Publication or confidential handling of individual submissions was not confirmed.",
       "sourceUrl": "https://www.brisbane.qld.gov.au/about-council/council-projects/fortitude-valley-precinct-plan",
-      "checked": "2026-11-07",
-      "verification": "The canonical official project page directly announces further feedback once the draft is released later in 2026. First-stage engagement closed on 15 February 2026. A separately indexed pre-www draft contains specific dates and placeholders which are not confirmed on the canonical page; those draft dates are not used.",
+      "checked": "2026-11-13",
+      "verification": "Official project page and statutory notice directly reviewed on 13 November 2026. The electronic lodgement portal was not directly readable.",
       "connections": [
         {
           "url": "https://p4a.xyz/pages/twinkle-housing.html",
@@ -5777,15 +5777,22 @@
         {
           "url": "https://www.brisbane.qld.gov.au/about-council/council-projects/fortitude-valley-precinct-plan",
           "title": "Official project invitation",
-          "supports": "Announced future consultation, purpose and previous stage closure; confirmed dates are not yet published on this canonical page.",
+          "supports": "Open draft-plan round, formal response methods and separate planner sessions",
           "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://www.brisbane.qld.gov.au/content/dam/brisbanecitycouncil/corpwebsite/building-and-planning/documents/public-notice-draft-fortitude-valley-sustainable-growth-precinct-plan.pdf",
+          "title": "Statutory public notice",
+          "access": "directly read",
+          "supports": "Opening and closing dates, exact cutoff and proper submission requirements"
         }
       ],
       "topics": [
         "housing",
         "infrastructure",
         "economy"
-      ]
+      ],
+      "opens": "2026-11-13"
     },
     {
       "jurisdiction": "vic",
