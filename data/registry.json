@@ -74330,6 +74330,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "tas-low-risk-rooftop-solar-installations-2026",
+      "title": "Low-risk rooftop solar installations",
+      "jurisdiction": "tas",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Tasmanian Department of Justice",
+      "place": "Tasmania",
+      "status": "open",
+      "purpose": "Comment on proposed changes to the low-risk work category for domestic rooftop solar, including roof coverage, mounting clearance, structural safety and council notification.",
+      "method": "Upload a written submission (PDF, DOCX, DOC or TXT), email haveyoursay@justice.tas.gov.au, or post to the Department of Justice, Office of the Secretary, GPO Box 825, Hobart TAS 7001.",
+      "deadline": {
+        "date": "2026-12-09",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The invitation gives 11:59 pm and does not name a timezone."
+      },
+      "eligibility": "The department invites feedback on its draft domestic rooftop solar category. It does not state a residence restriction.",
+      "disclosure": "The department generally publishes submissions and names. Request confidentiality in writing when submitting, identifying the affected parts and why. Right-to-information law can still apply.",
+      "sourceUrl": "https://www.justice.tas.gov.au/community-consultation/consultations/2026/low-risk-rooftop-solar-installations",
+      "checked": "2026-11-13",
+      "verification": "Official consultation page, upload formats, written response methods, deadline and confidentiality conditions directly reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.justice.tas.gov.au/community-consultation/consultations/2026/low-risk-rooftop-solar-installations",
+          "title": "Official consultation, draft category and submission conditions",
+          "access": "directly read in a browser",
+          "supports": "Proposed rule changes, participation, deadline and privacy"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [
+        {
+          "type": "twinkle",
+          "title": "Twinkle 06 · Power",
+          "url": "https://p4a.xyz/pages/twinkle-power.html",
+          "reason": "The consultation directly concerns rules for installing domestic rooftop solar."
+        }
+      ],
+      "priority": 1,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
