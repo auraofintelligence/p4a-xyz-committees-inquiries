@@ -74462,6 +74462,56 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "act-ginninderra-east-planning-survey-2026",
+      "title": "Ginninderra East planning survey",
+      "kind": "government consultation survey",
+      "purpose": "Share priorities for the future neighbourhood to inform the proposed Major Plan Amendment and Place Ambition. Topics include nature, recreation, services, heritage and community life.",
+      "method": "Complete the official online community survey. The agency estimates five to seven minutes.",
+      "eligibility": "The survey is voluntary and invites people to consider living, working or spending time in the area. No narrower eligibility condition is stated.",
+      "disclosure": "The Suburban Land Agency will use responses for planning and engagement. Survey results will be reported without identifying individual participants.",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "body": "Suburban Land Agency, ACT Government",
+      "place": "Ginninderra East, ACT",
+      "status": "open",
+      "deadline": {
+        "date": "2026-12-17",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official invitation gives the date without a cutoff time or timezone."
+      },
+      "sourceUrl": "https://yoursayconversations.act.gov.au/ginninderraeast/ginninderra-east-survey",
+      "checked": "2026-11-13",
+      "verification": "Official project overview and its separate participation invitation reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursayconversations.act.gov.au/ginninderraeast/ginninderra-east-survey",
+          "title": "Official invitation and online participation",
+          "access": "directly read",
+          "supports": "Participation method, closing date, eligibility and published conditions"
+        },
+        {
+          "url": "https://yoursayconversations.act.gov.au/ginninderraeast",
+          "title": "Official Ginninderra East project overview",
+          "access": "directly read",
+          "supports": "Planning purpose and separate participation routes"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [
+        {
+          "type": "system",
+          "title": "Housing simulations",
+          "url": "https://p4a.xyz/pages/housing-simulations.html",
+          "reason": "This consultation contributes to future neighbourhood planning and housing options."
+        }
+      ],
+      "priority": 1,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
