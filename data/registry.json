@@ -74197,6 +74197,66 @@
           "title": "Open the official industry survey"
         }
       ]
+    },
+    {
+      "id": "federal-dcceew-water-act-interim-review-2026",
+      "title": "Water Act Review interim report",
+      "jurisdiction": "federal",
+      "participationLevel": "federal",
+      "kind": "government consultation",
+      "body": "Department of Climate Change, Energy, the Environment and Water",
+      "place": "Australia, including the Murray–Darling Basin",
+      "status": "open",
+      "purpose": "Give feedback on interim findings and recommendations for Commonwealth water governance, First Nations water interests, environmental water, water security and water resource planning.",
+      "method": "Use the official consultation portal to upload a submission, answer the survey, or both. The department also links registration for the rescheduled interim report webinar.",
+      "deadline": {
+        "date": "2026-12-17",
+        "time": "23:59",
+        "timezone": "AEDT",
+        "precision": "date-time"
+      },
+      "event": {
+        "date": "2026-11-17",
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "label": "Water Act Review interim report webinar",
+        "note": "2 to 3 pm AEDT (1 to 2 pm Brisbane). The 13 November rescheduling notice gives the current time. Check the department's page for registration."
+      },
+      "eligibility": "The review invites interested stakeholders across Australia and the Murray–Darling Basin.",
+      "disclosure": "The form collects personal and potentially sensitive information. The notice says submissions may be shared with relevant agencies, and that submissions are shared with the CoLab Foundation for AI-assisted analysis. Publication of individual responses in this round was not confirmed.",
+      "sourceUrl": "https://www.dcceew.gov.au/water/policy/policy/legislation/water-act-review",
+      "checked": "2026-11-13",
+      "verification": "Department update, interim report consultation portal and current survey privacy notice directly reviewed on 13 November 2026. Both project pages carry the newer webinar time alongside the original announcement.",
+      "sources": [
+        {
+          "url": "https://www.dcceew.gov.au/water/policy/policy/legislation/water-act-review",
+          "title": "Department review, terms of reference and webinar update",
+          "access": "directly read",
+          "supports": "Scope, deadline, timezone, rescheduled webinar and registration link"
+        },
+        {
+          "url": "https://app.converlens.com/climate-au/water-act-review",
+          "title": "Official interim report consultation portal",
+          "access": "directly read",
+          "supports": "Current participation round, online methods, eligible stakeholders and report materials"
+        },
+        {
+          "url": "https://app.converlens.com/climate-au/water-act-review/survey",
+          "title": "Online survey, submission upload and privacy notice",
+          "access": "directly read in a browser",
+          "supports": "Personal information collection, permitted disclosure and analysis of submissions"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [
+        {
+          "url": "https://app.converlens.com/climate-au/water-act-review/survey",
+          "title": "Open the official survey and submission form"
+        }
+      ]
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
