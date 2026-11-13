@@ -74098,6 +74098,50 @@
         "parks",
         "sport"
       ]
+    },
+    {
+      "id": "nsw-draft-koala-conservation-strategy-2026",
+      "title": "Draft Koala Conservation Strategy",
+      "jurisdiction": "nsw",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "NSW Department of Climate Change, Energy, the Environment and Water",
+      "place": "New South Wales",
+      "status": "open",
+      "purpose": "Comment on draft statewide actions to protect koalas and their habitat and suggest what the implementation plan should cover.",
+      "method": "Use the official online feedback form or email a submission to koala.strategy@environment.nsw.gov.au.",
+      "opens": "2026-10-12",
+      "deadline": {
+        "date": "2026-11-16",
+        "time": "09:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The department extended the deadline to 9 am on Monday 16 November. The invitation does not state a timezone."
+      },
+      "eligibility": "Communities, landholders, conservation groups, Aboriginal stakeholders, agencies, researchers and anyone interested in koala conservation are invited.",
+      "disclosure": "The online form requests name and email. Its notice says personal information is shared with consent or where the law requires or allows it. Publication of individual submissions was not confirmed.",
+      "sourceUrl": "https://www.environment.nsw.gov.au/topics/animals-and-plants/threatened-species/programs-legislation-and-framework/nsw-koala-strategy/draft-koala-conservation-strategy",
+      "checked": "2026-11-13",
+      "verification": "Direct official department page, online form, privacy collection notice and NSW consultation listing reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/threatened-species/programs-legislation-and-framework/nsw-koala-strategy/draft-koala-conservation-strategy",
+          "title": "Department invitation and feedback form",
+          "access": "directly read",
+          "supports": "Scope, deadline extension, eligibility, submission routes and privacy"
+        },
+        {
+          "url": "https://www.nsw.gov.au/have-your-say/draft-koala-conservation-strategy",
+          "title": "NSW Government Have Your Say listing",
+          "access": "directly read",
+          "supports": "Consultation dates, extended cutoff and both submission methods"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
