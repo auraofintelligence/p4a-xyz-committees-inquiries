@@ -153,14 +153,14 @@
       "kind": "Council consultation",
       "status": "open",
       "purpose": "Tell Council which local services should receive priority in budget planning.",
-      "method": "Complete the budget survey or use the interactive service-allocation activity on Your Say.",
+      "method": "Complete the budget survey or Allocate $100 activity on Your Say. Council also lists pop-ups where residents can speak with staff and complete the survey.",
       "opens": "2026-10-27",
       "deadline": {
-        "date": "2026-11-22",
-        "time": null,
+        "date": "2026-11-29",
+        "time": "23:59",
         "timezone": null,
-        "precision": "date",
-        "note": "Council confirms Sunday 22 November 2026. No cutoff time or timezone is published in the inspected pages."
+        "precision": "minute",
+        "note": "Council extended the round to Sunday 29 November 2026. Both online tools show 11:59 pm. The tools do not name a timezone."
       },
       "eligibility": "Council invites the Redlands Coast community and residents across the city. No narrower eligibility condition was verified.",
       "disclosure": "Read the activity's privacy notice before participating. Your Say terms say posted contributions may remain online; publication or identification of individual survey responses was not established.",
@@ -170,19 +170,31 @@
           "url": "https://yoursay.redland.qld.gov.au/your-say-budget",
           "title": "Official inquiry or participation invitation",
           "access": "Primary source reviewed; any unresolved field is noted above",
-          "supports": "Purpose, responsible body, participation route and source-specific conditions"
+          "supports": "Responsible body, purpose, extension to 29 November 2026, participation routes and updated pop-up schedule"
         },
         {
           "url": "https://www.redlandscoasttoday.com.au/2026/10/have-your-say-on-council-funding-priorities/",
           "title": "Council news: Have your say on Council funding priorities",
           "access": "directly read",
-          "supports": "Explicit closing year, Sunday 22 November 2026"
+          "supports": "Original deadline of 22 November 2026, superseded by the extension on the project page"
+        },
+        {
+          "url": "https://yoursay.redland.qld.gov.au/your-say-budget/2027-2028-budget",
+          "title": "Official 2027–2028 Budget survey",
+          "access": "directly read in a browser",
+          "supports": "Open participation tool and extended cutoff of 11:59 pm on 29 November 2026"
+        },
+        {
+          "url": "https://yoursay.redland.qld.gov.au/your-say-budget/allocate-100-dollars",
+          "title": "Official Allocate $100 activity",
+          "access": "directly read in a browser",
+          "supports": "Open participation tool and extended cutoff of 11:59 pm on 29 November 2026"
         }
       ],
       "islandRelevance": "An available citywide route for island residents to raise service and access priorities; it is not an island-specific hearing.",
-      "checked": "2026-11-06",
+      "checked": "2026-11-13",
       "jurisdiction": "qld",
-      "verification": "Direct primary-source page reviewed",
+      "verification": "Council's project page and both live participation tools reviewed on 13 November 2026. The project page identifies the extension and both tools show the new cutoff.",
       "parliamentary": false,
       "groups": [
         "homelands"
@@ -197,7 +209,16 @@
         }
       ],
       "priority": 2,
-      "relatedLinks": []
+      "relatedLinks": [
+        {
+          "url": "https://yoursay.redland.qld.gov.au/your-say-budget/2027-2028-budget",
+          "title": "Official 2027–2028 Budget survey"
+        },
+        {
+          "url": "https://yoursay.redland.qld.gov.au/your-say-budget/allocate-100-dollars",
+          "title": "Official Allocate $100 activity"
+        }
+      ]
     },
     {
       "id": "redland-animal-local-laws-2026",

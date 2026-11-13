@@ -1,6 +1,6 @@
 """Validate source records, rendered routes, dates, theme assets and small artifact."""
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from html.parser import HTMLParser
 import hashlib
 import html
@@ -121,6 +121,7 @@ def validate_navigation(parsed,pages,committees,records):
 def validate():
     data=json.loads((ROOT/'data/registry.json').read_text(encoding='utf-8'))
     checked=date.fromisoformat(data['checked']);records=data['records'];ids=set()
+    today = datetime.now(timezone(timedelta(hours=10))).date()
     councils=json.loads((ROOT/'data/councils.json').read_text(encoding='utf-8'))['councils']
     committee_data=json.loads((ROOT/'data/committees.json').read_text(encoding='utf-8'))
     committees=committee_data['committees']
@@ -184,11 +185,13 @@ def validate():
         assert r['participationLevel'] in {'council','community','state','federal'}
         if r.get('councilId'):assert r['councilId'] in council_ids and r['participationLevel']=='council'
         if r.get('committeeId'):assert r['committeeId'] in committee_ids and r['participationLevel'] in ('state','federal')
-        assert date.fromisoformat(r['checked'])<=checked
+        # A scoped review can be newer than the broad source snapshot.
+        record_checked = date.fromisoformat(r['checked'])
+        assert record_checked <= today, ident+': future source check'
         d=r['deadline'];assert all(k in d for k in ('date','time','timezone')),ident
         if d.get('date'):
             assert date.fromisoformat(d['date']).isoformat()==d['date']
-            assert not (r['status']=='open' and date.fromisoformat(d['date'])<checked),ident+': stale open deadline'
+            assert not (r['status']=='open' and date.fromisoformat(d['date']) < max(checked, record_checked)),ident+': stale open deadline'
         if d.get('time'):assert re.fullmatch(r'\d\d:\d\d',d['time']),ident
         if d.get('precision')=='date':assert not d.get('time'),ident+': invented date-only time'
         assert r['sourceUrl'].startswith('https://') and r.get('sources')
