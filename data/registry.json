@@ -74424,6 +74424,44 @@
       ],
       "priority": 1,
       "relatedLinks": []
+    },
+    {
+      "id": "wa-mining-rehabilitation-fund-amendments-2026",
+      "title": "Proposed Mining Rehabilitation Fund Act amendments",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Mines, Petroleum and Exploration",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on eight proposed amendments about access to fund money in extraordinary circumstances, future review, levy reassessments, abandoned mines and notices to joint authorisation holders.",
+      "method": "Read the discussion paper and email REC.Consultation@dmpe.wa.gov.au. Identify the proposal and recommendation addressed.",
+      "opens": "2026-11-12",
+      "deadline": {
+        "date": "2027-02-04",
+        "time": "16:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "The department says it will grant no extensions."
+      },
+      "eligibility": "The department invites public feedback on the proposed amendments and encourages affected stakeholders to respond.",
+      "disclosure": "The department says it will publish submissions verbatim with submitters identified and its responses. The invitation does not describe a confidentiality exception.",
+      "sourceUrl": "https://www.wa.gov.au/government/publications/discussion-paper-proposed-legislative-amendments-the-mining-rehabilitation-fund-act-2012",
+      "checked": "2026-11-13",
+      "verification": "Official discussion paper landing page and call for feedback directly reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/publications/discussion-paper-proposed-legislative-amendments-the-mining-rehabilitation-fund-act-2012",
+          "title": "Official discussion paper and call for submissions",
+          "access": "directly read",
+          "supports": "Proposals, deadline and timezone, email route, eligibility and public disclosure"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
