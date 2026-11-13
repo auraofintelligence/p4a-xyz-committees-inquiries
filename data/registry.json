@@ -2306,8 +2306,8 @@
       "title": "Defence estate inquiry: Perth community-hearing registration",
       "purpose": "Register interest in giving a short community statement to the Defence estate inquiry at its Perth hearing.",
       "body": "Senate Foreign Affairs, Defence and Trade Committee",
-      "status": "open",
-      "verification": "Official invitation, inquiry detail and supporting index reviewed on 2026-11-06. Field-specific uncertainty is stated separately.",
+      "status": "closed",
+      "verification": "Official inquiry page directly rechecked on 13 November 2026. Its original 9 November registration cutoff and 12 November event date have passed. No replacement or extension for this registration round was located.",
       "verificationFields": [
         "status",
         "body",
@@ -2317,7 +2317,7 @@
         "disclosure",
         "event"
       ],
-      "method": "Register interest with the committee secretariat using the official inquiry contact route by 9 November. The chair allocates speaking opportunities; registration does not guarantee one.",
+      "method": "The advertised Perth hearing registration period has ended. Read the inquiry page for current opportunities.",
       "deadline": {
         "date": "2026-11-09",
         "time": null,
@@ -2330,7 +2330,7 @@
       "additionalSources": [
         "https://www.aph.gov.au/Parliamentary_Business/Committees/Submissions_Open"
       ],
-      "checked": "2026-11-06",
+      "checked": "2026-11-13",
       "event": {
         "date": "2026-11-12",
         "startTime": "13:00",
@@ -2339,7 +2339,7 @@
         "venue": "DoubleTree by Hilton, Northbridge, Perth",
         "note": "Community session is 1–2pm within the 12–2pm hearing. Timezone is not expressly stated in the reviewed notice; do not silently convert from assumed Perth local time."
       },
-      "detailCoverage": "Live hearing notice reviewed; speaker allocation remains with the committee.",
+      "detailCoverage": "Original hearing notice retained on the committee page. The review confirms the advertised registration and event dates.",
       "kind": "parliamentary hearing registration",
       "sourceUrl": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Foreign_Affairs_Defence_and_Trade/DefenceEstates",
       "parliamentary": true,
@@ -2355,13 +2355,13 @@
       ],
       "priority": 1,
       "place": "Australia",
-      "statusNote": "Event: 12 November 2026. Community session is 1–2pm within the 12–2pm hearing. Timezone is not expressly stated in the reviewed notice; do not silently convert from assumed Perth local time.",
+      "statusNote": "This entry covers registration for the Perth session scheduled for 12 November. The main inquiry has its own written-submission round.",
       "sources": [
         {
           "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Foreign_Affairs_Defence_and_Trade/DefenceEstates",
           "title": "Official inquiry or participation invitation",
           "access": "Primary source reviewed; any unresolved field is noted above",
-          "supports": "Purpose, responsible body, participation route and source-specific conditions"
+          "supports": "Original Perth registration cutoff, event schedule and the continuing main inquiry"
         },
         {
           "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Submissions_Open",
@@ -2371,7 +2371,8 @@
         }
       ],
       "relatedLinks": [],
-      "committeeId": "federal-joint-68"
+      "committeeId": "federal-joint-68",
+      "statusChecked": "2026-11-13"
     },
     {
       "id": "act-fuel-prices",
