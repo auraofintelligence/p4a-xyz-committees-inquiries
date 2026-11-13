@@ -74142,6 +74142,61 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nt-government-procurement-reforms-2026",
+      "title": "NT Government procurement reforms",
+      "jurisdiction": "nt",
+      "participationLevel": "state",
+      "kind": "government consultation survey",
+      "body": "Northern Territory Department of Trade, Business and Asian Relations",
+      "place": "Northern Territory",
+      "status": "open",
+      "purpose": "Comment on proposed changes to tender budget ranges, multi-stage tenders, compliance and reporting, Aboriginal procurement, tender negotiations and liability arrangements.",
+      "method": "Complete the online Procurement Reform Tranche 2 Industry Survey. Answer the topics relevant to you.",
+      "opens": "2026-10-20",
+      "deadline": {
+        "date": "2026-11-16",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official project page gives the date without a cutoff time or timezone."
+      },
+      "eligibility": "Territory businesses, industry associations and other stakeholders are invited.",
+      "disclosure": "The survey allows anonymous responses. Contact details are requested if you opt into future consultation. Publication of individual responses was not confirmed.",
+      "sourceUrl": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms",
+      "checked": "2026-11-13",
+      "verification": "Official project page, government notice and first survey page reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms",
+          "title": "Official project invitation",
+          "access": "directly read",
+          "supports": "Proposal, consultation dates, participation and eligible stakeholders"
+        },
+        {
+          "url": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms/surveys/procurement-reform-tranche-2-industry-survey",
+          "title": "Official industry survey",
+          "access": "first survey page read",
+          "supports": "Survey route, anonymity and optional future contact"
+        },
+        {
+          "url": "https://nt.gov.au/news/2026/have-your-say-on-the-next-round-of-nt-government-procurement-reforms",
+          "title": "Northern Territory Government announcement",
+          "access": "directly read",
+          "supports": "Responsible department, invitation and deadline"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [
+        {
+          "url": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms/surveys/procurement-reform-tranche-2-industry-survey",
+          "title": "Open the official industry survey"
+        }
+      ]
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
