@@ -2017,11 +2017,11 @@
         "timezone": null,
         "note": "4pm on 9 November 2026 confirmed in the live official detail page. Timezone is not stated."
       },
-      "proceedings": "A public hearing is scheduled for 18 November; an advertised hearing does not guarantee a right to speak.",
+      "proceedings": "A public briefing by the Department of Justice and a hearing with stakeholders are scheduled at the Parliamentary Precinct, Brisbane, on 18 November 2026.",
       "jurisdiction": "qld",
       "type": "parliamentary bill inquiry",
-      "status": "open",
-      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed on the official page on 6 November 2026.",
+      "status": "closed",
+      "verification": "The committee's current page directly confirmed written submissions closed on 9 November and separately listed the 18 November proceedings. Original submission conditions and deadline were reviewed on 6 November 2026.",
       "verificationFields": [
         "status",
         "purpose",
@@ -2031,16 +2031,16 @@
         "eligibility",
         "disclosure"
       ],
-      "method": "Use the online submission form linked from the official inquiry page. If unable to provide written evidence, discuss participation options with the secretariat using its official contact route.",
-      "eligibility": "All interested parties are invited. Include the author's full name, the organisational approval level if submitting for an organisation, and at least two of email address, postal address and daytime phone number. No residency restriction was stated in the reviewed call.",
+      "method": "The committee has closed written submissions. Read the official inquiry page for the programme and attendance arrangements for the public briefing and hearing with stakeholders.",
+      "eligibility": "The original written call invited all interested parties. Check the official programme for attendance and witness arrangements for the 18 November hearing.",
       "disclosure": "The committee may publish the submission and author's name online. Name-withheld or confidential treatment may be requested, but publication is at the committee's discretion.",
       "source": "https://www.parliament.qld.gov.au/Work-of-Committees/Committees/Committee-Details?cid=0&id=8617",
       "additionalSources": [
         "https://www.parliament.qld.gov.au/work-of-committees/inquiries"
       ],
-      "checked": "2026-11-06",
+      "checked": "2026-11-13",
       "kind": "parliamentary bill inquiry",
-      "sourceUrl": "https://www.parliament.qld.gov.au/Work-of-Committees/Committees/Committee-Details?cid=0&id=8617",
+      "sourceUrl": "https://www.parliament.qld.gov.au/Work-of-Committees/Committees/Committee-Details?cid=275&id=8617",
       "parliamentary": true,
       "groups": [],
       "participationLevel": "state",
@@ -2062,6 +2062,12 @@
       "place": "QLD",
       "sources": [
         {
+          "url": "https://www.parliament.qld.gov.au/Work-of-Committees/Committees/Committee-Details?cid=275&id=8617",
+          "title": "Current committee inquiry and hearing schedule",
+          "access": "directly read in a browser on 13 November 2026",
+          "supports": "Confirmed written-submission closure and the separate public briefing and hearing"
+        },
+        {
           "url": "https://www.parliament.qld.gov.au/Work-of-Committees/Committees/Committee-Details?cid=0&id=8617",
           "title": "Official inquiry or participation invitation",
           "access": "Primary source reviewed; any unresolved field is noted above",
@@ -2082,7 +2088,16 @@
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
       ],
-      "committeeId": "qld-committee-275"
+      "committeeId": "qld-committee-275",
+      "statusChecked": "2026-11-13",
+      "events": [
+        {
+          "date": "2026-11-18",
+          "label": "Department of Justice public briefing and public hearing with stakeholders",
+          "venue": "Parliamentary Precinct, Brisbane",
+          "note": "Check the committee's programme for times and attendance arrangements."
+        }
+      ]
     },
     {
       "id": "qld-rural-regional-adjustment-8616",
