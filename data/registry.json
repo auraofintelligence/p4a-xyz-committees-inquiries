@@ -74512,6 +74512,56 @@
       ],
       "priority": 1,
       "relatedLinks": []
+    },
+    {
+      "id": "act-ginninderra-east-community-panel-eoi-2026",
+      "title": "Ginninderra East Community Panel expressions of interest",
+      "kind": "community panel expression of interest",
+      "purpose": "Apply to join a panel of 20 to 30 people to explore planning opportunities and challenges for Ginninderra East.",
+      "method": "Complete the official online expression of interest. Selected members attend three facilitated sessions in the first half of 2027 and two in early 2028.",
+      "eligibility": "No previous experience required. The agency invites a range of people, including nearby and wider Canberra residents, prospective residents, workers, students and business owners. It uses demographic and community criteria to select members.",
+      "disclosure": "The page links YourSay privacy terms and says demographic and community criteria inform selection. Publication of individual applications was not confirmed.",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "body": "Suburban Land Agency, ACT Government",
+      "place": "Ginninderra East, ACT",
+      "status": "open",
+      "deadline": {
+        "date": "2026-12-17",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official invitation gives the date without a cutoff time or timezone."
+      },
+      "sourceUrl": "https://yoursayconversations.act.gov.au/ginninderraeast/ginninderra-east-community-panel-eoi",
+      "checked": "2026-11-13",
+      "verification": "Official project overview and its separate participation invitation reviewed on 13 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursayconversations.act.gov.au/ginninderraeast/ginninderra-east-community-panel-eoi",
+          "title": "Official invitation and online participation",
+          "access": "directly read",
+          "supports": "Participation method, closing date, eligibility and published conditions"
+        },
+        {
+          "url": "https://yoursayconversations.act.gov.au/ginninderraeast",
+          "title": "Official Ginninderra East project overview",
+          "access": "directly read",
+          "supports": "Planning purpose and separate participation routes"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [
+        {
+          "type": "system",
+          "title": "Housing simulations",
+          "url": "https://p4a.xyz/pages/housing-simulations.html",
+          "reason": "This consultation contributes to future neighbourhood planning and housing options."
+        }
+      ],
+      "priority": 1,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
