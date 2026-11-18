@@ -74849,6 +74849,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nt-remote-rent-consultation-2026",
+      "title": "Northern Territory remote public housing rent review",
+      "jurisdiction": "nt",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Northern Territory Department of Housing, Local Government and Community Development",
+      "place": "Northern Territory",
+      "status": "open",
+      "purpose": "Comment on how rent in remote public housing is worked out and collected, whose circumstances count and how rent should change as households change.",
+      "method": "Use the tenant survey, quick note or organisation submission on Have Your Say NT. The project also lists phone, email, community visits and regional workshops.",
+      "opens": "2026-11-09",
+      "deadline": {
+        "date": "2027-01-31",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The project publishes the closing date without an hour or timezone."
+      },
+      "eligibility": "The invitation seeks remote public housing tenants, organisations and communities. The upload is specifically for organisation submissions.",
+      "disclosure": "The portal links its privacy policy. The project page does not state whether individual responses will be published. Check the privacy notice on the selected feedback method.",
+      "sourceUrl": "https://haveyoursay.nt.gov.au/remote-rent-consultations",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.nt.gov.au/remote-rent-consultations",
+          "title": "Official remote rent invitation",
+          "access": "directly read",
+          "supports": "Purpose, eligible contributors, feedback options and dates"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
