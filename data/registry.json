@@ -75868,6 +75868,50 @@
       "priority": 0,
       "relatedLinks": [],
       "statusNote": "This is the Queensland proponent’s statutory invitation for a project undergoing Commonwealth assessment."
+    },
+    {
+      "id": "vic-esc-symphony-transmission-licence-2026",
+      "title": "Symphony electricity transmission licence application",
+      "jurisdiction": "vic",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Essential Services Commission Victoria",
+      "place": "Victoria",
+      "status": "open",
+      "purpose": "Comment on Symphony Assets Pty Ltd as trustee for Symphony Assets Trust’s electricity transmission licence application.",
+      "method": "Use the official form or send a written document via the Commission’s email route.",
+      "opens": "2026-11-04",
+      "deadline": {
+        "date": "2026-12-02",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official project gives the date and its portal field gives 5 pm without a timezone."
+      },
+      "eligibility": "The Commission invites stakeholder feedback from individuals and organisations.",
+      "disclosure": "The Commission generally publishes the submission and name unless requested otherwise, and redacts other personal details. Contributors can request publication without their name or confidential treatment. Anonymous input may receive less weight. The applicant may respond to feedback. The project says it de-identifies feedback on request and notifies contributors if the response is published.",
+      "sourceUrl": "https://engage.vic.gov.au/symphony-assets-pty-ltd-as-trustee-for-symphony-assets-trust-transmission-licence-application",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://engage.vic.gov.au/symphony-assets-pty-ltd-as-trustee-for-symphony-assets-trust-transmission-licence-application",
+          "title": "Official project invitation",
+          "access": "directly read",
+          "supports": "Proposal, audience and consultation dates"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/symphony-assets-pty-ltd-as-trustee-for-symphony-assets-trust-transmission-licence-application/survey/6879",
+          "title": "Official submission form",
+          "access": "directly read",
+          "supports": "Feedback method, deadline evidence and disclosure"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
