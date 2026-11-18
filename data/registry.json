@@ -75509,6 +75509,87 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "act-northside-hospital-design-2026",
+      "title": "Northside Hospital design consultation",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "ACT Government, Northside Hospital Project",
+      "place": "Bruce, ACT",
+      "status": "open",
+      "purpose": "Comment on the proposed Northside Hospital design before the main hospital development application, including site access, movement, landscaping and public spaces.",
+      "method": "Complete the YourSay survey or send written feedback using the project email. Community pop-ups provide an opportunity to ask the project team questions and discuss the design.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2026-12-18",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The project gives the closing date without a clock time or timezone."
+      },
+      "eligibility": "The ACT Government invites community feedback on the design.",
+      "disclosure": "YourSay ACT publishes a general privacy statement. The project invitation does not say whether individual survey responses or emails will be published.",
+      "sourceUrl": "https://yoursayconversations.act.gov.au/northside-hospital-project",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursayconversations.act.gov.au/northside-hospital-project",
+          "title": "Official Northside Hospital consultation",
+          "access": "directly read",
+          "supports": "Design scope, methods, deadline and portal privacy"
+        },
+        {
+          "url": "https://yoursayconversations.act.gov.au/northside-hospital-project/community-pop-information-sessions",
+          "title": "Official community pop-up schedule",
+          "access": "directly read",
+          "supports": "Public event dates and locations"
+        },
+        {
+          "url": "https://www.act.gov.au/builtforcbr/browse-all-projects/health/northside-hospital-project",
+          "title": "ACT project overview",
+          "access": "directly read",
+          "supports": "Design consultation and separate education building development application"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "events": [
+        {
+          "date": "2026-11-25",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-11-26",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-11-27",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-11-30",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-12-04",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        },
+        {
+          "date": "2026-12-05",
+          "label": "Community information pop-up. Check the official schedule for location and times."
+        }
+      ],
+      "statusNote": "This entry covers the design feedback round. The education and training building development application has a separate process."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
