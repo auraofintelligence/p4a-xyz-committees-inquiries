@@ -75286,6 +75286,51 @@
         "venue": "Prince Edward Island Room, ACT Legislative Assembly",
         "note": "The Assembly publishes these clock times without a timezone on the schedule. Check for changes before attending."
       }
+    },
+    {
+      "id": "act-school-career-guidance-petitions-hearing-2026-11-24",
+      "title": "ACT school career guidance petitions public hearing",
+      "jurisdiction": "act",
+      "participationLevel": "state",
+      "kind": "parliamentary public hearing",
+      "body": "Standing Committee on Social Policy",
+      "place": "ACT Legislative Assembly, Canberra",
+      "status": "upcoming",
+      "purpose": "Follow the Committee’s hearing on petitions E-Pet 078-25 and Pet 041-26 for career guidance in ACT public schools in Years 7 to 10.",
+      "method": "Watch the public webcast using the Assembly hearing schedule. Check the schedule for changes and available attendance arrangements.",
+      "opens": null,
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "none"
+      },
+      "eligibility": "The public can watch the live stream. The schedule does not invite unscheduled oral evidence.",
+      "disclosure": "Hearings are publicly streamed and recordings or transcripts may be published.",
+      "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/public-hearings-schedule",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/public-hearings-schedule",
+          "title": "Official ACT Assembly public hearings schedule",
+          "access": "directly read",
+          "supports": "Committee, public broadcast, event date and current programme"
+        }
+      ],
+      "parliamentary": true,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "committeeId": "act-committee-social-policy",
+      "event": {
+        "date": "2026-11-24",
+        "startTime": "15:30",
+        "endTime": "16:00",
+        "venue": "Prince Edward Island Room, ACT Legislative Assembly",
+        "note": "The Assembly publishes these clock times without a timezone on the schedule. Check for changes before attending."
+      }
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
