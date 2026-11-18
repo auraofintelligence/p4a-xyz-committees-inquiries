@@ -74767,6 +74767,50 @@
         }
       ],
       "statusNote": "The dates and times of drop-in sessions are listed separately from the closing deadline. The invitation advises checking the project page before travelling."
+    },
+    {
+      "id": "sa-olympic-dam-smelter-refinery-eis-2026",
+      "title": "Olympic Dam smelter and refinery expansion environmental impact statement",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "South Australian Department for Housing and Urban Development, for the Indenture Minister",
+      "place": "Olympic Dam, South Australia",
+      "status": "open",
+      "purpose": "Comment on the environmental, community and economic impacts of BHP’s proposed smelter and refinery expansion at Olympic Dam.",
+      "method": "Read the environmental impact statement and respond via the YourSAy survey, PlanSA submission form, or the email or postal route on the official invitation.",
+      "opens": "2026-11-05",
+      "deadline": {
+        "date": "2026-12-17",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official fact sheet gives the closing date. A closing hour and timezone were not stated in the reviewed date notice."
+      },
+      "eligibility": "The department invites public feedback on the impact statement.",
+      "disclosure": "The invitation says submissions will be published on YourSAy and PlanSA, including company or organisation names. Personal names, addresses, email addresses and phone numbers will be withheld.",
+      "sourceUrl": "https://yoursay.sa.gov.au/olympic-dam-SRE-EIS",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursay.sa.gov.au/olympic-dam-SRE-EIS",
+          "title": "Official YourSAy environmental impact statement invitation",
+          "access": "directly read",
+          "supports": "Assessment process, submission methods and publication terms"
+        },
+        {
+          "url": "https://hdp-au-prod-app-dpcsa-yoursay-files.s3.ap-southeast-2.amazonaws.com/2717/9384/7180/Fact_Sheet.pdf",
+          "title": "Government consultation fact sheet",
+          "access": "directly read",
+          "supports": "5 November to 17 December period"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
