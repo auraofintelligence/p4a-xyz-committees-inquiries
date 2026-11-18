@@ -1138,8 +1138,8 @@
       "title": "Review of Administration and Expenditure No. 25 (2025–26)",
       "purpose": "Review intelligence-agency administration and spending, including cooperation, insider threats, security clearances, fairness and data-centre governance, ownership and digital data sovereignty.",
       "body": "Parliamentary Joint Committee on Intelligence and Security",
-      "status": "open",
-      "verification": "Official invitation, inquiry detail and supporting index reviewed on 2026-11-06. Field-specific uncertainty is stated separately.",
+      "status": "unverified",
+      "verification": "The published 13 November 2026 deadline is corroborated by the Australian Government Solicitor. The committee's live invitation and submissions index could not be opened on 18 November to check for an extension.",
       "verificationFields": [
         "status",
         "deadline.date",
@@ -1204,10 +1204,22 @@
           "title": "Additional official source",
           "access": "reviewed",
           "supports": "Supporting invitation or guidance"
+        },
+        {
+          "url": "https://www.ags.gov.au/publications/last-week-in-parliament/no208",
+          "title": "Australian Government Solicitor parliamentary bulletin",
+          "access": "directly read",
+          "supports": "Corroborates the published 13 November submissions deadline"
         }
       ],
       "relatedLinks": [],
-      "committeeId": "federal-joint-69"
+      "committeeId": "federal-joint-69",
+      "statusChecked": "2026-11-18",
+      "statusNote": "The published closing date has passed. Current acceptance of submissions and any extension could not be verified.",
+      "uncertaintyFields": [
+        "status"
+      ],
+      "uncertaintyReason": "The committee’s live invitation was access-blocked. The original review date and deadline are retained."
     },
     {
       "id": "federal-paraquat",
