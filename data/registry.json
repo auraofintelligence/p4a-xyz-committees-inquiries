@@ -74308,17 +74308,17 @@
       "method": "Use the online submission link, email sdainfo@coordinatorgeneral.qld.gov.au, or write to The Coordinator-General, c/- State Development Areas, PO Box 15517, City East Qld 4002.",
       "opens": "2026-10-01",
       "deadline": {
-        "date": "2026-11-16",
-        "time": null,
+        "date": "2026-11-18",
+        "time": "23:59",
         "timezone": null,
-        "precision": "date",
-        "note": "The application invitation gives a closing date without a cutoff time or timezone."
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The Coordinator-General extended the original 16 November deadline after the 13 November Microsoft 365 and Outlook outage. The extension notice gives 11:59 pm and does not name a timezone."
       },
       "eligibility": "Public submissions are invited. Include each submitter's signature, name and address, the grounds of the submission and supporting facts or circumstances.",
       "disclosure": "Submissions may be made public and provided to the applicant on request. The consultation collects contact information and says approved AI tools may be used to process submissions.",
       "sourceUrl": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
-      "checked": "2026-11-13",
-      "verification": "Official invitation and Coordinator-General consultation listing directly read on 13 November 2026.",
+      "checked": "2026-11-18",
+      "verification": "The official invitation and its extension notice were directly reviewed on 18 November 2026. The notice supersedes the original date shown lower on the invitation.",
       "sources": [
         {
           "url": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
@@ -74331,13 +74331,20 @@
           "title": "Coordinator-General open consultations",
           "access": "directly read",
           "supports": "Current listing and closing date"
+        },
+        {
+          "url": "https://www.statedevelopment.qld.gov.au/news-and-events/consultations",
+          "title": "State development consultation listing",
+          "access": "directly read",
+          "supports": "Current consultation and 18 November closing date"
         }
       ],
       "parliamentary": false,
       "groups": [],
       "connections": [],
       "priority": 0,
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusNote": "The extension keeps submissions open until 11:59 pm on 18 November. The official notice does not name a timezone."
     },
     {
       "id": "tas-low-risk-rooftop-solar-installations-2026",
