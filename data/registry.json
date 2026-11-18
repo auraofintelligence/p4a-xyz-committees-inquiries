@@ -75727,6 +75727,54 @@
         "method"
       ],
       "uncertaintyReason": "The official public invitation and survey link were read. Access to the linked survey and the closing date could not be independently confirmed."
+    },
+    {
+      "id": "sa-green-adelaide-water-activities-policy-2026",
+      "title": "Green Adelaide water affecting activities policy review",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Green Adelaide",
+      "place": "Green Adelaide, South Australia",
+      "status": "open",
+      "purpose": "Comment on the draft water affecting activities control policy used for activities that can affect water resources.",
+      "method": "Read the draft and contact Green Adelaide by email at dew.greenadelaide@sa.gov.au or by telephone using the agency’s invitation.",
+      "opens": null,
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "note": "No cutoff was published on the accessible official project and agency pages."
+      },
+      "eligibility": "Green Adelaide invites interested community members and stakeholders.",
+      "disclosure": "The official invitation does not state a project-specific publication or confidentiality policy.",
+      "sourceUrl": "https://www.greenadelaide.sa.gov.au/water-plans-permits",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.greenadelaide.sa.gov.au/water-plans-permits",
+          "title": "Green Adelaide policy and review invitation",
+          "access": "directly read",
+          "supports": "Draft, participation methods and scope"
+        },
+        {
+          "url": "https://yoursay.sa.gov.au/water-affecting-activities-control-policy",
+          "title": "Official YourSAy project",
+          "access": "directly read",
+          "supports": "Current invitation and context"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "uncertaintyFields": [
+        "deadline"
+      ],
+      "uncertaintyReason": "The official invitation is current. The public closing time could not be verified."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
