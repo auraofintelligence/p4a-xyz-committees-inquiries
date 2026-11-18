@@ -74577,6 +74577,61 @@
       ],
       "priority": 1,
       "relatedLinks": []
+    },
+    {
+      "id": "qld-bowen-boat-harbour-master-plan-2026",
+      "title": "Bowen State Boat Harbour draft master plan",
+      "jurisdiction": "qld",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Maritime Safety Queensland, Department of Transport and Main Roads",
+      "place": "Bowen, Queensland",
+      "status": "open",
+      "purpose": "Comment on how the harbour is used, which outcomes matter most, and priorities for planning, design and investigation.",
+      "method": "Read the draft and complete the online survey, or send a written submission by email to BHSP@msq.qld.gov.au or by post using the address on the invitation. Drop-in sessions offer information, questions and survey assistance.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2026-12-08",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The survey and written submissions share this cutoff. The official invitation does not name a timezone."
+      },
+      "eligibility": "The consultation invites public feedback. No residence requirement was stated.",
+      "disclosure": "TMR uses information to inform the project and may contact contributors. Its portal says personal information is only shared with consent or where law permits or requires it. A summary is planned. Publication of individual submissions was not confirmed.",
+      "sourceUrl": "https://www.yoursay-projects.tmr.qld.gov.au/BowenStateBoatHarbourMasterPlan",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.yoursay-projects.tmr.qld.gov.au/BowenStateBoatHarbourMasterPlan",
+          "title": "Official project and participation invitation",
+          "access": "directly read",
+          "supports": "Draft, survey, written submissions, deadline, drop-ins and portal privacy"
+        },
+        {
+          "url": "https://statements.qld.gov.au/statements/106436",
+          "title": "Queensland Government launch announcement",
+          "access": "directly read",
+          "supports": "Opening date and public invitation"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "events": [
+        {
+          "date": "2026-11-20",
+          "label": "9 am to noon, Centre Point Plaza, 2 Richmond Road, Bowen."
+        },
+        {
+          "date": "2026-11-21",
+          "label": "10 am to noon, Bowen Neighbourhood Centre, 34–40 Gregory Street, Bowen."
+        }
+      ],
+      "statusNote": "The dates and times of drop-in sessions are listed separately from the closing deadline. The invitation advises checking the project page before travelling."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
