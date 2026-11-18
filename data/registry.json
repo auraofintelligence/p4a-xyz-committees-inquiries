@@ -75628,6 +75628,56 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "sa-inner-west-code-amendment-2026",
+      "title": "South Australia Inner West Code Amendment",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "South Australian Department for Housing and Urban Development",
+      "place": "Inner West of metropolitan Adelaide, South Australia",
+      "status": "open",
+      "purpose": "Comment on proposed changes to the Planning and Design Code for the Inner West, including housing, built form and planning for land near transport and services.",
+      "method": "Use the YourSAy survey or PlanSA submission form. The official invitation also lists email and post options.",
+      "opens": null,
+      "deadline": {
+        "date": "2027-02-01",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "PlanSA gives 11:59 pm without naming a timezone in the reviewed notice."
+      },
+      "eligibility": "The project invites community members, businesses, industry and government to respond.",
+      "disclosure": "The project says published submissions identify contributors and organisations. Personal addresses, email addresses and phone numbers are redacted.",
+      "sourceUrl": "https://yoursay.sa.gov.au/innerwest",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursay.sa.gov.au/innerwest",
+          "title": "Official YourSAy invitation",
+          "access": "directly read",
+          "supports": "Participation methods, audience, project scope and publication rules"
+        },
+        {
+          "url": "https://plan.sa.gov.au/have_your_say/code-amendments/view_consultation_item?catsid=10186",
+          "title": "Official PlanSA amendment page",
+          "access": "directly read",
+          "supports": "Deadline and direct submission route"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "events": [
+        {
+          "date": "2026-11-25",
+          "label": "Community drop-in. Check the official event details before attending."
+        }
+      ]
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
