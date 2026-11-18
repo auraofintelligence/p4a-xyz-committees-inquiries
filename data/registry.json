@@ -75912,6 +75912,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "vic-epa-laop-asbestos-retention-app051639",
+      "title": "Altona asbestos-contaminated soil retention licence application",
+      "jurisdiction": "vic",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Environment Protection Authority Victoria",
+      "place": "Altona, Victoria",
+      "status": "open",
+      "purpose": "Comment on application APP051639 for onsite retention of asbestos-contaminated soil at the Altona site.",
+      "method": "Use the official Engage Victoria form or attach a written submission through it.",
+      "opens": "2026-11-11",
+      "deadline": {
+        "date": "2026-12-03",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official form states 11:59 pm. It does not name a timezone."
+      },
+      "eligibility": "The EPA invites anyone who may be affected by the proposed development licence.",
+      "disclosure": "EPA says it removes names and contact details, refers the de-identified submission to the applicant for response and publishes it online. The form asks contributors to acknowledge that their submission is a public document.",
+      "sourceUrl": "https://engage.vic.gov.au/project-diamond-altona-onsite-retention-of-asbestos-contaminated-soil",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://engage.vic.gov.au/project-diamond-altona-onsite-retention-of-asbestos-contaminated-soil",
+          "title": "Official project invitation",
+          "access": "directly read",
+          "supports": "Proposal, audience and consultation dates"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/project-diamond-altona-onsite-retention-of-asbestos-contaminated-soil/survey/6886",
+          "title": "Official submission form",
+          "access": "directly read",
+          "supports": "Feedback method, deadline evidence and disclosure"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
