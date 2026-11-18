@@ -74887,6 +74887,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nt-local-government-learning-framework-2026",
+      "title": "Northern Territory local government learning and development framework",
+      "jurisdiction": "nt",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Northern Territory Department of Housing, Local Government and Community Development",
+      "place": "Northern Territory",
+      "status": "open",
+      "purpose": "Review training access, relevance, ongoing learning, recognition of equivalent training and flexible pathways, including in remote and regional communities.",
+      "method": "Read the consultation paper and take the survey linked on the official project page.",
+      "opens": "2026-11-09",
+      "deadline": {
+        "date": "2026-12-31",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The project specifies close of business but gives no numeric hour or timezone."
+      },
+      "eligibility": "The survey seeks local government sector views, particularly council members, local authority members and council staff.",
+      "disclosure": "The invitation links the sector survey. The project page does not specify public disclosure or anonymity for individual responses.",
+      "sourceUrl": "https://haveyoursay.nt.gov.au/review-of-the-local-government-learning-and-development-framework",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.nt.gov.au/review-of-the-local-government-learning-and-development-framework",
+          "title": "Official framework review invitation",
+          "access": "directly read",
+          "supports": "Scope, sector participants, survey and closing wording"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
