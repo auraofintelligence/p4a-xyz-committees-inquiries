@@ -74982,6 +74982,63 @@
         "venue": "Main training room, Limestone Coast Training, 73 Smith Street, Naracoorte, South Australia",
         "note": "The committee’s release gives Australian Central Daylight Time."
       }
+    },
+    {
+      "id": "federal-critical-minerals-port-pirie-hearing-2026-11-20",
+      "title": "Critical minerals inquiry public hearing in Port Pirie",
+      "jurisdiction": "federal",
+      "participationLevel": "federal",
+      "kind": "parliamentary public hearing",
+      "body": "House of Representatives Standing Committee on Primary Industries",
+      "place": "Australia",
+      "status": "upcoming",
+      "purpose": "Follow evidence on critical minerals and regional development. The committee plans to hear from Nyrstar and Regional Development Australia Yorke and Mid North.",
+      "method": "Watch the committee’s public webcast via Parliament’s Watch, Read and Listen page. Check the official hearing programme for schedule changes.",
+      "opens": null,
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "none"
+      },
+      "eligibility": "Public observation was announced. The hearing programme determines witnesses.",
+      "disclosure": "The committee announced a public broadcast. The release does not invite general oral evidence.",
+      "sourceUrl": "https://newshub.medianet.com.au/2026/11/critical-minerals-inquiry-in-naracoorte-and-port-pirie/182349/",
+      "checked": "2026-11-18",
+      "verification": "The committee’s signed public announcement was directly read on its distribution service on 18 November. The APH programme could not be opened.",
+      "sources": [
+        {
+          "url": "https://newshub.medianet.com.au/2026/11/critical-minerals-inquiry-in-naracoorte-and-port-pirie/182349/",
+          "title": "Committee’s public release distributed by Medianet",
+          "access": "directly read",
+          "supports": "Hearing schedule, ACDT hours, location, webcast and committee attribution"
+        },
+        {
+          "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Primary_Industries/CriticalMinerals/Public_Hearings",
+          "title": "Australian Parliament official hearing programme",
+          "access": "linked in committee release; current direct access blocked",
+          "supports": "Programme and changes when accessible"
+        }
+      ],
+      "parliamentary": true,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [
+        {
+          "url": "https://www.aph.gov.au/News_and_Events/Watch_Read_Listen",
+          "title": "Australian Parliament public broadcasts"
+        }
+      ],
+      "committeeId": "federal-house-24190",
+      "event": {
+        "date": "2026-11-20",
+        "startTime": "13:00",
+        "endTime": "14:20",
+        "timezone": "ACDT",
+        "venue": "Multi-purpose Meeting and IT Room, Port Pirie Regional Library, 3 Wandearah Road, Port Pirie, South Australia",
+        "note": "The committee’s release gives Australian Central Daylight Time."
+      }
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
