@@ -75421,6 +75421,44 @@
         "venue": "Prince Edward Island Room, ACT Legislative Assembly",
         "note": "The Assembly publishes these clock times without a timezone on the schedule. Check for changes before attending."
       }
+    },
+    {
+      "id": "wa-balcony-solar-consultation-2026",
+      "title": "Western Australia plug-in solar and batteries consultation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Departments of Energy and Economic Diversification and Local Government, Industry Regulation and Safety",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on changes to permit plug-in solar and batteries safely, including regulatory barriers, power limits and a proposed technical standard.",
+      "method": "Read the consultation paper and draft standard and use the Have Your Say submission button on the official page.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-12-09",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "Time and timezone are directly stated by the department."
+      },
+      "eligibility": "The departments invite public feedback on the proposed pathway.",
+      "disclosure": "The published invitation does not state whether individual submissions or details will be published. Check the submission form’s privacy terms.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/plug-power-balcony-solar-consultation-legalising-plug-solar-and-batteries",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/plug-power-balcony-solar-consultation-legalising-plug-solar-and-batteries",
+          "title": "Official plug-in solar consultation",
+          "access": "directly read",
+          "supports": "Proposals, draft standard, submission route and AWST deadline"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
