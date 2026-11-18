@@ -138,6 +138,7 @@ def committee_records(committee):
     return result
 
 def browse_route(view,j=None):
+    if view=='calendars':return 'calendars/'+(j+'/' if j in NAMES else '')
     if not j:return view+'/'
     if view=='committees':return 'committees/'+j+'/'
     return 'councils/qld/redland/' if j=='redland' else 'australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/'
@@ -155,6 +156,7 @@ def navigation_context(page):
     if path.startswith('australia/'):return view,'federal'
     if path.startswith('queensland/'):return view,'qld'
     parts=path.split('/')
+    if parts[0]=='calendars':return 'calendars',parts[1] if parts[1] in NAMES else None
     if len(parts)>2 and parts[0] in ('committees','states') and parts[1] in (*NAMES,'redland'):return view,parts[1]
     return view,None
 
@@ -162,12 +164,16 @@ def section_navigation(page):
     view,j=navigation_context(page)
     def choice(target,label,current=False,cls=''):
         return '<a href="'+e(rel(page,target))+'"'+(' class="'+cls+'"' if cls else '')+(' aria-current="location"' if current else '')+'>'+e(label)+'</a>'
-    active=page.startswith(('inquiries/','committees/','states/','queensland/','australia/','opportunities/','archive/','councils/qld/redland/'))
-    task_links=''.join(choice(browse_route(key,j),label,active and key==view,'committee-browse-link') for key,label in [('inquiries','Inquiries & participation'),('committees','All committees')])
+    active=page.startswith(('inquiries/','committees/','calendars/','states/','queensland/','australia/','opportunities/','archive/','councils/qld/redland/'))
+    tasks=[('inquiries','Inquiries & participation'),('committees','All committees'),('calendars','Parliament calendars')]
+    task_links=''.join(choice(browse_route(key,j),label,active and key==view,'committee-browse-link') for key,label in tasks)
     names={'redland':'Redland City Council','federal':'Australian Parliament',**{k:v+' '+('Assembly' if k in ('act','nt') else 'Parliament') for k,v in NAMES.items() if k!='federal'}}
-    choices=''.join(choice(browse_route(view,key),names[key],j==key) for key in ['redland','federal','qld','nsw','vic','wa','sa','tas','act','nt'])
-    selected=names[j] if j else 'Choose a parliament or Redland'
-    return '<nav class="participation-nav" aria-label="Committees and inquiries" data-browse="'+view+'" data-parliament="'+(j or '')+'"><div class="participation-nav-heading"><div class="participation-nav-title">'+link(page,'index.html','Committees & inquiries')+'</div><div class="participation-nav-help">'+choice('homelands/','Homelands',page=='homelands/index.html')+choice('councils/','Council participation',page.startswith('councils/'))+choice('take-part/','Participation help',page=='take-part/index.html')+'</div></div><div class="committee-navigation-controls"><div class="committee-browse"><span class="committee-nav-label">Browse</span><div>'+task_links+'</div></div><details class="participation-parliament-menu"><summary><span class="committee-nav-label">Parliament / council</span><span class="committee-current-scope">'+e(selected)+' <span aria-hidden="true">⌄</span></span></summary><div>'+choices+'</div></details></div></nav>'
+    keys=['federal','qld','nsw','vic','wa','sa','tas','act','nt']
+    if view!='calendars':keys.insert(0,'redland')
+    choices=''.join(choice(browse_route(view,key),names[key],j==key) for key in keys)
+    selector_label='Parliament' if view=='calendars' else 'Parliament / council'
+    selected=names[j] if j else ('Choose a parliament' if view=='calendars' else 'Choose a parliament or Redland')
+    return '<nav class="participation-nav" aria-label="Committees and inquiries" data-browse="'+view+'" data-parliament="'+(j or '')+'"><div class="participation-nav-heading"><div class="participation-nav-title">'+link(page,'index.html','Committees & inquiries')+'</div><div class="participation-nav-help">'+choice('homelands/','Homelands',page=='homelands/index.html')+choice('councils/','Council participation',page.startswith('councils/'))+choice('take-part/','Participation help',page=='take-part/index.html')+'</div></div><div class="committee-navigation-controls"><div class="committee-browse"><span class="committee-nav-label">Browse</span><div>'+task_links+'</div></div><details class="participation-parliament-menu"><summary><span class="committee-nav-label">'+selector_label+'</span><span class="committee-current-scope">'+e(selected)+' <span aria-hidden="true">⌄</span></span></summary><div>'+choices+'</div></details></div></nav>'
 
 def topic_keys(r):
     if r.get('topics'):return r['topics']
@@ -302,7 +308,7 @@ def build():
     routes=[('homelands/','01 · Homelands','Committees affecting home','Committees and inquiries for Redland City, Queensland and Australia, each in its own view.'),('queensland/','02 · State','Queensland','Queensland Parliament and state-government opportunities. Search within this state level.'),('australia/','03 · Commonwealth','Australia','Federal Parliament and Commonwealth opportunities. Search within the national level.')]
     routes.append(('councils/','04 · Councils','Find another council','Choose a state, then your council. Checked participation rules and current invitations stay with that council.'))
     body+=section('Choose the body you want to influence','Each level has its own list and search. P4A topic matches are highlighted within the selected level. Use Inquiries & participation and choose a parliament for another jurisdiction.','<div class="route-grid">'+''.join('<a class="route-card feature-panel" href="'+e(rel(page,p))+'"><p class="eyebrow">'+e(t)+'</p><h3>'+e(title)+'</h3><p>'+e(d)+'</p></a>' for p,t,title,d in routes)+'</div>')
-    body+='<p>'+link(page,'committees/','Browse every reviewed committee directory','button button-secondary')+'</p>'
+    body+='<div class="button-row">'+link(page,'committees/','Browse every reviewed committee directory','button button-secondary')+link(page,'calendars/','Find parliamentary sitting dates and hearings','button button-secondary')+'</div>'
     write(page,'Committees, inquiries & participation',body,'Open and upcoming public participation, beginning with Minjerribah and Redland City, with meaningful P4A connections highlighted.')
 
     page='councils/qld/redland/index.html'
@@ -401,9 +407,13 @@ def build():
     write(page,'Sources & coverage',body)
     from directory_pages import build_directories
     build_directories(SimpleNamespace(**globals()))
+    from calendar_pages import build_calendars, calendar_map
+    calendar_site = SimpleNamespace(**globals())
+    build_calendars(calendar_site)
     page='pages/site-map.html'
     intro='<section class="human-map-intro"><p class="eyebrow">P4A · Find your way</p><h1>Where would you like to go?</h1><p class="human-lead">Choose a public body, then search its participation opportunities. The directory below keeps each jurisdiction separate.</p><p class="human-map-date">Navigation reviewed '+pretty_date(CHECKED)+'. Source facts keep their own check dates.</p><div class="human-start-grid"><article><h2>Choose a jurisdiction</h2><p>Start with the public body whose decisions you want to influence.</p>'+link(page,'index.html','Choose your starting place')+'</article><article><h2>Follow the local path</h2><p>Minjerribah community and Redland City Council participation.</p>'+link(page,'homelands/','Open the local path')+'</article><article><h2>Keep exploring P4A</h2><p>The main site map connects the wider workbench.</p>'+link(page,P4A+'pages/site-map.html','Every P4A room')+'</article></div><div class="human-filter" hidden data-site-filter><label for="site-map-search">Find a page or topic</label><div><input id="site-map-search" type="search" placeholder="Try Redland, housing, health…" autocomplete="off"><button type="button" data-site-clear>Clear</button></div><p role="status" aria-live="polite" data-site-search-status></p></div></section>'
     groups=[('start','Start here',[('index.html','Committees and inquiries'),('homelands/index.html','Homelands committees and inquiries'),('inquiries/index.html','Choose a parliament for inquiries'),('committees/index.html','Choose a parliament for committees'),('take-part/index.html','How to take part'),('sources/index.html','Sources and coverage')])]
+    groups.append(('calendars','Parliament calendars',calendar_map()))
     for key,label,route in [('local','Minjerribah & Redland City','councils/qld/redland/')]+[(j,'Australia · Commonwealth' if j=='federal' else name,'australia/' if j=='federal' else 'queensland/' if j=='qld' else 'states/'+j+'/') for j,name in NAMES.items()]:
         rs=[r for r in RECORDS if ('homelands' in r.get('groups',[]) if key=='local' else r['jurisdiction']==key and r['participationLevel'] in ('state','federal'))]
         groups.append((key,label,[(route+'index.html',label+' participation'),(archive_route(route)+'index.html',label+' archive')]+[('opportunities/'+r['id']+'/index.html',r['title']) for r in ordered(rs)]))
@@ -427,7 +437,7 @@ def build():
     urls=[BASE+('' if p=='index.html' else p.removesuffix('index.html')) for p,t in PAGES if p!='404.html']
     (OUT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+e(u)+'</loc></url>' for u in urls)+'</urlset>\n',encoding='utf-8')
     shutil.copyfile(ROOT/'content/robots-policy.txt',OUT/'robots.txt')
-    (OUT/'llms.txt').write_text('# P4A committees and participation\n\nLatest source checks '+CHECKED+'; individual records retain their own dates. Coverage gaps: '+BASE+'sources/. Topic priority is P4A editorial context, not official endorsement. This voluntary guide grants no additional reuse or AI-training permission. Third-party material retains its own rights.\n\n'+''.join('- ['+label+']('+BASE+path+')\n' for path,label in [('sources/','Sources and coverage'),('councils/','Council participation'),('inquiries/','Parliamentary participation'),('committees/','Committee directories'),('pages/site-map.html','Human site map'),('sitemap.xml','Complete URL sitemap')])+'\nCanonical structured records and audit history: '+REPO+'/tree/main/data\n',encoding='utf-8')
+    (OUT/'llms.txt').write_text('# P4A committees and participation\n\nLatest participation source checks '+CHECKED+'; individual records and calendars retain their own dates. Coverage gaps: '+BASE+'sources/. Topic priority is P4A editorial context, not official endorsement. This voluntary guide grants no additional reuse or AI-training permission. Third-party material retains its own rights.\n\n'+''.join('- ['+label+']('+BASE+path+')\n' for path,label in [('sources/','Sources and coverage'),('councils/','Council participation'),('inquiries/','Parliamentary participation'),('committees/','Committee directories'),('calendars/','Parliament calendars'),('pages/site-map.html','Human site map'),('sitemap.xml','Complete URL sitemap')])+'\nCanonical structured records and audit history: '+REPO+'/tree/main/data\n',encoding='utf-8')
     expected_pages={p for p,t in PAGES}
     for stale in OUT.rglob('*.html'):
         if stale.relative_to(OUT).as_posix() not in expected_pages:

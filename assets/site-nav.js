@@ -179,6 +179,7 @@
         { href: local('homelands/'), title: 'Homelands committees and inquiries', note: 'The committees and inquiries affecting home: Redland City, Queensland and Australian.' },
         { href: local('inquiries/'), title: 'Find an inquiry', note: 'Choose a parliament and search its inquiries, submissions and participation routes.' },
         { href: local('committees/'), title: 'All parliamentary committees', note: 'Choose a parliament and search its committee directory, separately from open invitations.' },
+        { href: local('calendars/'), title: 'Parliament calendars', note: 'Find chamber sitting dates, Senate estimates, committee hearing schedules and official programs.' },
         { href: local('queensland/'), title: 'Queensland inquiry invitations', note: 'Parliamentary and state public invitations, with exact source limits.' },
         { href: local('australia/'), title: 'Federal inquiry invitations', note: 'Senate, House and joint committee submission calls.' },
         { href: local('take-part/'), title: 'How to take part', note: 'Methods, deadlines, privacy and following the response.' },
@@ -421,16 +422,19 @@
     const crumb = document.createElement('nav');
     crumb.className = 'crumb-strip';
     crumb.setAttribute('aria-label', 'You are here');
-    const sectionLabel = found ? found.section.label : 'Rooms';
+    const calendarDetail = document.querySelector('.participation-nav[data-browse="calendars"][data-parliament]:not([data-parliament=""])');
+    const sectionLink = calendarDetail
+      ? `<a href="${local('calendars/')}">Parliament calendars</a>`
+      : `<button type="button" data-crumb-index>${found ? found.section.label : 'Rooms'}</button>`;
     const pageLabel = found ? found.link.title : (document.querySelector('h1')?.textContent || document.title);
     crumb.innerHTML = `
       <a href="${P}index.html">Home</a>
       <span aria-hidden="true">/</span>
-      <button type="button" data-crumb-index>${sectionLabel}</button>
+      ${sectionLink}
       <span aria-hidden="true">/</span>
       <strong aria-current="page">${pageLabel}</strong>`;
     header.insertAdjacentElement('afterend', crumb);
-    crumb.querySelector('[data-crumb-index]').addEventListener('click', openIndex);
+    crumb.querySelector('[data-crumb-index]')?.addEventListener('click', openIndex);
   }
 
   /* ---------- Footer explore columns ---------- */

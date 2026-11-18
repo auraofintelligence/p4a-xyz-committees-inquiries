@@ -33,6 +33,20 @@
   document.addEventListener('click',e=>{if(places?.open && !places.contains(e.target))places.open=false;});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&places?.open){places.open=false;places.querySelector('summary').focus();}});
   const fold = value => value.toLocaleLowerCase('en-AU').normalize('NFKD').replace(/\p{M}/gu,'');
+  for (const status of document.querySelectorAll('[data-calendar-status]')) {
+    const parts = new Intl.DateTimeFormat('en-AU', {
+      timeZone: status.dataset.calendarStatus, year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(new Date());
+    const fields = Object.fromEntries(parts.map(part => [part.type, part.value]));
+    const today = `${fields.year}-${fields.month}-${fields.day}`;
+    const entries = [...status.closest('.calendar-track').querySelectorAll('[data-calendar-start]')];
+    const current = entries.some(entry => entry.dataset.calendarStart <= today && today <= entry.dataset.calendarEnd);
+    const next = entries.find(entry => entry.dataset.calendarStart > today);
+    if (current) status.textContent = 'Scheduled today';
+    else if (next) status.textContent = `Next on this schedule: ${next.querySelector('strong').textContent}`;
+    else status.textContent = 'Check the official program for the next dates.';
+    status.hidden = false;
+  }
   const words = value => fold(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
   document.querySelector('.council-sections')?.addEventListener('click',event=>{
     const link=event.target.closest('a[href^="#"]');

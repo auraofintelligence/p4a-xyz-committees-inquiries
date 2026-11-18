@@ -78,23 +78,28 @@ def validate_navigation(parsed,pages,committees,records):
     jurisdictions=('federal','qld','nsw','vic','wa','sa','tas','act','nt')
     participation={'federal':'australia/index.html','qld':'queensland/index.html',**{j:'states/'+j+'/index.html' for j in jurisdictions if j not in ('federal','qld')}}
     committee_routes={j:'committees/'+j+'/index.html' for j in jurisdictions}
+    calendar_routes={j:'calendars/'+j+'/index.html' for j in jurisdictions}
     participation['redland']='councils/qld/redland/index.html';committee_routes['redland']='committees/redland/index.html'
+    routes_by_task={'inquiries':participation,'committees':committee_routes,'calendars':calendar_routes}
+    task_labels={'inquiries':'Inquiries & participation','committees':'All committees','calendars':'Parliament calendars'}
     for page,document in parsed.items():
         navigation=document.section_navigation
         assert navigation is not None,page+': missing committees navigation'
         assert not document.legacy_level_tabs,page+': duplicated task navigation'
         labels=[' '.join(a['label'].split()) for a in navigation['browse']]
-        assert labels==['Inquiries & participation','All committees'],page+': task choices are unclear'
-        assert len(navigation['parliaments'])==10,page+': committee-scope choices are missing or duplicated'
+        assert labels==list(task_labels.values()),page+': task choices are unclear'
+        scope_count=len(calendar_routes if page.startswith('calendars/') else participation)
+        assert len(navigation['parliaments'])==scope_count,page+': committee-scope choices are missing or duplicated'
         assert len(navigation['summaries'])==1 and 'Parliament' in navigation['summaries'][0]['label'],page+': missing parliament label'
         assert sum(a.get('aria-current')=='location' for a in navigation['browse'])<=1,page+': multiple current tasks'
         assert sum(a.get('aria-current')=='location' for a in navigation['parliaments'])<=1,page+': multiple current parliaments'
         for link in navigation['links']:
             route=destination(page,link)
             assert (not route.startswith('councils/') or route==participation['redland'] or (route=='councils/index.html' and ' '.join(link['label'].split())=='Council participation')) and '/places/' not in route,page+': unrelated place navigation in committees menu'
-    for chooser in ('inquiries/index.html','committees/index.html','homelands/index.html'):
+    for chooser in ('inquiries/index.html','committees/index.html','calendars/index.html','homelands/index.html'):
         assert chooser in parsed and not parsed[chooser].records,chooser+': chooser combines participation records'
-    cases=[('inquiries/index.html','inquiries',None),('committees/index.html','committees',None)]
+    cases=[(task+'/index.html',task,None) for task in routes_by_task]
+    cases.extend((page,'calendars',j) for j,page in calendar_routes.items())
     for j in ('nsw','qld','federal'):
         cases.extend([(participation[j],'inquiries',j),(committee_routes[j],'committees',j)])
         committee=next(c for c in committees if c['jurisdiction']==j)
@@ -106,17 +111,43 @@ def validate_navigation(parsed,pages,committees,records):
         navigation=parsed[page].section_navigation
         browse=navigation['browse'];parliaments=navigation['parliaments']
         selected=[a for a in browse if a.get('aria-current')=='location']
-        assert len(selected)==1 and ' '.join(selected[0]['label'].split())==('All committees' if task=='committees' else 'Inquiries & participation'),page+': current task is not stated'
-        expected=committee_routes if task=='committees' else participation
+        assert len(selected)==1 and ' '.join(selected[0]['label'].split())==task_labels[task],page+': current task is not stated'
+        expected=routes_by_task[task]
         assert {destination(page,a) for a in parliaments}==set(expected.values()),page+': changing parliament loses the selected task'
-        assert destination(page,browse[0])==(participation[jurisdiction] if jurisdiction else 'inquiries/index.html'),page+': inquiry switch loses the selected parliament'
-        assert destination(page,browse[1])==(committee_routes[jurisdiction] if jurisdiction else 'committees/index.html'),page+': committee switch loses the selected parliament'
+        for link,(target,routes) in zip(browse,routes_by_task.items()):
+            assert destination(page,link)==routes.get(jurisdiction,target+'/index.html'),page+': changing task loses the selected parliament'
         selected_parliaments=[a for a in parliaments if a.get('aria-current')=='location']
         assert len(selected_parliaments)==(1 if jurisdiction else 0),page+': selected parliament is ambiguous'
         if jurisdiction:assert destination(page,selected_parliaments[0])==expected[jurisdiction],page+': wrong selected parliament'
     for page,document in parsed.items():
         if page.startswith('councils/') and page!=participation['redland']:
             assert not any(a.get('aria-current')=='location' for a in document.section_navigation['parliaments']),page+': council profile pretends a parliament is selected'
+
+
+def validate_calendars(parsed):
+    from calendar_pages import ORDER,load_calendars
+    calendars=load_calendars()
+    assert set(calendars)==set(ORDER),'Missing parliament calendar'
+    for key,calendar in calendars.items():
+        page=parsed[f'calendars/{key}/index.html']
+        assert {'sittings','hearings'}<=set(page.ids) and not page.records,key
+        assert re.fullmatch(r'Australia/[A-Za-z_]+',calendar['timezone']),key
+        assert date.fromisoformat(calendar['checked']).isoformat()==calendar['checked'],key
+        for section in ('sittings','hearings'):
+            assert calendar[section],(key,section)
+            for track in calendar[section]:
+                assert track['name'] and track['links'],(key,section)
+                for link in track['links']:
+                    assert link['label'] and urlsplit(link['url']).scheme=='https',(key,link)
+                    assert link['url'] in page.links,(key,link)
+                for event in track.get('dates',[]):
+                    start=event['start']
+                    end=event.get('end',start)
+                    assert date.fromisoformat(start).isoformat()==start<=end==date.fromisoformat(end).isoformat(),(key,event)
+                    assert not event.get('provisional') or event.get('note'),(key,event)
+                    if event.get('url'):
+                        assert event.get('title') and event['url'] in page.links,(key,event)
+
 
 def validate():
     data=json.loads((ROOT/'data/registry.json').read_text(encoding='utf-8'))
@@ -233,6 +264,7 @@ def validate():
                 if unquote(u.fragment) not in parsed[dest_name].ids:broken.append((name,target))
     assert not broken,broken[:10]
     validate_navigation(parsed,pages,committees,records)
+    validate_calendars(parsed)
     project_audits=json.loads((ROOT/'data/council-project-audits.json').read_text(encoding='utf8'))['audits']
     assert len({a['councilId'] for a in project_audits})==len(project_audits),'Duplicate project audit'
     for audit in project_audits:

@@ -1,0 +1,361 @@
+{
+  "qld": {
+    "name": "Queensland",
+    "summary": "Legislative Assembly sittings and public committee hearings.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Brisbane",
+    "sittings": [{
+      "name": "Legislative Assembly",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-12-01", "end": "2026-12-03"}
+      ],
+      "links": [
+        {"label": "Official sitting dates", "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Sitting-Dates/Dates"},
+        {"label": "2026 calendar (PDF)", "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825t1952/5825t1952.pdf"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Public hearings",
+      "dates": [{
+        "start": "2026-12-02",
+        "title": "Rural and Regional Adjustment Amendment Bill",
+        "note": "Primary Industries and Resources Committee. Time and venue pending.",
+        "url": "https://www.parliament.qld.gov.au/Work-of-Committees/Inquiries/Inquiry-Details?id=8616"
+      }],
+      "note": "The committee business calendar includes private business. Check the event listing for public access.",
+      "links": [{"label": "Upcoming committee business", "url": "https://www.parliament.qld.gov.au/work-of-committees/Upcoming-Committee-Business"}]
+    }]
+  },
+  "federal": {
+    "name": "Australian Parliament",
+    "summary": "House of Representatives and Senate sittings, public hearings and Senate estimates.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Canberra",
+    "sittings": [{
+      "name": "House of Representatives",
+      "dates": [{"start": "2026-11-23", "end": "2026-11-26"}],
+      "links": [
+        {"label": "Official sitting calendar", "url": "https://www.pmc.gov.au/resources/parliamentary-sittings"},
+        {"label": "House daily program", "url": "https://www.aph.gov.au/dailyprogram"}
+      ]
+    }, {
+      "name": "Senate",
+      "dates": [
+        {"start": "2026-11-16", "end": "2026-11-19"},
+        {"start": "2026-11-23", "end": "2026-11-26"}
+      ],
+      "links": [
+        {"label": "Official sitting calendar", "url": "https://www.pmc.gov.au/resources/parliamentary-sittings"},
+        {"label": "Chamber business programs", "url": "https://parlwork.aph.gov.au/"}
+      ]
+    }, {
+      "name": "Calendar download and visiting",
+      "links": [
+        {"label": "2026 calendar (ICS)", "url": "https://static.aph.gov.au/-/media/05_About_Parliament/58_Sitting_Calendars/2026/Parliamentary_Sittings_2026.ics?hash=E294EB64C4E82FA28B75D99EE38E9104&rev=3825198646d14809a1c5efdc4d57f804"},
+        {"label": "Watch or attend Parliament", "url": "https://www.aph.gov.au/parliament-in-action"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Critical minerals inquiry",
+      "timezone": "Australia/Adelaide",
+      "dates": [
+        {"start": "2026-11-19", "time": "08:40 to 12:00 ACDT", "title": "Naracoorte public hearing", "note": "Limestone Coast Training, Naracoorte."},
+        {"start": "2026-11-20", "time": "13:00 to 14:20 ACDT", "title": "Port Pirie public hearing", "note": "Port Pirie Regional Library."}
+      ],
+      "links": [
+        {"label": "House committee’s public release", "url": "https://newshub.medianet.com.au/2026/11/critical-minerals-inquiry-in-naracoorte-and-port-pirie/182349/"},
+        {"label": "Parliament hearing program", "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Primary_Industries/CriticalMinerals/Public_Hearings"}
+      ]
+    }, {
+      "name": "House, Senate and joint committee indexes",
+      "note": "The complete hearing schedules could not be verified from the accessible sources. Check the parliamentary indexes for current listings.",
+      "links": [
+        {"label": "All public hearings", "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Upcoming_Public_Hearings"},
+        {"label": "House hearings", "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/House/Upcoming_Public_Hearings"},
+        {"label": "Senate hearings", "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate_Committees/Upcoming_Public_Hearings"},
+        {"label": "Joint committee hearings", "url": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Upcoming_Public_Hearings"}
+      ]
+    }, {
+      "name": "Senate estimates",
+      "note": "The Senate publishes estimates hearings and portfolios in a separate schedule.",
+      "links": [{"label": "Senate estimates hearings", "url": "https://www.aph.gov.au/Parliamentary_Business/Senate_estimates/Next_hearings"}]
+    }]
+  },
+  "nsw": {
+    "name": "New South Wales",
+    "summary": "Legislative Assembly and Legislative Council sittings, plus public hearings.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Sydney",
+    "sittings": [{
+      "name": "Legislative Assembly",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-11-24", "end": "2026-11-26", "note": "Reserve sitting days. Check the current Assembly program.", "provisional": true}
+      ],
+      "links": [
+        {"label": "Official sitting calendar", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/sitting-day-calendar"},
+        {"label": "Assembly running record", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/legislative-assembly/running-record"}
+      ]
+    }, {
+      "name": "Legislative Council",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-11-24", "end": "2026-11-26", "note": "Reserve sitting days. Check the current Council program.", "provisional": true}
+      ],
+      "links": [
+        {"label": "Official sitting calendar", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/sitting-day-calendar"},
+        {"label": "Council rules and resolutions (PDF)", "url": "https://www.parliament.nsw.gov.au/_media/documents/lc/rules-of-the-house/house-rules-resolutions-and-officeholders-and-ministerial-representation.pdf"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Net Zero Future",
+      "dates": [{
+        "start": "2026-11-27",
+        "title": "NSW Net Zero Commission 2026 progress report",
+        "note": "Joint Standing Committee on Net Zero Future. Macquarie Room, Sydney.",
+        "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3215"
+      }],
+      "links": [{"label": "All upcoming public hearings", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/upcoming-public-hearings"}]
+    }, {
+      "name": "Justice and Communities",
+      "note": "Portfolio Committee No. 5. See the inquiry for the latest rooms and hearing programs.",
+      "dates": [
+        {"start": "2026-12-01", "title": "Firearms Legislation Amendment (Reforms Repeal) Bill", "note": "Dubbo RSL.", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3216"},
+        {"start": "2026-12-07", "title": "Firearms bill hearing", "note": "Macquarie Room, Sydney."},
+        {"start": "2026-12-16", "title": "Firearms bill hearing", "note": "Singleton. Venue pending."},
+        {"start": "2027-01-20", "title": "Firearms bill hearing", "note": "Griffith. Venue pending."},
+        {"start": "2027-02-02", "title": "Firearms bill hearing", "note": "Macquarie Room, Sydney."}
+      ],
+      "links": [{"label": "Firearms bill inquiry timetable", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3216"}]
+    }]
+  },
+  "vic": {
+    "name": "Victoria",
+    "summary": "The next sitting calendar will follow the return of election writs.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Melbourne",
+    "sittings": [{
+      "name": "Legislative Assembly and Legislative Council",
+      "note": "The 60th Parliament expired on 3 November. The official sitting calendar says dates will be decided after the return of writs for the 28 November election.",
+      "links": [{"label": "Official sitting calendar", "url": "https://www.parliament.vic.gov.au/sittingcalendar"}]
+    }],
+    "hearings": [{
+      "name": "Public hearings",
+      "note": "Committees ceased when the 60th Parliament expired and unfinished inquiries lapsed. Future hearing dates have yet to be verified.",
+      "links": [
+        {"label": "Inquiry status", "url": "https://www.parliament.vic.gov.au/get-involved/inquiries/"},
+        {"label": "Attending public hearings", "url": "https://www.parliament.vic.gov.au/get-involved/public-hearings/"}
+      ]
+    }]
+  },
+  "wa": {
+    "name": "Western Australia",
+    "summary": "Legislative Assembly and Legislative Council sittings, plus the committee calendar.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Perth",
+    "sittings": [{
+      "name": "Legislative Assembly",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2027-02-16", "end": "2027-02-18"},
+        {"start": "2027-02-23", "end": "2027-02-25"},
+        {"start": "2027-03-09", "end": "2027-03-11"},
+        {"start": "2027-03-16", "end": "2027-03-18"}
+      ],
+      "links": [
+        {"label": "Official parliamentary calendar", "url": "https://www.parliament.wa.gov.au/WebCMS/webcms.nsf/WebSittingCalendar"},
+        {"label": "2026 sitting dates (PDF)", "url": "https://www.parliament.wa.gov.au/WebCMS/WebCMS.nsf/resources/file-2026-sitting-dates/%24file/2026%20Sitting%20Dates%20Calendar.pdf"},
+        {"label": "Full 2027 calendar (PDF)", "url": "https://apply.jobs.wa.gov.au/files/vacancies/1068671/32502356.pdf"}
+      ]
+    }, {
+      "name": "Legislative Council",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2027-02-16", "end": "2027-02-18"},
+        {"start": "2027-02-23", "end": "2027-02-25"},
+        {"start": "2027-03-09", "end": "2027-03-11"},
+        {"start": "2027-03-16", "end": "2027-03-18"}
+      ],
+      "links": [
+        {"label": "Official parliamentary calendar", "url": "https://www.parliament.wa.gov.au/WebCMS/webcms.nsf/WebSittingCalendar"},
+        {"label": "2026 sitting dates (PDF)", "url": "https://www.parliament.wa.gov.au/WebCMS/WebCMS.nsf/resources/file-2026-sitting-dates/%24file/2026%20Sitting%20Dates%20Calendar.pdf"},
+        {"label": "Full 2027 calendar (PDF)", "url": "https://apply.jobs.wa.gov.au/files/vacancies/1068671/32502356.pdf"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Public hearings",
+      "dates": [
+        {"start": "2026-11-25", "time": "09:00 AWST", "title": "Annual reports hearing with Synergy"},
+        {"start": "2026-11-25", "time": "10:30 AWST", "title": "Annual reports hearing with the Department of Water and Environmental Regulation"}
+      ],
+      "note": "For times and access details, open 2025 to 2026 Annual Reports in the official committee directory.",
+      "links": [
+        {"label": "Official parliamentary calendar", "url": "https://www.parliament.wa.gov.au/WebCMS/webcms.nsf/WebSittingCalendar"},
+        {"label": "Parliamentary committees", "url": "https://www.parliament.wa.gov.au/parliament/commit.nsf/Committees"}
+      ]
+    }]
+  },
+  "sa": {
+    "name": "South Australia",
+    "summary": "House of Assembly and Legislative Council sittings, plus committee programs.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Adelaide",
+    "sittings": [{
+      "name": "House of Assembly",
+      "dates": [
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2026-12-01", "end": "2026-12-03", "note": "Optional sitting days. Check the official program.", "provisional": true}
+      ],
+      "links": [{"label": "Official annual sitting program", "url": "https://www.parliament.sa.gov.au/en/Sitting-Program/Sitting-Program-by-Year"}]
+    }, {
+      "name": "Legislative Council",
+      "dates": [
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2026-12-01", "end": "2026-12-03", "note": "Optional sitting days. Check the official program.", "provisional": true}
+      ],
+      "links": [{"label": "Official annual sitting program", "url": "https://www.parliament.sa.gov.au/en/Sitting-Program/Sitting-Program-by-Year"}]
+    }],
+    "hearings": [{
+      "name": "Committee programs",
+      "note": "Check the individual committee or inquiry for hearing dates and access. A complete current hearing schedule could not be verified.",
+      "links": [
+        {"label": "Committee details", "url": "https://www.parliament.sa.gov.au/en/Committees/Committees-Detail"},
+        {"label": "About parliamentary committees", "url": "https://www.parliament.sa.gov.au/en/Committees/About-Committees"},
+        {"label": "Parliament live broadcasts", "url": "https://www.parliament.sa.gov.au/About-Parliament/Live-Broadcast"}
+      ]
+    }]
+  },
+  "tas": {
+    "name": "Tasmania",
+    "summary": "House of Assembly and Legislative Council sittings, plus public hearings.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Hobart",
+    "sittings": [{
+      "name": "House of Assembly",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2027-03-02", "end": "2027-03-04"},
+        {"start": "2027-03-16", "end": "2027-03-18"},
+        {"start": "2027-03-23", "end": "2027-03-25"},
+        {"start": "2027-04-06", "end": "2027-04-08"}
+      ],
+      "links": [
+        {"label": "Combined 2026 sitting calendar (PDF)", "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0017/114308/Combined-Sitting-Schedule-2026-v5.pdf"},
+        {"label": "House of Assembly 2027 calendar", "url": "https://www.parliament.tas.gov.au/house-of-assembly/chamber-proceedings/sitting-calendar-2027"}
+      ]
+    }, {
+      "name": "Legislative Council",
+      "dates": [
+        {"start": "2026-11-17", "end": "2026-11-19"},
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2026-12-01", "end": "2026-12-03"},
+        {"start": "2027-03-16", "end": "2027-03-18"},
+        {"start": "2027-03-23", "end": "2027-03-25"},
+        {"start": "2027-04-06", "end": "2027-04-08"}
+      ],
+      "note": "The full Council calendar also lists quorum calls separately from ordinary sittings.",
+      "links": [
+        {"label": "Combined 2026 sitting calendar (PDF)", "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0017/114308/Combined-Sitting-Schedule-2026-v5.pdf"},
+        {"label": "Combined 2027 sitting calendar (PDF)", "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0020/114446/52nd-Parliament_Combined-sitting-schedule-2027.pdf"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Government business scrutiny",
+      "dates": [
+        {"start": "2026-12-07", "time": "09:00 to 17:15 AEDT", "title": "Legislative Council scrutiny committee A", "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0020/115445/FINAL-GBA-timetable-2026-7-December-2026.pdf"},
+        {"start": "2026-12-08", "time": "09:00 to 17:15 AEDT", "title": "Legislative Council scrutiny committee B", "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0021/115446/FINAL-GBB-Timetable-2026-8-December-2026.pdf"}
+      ],
+      "note": "Multiple sessions in Committee Room 2. Check the official notices for public access or broadcasts.",
+      "links": [{"label": "Government business scrutiny timetables", "url": "https://www.parliament.tas.gov.au/committees/legislative-council/select-committees/legislative-council-government-businesses-scrutiny-committees-2026"}]
+    }, {
+      "name": "Other public hearings",
+      "note": "Check the broadcast schedule and each committee’s inquiry page for the hearing program.",
+      "links": [
+        {"label": "Broadcast schedule", "url": "https://www.parliament.tas.gov.au/broadcast"},
+        {"label": "Parliamentary committees", "url": "https://www.parliament.tas.gov.au/committees"}
+      ]
+    }]
+  },
+  "act": {
+    "name": "ACT",
+    "summary": "Legislative Assembly sittings and public committee hearings.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Sydney",
+    "sittings": [{
+      "name": "Legislative Assembly",
+      "dates": [
+        {"start": "2026-12-01", "end": "2026-12-03"},
+        {"start": "2027-02-02", "end": "2027-02-04"},
+        {"start": "2027-02-23", "end": "2027-02-25"},
+        {"start": "2027-03-02", "end": "2027-03-04"},
+        {"start": "2027-04-06", "end": "2027-04-08"},
+        {"start": "2027-05-04", "end": "2027-05-06"},
+        {"start": "2027-05-11", "end": "2027-05-13"},
+        {"start": "2027-06-16", "end": "2027-06-17"},
+        {"start": "2027-06-22", "end": "2027-06-23"},
+        {"start": "2027-08-10"},
+        {"start": "2027-09-07", "end": "2027-09-09"},
+        {"start": "2027-09-14", "end": "2027-09-16"},
+        {"start": "2027-10-12", "end": "2027-10-14"},
+        {"start": "2027-10-19", "end": "2027-10-21"},
+        {"start": "2027-11-23", "end": "2027-11-25"},
+        {"start": "2027-11-30", "end": "2027-12-02"}
+      ],
+      "links": [
+        {"label": "Official sitting calendar", "url": "https://www.parliament.act.gov.au/parliamentary-business/calendar"},
+        {"label": "2027 calendar (PDF)", "url": "https://www.parliament.act.gov.au/__data/assets/pdf_file/0008/2982293/2027-sitting-calendar-A4-v2.1.pdf"},
+        {"label": "2027 calendar (ICS)", "url": "https://www.parliament.act.gov.au/__data/assets/file/0007/2984110/2027-sitting-calendar-dates-v2.ics"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Public hearings",
+      "dates": [
+        {"start": "2026-11-19", "end": "2026-11-20", "title": "Annual and financial reports 2025 to 2026", "note": "Multiple sessions. See the program for times.", "url": "https://www.parliament.act.gov.au/__data/assets/pdf_file/0019/3141019/Schedule-Inquiry-into-Annual-and-Financial-Reports-2025-26-v4-6-November-2026.pdf"},
+        {"start": "2026-11-24", "time": "09:45 to 17:05", "title": "Electoral representation", "note": "Integrity Commission and Statutory Office Holders. Prince Edward Island Room."},
+        {"start": "2026-11-24", "time": "15:30 to 16:00", "title": "Career guidance petitions", "note": "Social Policy. Prince Edward Island Room."},
+        {"start": "2026-11-25", "title": "Canberra Institute of Technology governance", "note": "Economics, Industry and Recreation. Time pending."},
+        {"start": "2026-11-26", "time": "09:00 to 11:40", "title": "Property Developers Legislation Amendment Bill", "note": "Economics, Industry and Recreation. Prince Edward Island Room."}
+      ],
+      "links": [
+        {"label": "Official public hearings schedule", "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/public-hearings-schedule"},
+        {"label": "Assembly broadcasts", "url": "https://broadcast.parliament.act.gov.au/"}
+      ]
+    }]
+  },
+  "nt": {
+    "name": "Northern Territory",
+    "summary": "Legislative Assembly sittings and the public hearing schedule.",
+    "checked": "2026-11-19",
+    "timezone": "Australia/Darwin",
+    "sittings": [{
+      "name": "Legislative Assembly",
+      "dates": [
+        {"start": "2026-11-24", "end": "2026-11-26"},
+        {"start": "2027-02-09", "end": "2027-02-11"},
+        {"start": "2027-03-16", "end": "2027-03-18"},
+        {"start": "2027-03-23", "end": "2027-03-25"},
+        {"start": "2027-05-04", "end": "2027-05-06"},
+        {"start": "2027-05-11", "end": "2027-05-13"},
+        {"start": "2027-06-10"},
+        {"start": "2027-07-27", "end": "2027-07-29"},
+        {"start": "2027-08-31", "end": "2027-09-02"},
+        {"start": "2027-10-05", "end": "2027-10-07"},
+        {"start": "2027-10-12", "end": "2027-10-14"},
+        {"start": "2027-11-16", "end": "2027-11-18"}
+      ],
+      "links": [
+        {"label": "Official Assembly meeting days", "url": "https://parliament.nt.gov.au/about/meeting-days"},
+        {"label": "Full 2027 calendar (PDF)", "url": "https://parliament.nt.gov.au/__data/assets/pdf_file/0007/1631509/2027-Printable-Calendar.pdf"},
+        {"label": "Daily programs and meeting documents", "url": "https://parliament.nt.gov.au/business/meeting-documents"}
+      ]
+    }],
+    "hearings": [{
+      "name": "Public hearings",
+      "note": "The official index showed no dated upcoming hearings at the time of checking.",
+      "links": [{"label": "Upcoming public hearings", "url": "https://parliament.nt.gov.au/committees/upcoming-public-hearings"}]
+    }]
+  }
+}

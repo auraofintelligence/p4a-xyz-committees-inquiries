@@ -76,9 +76,20 @@ a.x::after{content:" ↗" / "";font-size:.8em;opacity:.7;margin-left:.2rem}
 .participation-nav-help a[aria-current]{color:var(--gold);text-decoration:underline;text-underline-offset:.3rem}
 .committee-navigation-controls{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(230px,1fr);align-items:end;gap:1rem 1.5rem}
 .committee-nav-label{display:block;margin-bottom:.35rem;font:600 .68rem/1.4 var(--font-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.committee-browse>div{display:flex;gap:.4rem}
+.committee-browse>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem}
 .committee-browse-link{display:flex;align-items:center;justify-content:center;min-height:44px;padding:.7rem .9rem;border:1px solid var(--line);border-radius:.5rem;color:var(--muted);text-align:center;text-decoration:none;line-height:1.3}
 .committee-browse-link[aria-current]{color:var(--gold);border-color:var(--gold);background:var(--glass-strong)}
+
+.calendar-section{margin-block:2rem 3rem;scroll-margin-top:6rem}
+.calendar-tracks{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:1rem;margin-top:1rem;align-items:start}
+.calendar-track{padding:1.25rem;min-width:0}
+.calendar-track h3{font-size:clamp(1.1rem,2.5vw,1.45rem);margin:0 0 .8rem;overflow-wrap:anywhere}
+.calendar-dates,.calendar-links{list-style:none;margin:.8rem 0 0;padding:0}
+.calendar-dates li{border-top:1px solid var(--line);padding:.55rem 0}
+.calendar-dates li:last-child{border-bottom:1px solid var(--line)}
+.calendar-dates span,.calendar-dates small{display:block;margin-top:.15rem}
+.calendar-links li+li{margin-top:.4rem}
+.calendar-status{color:var(--gold);font-weight:700;margin:.5rem 0}
 .participation-parliament-menu{position:relative;min-width:0}
 .participation-parliament-menu>summary{list-style:none;cursor:pointer}
 .participation-parliament-menu>summary::-webkit-details-marker{display:none}

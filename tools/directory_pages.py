@@ -29,7 +29,9 @@ def homelands(s):
  body=s.hero('Committees affecting home.','P4A’s founder and designer lives on North Stradbroke Island / Minjerribah. These are the local, state and Australian bodies whose committees and inquiries can bind or influence his life.',cls='directory-hero')
  body+='<p class="prose">Choose one level below. Its committees and participation opportunities stay in their own view.</p><div class="homelands-path">'
  for j,label,note in [('redland','Redland City','Local council committees and participation affecting Minjerribah and the wider Redland area.'),('qld','Queensland','Queensland Parliament’s committees, inquiries and state participation routes.'),('federal','Australian','Federal parliamentary committees, inquiries and public submissions.')]:
-  body+='<article class="homelands-body feature-panel"><h2>'+s.e(label)+'</h2><p>'+s.e(note)+'</p><div class="button-row">'+s.link(page,s.browse_route('inquiries',j),'Inquiries & participation','button button-secondary')+s.link(page,s.browse_route('committees',j),'All committees','button button-secondary')+'</div></article>'
+  actions=s.link(page,s.browse_route('inquiries',j),'Inquiries & participation','button button-secondary')+s.link(page,s.browse_route('committees',j),'All committees','button button-secondary')
+  if j!='redland':actions+=s.link(page,s.browse_route('calendars',j),'Parliament calendar','button button-secondary')
+  body+='<article class="homelands-body feature-panel"><h2>'+s.e(label)+'</h2><p>'+s.e(note)+'</p><div class="button-row">'+actions+'</div></article>'
  body+='</div><p class="prose">For other Australian jurisdictions, use the parliament selector in this committees and inquiries menu.</p>'
  s.write(page,'Homelands committees and inquiries',body)
 
