@@ -75039,6 +75039,50 @@
         "venue": "Multi-purpose Meeting and IT Room, Port Pirie Regional Library, 3 Wandearah Road, Port Pirie, South Australia",
         "note": "The committee’s release gives Australian Central Daylight Time."
       }
+    },
+    {
+      "id": "vic-epa-dgl-hazardous-waste-app049434",
+      "title": "DGL hazardous waste facility development licence application",
+      "jurisdiction": "vic",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Environment Protection Authority Victoria",
+      "place": "Campbellfield, Victoria",
+      "status": "open",
+      "purpose": "Comment on DGL Group Limited’s proposal for a new facility at 47–49 Foden Avenue to receive and treat hazardous waste for lawful disposal offsite.",
+      "method": "Use the official Engage Victoria form or attach a written submission through it.",
+      "opens": "2026-10-27",
+      "deadline": {
+        "date": "2026-11-19",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official form states 11:59 pm. It does not name a timezone."
+      },
+      "eligibility": "The EPA invites anyone who may be affected by the proposed development licence.",
+      "disclosure": "EPA says it removes names and contact details, refers the de-identified submission to the applicant for response and publishes it online. The form asks contributors to acknowledge that their submission is a public document.",
+      "sourceUrl": "https://engage.vic.gov.au/dgl-group-limited-app049434",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://engage.vic.gov.au/dgl-group-limited-app049434",
+          "title": "Official project invitation",
+          "access": "directly read",
+          "supports": "Proposal, audience and consultation dates"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/dgl-group-limited-app049434/survey/6874",
+          "title": "Official submission form",
+          "access": "directly read",
+          "supports": "Feedback method, deadline evidence and disclosure"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
