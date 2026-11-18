@@ -76006,6 +76006,51 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "sunshine-coast-birtinya-parking-permit-area-2026",
+      "title": "Birtinya parking permit and traffic area proposal",
+      "jurisdiction": "qld",
+      "participationLevel": "council",
+      "kind": "council survey",
+      "body": "Sunshine Coast Council",
+      "place": "Birtinya, Sunshine Coast, Queensland",
+      "status": "open",
+      "purpose": "Comment on the proposed expansion of the parking permit area, its boundary, parking spillover and effects on safety and access.",
+      "method": "Review the proposal and complete the council’s online survey.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2026-12-11",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The council states 11:59 pm without naming a timezone."
+      },
+      "eligibility": "Anyone who lives, works or regularly visits the area can give feedback, including residents, property owners, businesses and community facilities.",
+      "disclosure": "The collection notice says public reporting uses de-identified feedback. Read the linked notice for how the council uses personal information.",
+      "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/proposed-birtinya-parking-permit-area",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/proposed-birtinya-parking-permit-area",
+          "title": "Official council project and invitation",
+          "access": "directly read",
+          "supports": "Proposal, engagement period, eligibility and survey"
+        },
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/",
+          "title": "Council’s official Have Your Say catalogue",
+          "access": "directly read",
+          "supports": "Current open consultation"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "councilId": "qld-council-6720"
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
