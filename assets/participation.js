@@ -32,21 +32,168 @@
   const places = document.querySelector('.participation-parliament-menu');
   document.addEventListener('click',e=>{if(places?.open && !places.contains(e.target))places.open=false;});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&places?.open){places.open=false;places.querySelector('summary').focus();}});
-  const fold = value => value.toLocaleLowerCase('en-AU').normalize('NFKD').replace(/\p{M}/gu,'');
-  for (const status of document.querySelectorAll('[data-calendar-status]')) {
+
+  function todayIn(timeZone) {
     const parts = new Intl.DateTimeFormat('en-AU', {
-      timeZone: status.dataset.calendarStatus, year: 'numeric', month: '2-digit', day: '2-digit'
+      timeZone, year: 'numeric', month: '2-digit', day: '2-digit'
     }).formatToParts(new Date());
     const fields = Object.fromEntries(parts.map(part => [part.type, part.value]));
-    const today = `${fields.year}-${fields.month}-${fields.day}`;
-    const entries = [...status.closest('.calendar-track').querySelectorAll('[data-calendar-start]')];
-    const current = entries.some(entry => entry.dataset.calendarStart <= today && today <= entry.dataset.calendarEnd);
-    const next = entries.find(entry => entry.dataset.calendarStart > today);
+    return `${fields.year}-${fields.month}-${fields.day}`;
+  }
+  function setupCalendar(board) {
+    const monthPicker = board.querySelector('[data-cal-month]');
+    const prev = board.querySelector('[data-cal-prev]');
+    const next = board.querySelector('[data-cal-next]');
+    const days = board.querySelector('[data-cal-days]');
+    const dateLabel = board.querySelector('[data-cal-date]');
+    const events = board.querySelector('[data-cal-events]');
+    const empty = board.querySelector('[data-cal-empty]');
+    const today = todayIn(board.dataset.parliamentCalendar);
+    const thisMonth = today.slice(0, 7);
+    const utcDate = value => new Date(`${value}T00:00:00Z`);
+    const monthFormat = new Intl.DateTimeFormat('en-AU', {month:'long', year:'numeric', timeZone:'UTC'});
+    const dayFormat = new Intl.DateTimeFormat('en-AU', {dateStyle:'full', timeZone:'UTC'});
+    const kinds = {sitting:'Chamber sitting', hearing:'Committee hearing', provisional:'Provisional date'};
+    const byDay = new Map();
+
+    for (const item of document.querySelectorAll('[data-cal-event]')) {
+      const {start, end, kind, track} = item.dataset;
+      const provisional = item.hasAttribute('data-provisional');
+      const entry = {
+        id: item.id, track, kind,
+        marker: provisional ? 'provisional' : kind,
+        title: item.querySelector('.calendar-event-title')?.textContent.trim(),
+        time: item.querySelector('.calendar-event-time')?.textContent.trim(),
+        checkStatus: provisional && (item.querySelector('.calendar-event-note')?.textContent.trim() || kinds.provisional)
+      };
+      const date = utcDate(start);
+      const last = utcDate(end);
+      while (date <= last) {
+        const key = date.toISOString().slice(0, 10);
+        if (!byDay.has(key)) byDay.set(key, []);
+        byDay.get(key).push(entry);
+        date.setUTCDate(date.getUTCDate() + 1);
+      }
+    }
+
+    const months = [...new Set([thisMonth, ...[...byDay.keys()].map(key => key.slice(0, 7))])].sort();
+    for (const month of months) {
+      monthPicker.add(new Option(monthFormat.format(utcDate(`${month}-01`)), month));
+    }
+
+    function marker(type) {
+      const mark = document.createElement('span');
+      mark.className = `calendar-mark is-${type}`;
+      mark.setAttribute('aria-hidden', 'true');
+      return mark;
+    }
+
+    function selectDay(key) {
+      const previous = days.querySelector('.is-selected');
+      previous?.classList.remove('is-selected');
+      previous?.querySelector('button')?.setAttribute('aria-pressed', 'false');
+      const selected = days.querySelector(`[data-date="${key}"]`);
+      selected?.classList.add('is-selected');
+      selected?.querySelector('button')?.setAttribute('aria-pressed', 'true');
+
+      const entries = byDay.get(key) || [];
+      dateLabel.textContent = (key === today ? 'Today · ' : '') + dayFormat.format(utcDate(key));
+      empty.hidden = entries.length > 0;
+      events.replaceChildren();
+      for (const entry of entries) {
+        const item = document.createElement('li');
+        item.className = 'calendar-day-event';
+        const link = document.createElement('a');
+        link.href = '#' + entry.id;
+        link.textContent = entry.title || entry.track;
+        const context = document.createElement('small');
+        context.textContent = [
+          kinds[entry.kind], entry.title && entry.track, entry.checkStatus, entry.time
+        ].filter(Boolean).join(' · ');
+        item.append(marker(entry.marker), link, context);
+        events.append(item);
+      }
+    }
+
+    function showMonth(month) {
+      const index = months.indexOf(month);
+      monthPicker.value = month;
+      prev.disabled = index === 0;
+      next.disabled = index === months.length - 1;
+      const first = utcDate(`${month}-01`);
+      const daysInMonth = new Date(Date.UTC(first.getUTCFullYear(), first.getUTCMonth() + 1, 0)).getUTCDate();
+      const blankDays = (first.getUTCDay() + 6) % 7;
+      const grid = document.createDocumentFragment();
+      for (let offset = 0; offset < blankDays; offset++) {
+        const blank = document.createElement('li');
+        blank.className = 'calendar-day is-blank';
+        blank.setAttribute('aria-hidden', 'true');
+        grid.append(blank);
+      }
+      let firstScheduled;
+      for (let day = 1; day <= daysInMonth; day++) {
+        const key = `${month}-${String(day).padStart(2, '0')}`;
+        const dayEntries = byDay.get(key) || [];
+        const cell = document.createElement('li');
+        cell.className = 'calendar-day';
+        cell.dataset.date = key;
+        const number = document.createElement('span');
+        number.className = 'calendar-day-number';
+        number.textContent = day;
+        if (dayEntries.length) {
+          cell.classList.add('has-event');
+          if (!firstScheduled && (month !== thisMonth || key >= today)) firstScheduled = key;
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.setAttribute('aria-pressed', 'false');
+          const types = [...new Set(dayEntries.map(entry => entry.marker))];
+          button.setAttribute('aria-label', `${dayFormat.format(utcDate(key))}, ${types.map(type => kinds[type]).join(', ')}`);
+          button.addEventListener('click', () => selectDay(key));
+          const marks = document.createElement('span');
+          marks.className = 'calendar-day-marks';
+          marks.append(...types.map(marker));
+          button.append(number, marks);
+          cell.append(button);
+        } else {
+          cell.append(number);
+        }
+        if (key === today) {
+          cell.classList.add('is-today');
+          cell.firstElementChild.setAttribute('aria-current', 'date');
+        }
+        grid.append(cell);
+      }
+      days.replaceChildren(grid);
+      selectDay(firstScheduled || (month === thisMonth ? today : `${month}-01`));
+    }
+
+    monthPicker.addEventListener('change', () => showMonth(monthPicker.value));
+    for (const [button, offset] of [[prev, -1], [next, 1]]) {
+      button.addEventListener('click', () => {
+        showMonth(months[months.indexOf(monthPicker.value) + offset]);
+        if (button.disabled) monthPicker.focus();
+      });
+    }
+    const futureMonth = months.find(month => month > thisMonth);
+    const hasCurrentOrFutureDay = [...byDay.keys()].some(key => key >= today && key.startsWith(thisMonth));
+    showMonth(!hasCurrentOrFutureDay && futureMonth ? futureMonth : thisMonth);
+    board.hidden = false;
+  }
+
+  const calendar = document.querySelector('[data-parliament-calendar]');
+  if (calendar) setupCalendar(calendar);
+
+  for (const status of document.querySelectorAll('[data-calendar-status]')) {
+    const today = todayIn(status.dataset.calendarStatus);
+    const entries = [...status.closest('.calendar-track').querySelectorAll('[data-cal-event]:not([data-provisional])')];
+    const current = entries.some(entry => entry.dataset.start <= today && today <= entry.dataset.end);
+    const next = entries.find(entry => entry.dataset.start > today);
     if (current) status.textContent = 'Scheduled today';
     else if (next) status.textContent = `Next on this schedule: ${next.querySelector('strong').textContent}`;
     else status.textContent = 'Check the official program for the next dates.';
     status.hidden = false;
   }
+  const fold = value => value.toLocaleLowerCase('en-AU').normalize('NFKD').replace(/\p{M}/gu,'');
   const words = value => fold(value).split(/[^\p{L}\p{N}]+/u).filter(Boolean);
   document.querySelector('.council-sections')?.addEventListener('click',event=>{
     const link=event.target.closest('a[href^="#"]');
