@@ -75144,6 +75144,78 @@
       "priority": 0,
       "relatedLinks": [],
       "statusNote": "This round concerns Greater Western Water’s deferral request. Other distributors’ price reviews have separate processes."
+    },
+    {
+      "id": "qld-cape-york-torres-strait-regional-plan-2026",
+      "title": "Cape York and Torres Strait draft regional and infrastructure plan",
+      "jurisdiction": "qld",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Queensland Department of State Development, Infrastructure and Planning",
+      "place": "Cape York and Torres Strait, Queensland",
+      "status": "open",
+      "purpose": "Comment on the draft regional plan and infrastructure plan for housing, economic development, regional growth and infrastructure needs.",
+      "method": "Use the formal submission form, email CYTSRPIPSubmissions@dsdip.qld.gov.au or follow the written postal instructions. Drop-ins, booked planner meetings and the ideas board provide informal feedback separately.",
+      "opens": "2026-11-11",
+      "deadline": {
+        "date": "2027-02-11",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The project gives 11:59 pm without naming a timezone."
+      },
+      "eligibility": "The department invites interested people to comment. The written instructions require each submitter’s name and address, their grounds and supporting facts, and a signature for a non-electronic submission.",
+      "disclosure": "The department’s consultation privacy policy describes collection and possible AI processing. Project-specific disclosure of formal submissions was not confirmed. Ideas board posts are public and display a screen name.",
+      "sourceUrl": "https://www.planning.qld.gov.au/planning-framework/plan-making/regional-planning/cape-york-and-torres-strait-regional-plan",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.planning.qld.gov.au/planning-framework/plan-making/regional-planning/cape-york-and-torres-strait-regional-plan",
+          "title": "Official Queensland planning invitation",
+          "access": "directly read",
+          "supports": "Draft, submission requirements, dates and public sessions"
+        },
+        {
+          "url": "https://haveyoursay.statedevelopment.qld.gov.au/cape-york-and-torres-strait-regional-plan",
+          "title": "Official ideas board and session page",
+          "access": "directly read",
+          "supports": "Informal public feedback process"
+        },
+        {
+          "url": "https://www.statedevelopment.qld.gov.au/about-us/help/privacy",
+          "title": "Department privacy statement",
+          "access": "directly read",
+          "supports": "Handling and possible automated processing of portal material"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "events": [
+        {
+          "date": "2026-11-23",
+          "label": "Cairns drop-in, 4–7 pm."
+        },
+        {
+          "date": "2026-11-24",
+          "label": "Cooktown drop-in, noon–3 pm. Thursday Island drop-in, 1:30–4:30 pm."
+        },
+        {
+          "date": "2026-11-26",
+          "label": "Weipa drop-in, 10 am–1 pm."
+        },
+        {
+          "date": "2026-12-01",
+          "label": "Online planner appointments on 1–3 December, booking required."
+        },
+        {
+          "date": "2027-02-02",
+          "label": "Online planner appointments on 2–4 February, booking required."
+        }
+      ]
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
