@@ -5946,11 +5946,11 @@
       "participationLevel": "council",
       "councilId": "qld-council-5010",
       "body": "City of Moreton Bay",
-      "status": "open",
-      "checked": "2026-11-13",
+      "status": "closed",
+      "checked": "2026-11-18",
       "kind": "community consultation",
       "purpose": "Use residents' flood experiences to inform the drainage improvement and flood mitigation study.",
-      "method": "Provide flood photographs, measurements and experiences through the published feedback route or send written, postal or telephone feedback.",
+      "method": "The extended feedback round has ended. Council moved the project into its in-progress list.",
       "eligibility": "Council seeks people affected by flooding around Grant and Shields streets in Redcliffe.",
       "disclosure": "Council's collection notice allows project and related Council uses and sharing with external project workers. The source does not promise anonymity or specify publication of individual property evidence.",
       "deadline": {
@@ -5961,13 +5961,19 @@
         "note": "Council’s extension notice and project page give 13 November. The live feedback tool displays 11:59 pm without an explicit timezone."
       },
       "sourceUrl": "https://yoursay.moretonbay.qld.gov.au/grant-street-and-shields-street-redcliffe-flood-mitigation",
-      "verification": "Council’s live project, extension notice and feedback tool directly reviewed on 13 November 2026. Older timeline and meeting-booking dates on the page are separate from the current feedback cutoff.",
+      "verification": "The specific council project and portal were rechecked on 18 November. Council lists the project as in progress after the extended 13 November deadline. No further extension was found.",
       "sources": [
         {
           "url": "https://yoursay.moretonbay.qld.gov.au/grant-street-and-shields-street-redcliffe-flood-mitigation",
           "title": "Official participation invitation",
           "supports": "Purpose, response methods, privacy and the current 13 November deadline displayed by the live tool",
           "access": "Fresh official page read"
+        },
+        {
+          "url": "https://yoursay.moretonbay.qld.gov.au/",
+          "title": "Council engagement portal",
+          "access": "directly read",
+          "supports": "Project listed as in progress after feedback"
         }
       ],
       "connections": [
@@ -5984,7 +5990,9 @@
         "infrastructure"
       ],
       "groups": [],
-      "place": "Grant and Shields streets, Redcliffe, City of Moreton Bay"
+      "place": "Grant and Shields streets, Redcliffe, City of Moreton Bay",
+      "statusChecked": "2026-11-18",
+      "statusNote": "The flood study continues after the feedback round."
     },
     {
       "id": "moreton-botanic-building-names-2026",
