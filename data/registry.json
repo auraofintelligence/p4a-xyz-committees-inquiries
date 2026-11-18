@@ -74169,7 +74169,7 @@
       "kind": "government consultation",
       "body": "NSW Department of Climate Change, Energy, the Environment and Water",
       "place": "New South Wales",
-      "status": "open",
+      "status": "unverified",
       "purpose": "Comment on draft statewide actions to protect koalas and their habitat and suggest what the implementation plan should cover.",
       "method": "Use the official online feedback form or email a submission to koala.strategy@environment.nsw.gov.au.",
       "opens": "2026-10-12",
@@ -74184,7 +74184,7 @@
       "disclosure": "The online form requests name and email. Its notice says personal information is shared with consent or where the law requires or allows it. Publication of individual submissions was not confirmed.",
       "sourceUrl": "https://www.environment.nsw.gov.au/topics/animals-and-plants/threatened-species/programs-legislation-and-framework/nsw-koala-strategy/draft-koala-conservation-strategy",
       "checked": "2026-11-13",
-      "verification": "Direct official department page, online form, privacy collection notice and NSW consultation listing reviewed on 13 November 2026.",
+      "verification": "The government listing and indexed invitation retain the extended 9 am deadline of 16 November. Direct invitation access was blocked on 18 November. The department's directory still labels the item open, so further acceptance cannot be confirmed.",
       "sources": [
         {
           "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/threatened-species/programs-legislation-and-framework/nsw-koala-strategy/draft-koala-conservation-strategy",
@@ -74197,13 +74197,25 @@
           "title": "NSW Government Have Your Say listing",
           "access": "directly read",
           "supports": "Consultation dates, extended cutoff and both submission methods"
+        },
+        {
+          "url": "https://www.environment.nsw.gov.au/about-us/get-involved/have-your-say",
+          "title": "NSW Environment and Heritage consultation listing",
+          "access": "directly read",
+          "supports": "Published deadline and conflicting open label"
         }
       ],
       "parliamentary": false,
       "groups": [],
       "connections": [],
       "priority": 0,
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusChecked": "2026-11-18",
+      "statusNote": "The advertised 16 November deadline has passed. A live invitation or any further extension could not be confirmed.",
+      "uncertaintyFields": [
+        "status"
+      ],
+      "uncertaintyReason": "The department’s directory shows the elapsed date and an Open label. The underlying invitation was access-blocked."
     },
     {
       "id": "nt-government-procurement-reforms-2026",
