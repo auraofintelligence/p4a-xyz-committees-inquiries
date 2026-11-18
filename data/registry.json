@@ -74674,6 +74674,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "wa-gas-pipeline-coordination-2026",
+      "title": "Western Australia gas pipeline and energy market coordination consultation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on proposed information sharing and operational coordination between WA gas pipeline operators and the Australian Energy Market Operator to improve system reliability.",
+      "method": "Read the further consultation paper and email written feedback to energymarkets@deed.wa.gov.au.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-11-25",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "The department says late submissions may not be considered."
+      },
+      "eligibility": "The department invites stakeholders to respond to this further consultation.",
+      "disclosure": "The department says it will publish submissions unless confidentiality is specifically requested.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/review-of-the-gas-services-information-gsi-rules",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/review-of-the-gas-services-information-gsi-rules",
+          "title": "Official Gas Services Information Rules further consultation",
+          "access": "directly read",
+          "supports": "Purpose, process, email route, cutoff and confidentiality"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
