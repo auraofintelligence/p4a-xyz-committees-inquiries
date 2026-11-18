@@ -6373,21 +6373,21 @@
       "councilId": "qld-council-5010",
       "body": "UniSC in partnership with City of Moreton Bay",
       "status": "closed",
-      "checked": "2026-11-07",
+      "checked": "2026-11-18",
       "kind": "business survey",
       "purpose": "Understand how business owners and operators perceive the city as a business destination.",
-      "method": "The advertised online survey round ended on 6 November 2026.",
-      "eligibility": "The call addressed business owners and operators. The retained homepage 'open now' card does not extend the published closing date.",
+      "method": "The advertised online survey closed on 16 November 2026 at 5 pm, superseding the earlier 6 November date.",
+      "eligibility": "The survey invited owners and operators of businesses.",
       "disclosure": "The survey was delivered with UniSC. Form-specific publication and collection conditions were not reviewed after closure.",
       "deadline": {
-        "date": "2026-11-06",
-        "time": null,
+        "date": "2026-11-16",
+        "time": "17:00",
         "timezone": null,
-        "precision": "date",
-        "note": "A date is published without a closing hour or timezone."
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The specific invitation extended the original 6 November cutoff. The updated notice does not name a timezone."
       },
       "sourceUrl": "https://yoursay.moretonbay.qld.gov.au/city-moreton-bay-annual-business-reputation-survey",
-      "verification": "The specific invitation gives 6 November 2026. Its homepage still lists the item among current feedback projects; the expired deadline controls this archive status.",
+      "verification": "The council’s specific invitation was directly read on 18 November and gives the extended cutoff. A lingering open tile conflicts with this elapsed deadline.",
       "sources": [
         {
           "url": "https://yoursay.moretonbay.qld.gov.au/city-moreton-bay-annual-business-reputation-survey",
@@ -6402,7 +6402,8 @@
         "economy"
       ],
       "groups": [],
-      "place": "City of Moreton Bay"
+      "place": "City of Moreton Bay",
+      "statusChecked": "2026-11-18"
     },
     {
       "id": "gold-coast-biosecurity-updates-2026",
