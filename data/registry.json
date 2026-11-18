@@ -75775,6 +75775,48 @@
         "deadline"
       ],
       "uncertaintyReason": "The official invitation is current. The public closing time could not be verified."
+    },
+    {
+      "id": "sa-mental-health-commissioner-next-term-survey-2026",
+      "title": "South Australian Mental Health Commissioner next-term survey",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "South Australian Mental Health Commissioner",
+      "place": "South Australia",
+      "status": "open",
+      "purpose": "Give feedback on priorities for the Mental Health Commissioner’s next term.",
+      "method": "Complete the survey linked by the official YourSAy invitation and submit on the final page.",
+      "opens": null,
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "note": "The accessible official invitation does not publish a deadline."
+      },
+      "eligibility": "Community members and stakeholders are invited to contribute.",
+      "disclosure": "The invitation asks people to leave out names, contact details, clinical records and other identifying information. Individual-response publication terms were not stated.",
+      "sourceUrl": "https://yoursay.sa.gov.au/south-australian-mental-health-commissioner-survey-next-term",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursay.sa.gov.au/south-australian-mental-health-commissioner-survey-next-term",
+          "title": "Official YourSAy survey invitation",
+          "access": "directly read",
+          "supports": "Scope, contributors, survey instructions and privacy guidance"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "uncertaintyFields": [
+        "deadline"
+      ],
+      "uncertaintyReason": "The invitation is current. A closing date or time was not verified."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
