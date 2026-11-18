@@ -74190,9 +74190,9 @@
       "kind": "government consultation survey",
       "body": "Northern Territory Department of Trade, Business and Asian Relations",
       "place": "Northern Territory",
-      "status": "open",
+      "status": "closed",
       "purpose": "Comment on proposed changes to tender budget ranges, multi-stage tenders, compliance and reporting, Aboriginal procurement, tender negotiations and liability arrangements.",
-      "method": "Complete the online Procurement Reform Tranche 2 Industry Survey. Answer the topics relevant to you.",
+      "method": "The published industry survey has concluded. Read the project page for future procurement consultations.",
       "opens": "2026-10-20",
       "deadline": {
         "date": "2026-11-16",
@@ -74204,8 +74204,8 @@
       "eligibility": "Territory businesses, industry associations and other stakeholders are invited.",
       "disclosure": "The survey allows anonymous responses. Contact details are requested if you opt into future consultation. Publication of individual responses was not confirmed.",
       "sourceUrl": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms",
-      "checked": "2026-11-13",
-      "verification": "Official project page, government notice and first survey page reviewed on 13 November 2026.",
+      "checked": "2026-11-18",
+      "verification": "On 18 November, the official project and its survey both said the survey had concluded. The published cutoff remains 16 November and no extension is shown.",
       "sources": [
         {
           "url": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms",
@@ -74235,7 +74235,9 @@
           "url": "https://haveyoursay.nt.gov.au/nt-government-procurement-reforms/surveys/procurement-reform-tranche-2-industry-survey",
           "title": "Open the official industry survey"
         }
-      ]
+      ],
+      "statusChecked": "2026-11-18",
+      "statusNote": "The second-tranche industry survey is closed. Future consultation, if offered, is separate."
     },
     {
       "id": "federal-dcceew-water-act-interim-review-2026",
