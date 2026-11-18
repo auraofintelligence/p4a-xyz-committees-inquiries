@@ -3282,10 +3282,10 @@
       "jurisdiction": "tas",
       "level": "state-territory",
       "kind": "public hearing",
-      "status": "upcoming",
+      "status": "closed",
       "purpose": "Follow scrutiny of evidence and policy decisions behind Tasmania's recent poker-machine harm minimisation measures.",
       "body": "Legislative Council Government Administration A sub-committee",
-      "method": "Read the9 November hearing schedule and follow the official public hearing/broadcast route. Written and verbal evidence were invited from key stakeholders, not an unrestricted new call.",
+      "method": "Read the 9 November hearing transcript on the official inquiry page. The observation opportunity for that hearing has ended.",
       "deadline": {
         "date": null,
         "time": null,
@@ -3299,10 +3299,10 @@
       "publicity": "Hearing contributions may be broadcast/transcribed. No new general submission deadline was verified.",
       "sourceUrl": "https://www.parliament.tas.gov.au/committees/legislative-council/sessional-committees/govadmina/current-inquiries/sub-committee-sip-inquiry-into-matters-relating-to-proposed-poker-machine-harm-minimisation-policies",
       "sourceDateChecked": "2026-11-06",
-      "verification": "direct official page and media advisory; Direct page lists public hearing9Nov12–1;27Aug advisory says key stakeholders invited.",
+      "verification": "The official hearing schedule and its published 9 November transcript were checked on 18 November. No later hearing for this round appears on the reviewed page.",
       "evidenceNote": "Direct page lists public hearing9Nov12–1;27Aug advisory says key stakeholders invited.",
       "callUrl": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/110525/gaa.pmhm.med.260827.mediaadvisory.jm.001.pdf",
-      "checked": "2026-11-06",
+      "checked": "2026-11-18",
       "disclosure": "Hearing contributions may be broadcast/transcribed. No new general submission deadline was verified.",
       "parliamentary": true,
       "groups": [],
@@ -3317,7 +3317,7 @@
       ],
       "priority": 1,
       "place": "TAS",
-      "statusNote": "Participation / observation dates: 2026-11-09. 12:00–13:00. Time published without an explicit timezone; Hobart local time is inferred, confirm arrangements.",
+      "statusNote": "This closes the advertised hearing only.",
       "sources": [
         {
           "url": "https://www.parliament.tas.gov.au/committees/legislative-council/sessional-committees/govadmina/current-inquiries/sub-committee-sip-inquiry-into-matters-relating-to-proposed-poker-machine-harm-minimisation-policies",
@@ -3332,7 +3332,8 @@
           "supports": "Participation conditions and supporting evidence"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusChecked": "2026-11-18"
     },
     {
       "jurisdiction": "wa",
