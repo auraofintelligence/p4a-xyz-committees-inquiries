@@ -2380,10 +2380,10 @@
       "jurisdiction": "act",
       "level": "state-territory",
       "kind": "parliamentary inquiry",
-      "status": "open",
-      "purpose": "Public evidence on fuel prices. Read the linked terms of reference before preparing a contribution.",
+      "status": "closed",
+      "purpose": "Examine retail margins, terminal-gate prices and differences with surrounding markets. Review earlier fuel price measures, monitoring and the relevant fair trading frameworks.",
       "body": "Standing Committee on Economics, Industry and Recreation",
-      "method": "Email (preferred) to LACommitteeEconomics@parliament.act.gov.au or post to the named committee, ACT Legislative Assembly, GPO Box 1020, Canberra ACT 2601.",
+      "method": "The advertised written-submission window has ended. The committee page carries the terms of reference and will list future hearings.",
       "deadline": {
         "date": "2026-11-18",
         "time": "17:00",
@@ -2394,10 +2394,10 @@
       "eligibility": "Relevant evidence prepared for this committee and not published elsewhere. Include name and contact details. The page does not state a residence restriction.",
       "publicity": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/economics,-industry-and-recreation/inquiry-into-fuel-prices",
-      "sourceDateChecked": "2026-11-06",
-      "verification": "direct official page; Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "evidenceNote": "Direct page states submissions open and separately specifies submissions close 5pm on the recorded date.",
-      "checked": "2026-11-07",
+      "sourceDateChecked": "2026-11-18",
+      "verification": "The official invitation and the committee’s announcement were checked on 18 November. The scheduled 5 pm cutoff passed and no extension was found. The page’s older Open label remained visible.",
+      "evidenceNote": "The specific published cutoff passed. The committee page and its announcement did not show a later date.",
+      "checked": "2026-11-18",
       "disclosure": "Submissions may be published online; personal contact details are removed. Publication of names is not promised confidential.",
       "parliamentary": true,
       "groups": [],
@@ -2421,7 +2421,9 @@
         }
       ],
       "relatedLinks": [],
-      "committeeId": "act-committee-economics-2c-industry-and-recreation"
+      "committeeId": "act-committee-economics-2c-industry-and-recreation",
+      "statusChecked": "2026-11-18",
+      "statusNote": "This records the end of the advertised written-submission period. No public hearing appeared on the inquiry page at the check."
     },
     {
       "id": "act-gambling-amendment",
