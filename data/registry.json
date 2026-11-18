@@ -75590,6 +75590,44 @@
         }
       ],
       "statusNote": "This entry covers the design feedback round. The education and training building development application has a separate process."
+    },
+    {
+      "id": "nsw-threatened-species-determinations-nov-2026",
+      "title": "NSW threatened species preliminary determinations",
+      "jurisdiction": "nsw",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "NSW Threatened Species Scientific Committee",
+      "place": "New South Wales",
+      "status": "open",
+      "purpose": "Comment on the proposed vulnerable listing of Leionema praetermissum and proposed listing of fire regimes that cause biodiversity decline as a key threatening process.",
+      "method": "Email written feedback to scientific.committee@dcceew.nsw.gov.au or send it by post to the Committee using the address on the official invitation.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2027-02-08",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official invitation states 5 pm without naming a timezone."
+      },
+      "eligibility": "Public submissions on the preliminary determinations are invited.",
+      "disclosure": "The invitation does not state whether individual written submissions or contributor details will be published.",
+      "sourceUrl": "https://www.nsw.gov.au/have-your-say/threatened-species-determinations-nov-2026",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.nsw.gov.au/have-your-say/threatened-species-determinations-nov-2026",
+          "title": "Official preliminary determinations consultation",
+          "access": "directly read",
+          "supports": "Proposed listings, written submission methods and cutoff"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
