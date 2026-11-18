@@ -5070,9 +5070,9 @@
       "councilId": "qld-council-6720",
       "kind": "council survey",
       "body": "Sunshine Coast Council",
-      "status": "open",
+      "status": "closed",
       "purpose": "Comment on potential dog exercise area designs, park use and local concerns at O’Connors Park in Mooloolaba.",
-      "method": "Read the concept information, then complete the online survey linked on the official project page. Check the project for any remaining in-person sessions. A pop-up is listed for 11 November 2026, 2 to 3:30 pm; timezone is not stated.",
+      "method": "The published community feedback round has closed. Follow the project page for next stages.",
       "deadline": {
         "date": "2026-11-13",
         "time": null,
@@ -5083,8 +5083,8 @@
       "eligibility": "Council invites community feedback, including local knowledge and park or street users. No additional project-specific eligibility restriction was confirmed. Portal terms ask under-18 users to involve a parent or guardian.",
       "disclosure": "The survey collection notice says feedback is deidentified before AI analysis and public reporting. Council may use contact details for project updates. Read the notice before contributing. Third-party providers assist with collection and analysis and may store personal information under council agreements.",
       "sourceUrl": "https://haveyoursay.sunshinecoast.qld.gov.au/proposed-dog-exercise-area-oconnors-park-mooloolaba",
-      "checked": "2026-11-07",
-      "verification": "Official project invitation, engagement period 2026-10-19 to 2026-11-13 and survey collection notice directly reviewed. No form was completed.",
+      "checked": "2026-11-18",
+      "verification": "The individual consultation and the council’s Closed project list were reviewed on 18 November. The original 13 November deadline has passed and no later cutoff was found.",
       "connections": [],
       "priority": 0,
       "groups": [],
@@ -5095,8 +5095,15 @@
           "title": "Official project invitation and collection notice",
           "supports": "Purpose, survey route, date-only closing date and publication conditions",
           "access": "Direct official page reviewed"
+        },
+        {
+          "url": "https://haveyoursay.sunshinecoast.qld.gov.au/",
+          "title": "Sunshine Coast Council Have Your Say catalogue",
+          "access": "directly read",
+          "supports": "Lists the feedback round in its Closed section"
         }
-      ]
+      ],
+      "statusChecked": "2026-11-18"
     },
     {
       "id": "litchfield-draft-strategic-plan-2026-2029",
