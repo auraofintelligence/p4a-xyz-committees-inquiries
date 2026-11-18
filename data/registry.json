@@ -75817,6 +75817,57 @@
         "deadline"
       ],
       "uncertaintyReason": "The invitation is current. A closing date or time was not verified."
+    },
+    {
+      "id": "qld-the-wave-rail-environment-report-2026",
+      "title": "The Wave rail stages 1 and 2 draft environmental report",
+      "jurisdiction": "qld",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Queensland Department of Transport and Main Roads, project proponent",
+      "place": "Sunshine Coast, Queensland",
+      "status": "open",
+      "purpose": "Comment on the environmental impacts of the proposed Wave rail stages 1 and 2 and measures proposed to manage them, under the Commonwealth Environment Protection and Biodiversity Conservation Act.",
+      "method": "Use TMR’s written comment form, email DraftPERthewaverail@tmr.qld.gov.au or post comments using the address on the invitation. Printed reports are available at the locations listed there.",
+      "opens": "2026-11-11",
+      "deadline": {
+        "date": "2026-12-23",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official invitation gives 5 pm without naming a timezone."
+      },
+      "eligibility": "The proponent invites public written comments. Its form requests contact details to verify or clarify comments.",
+      "disclosure": "TMR uses contact details for feedback and verification. In-period comments go to the Commonwealth Minister, and the published final report summarises the comments and how they were addressed. TMR says statutory material may be summarised or published, and information may be shared with the National EPA.",
+      "sourceUrl": "https://www.yoursay-projects.tmr.qld.gov.au/thewaverail/draft-public-environment-report",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.yoursay-projects.tmr.qld.gov.au/thewaverail/draft-public-environment-report",
+          "title": "Official proponent consultation",
+          "access": "directly read",
+          "supports": "Draft, comment methods, eligibility, deadline and privacy"
+        },
+        {
+          "url": "https://epbcpublicportal.environment.gov.au/all-referrals/project-referral-summary/?id=f5d7dee5-bc5e-ef11-bfe4-00224810f0ef",
+          "title": "Commonwealth referral 2024/09972",
+          "access": "directly read",
+          "supports": "Commonwealth assessment and Queensland TMR proponent"
+        },
+        {
+          "url": "https://www.legislation.gov.au/C2004A00485/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+          "title": "Environment Protection and Biodiversity Conservation Act, sections 98 and 99",
+          "access": "directly read",
+          "supports": "Proponent comment process, Ministerial copies and summary requirements"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "statusNote": "This is the Queensland proponent’s statutory invitation for a project undergoing Commonwealth assessment."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
