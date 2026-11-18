@@ -74811,6 +74811,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nt-alice-springs-land-use-liveability-survey-2026",
+      "title": "Alice Springs regional land use and liveability survey",
+      "jurisdiction": "nt",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Northern Territory Planning Commission",
+      "place": "Alice Springs, Northern Territory",
+      "status": "open",
+      "purpose": "Give feedback on living in Alice Springs and future priorities for housing, services, transport, employment, facilities and public spaces.",
+      "method": "Complete the Community Profile and Liveability Survey linked in the official project announcement.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-11-30",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The Commission publishes the date without an hour or timezone."
+      },
+      "eligibility": "The Commission invites people living in Alice Springs, including both longtime and recent residents.",
+      "disclosure": "The announcement explains how feedback will inform regional planning. It does not specify whether individual responses will be published.",
+      "sourceUrl": "https://haveyoursay.nt.gov.au/alice-springs-regional-land-use-review/news_feed/alice-springs-residents-invited-to-share-what-matters-most-for-the-future",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://haveyoursay.nt.gov.au/alice-springs-regional-land-use-review/news_feed/alice-springs-residents-invited-to-share-what-matters-most-for-the-future",
+          "title": "Planning Commission survey announcement",
+          "access": "directly read",
+          "supports": "Scope, resident invitation, live tool and deadline"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
