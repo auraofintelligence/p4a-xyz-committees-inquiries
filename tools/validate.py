@@ -125,14 +125,17 @@ def validate_navigation(parsed,pages,committees,records):
 
 
 def validate_calendars(parsed):
-    from calendar_pages import ORDER,load_calendars
+    from calendar_pages import ORDER,TRACKING_STARTED,load_calendars
     calendars=load_calendars()
     assert set(calendars)==set(ORDER),'Missing parliament calendar'
     for key,calendar in calendars.items():
         page=parsed[f'calendars/{key}/index.html']
-        assert {'sittings','hearings'}<=set(page.ids) and not page.records,key
+        assert {'sittings','hearings','calendar-coverage'}<=set(page.ids) and not page.records,key
         assert re.fullmatch(r'Australia/[A-Za-z_]+',calendar['timezone']),key
         assert date.fromisoformat(calendar['checked']).isoformat()==calendar['checked'],key
+        assert calendar['checked']>=TRACKING_STARTED and calendar['historicalSources'],key
+        for source in calendar['historicalSources']:
+            assert source['label'] and urlsplit(source['url']).scheme=='https' and source['url'] in page.links,(key,source)
         for section in ('sittings','hearings'):
             assert calendar[section],(key,section)
             for track in calendar[section]:

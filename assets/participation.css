@@ -87,6 +87,7 @@ a.x::after{content:" ↗" / "";font-size:.8em;opacity:.7;margin-left:.2rem}
 .calendar-picker .parliament-choice:hover{border-color:var(--gold);background:var(--glass-strong)}
 .participation-site .directory-hero.calendar-hero{padding-block:clamp(1rem,2.5vw,1.6rem) .9rem}
 .participation-site .directory-hero.calendar-hero h1{font-size:clamp(1.55rem,4.2vw,3.1rem);max-width:none;margin:.4rem 0 .65rem}
+.calendar-coverage{scroll-margin-top:6rem}
 .calendar-board{padding:clamp(.65rem,2vw,1.5rem);margin:0 0 1.25rem}
 .calendar-board-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem 1rem;margin-bottom:1rem}
 .participation-site .calendar-board-header h2{font-size:clamp(1.15rem,2.4vw,1.55rem);margin:0}

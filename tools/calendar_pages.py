@@ -6,6 +6,7 @@ from pathlib import Path
 
 
 CALENDAR_DATA = Path(__file__).resolve().parents[1] / 'data' / 'parliament-calendars.json'
+TRACKING_STARTED = '2026-11-19'
 ORDER = ('qld', 'federal', 'nsw', 'vic', 'wa', 'sa', 'tas', 'act', 'nt')
 
 
@@ -73,13 +74,22 @@ def render_track(site, page, track, timezone, section, track_index):
     return body + '</ul></article>'
 
 
+def tracking_note(site, page, sources=()):
+    started = f'<time datetime="{TRACKING_STARTED}">{site.pretty_date(TRACKING_STARTED)}</time>'
+    follow_up = 'Each parliament’s calendar links to official records for earlier dates.'
+    if sources:
+        links = ' and '.join(site.link(page, source['url'], source['label'], cue=False) for source in sources)
+        follow_up = f'For earlier or unlisted dates, see {links}.'
+    return f'<p class="status-strip calendar-coverage" id="calendar-coverage"><span>P4A began tracking on {started}.</span><span>{follow_up}</span></p>'
+
+
 def month_board(site, timezone):
     weekdays = ''.join(f'<span>{day}</span>' for day in ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'))
     legend = ''.join(f'<li><span class="calendar-mark is-{kind}" aria-hidden="true"></span>{label}</li>' for kind, label in (
         ('sitting', 'Chamber sitting'), ('hearing', 'Committee hearing'), ('provisional', 'Check status')
     ))
     return f'''
-<section class="calendar-board feature-panel" data-parliament-calendar="{site.e(timezone)}" aria-labelledby="month-view" hidden>
+<section class="calendar-board feature-panel" data-parliament-calendar="{site.e(timezone)}" data-tracking-start="{TRACKING_STARTED}" aria-labelledby="month-view" hidden>
   <div class="calendar-board-header">
     <h2 id="month-view">Month view</h2>
     <div class="calendar-controls">
@@ -98,6 +108,7 @@ def month_board(site, timezone):
       <h3 data-cal-date></h3>
       <ul class="calendar-day-events" data-cal-events></ul>
       <p data-cal-empty hidden></p>
+      <p data-cal-history hidden><a href="#calendar-coverage">Find earlier dates in official records</a></p>
     </div>
   </div>
 </section>'''
@@ -107,6 +118,7 @@ def build_calendars(site):
     calendars = load_calendars()
     page = 'calendars/index.html'
     body = site.hero('Parliament calendars.', 'Choose a parliament to see sitting dates, public committee hearings and links to official calendars.', cls='directory-hero')
+    body += tracking_note(site, page)
     for keys, heading, cls in [
         (ORDER[:2], 'Queensland and Australian Parliament', 'calendar-picker-featured'),
         (ORDER[2:], 'Other states and territories', 'calendar-picker-regions'),
@@ -124,6 +136,7 @@ def build_calendars(site):
         name = calendar['name']
         page = f'calendars/{key}/index.html'
         body = site.hero(f'{name} calendar.', calendar['summary'], 'P4A · Parliament calendars', cls='directory-hero calendar-hero')
+        body += tracking_note(site, page, calendar['historicalSources'])
         if any(track.get('dates') for section in ('sittings', 'hearings') for track in calendar[section]):
             body += month_board(site, calendar['timezone'])
         else:

@@ -4,6 +4,10 @@
     "summary": "Legislative Assembly sittings and public committee hearings.",
     "checked": "2026-11-19",
     "timezone": "Australia/Brisbane",
+    "historicalSources": [
+      {"label": "Record of Proceedings by sitting date", "url": "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Record-of-Proceedings/Browse-by-Sitting-Dates"},
+      {"label": "Archived committee broadcasts", "url": "https://www.parliament.qld.gov.au/Work-of-Committees/Live-and-Archived-Broadcasts"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly",
       "dates": [
@@ -32,6 +36,9 @@
     "summary": "House of Representatives and Senate sittings, public hearings and Senate estimates.",
     "checked": "2026-11-19",
     "timezone": "Australia/Canberra",
+    "historicalSources": [
+      {"label": "Hansard chamber and committee transcripts", "url": "https://www.aph.gov.au/Parliamentary_Business/Hansard"}
+    ],
     "sittings": [{
       "name": "House of Representatives",
       "dates": [{"start": "2026-11-23", "end": "2026-11-26"}],
@@ -87,6 +94,10 @@
     "summary": "Legislative Assembly and Legislative Council sittings, plus public hearings.",
     "checked": "2026-11-19",
     "timezone": "Australia/Sydney",
+    "historicalSources": [
+      {"label": "Hansard and House papers", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/hansard"},
+      {"label": "Committee inquiry records", "url": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiries"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly",
       "dates": [
@@ -135,6 +146,10 @@
     "summary": "The next sitting calendar will follow the return of election writs.",
     "checked": "2026-11-19",
     "timezone": "Australia/Melbourne",
+    "historicalSources": [
+      {"label": "Hansard by sitting day", "url": "https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-debate/"},
+      {"label": "Former committees and inquiries", "url": "https://www.parliament.vic.gov.au/get-involved/committeeinquirysearch/"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly and Legislative Council",
       "note": "The 60th Parliament expired on 3 November. The official sitting calendar says dates will be decided after the return of writs for the 28 November election.",
@@ -154,6 +169,10 @@
     "summary": "Legislative Assembly and Legislative Council sittings, plus the committee calendar.",
     "checked": "2026-11-19",
     "timezone": "Australia/Perth",
+    "historicalSources": [
+      {"label": "Hansard search", "url": "https://www.parliament.wa.gov.au/hansard/search"},
+      {"label": "Committee records search", "url": "https://www.parliament.wa.gov.au/parliament/commit.nsf/Search"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly",
       "dates": [
@@ -202,6 +221,10 @@
     "summary": "House of Assembly and Legislative Council sittings, plus committee programs.",
     "checked": "2026-11-19",
     "timezone": "Australia/Adelaide",
+    "historicalSources": [
+      {"label": "Hansard and calendar search", "url": "https://www.parliament.sa.gov.au/About-Parliament/Hansard"},
+      {"label": "Committee directory", "url": "https://www.parliament.sa.gov.au/en/Committees/Committees-Detail"}
+    ],
     "sittings": [{
       "name": "House of Assembly",
       "dates": [
@@ -232,6 +255,10 @@
     "summary": "House of Assembly and Legislative Council sittings, plus public hearings.",
     "checked": "2026-11-19",
     "timezone": "Australia/Hobart",
+    "historicalSources": [
+      {"label": "Sitting days and Hansard by year", "url": "https://search.parliament.tas.gov.au/qsl/searchlinks"},
+      {"label": "Former committees", "url": "https://www.parliament.tas.gov.au/committees/former-committees"}
+    ],
     "sittings": [{
       "name": "House of Assembly",
       "dates": [
@@ -284,6 +311,9 @@
     "summary": "Legislative Assembly sittings and public committee hearings.",
     "checked": "2026-11-19",
     "timezone": "Australia/Sydney",
+    "historicalSources": [
+      {"label": "Hansard chamber and committee records", "url": "https://www.hansard.act.gov.au/"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly",
       "dates": [
@@ -330,6 +360,10 @@
     "summary": "Legislative Assembly sittings and the public hearing schedule.",
     "checked": "2026-11-19",
     "timezone": "Australia/Darwin",
+    "historicalSources": [
+      {"label": "Parliamentary Record", "url": "https://parliament.nt.gov.au/business/parliamentary-record"},
+      {"label": "Committee inquiries", "url": "https://parliament.nt.gov.au/committees/inquiries"}
+    ],
     "sittings": [{
       "name": "Legislative Assembly",
       "dates": [

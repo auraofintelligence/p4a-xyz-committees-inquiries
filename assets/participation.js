@@ -48,6 +48,8 @@
     const dateLabel = board.querySelector('[data-cal-date]');
     const events = board.querySelector('[data-cal-events]');
     const empty = board.querySelector('[data-cal-empty]');
+    const historicalRecords = board.querySelector('[data-cal-history]');
+    const trackingMonth = board.dataset.trackingStart.slice(0, 7);
     const today = todayIn(board.dataset.parliamentCalendar);
     const thisMonth = today.slice(0, 7);
     const utcDate = value => new Date(`${value}T00:00:00Z`);
@@ -102,7 +104,9 @@
     }
 
     function selectDay(key) {
-      const hasMonthDates = scheduledMonths.has(key.slice(0, 7));
+      const month = key.slice(0, 7);
+      const hasMonthDates = scheduledMonths.has(month);
+      const predatesCoverage = month < trackingMonth && !hasMonthDates;
       const previous = days.querySelector('.is-selected');
       previous?.classList.remove('is-selected');
       previous?.querySelector('button')?.setAttribute('aria-pressed', 'false');
@@ -116,7 +120,11 @@
       empty.textContent = hasMonthDates
         ? 'No dates listed for this day. Check the official programs below.'
         : 'No verified dates listed for this month. Check the official programs below.';
+      if (predatesCoverage) {
+        empty.textContent = `P4A’s calendar coverage starts in ${monthFormat.format(utcDate(`${trackingMonth}-01`))}.`;
+      }
       empty.hidden = entries.length > 0;
+      historicalRecords.hidden = !predatesCoverage;
       events.replaceChildren();
       for (const entry of entries) {
         const item = document.createElement('li');
