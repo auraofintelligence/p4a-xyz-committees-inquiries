@@ -75083,6 +75083,57 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "vic-esc-greater-western-water-deferral-2026",
+      "title": "Greater Western Water price review deferral request",
+      "jurisdiction": "vic",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Essential Services Commission Victoria",
+      "place": "Greater Western Water service area, Victoria",
+      "status": "open",
+      "purpose": "Comment on the utility’s request to extend its current regulatory period and defer its next price review by 12 months to 1 July 2029.",
+      "method": "Use the Commission’s consultation form. The form also lists an email route for a separate written submission.",
+      "opens": "2026-10-14",
+      "deadline": {
+        "date": "2026-11-23",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official stage gives the date. The public portal date field gives 5 pm without a timezone."
+      },
+      "eligibility": "The Commission invites Greater Western Water customers. The form accepts individual and organisational submissions.",
+      "disclosure": "The Commission generally publishes the submission and name unless requested otherwise, and redacts other personal details. Contributors can request publication without their name or confidential treatment. Anonymous input may receive less weight.",
+      "sourceUrl": "https://engage.vic.gov.au/project/water-price-review-2028/page/greater-western-water-price-review-2028",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://engage.vic.gov.au/project/water-price-review-2028/page/greater-western-water-price-review-2028",
+          "title": "Official Greater Western Water consultation",
+          "access": "directly read",
+          "supports": "Request and customer audience"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/water-price-review-2028/timeline/37757",
+          "title": "Official consultation stage",
+          "access": "directly read",
+          "supports": "Dates and portal cutoff field"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/water-price-review-2028/survey/6846",
+          "title": "Official Commission submission form",
+          "access": "directly read",
+          "supports": "Submission routes and publication choices"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "statusNote": "This round concerns Greater Western Water’s deferral request. Other distributors’ price reviews have separate processes."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
