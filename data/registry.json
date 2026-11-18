@@ -75956,6 +75956,56 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "vic-epa-contaminated-groundwater-guidance-2026",
+      "title": "Victorian EPA contaminated groundwater guidance update",
+      "jurisdiction": "vic",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Environment Protection Authority Victoria",
+      "place": "Victoria",
+      "status": "open",
+      "purpose": "Comment on the EPA’s update to its guidance on clean-up and management of contaminated groundwater, including priorities for practical guidance.",
+      "method": "Complete the official survey or upload a Word or PDF submission via the project links. Leave out confidential, commercially sensitive and private information.",
+      "opens": "2026-11-12",
+      "deadline": {
+        "date": "2026-12-18",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The official project gives the date. Its public portal date field gives 11:59 pm without a timezone."
+      },
+      "eligibility": "The EPA particularly seeks environmental auditors, authorities, consultants, landowners, occupiers and affected third parties.",
+      "disclosure": "Personal details are optional. The EPA says it will publish submissions, survey responses and submitter names unless clearly marked against publication.",
+      "sourceUrl": "https://engage.vic.gov.au/guidance-for-the-clean-up-and-management-of-contaminated-groundwater-publication-2001-update",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://engage.vic.gov.au/guidance-for-the-clean-up-and-management-of-contaminated-groundwater-publication-2001-update",
+          "title": "Official project invitation",
+          "access": "directly read",
+          "supports": "Proposal, audience and consultation dates"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/guidance-for-the-clean-up-and-management-of-contaminated-groundwater-publication-2001-update/survey/6887",
+          "title": "Official submission form",
+          "access": "directly read",
+          "supports": "Feedback method, deadline evidence and disclosure"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/guidance-for-the-clean-up-and-management-of-contaminated-groundwater-publication-2001-update/survey/6888",
+          "title": "Official written submission upload",
+          "access": "directly read",
+          "supports": "Written formats and disclosure"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
