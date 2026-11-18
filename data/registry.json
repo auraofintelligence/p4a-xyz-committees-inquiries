@@ -75678,6 +75678,55 @@
           "label": "Community drop-in. Check the official event details before attending."
         }
       ]
+    },
+    {
+      "id": "sa-emergency-services-volunteer-strategy-2026",
+      "title": "South Australian emergency services volunteer strategy",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "South Australian Fire and Emergency Services Commission",
+      "place": "South Australia",
+      "status": "open",
+      "purpose": "Help identify actions to recruit, retain, recognise and support emergency services volunteers and reduce barriers to volunteering.",
+      "method": "Members of the community can use the YourSAy survey. Current emergency services volunteers have a dedicated survey via their volunteer agency portal.",
+      "opens": null,
+      "deadline": {
+        "date": null,
+        "time": null,
+        "timezone": null,
+        "precision": "unknown",
+        "note": "The invitation and Q&A do not publish a cutoff. The linked public survey could not be read directly."
+      },
+      "eligibility": "South Australian community members who do not currently volunteer for CFS, SES or Volunteer Marine Rescue can use the public survey. Former volunteers may respond. Current volunteers should use their agency’s survey.",
+      "disclosure": "The official Q&A says the consultation reports overall themes and uses attributed comments only with consent. The survey has its own privacy terms.",
+      "sourceUrl": "https://yoursay.sa.gov.au/emergency-services-sector-volunteer-sustainability-strategy",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://yoursay.sa.gov.au/emergency-services-sector-volunteer-sustainability-strategy",
+          "title": "Official public strategy invitation",
+          "access": "directly read",
+          "supports": "Purpose, survey method, and route for existing volunteers"
+        },
+        {
+          "url": "https://hdp-au-prod-app-dpcsa-yoursay-files.s3.ap-southeast-2.amazonaws.com/3017/9332/2107/ESS_Volunteer_Sustainability_Strategy_-_YourSAy_QA.pdf",
+          "title": "Official consultation questions and answers",
+          "access": "directly read",
+          "supports": "Eligibility and reporting terms"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "uncertaintyFields": [
+        "deadline",
+        "method"
+      ],
+      "uncertaintyReason": "The official public invitation and survey link were read. Access to the linked survey and the closing date could not be independently confirmed."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
