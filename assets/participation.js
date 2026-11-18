@@ -76,9 +76,22 @@
       }
     }
 
-    const months = [...new Set([thisMonth, ...[...byDay.keys()].map(key => key.slice(0, 7))])].sort();
-    for (const month of months) {
-      monthPicker.add(new Option(monthFormat.format(utcDate(`${month}-01`)), month));
+    function shiftMonth(month, offset) {
+      const date = utcDate(`${month}-01`);
+      date.setUTCMonth(date.getUTCMonth() + offset);
+      return date.toISOString().slice(0, 7);
+    }
+
+    function monthOption(month) {
+      return new Option(monthFormat.format(utcDate(`${month}-01`)), month);
+    }
+
+    const scheduledMonths = new Set([...byDay.keys()].map(key => key.slice(0, 7)));
+    const monthBounds = [thisMonth, ...scheduledMonths].sort();
+    let firstMonth = shiftMonth(monthBounds[0], -1);
+    let lastMonth = shiftMonth(monthBounds.at(-1), 1);
+    for (let month = firstMonth; month <= lastMonth; month = shiftMonth(month, 1)) {
+      monthPicker.add(monthOption(month));
     }
 
     function marker(type) {
@@ -89,15 +102,20 @@
     }
 
     function selectDay(key) {
+      const hasMonthDates = scheduledMonths.has(key.slice(0, 7));
       const previous = days.querySelector('.is-selected');
       previous?.classList.remove('is-selected');
       previous?.querySelector('button')?.setAttribute('aria-pressed', 'false');
-      const selected = days.querySelector(`[data-date="${key}"]`);
+      const selected = hasMonthDates ? days.querySelector(`[data-date="${key}"]`) : null;
       selected?.classList.add('is-selected');
       selected?.querySelector('button')?.setAttribute('aria-pressed', 'true');
 
       const entries = byDay.get(key) || [];
-      dateLabel.textContent = (key === today ? 'Today · ' : '') + dayFormat.format(utcDate(key));
+      const date = utcDate(key);
+      dateLabel.textContent = hasMonthDates ? (key === today ? 'Today · ' : '') + dayFormat.format(date) : monthFormat.format(date);
+      empty.textContent = hasMonthDates
+        ? 'No dates listed for this day. Check the official programs below.'
+        : 'No verified dates listed for this month. Check the official programs below.';
       empty.hidden = entries.length > 0;
       events.replaceChildren();
       for (const entry of entries) {
@@ -116,10 +134,15 @@
     }
 
     function showMonth(month) {
-      const index = months.indexOf(month);
+      if (month === firstMonth) {
+        firstMonth = shiftMonth(firstMonth, -1);
+        monthPicker.add(monthOption(firstMonth), 0);
+      }
+      if (month === lastMonth) {
+        lastMonth = shiftMonth(lastMonth, 1);
+        monthPicker.add(monthOption(lastMonth));
+      }
       monthPicker.value = month;
-      prev.disabled = index === 0;
-      next.disabled = index === months.length - 1;
       const first = utcDate(`${month}-01`);
       const daysInMonth = new Date(Date.UTC(first.getUTCFullYear(), first.getUTCMonth() + 1, 0)).getUTCDate();
       const blankDays = (first.getUTCDay() + 6) % 7;
@@ -168,13 +191,9 @@
     }
 
     monthPicker.addEventListener('change', () => showMonth(monthPicker.value));
-    for (const [button, offset] of [[prev, -1], [next, 1]]) {
-      button.addEventListener('click', () => {
-        showMonth(months[months.indexOf(monthPicker.value) + offset]);
-        if (button.disabled) monthPicker.focus();
-      });
-    }
-    const futureMonth = months.find(month => month > thisMonth);
+    prev.addEventListener('click', () => showMonth(shiftMonth(monthPicker.value, -1)));
+    next.addEventListener('click', () => showMonth(shiftMonth(monthPicker.value, 1)));
+    const futureMonth = monthBounds.find(month => month > thisMonth);
     const hasCurrentOrFutureDay = [...byDay.keys()].some(key => key >= today && key.startsWith(thisMonth));
     showMonth(!hasCurrentOrFutureDay && futureMonth ? futureMonth : thisMonth);
     board.hidden = false;

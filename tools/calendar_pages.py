@@ -83,9 +83,9 @@ def month_board(site, timezone):
   <div class="calendar-board-header">
     <h2 id="month-view">Month view</h2>
     <div class="calendar-controls">
-      <button type="button" data-cal-prev aria-label="Previous listed month"><span aria-hidden="true">‹</span></button>
+      <button type="button" data-cal-prev aria-label="Previous month"><span aria-hidden="true">‹</span></button>
       <select data-cal-month aria-label="Calendar month"></select>
-      <button type="button" data-cal-next aria-label="Next listed month"><span aria-hidden="true">›</span></button>
+      <button type="button" data-cal-next aria-label="Next month"><span aria-hidden="true">›</span></button>
     </div>
   </div>
   <div class="calendar-board-content">
@@ -97,7 +97,7 @@ def month_board(site, timezone):
     <div class="calendar-day-detail" aria-live="polite" aria-atomic="true">
       <h3 data-cal-date></h3>
       <ul class="calendar-day-events" data-cal-events></ul>
-      <p data-cal-empty hidden>No dates listed for this day. Check the official programs below.</p>
+      <p data-cal-empty hidden></p>
     </div>
   </div>
 </section>'''
