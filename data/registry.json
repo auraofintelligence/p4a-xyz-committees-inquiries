@@ -75459,6 +75459,56 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "tas-planning-permit-taking-effect-bill-2026",
+      "title": "Tasmanian planning permit commencement draft bill",
+      "jurisdiction": "tas",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "State Planning Office, Building Tasmania",
+      "place": "Tasmania",
+      "status": "open",
+      "purpose": "Comment on draft amendments addressing when a planning permit takes effect where other statutory approvals or agreements are required, including savings provisions affecting existing permits.",
+      "method": "Read the draft bill and background report. Email written feedback to haveyoursay@stateplanning.tas.gov.au or post it using the State Planning Office address on the invitation.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2027-01-15",
+        "time": "17:00",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The consultation materials give 5 pm. The published materials reviewed do not name a timezone."
+      },
+      "eligibility": "The State Planning Office invites public submissions.",
+      "disclosure": "The linked planning-office guidance says submissions are normally published unless confidentiality is requested. Publication may identify the submitter by name or organisation. Review the linked policy before including personal information.",
+      "sourceUrl": "https://www.stateplanning.tas.gov.au/have-your-say/consultations/lupaa-amendments/draft-lupaa-taking-effect-of-permit-bill-2026",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.stateplanning.tas.gov.au/have-your-say/consultations/lupaa-amendments/draft-lupaa-taking-effect-of-permit-bill-2026",
+          "title": "Official draft bill invitation",
+          "access": "directly read",
+          "supports": "Purpose, responsible office, written methods and dates"
+        },
+        {
+          "url": "https://www.stateplanning.tas.gov.au/__data/assets/pdf_file/0006/652074/LUPA-taking-effect-of-permit-Bill-2026-Background-Report.pdf",
+          "title": "Official background report",
+          "access": "directly read",
+          "supports": "Detailed proposals and 5 pm cutoff"
+        },
+        {
+          "url": "https://www.stateplanning.tas.gov.au/have-your-say/your-personal-information",
+          "title": "State Planning Office personal information policy",
+          "access": "official indexed text; direct fetch unavailable",
+          "supports": "General submission disclosure and confidentiality request"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
