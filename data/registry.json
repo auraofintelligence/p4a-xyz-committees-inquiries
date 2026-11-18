@@ -2757,10 +2757,10 @@
       "jurisdiction": "nsw",
       "level": "state-territory",
       "kind": "parliamentary inquiry",
-      "status": "open",
+      "status": "closed",
       "purpose": "Review the Net Zero Commission's 2026 annual progress report.",
       "body": "Joint Standing Committee on Net Zero Future",
-      "method": "Use Make a submission on the inquiry page. Official guidance also permits email/post if portal upload is not possible.",
+      "method": "The written-submission round has closed. The NSW Parliament timetable separately lists a public hearing on 27 November in the Macquarie Room at Parliament House, Sydney.",
       "deadline": {
         "date": "2026-11-15",
         "time": null,
@@ -2771,11 +2771,11 @@
       "eligibility": "Individuals and organisations may contribute relevant evidence addressing the terms of reference. The checked pages do not state a residence restriction.",
       "publicity": "The committee decides publication. Request publication with/without name, or partial/full confidentiality with reasons; a request is considered, not guaranteed. Hearing invitations are decided by the committee.",
       "sourceUrl": "https://www.parliament.nsw.gov.au/parliamentary-business/committees/inquiry-details?committeeInquiryId=3215",
-      "sourceDateChecked": "2026-11-06",
-      "verification": "direct official page; Both are the two results on the official open-submissions index, and each direct page says it is receiving submissions.",
-      "evidenceNote": "Both are the two results on the official open-submissions index, and each direct page says it is receiving submissions.",
+      "sourceDateChecked": "2026-11-18",
+      "verification": "The official inquiry timetable directly reviewed on 18 November lists 15 November as the submissions closing date and 27 November as a hearing. No extension or replacement written-submission round was shown.",
+      "evidenceNote": "The specific inquiry timetable controls this written round. The public hearing is a separate event.",
       "guidanceUrl": "https://www.parliament.nsw.gov.au/_media/documents/lc/lc-committees/Factsheet_Making-a-submission.pdf",
-      "checked": "2026-11-06",
+      "checked": "2026-11-18",
       "disclosure": "The committee decides publication. Request publication with/without name, or partial/full confidentiality with reasons; a request is considered, not guaranteed. Hearing invitations are decided by the committee.",
       "parliamentary": true,
       "groups": [],
@@ -2811,7 +2811,9 @@
           "date": "2026-11-27",
           "label": "Hearing - Macquarie Room, Parliament House, Sydney"
         }
-      ]
+      ],
+      "statusChecked": "2026-11-18",
+      "statusNote": "The written-submission round closed. The inquiry remains active."
     },
     {
       "id": "nsw-firearms-reforms-repeal",
