@@ -74636,6 +74636,44 @@
         }
       ],
       "statusNote": "The dates and times of drop-in sessions are listed separately from the closing deadline. The invitation advises checking the project page before travelling."
+    },
+    {
+      "id": "wa-gas-access-funding-regulations-2026",
+      "title": "Western Australia gas access funding regulations consultation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on changes to recover regulatory and arbitration costs from gas pipelines and facilities, including standing charges and the allocation of charges across pipelines.",
+      "method": "Read the consultation paper and use the optional template. Email feedback to gasnetworkpolicy@deed.wa.gov.au. Provide evidence of direct impacts where possible.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-11-25",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "The department says late submissions may not be considered."
+      },
+      "eligibility": "The department invites affected stakeholders and asks for supporting evidence of direct impacts.",
+      "disclosure": "The department says it will publish submissions unless confidentiality is specifically requested.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/consultation-proposed-changes-the-gas-access-funding-regulations-and-local-provisions-regulations",
+      "checked": "2026-11-18",
+      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/consultation-proposed-changes-the-gas-access-funding-regulations-and-local-provisions-regulations",
+          "title": "Official gas access funding consultation",
+          "access": "directly read",
+          "supports": "Proposals, submission route, explicit AWST cutoff and confidentiality"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
