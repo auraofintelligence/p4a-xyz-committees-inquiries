@@ -2125,8 +2125,8 @@
       "proceedings": "A public hearing is scheduled for 2 December; an advertised hearing does not guarantee a right to speak.",
       "jurisdiction": "qld",
       "type": "parliamentary bill inquiry",
-      "status": "open",
-      "verification": "Current call, responsible committee, purpose, method, published deadline information, identity requirements and disclosure wording directly reviewed on the official page on 6 November 2026.",
+      "status": "unverified",
+      "verification": "The invitation was last directly verified on 6 November 2026. On 20 November the specific official detail page and parliamentary index returned HTTP 403, preventing a direct check of any extension. The original deadline, source check date and participation conditions are retained.",
       "verificationFields": [
         "status",
         "purpose",
@@ -2174,7 +2174,8 @@
           "after": " retrieves and cites legal text you have indexed. Check the current official legislation and the date that applies to your question."
         }
       ],
-      "committeeId": "qld-committee-270"
+      "committeeId": "qld-committee-270",
+      "statusNote": "The published closing information is 10 am on 20 November 2026. Current acceptance and any extension could not be verified because the official detail page is unavailable."
     },
     {
       "id": "qld-nonfatal-strangulation-8618",
