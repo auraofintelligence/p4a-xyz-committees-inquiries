@@ -9476,9 +9476,9 @@
       "councilId": "qld-council-6660",
       "kind": "council consultation",
       "body": "Southern Downs Regional Council",
-      "status": "open",
+      "status": "closed",
       "purpose": "Consider the future of a deteriorating historic railway building, including relocation, removal, safety, community significance and preservation of historic features.",
-      "method": "Complete the linked short survey or attend a pop-up information session. Sessions are listed for 12 and 14 November. The page also invites organisations interested in taking ownership to raise that interest.",
+      "method": "This feedback round is closed. Its earlier survey and 12 and 14 November pop-ups are retained as historical participation methods. Follow the Council project page for later decisions or any separate invitation about the building.",
       "deadline": {
         "date": "2026-11-19",
         "time": "16:00",
@@ -9489,8 +9489,8 @@
       "eligibility": "Karara community members and people with a connection to the building. Organisations interested in relocation or ownership may also contribute.",
       "disclosure": "The project invitation does not establish whether individual responses, names or comments will be published. Read the contribution tool privacy notice before supplying information.",
       "sourceUrl": "https://haveyoursay.sdrc.qld.gov.au/karara-railway-building-community-engagement",
-      "checked": "2026-11-07",
-      "verification": "Fresh official project page read on 7 November 2026. The specific current invitation and contribution method were verified; no response was submitted.",
+      "checked": "2026-11-20",
+      "verification": "The specific Council project page was directly re-read on 20 November 2026. Its current Project Timeframe now says consultation is closed, retaining the original 19 November deadline and earlier pop-up dates.",
       "connections": [],
       "priority": 0,
       "groups": [],
@@ -9506,7 +9506,8 @@
       "topics": [
         "community",
         "heritage"
-      ]
+      ],
+      "statusNote": "Council explicitly marks this feedback round closed. The published deadline remains 4 pm on 19 November 2026; no timezone is stated."
     },
     {
       "id": "southern-downs-waste-recycling-survey-2026",
@@ -76292,6 +76293,7 @@
     "nt-council-72300",
     "qld-council-1000",
     "qld-council-2080",
+    "qld-council-6660",
     "qld-council-6720",
     "sa-council-40310",
     "sa-council-42110",
