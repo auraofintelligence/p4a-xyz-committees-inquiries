@@ -75072,9 +75072,9 @@
       "kind": "parliamentary public hearing",
       "body": "House of Representatives Standing Committee on Primary Industries",
       "place": "Australia",
-      "status": "upcoming",
+      "status": "closed",
       "purpose": "Follow evidence on critical minerals and regional development. The committee plans to hear from Nyrstar and Regional Development Australia Yorke and Mid North.",
-      "method": "Watch the committee’s public webcast via Parliament’s Watch, Read and Listen page. Check the official hearing programme for schedule changes.",
+      "method": "The announced webcast observation window has elapsed. Check the official inquiry hearing page for programme changes and available records.",
       "opens": null,
       "deadline": {
         "date": null,
@@ -75085,8 +75085,8 @@
       "eligibility": "Public observation was announced. The hearing programme determines witnesses.",
       "disclosure": "The committee announced a public broadcast. The release does not invite general oral evidence.",
       "sourceUrl": "https://newshub.medianet.com.au/2026/11/critical-minerals-inquiry-in-naracoorte-and-port-pirie/182349/",
-      "checked": "2026-11-18",
-      "verification": "The committee’s signed public announcement was directly read on its distribution service on 18 November. The APH programme could not be opened.",
+      "checked": "2026-11-20",
+      "verification": "The committee-authored public announcement was directly re-read on 20 November 2026. The announced hearing hours have elapsed. The APH hearing programme returned HTTP 403, so actual proceedings, cancellations and later changes are not independently verified.",
       "sources": [
         {
           "url": "https://newshub.medianet.com.au/2026/11/critical-minerals-inquiry-in-naracoorte-and-port-pirie/182349/",
@@ -75119,7 +75119,8 @@
         "timezone": "ACDT",
         "venue": "Multi-purpose Meeting and IT Room, Port Pirie Regional Library, 3 Wandearah Road, Port Pirie, South Australia",
         "note": "The committee’s release gives Australian Central Daylight Time."
-      }
+      },
+      "statusNote": "The announced public-observation window has elapsed. Actual proceedings have not been independently verified; the inquiry is not marked complete."
     },
     {
       "id": "vic-epa-dgl-hazardous-waste-app049434",
