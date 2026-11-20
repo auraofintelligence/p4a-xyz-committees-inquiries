@@ -76734,6 +76734,66 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "federal-cdr-npp-service-values-2026",
+      "title": "Consumer Data Right NPP service values alignment: draft standards",
+      "jurisdiction": "federal",
+      "participationLevel": "federal",
+      "kind": "government consultation",
+      "body": "Australian Treasury / Data Standards Body",
+      "place": "Australia",
+      "status": "open",
+      "purpose": "Comment on proposed Consumer Data Right standards aligning NPP service values with NPP Release 10 and updating payment service descriptions and terms.",
+      "method": "Use Make a submission on Treasury's consultation page. The invitation recommends a DOCX or RTF response, with PDF accepted as an alternative, and requires agreement to its privacy collection statement. The Data Standards Body email is an enquiry contact.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-12-16",
+        "time": null,
+        "timezone": "AEST",
+        "precision": "end-of-day",
+        "label": "16 December 2026 · midnight AEST (end of day)",
+        "note": "Midnight ends the published closing day. The invitation links Treasury's submission guidelines."
+      },
+      "eligibility": "Public feedback is invited. No narrower participation restriction is stated on the reviewed invitation.",
+      "disclosure": "Treasury may publish submissions and names. Confidentiality requests need reasons and separate contact details. Material can reach ministers or FOI processes. Submission grants Treasury a permanent licence to reuse it.",
+      "sourceUrl": "https://consult.treasury.gov.au/c2026-820940",
+      "checked": "2026-11-20",
+      "verification": "Official Treasury invitation, consultation index and linked submission guidelines reviewed on 20 November 2026. Both invitation and index give 16 December as the closing date. The guidelines explicitly permit submissions until midnight AEST on the closing day.",
+      "sources": [
+        {
+          "url": "https://consult.treasury.gov.au/c2026-820940",
+          "title": "Treasury Consumer Data Right NPP standards consultation invitation",
+          "access": "directly read with web tool; ordinary HTTP returns the JavaScript shell",
+          "supports": "Purpose, responsible body, response route, closing date, formats and collection-statement requirement"
+        },
+        {
+          "url": "https://treasury.gov.au/consultation",
+          "title": "Treasury consultation index",
+          "access": "directly read",
+          "supports": "Open invitation and published closing date"
+        },
+        {
+          "url": "https://treasury.gov.au/submission-guidelines",
+          "title": "Treasury submission guidelines, linked by this invitation",
+          "access": "directly read",
+          "supports": "End-of-day timing and publication conditions"
+        }
+      ],
+      "uncertaintyFields": [
+        "opens",
+        "disclosure"
+      ],
+      "uncertaintyReason": "Opening date differs between the Treasury index (16 November) and consultation timeline (15 November), so no opening date is assigned. The collection statement within the response form could not be read because the form requires JavaScript.",
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "topics": [
+        "technology",
+        "economy"
+      ],
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
