@@ -76652,6 +76652,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "wa-bonney-downs-wind-farm-per-2026",
+      "title": "Bonney Downs Wind Farm public environmental review",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Environmental Protection Authority",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on the Environmental Review Document for the proposed Bonney Downs Wind Farm and associated infrastructure near Nullagine.",
+      "method": "Use the online submission form, with optional Word or PDF attachments. Alternatively post to Chair, Environmental Protection Authority, Locked Bag 10, Joondalup DC WA 6919, or deliver to Environmental Protection Authority, Prime House, 8 Davidson Terrace, Joondalup WA 6027.",
+      "opens": "2026-11-12",
+      "deadline": {
+        "date": "2026-12-09",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official invitation gives a closing date without a clock time or timezone."
+      },
+      "eligibility": "Public submissions are invited on the released Environmental Review Document and its assessment of likely environmental effects and management.",
+      "disclosure": "The form says comments will be provided to the proponent for a response. Specifically request confidentiality for any part that needs it. Such requests remain subject to freedom-of-information, procedural-fairness and other legal disclosure requirements.",
+      "sourceUrl": "https://consultation.epa.wa.gov.au/open-for-submissions/bonney-downs-wind-per/",
+      "checked": "2026-11-20",
+      "verification": "The official EPA invitation and initial online submission form were directly read on 20 November 2026.",
+      "sources": [
+        {
+          "url": "https://consultation.epa.wa.gov.au/open-for-submissions/bonney-downs-wind-per/",
+          "title": "Official EPA public environmental review invitation",
+          "access": "directly read",
+          "supports": "Scope, opening and closing dates, document access and submission routes"
+        },
+        {
+          "url": "https://consultation.epa.wa.gov.au/open-for-submissions/bonney-downs-wind-per/consultation/intro/",
+          "title": "Official environmental review submission form",
+          "access": "directly read",
+          "supports": "Online contribution, attachments and confidentiality conditions"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
