@@ -76355,6 +76355,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nsw-lachlan-floodplain-management-plan-2026",
+      "title": "Draft Lachlan Valley Floodplain Management Plan, Stage 2 public exhibition",
+      "jurisdiction": "nsw",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Water Group, NSW Department of Climate Change, Energy, the Environment and Water",
+      "place": "Lachlan Valley, New South Wales",
+      "status": "open",
+      "purpose": "Comment on proposed floodplain management zones and the rules and assessment criteria for granting or amending flood work approvals. Feedback is also invited on the updated prescribed wetlands map for the Lachlan Unregulated River Water Sources.",
+      "method": "Use the online submission form linked on the official invitation, or download the submission form and email a completed scan to floodplain.planning@dpie.nsw.gov.au. Printed forms may be posted to Attention: Floodplain Planning, Lachlan Valley FMP, Water Group - NSW DCCEEW, Locked Bag 5022, Parramatta NSW 2124. Request an online feedback appointment using the published email or phone contact.",
+      "opens": "2026-10-06",
+      "deadline": {
+        "date": "2026-11-29",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The updated official invitation gives 11:59 pm on Sunday 29 November 2026 without naming a timezone. The department says the deadline was extended because of the Microsoft outage."
+      },
+      "eligibility": "The department invites community feedback. No residence, age or professional qualification restriction is stated in the published invitation.",
+      "disclosure": "All submissions, including maps, will be made available on request. The department says it will make every effort to redact personal and identifying information and include names with permission. Tick the confidentiality box on the form if you want your name treated as confidential. A What we heard report will summarise feedback.",
+      "sourceUrl": "https://www.water.dcceew.nsw.gov.au/our-work/floodplain-management/floodplain-management-plans/lachlan-valley-floodplain",
+      "checked": "2026-11-20",
+      "verification": "The updated department invitation and the NSW Have Your Say listing were directly read on 20 November 2026. The current department page is dated 16 November and expressly extends the period to 29 November. The older water.dpie.nsw.gov.au page still showed 16 November and was superseded by the current official host. The linked online form could not be fetched; its contents were not independently reviewed.",
+      "sources": [
+        {
+          "url": "https://www.water.dcceew.nsw.gov.au/our-work/floodplain-management/floodplain-management-plans/lachlan-valley-floodplain",
+          "title": "Current department Stage 2 invitation, updated 16 November 2026",
+          "access": "directly read",
+          "supports": "Scope, extended deadline and clock time, written and appointment methods, eligibility wording and disclosure"
+        },
+        {
+          "url": "https://www.nsw.gov.au/have-your-say/lachlan-floodplain-management-plan",
+          "title": "NSW Have Your Say Lachlan Floodplain Management Plan listing",
+          "access": "directly read",
+          "supports": "29 November extension due to Microsoft outage, exhibition period and contribution methods"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
