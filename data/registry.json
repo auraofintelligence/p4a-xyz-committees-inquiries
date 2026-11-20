@@ -75105,9 +75105,9 @@
       "kind": "government consultation",
       "body": "Environment Protection Authority Victoria",
       "place": "Campbellfield, Victoria",
-      "status": "open",
+      "status": "closed",
       "purpose": "Comment on DGL Group Limited’s proposal for a new facility at 47–49 Foden Avenue to receive and treat hazardous waste for lawful disposal offsite.",
-      "method": "Use the official Engage Victoria form or attach a written submission through it.",
+      "method": "This submission round is closed. Its former route was the official Engage Victoria form, with an option to attach a written submission. Follow the application page for later assessment updates.",
       "opens": "2026-10-27",
       "deadline": {
         "date": "2026-11-19",
@@ -75119,8 +75119,8 @@
       "eligibility": "The EPA invites anyone who may be affected by the proposed development licence.",
       "disclosure": "EPA says it removes names and contact details, refers the de-identified submission to the applicant for response and publishes it online. The form asks contributors to acknowledge that their submission is a public document.",
       "sourceUrl": "https://engage.vic.gov.au/dgl-group-limited-app049434",
-      "checked": "2026-11-18",
-      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "checked": "2026-11-20",
+      "verification": "The official project and actual public submission form were directly read on 20 November 2026. The form reports open=false and retains the 19 November 2026 23:59 cutoff. The project catalogue label remains Open for feedback. No extension was verified.",
       "sources": [
         {
           "url": "https://engage.vic.gov.au/dgl-group-limited-app049434",
@@ -75133,13 +75133,20 @@
           "title": "Official submission form",
           "access": "directly read",
           "supports": "Feedback method, deadline evidence and disclosure"
+        },
+        {
+          "url": "https://engage.vic.gov.au/project/dgl-group-limited-app049434/survey/6874",
+          "title": "Official DGL submission form closure check",
+          "access": "directly read",
+          "supports": "Form closure on 20 November, published 19 November 23:59 cutoff and distinction from stale project label"
         }
       ],
       "parliamentary": false,
       "groups": [],
       "connections": [],
       "priority": 0,
-      "relatedLinks": []
+      "relatedLinks": [],
+      "statusNote": "The submission round closed after its published 19 November 2026 11:59 pm deadline. On 20 November the actual submission form reported closed while the project catalogue retained its Open for feedback label. The application continues through assessment."
     },
     {
       "id": "vic-esc-greater-western-water-deferral-2026",
