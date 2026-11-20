@@ -74364,9 +74364,9 @@
       "kind": "state development application consultation",
       "body": "Queensland Office of the Coordinator-General",
       "place": "Bromelton State Development Area, Scenic Rim",
-      "status": "open",
+      "status": "closed",
       "purpose": "Comment on the material change of use application to build and operate a waste-to-energy facility, ash and residue processing facilities, and a visitor and education centre.",
-      "method": "Use the online submission link, email sdainfo@coordinatorgeneral.qld.gov.au, or write to The Coordinator-General, c/- State Development Areas, PO Box 15517, City East Qld 4002.",
+      "method": "This submission round is closed. Its former routes were the online submission link, email to sdainfo@coordinatorgeneral.qld.gov.au, or post to The Coordinator-General, c/- State Development Areas, PO Box 15517, City East Qld 4002. Follow the official application for later assessment updates.",
       "opens": "2026-10-01",
       "deadline": {
         "date": "2026-11-18",
@@ -74378,8 +74378,8 @@
       "eligibility": "Public submissions are invited. Include each submitter's signature, name and address, the grounds of the submission and supporting facts or circumstances.",
       "disclosure": "Submissions may be made public and provided to the applicant on request. The consultation collects contact information and says approved AI tools may be used to process submissions.",
       "sourceUrl": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
-      "checked": "2026-11-18",
-      "verification": "The official invitation and its extension notice were directly reviewed on 18 November 2026. The notice supersedes the original date shown lower on the invitation.",
+      "checked": "2026-11-20",
+      "verification": "The specific official invitation and its outage-extension notice were directly re-read on 20 November 2026. The page explicitly marks the round closed on 18 November; no later extension was published on that invitation.",
       "sources": [
         {
           "url": "https://haveyoursay.coordinatorgeneral.qld.gov.au/sda/bromeltonsda/",
@@ -74405,7 +74405,7 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": [],
-      "statusNote": "The extension keeps submissions open until 11:59 pm on 18 November. The official notice does not name a timezone."
+      "statusNote": "The official invitation now marks this submission round closed on 18 November 2026. This is not a decision on the development application."
     },
     {
       "id": "tas-low-risk-rooftop-solar-installations-2026",
