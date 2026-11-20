@@ -76570,6 +76570,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "tas-pre-budget-consultation-2027-28",
+      "title": "Tasmania 2027-28 State Budget community consultation",
+      "jurisdiction": "tas",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Department of Treasury and Finance, Tasmania",
+      "place": "Tasmania",
+      "status": "open",
+      "purpose": "Share ideas to inform the 2027-28 State Budget, including new policy proposals and ways to improve, reprioritise or deliver government services differently. The Treasurer states that additional funding requests will not be considered through this process.",
+      "method": "Use the required Submission Form linked on the Treasury invitation and email the completed form to communityconsultation@treasury.tas.gov.au. All form fields are optional. Supporting documents may be attached and are optional. Treasury says it will acknowledge receipt.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2026-12-07",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "Treasury publishes a receipt deadline of 7 December 2026 without a cutoff hour or timezone."
+      },
+      "eligibility": "Treasury invites submissions from Tasmanians. The Treasurer's announcement expressly invites community groups, individuals and businesses. The invitation does not state an age restriction.",
+      "disclosure": "Treasury says all submissions will be made available to Ministers and relevant agencies, which may contact contributors about their ideas or seek further information. The invitation does not state whether submissions will be published publicly or how confidentiality requests will be handled.",
+      "sourceUrl": "https://www.treasury.tas.gov.au/budget-and-financial-management/guidelines-instructions-and-legislation/budget-guidelines/have-your-say-pre-budget-consultation",
+      "checked": "2026-11-20",
+      "verification": "The official Treasury invitation and the Treasurer's announcement were directly read on 20 November 2026. Treasury's page is dated 16 November and states the consultation runs from 16 November to 7 December. The required form's download link was verified on the invitation, but the DOCX contents were not independently read.",
+      "sources": [
+        {
+          "url": "https://www.treasury.tas.gov.au/budget-and-financial-management/guidelines-instructions-and-legislation/budget-guidelines/have-your-say-pre-budget-consultation",
+          "title": "Treasury's official 2027-28 pre-budget invitation",
+          "access": "directly read",
+          "supports": "Purpose, eligibility, opening and receipt dates, required form, email method, optional fields and attachments, acknowledgement and sharing with Ministers and agencies"
+        },
+        {
+          "url": "https://www.premier.tas.gov.au/latest-news/2026/november/2027-28-budget-consultation-now-underway",
+          "title": "Treasurer's 17 November budget consultation announcement",
+          "access": "directly read",
+          "supports": "Invitation to Tasmanians, community groups, individuals and businesses, 7 December deadline, and exclusion of additional funding requests"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
