@@ -3238,10 +3238,10 @@
       "jurisdiction": "tas",
       "level": "state-territory",
       "kind": "public hearing",
-      "status": "upcoming",
+      "status": "closed",
       "purpose": "Follow the House committee's scrutiny of AI data centres in Tasmania.",
       "body": "House of Assembly Government Administration Committee A",
-      "method": "Use the official witness schedules and broadcast links. Giving evidence is by committee arrangement; this listing does not offer a speaking slot.",
+      "method": "The advertised November public-hearing round has finished. Use the official witness schedules and broadcast records to follow its evidence. Check the inquiry page for any later hearings; witness participation is arranged by the committee.",
       "deadline": {
         "date": null,
         "time": null,
@@ -3259,10 +3259,10 @@
       "eligibility": "Observe/read the published programme. Confirm public attendance arrangements with committee; witness invitations are separate.",
       "publicity": "Public hearings, transcripts and broadcasts may identify witnesses and their evidence. Submissions are expressly closed.",
       "sourceUrl": "https://www.parliament.tas.gov.au/committees/house-of-assembly/standing-committees/government-administration-committee-a/inquiries/inquiry-into-ai-data-centres-in-tasmania",
-      "sourceDateChecked": "2026-11-06",
-      "verification": "direct official page; Direct page explicitly says submissions closed and lists upcoming witness schedules10,11,12,16,20 November 2026.",
-      "evidenceNote": "Direct page explicitly says submissions closed and lists upcoming witness schedules10,11,12,16,20 November 2026.",
-      "checked": "2026-11-06",
+      "sourceDateChecked": "2026-11-20",
+      "verification": "The official inquiry page, final listed witness program and 20 November broadcast page were directly read on 20 November 2026. The final advertised session was Hydro Tasmania in Committee Room 1 on 20 November, from 3 pm to 4 pm. Its advertised period has elapsed in Hobart. No later dated witness schedule was listed. The closed status applies to this advertised hearing round; the inquiry page continues to describe ongoing committee work.",
+      "evidenceNote": "Written submissions remain closed. The originally recorded hearing dates of 10, 11, 12, 16 and 20 November are retained. The last listed witness session, 20 November from 3 pm to 4 pm, has elapsed and an official broadcast page is available. No later dated hearing was verified on the checked inquiry page.",
+      "checked": "2026-11-20",
       "disclosure": "Public hearings, transcripts and broadcasts may identify witnesses and their evidence. Submissions are expressly closed.",
       "parliamentary": true,
       "groups": [],
@@ -3277,16 +3277,38 @@
       ],
       "priority": 1,
       "place": "TAS",
-      "statusNote": "Participation / observation dates: 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-16, 2026-11-20. . Written submissions are closed; witness participation is by committee arrangement.",
+      "statusNote": "Advertised hearing dates retained: 10, 11, 12, 16 and 20 November 2026. This public-hearing round has finished. Written submissions remain closed. Follow the official inquiry page for any later hearings.",
       "sources": [
         {
           "url": "https://www.parliament.tas.gov.au/committees/house-of-assembly/standing-committees/government-administration-committee-a/inquiries/inquiry-into-ai-data-centres-in-tasmania",
           "title": "Official inquiry or participation invitation",
           "access": "Primary source reviewed; any unresolved field is noted above",
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
+        },
+        {
+          "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0022/114358/GAA-AI-Data-Centres-Hearing-20-November-2026-Hobart-witness-schedule.pdf",
+          "title": "Official 20 November AI data centres witness schedule",
+          "access": "directly read",
+          "supports": "Final listed hearing date, 3 pm to 4 pm scheduled period, Committee Room 1 and Hydro Tasmania witnesses"
+        },
+        {
+          "url": "https://www.parliament.tas.gov.au/committees/house-of-assembly/standing-committees/government-administration-committee-a/inquiries/inquiry-into-ai-data-centres-in-tasmania/broadcasts/20-november-2026",
+          "title": "Official 20 November AI data centres hearing broadcast page",
+          "access": "directly read",
+          "supports": "Published hearing broadcast playlist identifying the Hydro Tasmania witnesses"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [
+        {
+          "url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0022/114358/GAA-AI-Data-Centres-Hearing-20-November-2026-Hobart-witness-schedule.pdf",
+          "label": "20 November hearing witness program"
+        },
+        {
+          "url": "https://www.parliament.tas.gov.au/committees/house-of-assembly/standing-committees/government-administration-committee-a/inquiries/inquiry-into-ai-data-centres-in-tasmania/broadcasts/20-november-2026",
+          "label": "20 November hearing broadcast"
+        }
+      ],
+      "statusChecked": "2026-11-20"
     },
     {
       "id": "tas-poker-harm-hearing",
