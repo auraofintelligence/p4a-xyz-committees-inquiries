@@ -75375,28 +75375,39 @@
       "eligibility": "The public can watch the live stream. The schedule does not invite unscheduled oral evidence.",
       "disclosure": "Hearings are publicly streamed and recordings or transcripts may be published.",
       "sourceUrl": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/public-hearings-schedule",
-      "checked": "2026-11-18",
-      "verification": "The primary invitation and supporting official sources listed here were checked on 18 November 2026.",
+      "checked": "2026-11-20",
+      "verification": "The official ACT Assembly public hearing schedule and the new witness program were directly read on 20 November 2026. Both publish a 9:30 am start and 5 pm finish for 25 November. The schedule retains the Prince Edward Island Room venue; neither checked source names a timezone.",
       "sources": [
         {
           "url": "https://www.parliament.act.gov.au/parliamentary-business/in-committees/public-hearings-schedule",
           "title": "Official ACT Assembly public hearings schedule",
           "access": "directly read",
           "supports": "Committee, public broadcast, event date and current programme"
+        },
+        {
+          "url": "https://www.parliament.act.gov.au/__data/assets/pdf_file/0006/3165558/EIR-Public-Hearing-Schedule-Inquiry-into-governance-arrangements-at-CIT.pdf",
+          "title": "Official CIT governance public hearing witness program",
+          "access": "directly read",
+          "supports": "25 November hearing date, 9:30 am start, 5 pm finish and witness timetable"
         }
       ],
       "parliamentary": true,
       "groups": [],
       "connections": [],
       "priority": 0,
-      "relatedLinks": [],
+      "relatedLinks": [
+        {
+          "url": "https://www.parliament.act.gov.au/__data/assets/pdf_file/0006/3165558/EIR-Public-Hearing-Schedule-Inquiry-into-governance-arrangements-at-CIT.pdf",
+          "label": "Official CIT hearing witness program"
+        }
+      ],
       "committeeId": "act-committee-economics-2c-industry-and-recreation",
       "event": {
         "date": "2026-11-25",
-        "startTime": null,
-        "endTime": null,
+        "startTime": "09:30",
+        "endTime": "17:00",
         "venue": "Prince Edward Island Room, ACT Legislative Assembly",
-        "note": "The Assembly has yet to publish a program or starting time."
+        "note": "The official hearing schedule and witness program publish these clock times without a timezone. Check the schedule for changes before attending or watching."
       }
     },
     {
