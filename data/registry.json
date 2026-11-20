@@ -343,11 +343,11 @@
         "note": "Applications are due noon on the Monday before the meeting. Timezone is not explicitly stated on the participation page; Queensland local AEST would be an inference."
       },
       "nextMeeting": {
-        "date": "2026-11-18",
+        "date": "2026-12-16",
         "time": "09:30",
         "timezone": null,
         "source": "https://www.redland.qld.gov.au/About-Council/Council-meetings/Council-meeting-schedule",
-        "note": "Next scheduled General Meeting; calendar times shown without an explicit timezone."
+        "note": "The prior advertised General Meeting was 18 November 2026 at 9:30 am. The next advertised General Meeting is 16 December 2026 at 9:30 am. Calendar times are published without an explicit timezone."
       },
       "eligibility": "Approved speakers; agenda matters receive priority. Usually five minutes each within a total 15-minute period; deputations normally have at most three speakers.",
       "disclosure": "Addresses and people in the public gallery are visible in the meeting livestream.",
@@ -362,13 +362,13 @@
         {
           "url": "https://www.redland.qld.gov.au/About-Council/Council-meetings/Council-meeting-schedule",
           "title": "Council meeting schedule",
-          "access": "directly read",
-          "supports": "18 November 2026 General Meeting at 9:30am in Cleveland"
+          "access": "directly read on 20 November 2026",
+          "supports": "Advertised General Meetings on 18 November and 16 December 2026 at 9:30 am in Cleveland, and the published 2027 schedule"
         }
       ],
-      "checked": "2026-11-06",
+      "checked": "2026-11-20",
       "jurisdiction": "qld",
-      "verification": "Direct primary-source page reviewed",
+      "verification": "The official Council meeting schedule and public participation procedure were directly read on 20 November 2026. The next advertised General Meeting is 16 December at 9:30 am. The standing application deadline remains noon on the preceding Monday, with approval required and no explicit timezone.",
       "parliamentary": false,
       "groups": [
         "homelands"
@@ -383,7 +383,8 @@
           "before": "To work out which laws and public responsibilities touch your circumstances, begin with ",
           "after": " and carry that context into your research."
         }
-      ]
+      ],
+      "evidenceNote": "The prior advertised 18 November 2026 General Meeting is retained as historical context. Council now advertises 16 December 2026 at 9:30 am as its next General Meeting. The standing rule is noon on the preceding Monday, with no published timezone; no numeric application date is substituted for that recurring rule."
     },
     {
       "id": "redland-council-petitions",
