@@ -1229,8 +1229,8 @@
       "title": "Continued use and regulation of paraquat",
       "purpose": "Examine the APVMA's June 2026 paraquat decision, its evidence and independence, long-term neurological and agrichemical risks, and impacts on farm workers and communities.",
       "body": "Senate Rural and Regional Affairs and Transport References Committee",
-      "status": "open",
-      "verification": "Official invitation, inquiry detail and supporting index reviewed on 2026-11-06. Field-specific uncertainty is stated separately.",
+      "status": "unverified",
+      "verification": "The last successful official invitation and index review was on 6 November 2026, when 18 November was the published submission closing date. The inquiry detail and submissions-open index returned HTTP 403 during the 20 November follow-up, including direct HTTP attempts. The specific inquiry page again returned HTTP 403 in the bounded follow-up. Current acceptance, an extension or an explicit closure could not be directly verified.",
       "verificationFields": [
         "status",
         "deadline.date",
@@ -1239,7 +1239,7 @@
         "method",
         "eligibility"
       ],
-      "method": "Provide written evidence through Upload Submission on the official inquiry page.",
+      "method": "The previously verified written-evidence route was Upload Submission on the official inquiry page. Check the committee's current invitation before relying on that route after the recorded closing date.",
       "deadline": {
         "date": "2026-11-18",
         "time": null,
@@ -1284,7 +1284,12 @@
         }
       ],
       "relatedLinks": [],
-      "committeeId": "federal-senate-ruralandregionalaffairsandtransport-references"
+      "committeeId": "federal-senate-ruralandregionalaffairsandtransport-references",
+      "uncertaintyFields": [
+        "status",
+        "deadline"
+      ],
+      "uncertaintyReason": "The last verified submission closing date was 18 November 2026 and has elapsed. Official inquiry and open-submission pages returned HTTP 403 on 20 November. Current acceptance, a deadline extension and an explicit closure remain unverified. The original date, unknown time and unknown timezone are retained."
     },
     {
       "id": "federal-wa-health-agreement",
