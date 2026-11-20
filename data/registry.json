@@ -76696,6 +76696,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "wa-capability-class-2-exposure-draft-2026",
+      "title": "Capability Class 2 electricity market rules exposure draft",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on the exposure draft of Electricity System and Market Amending Rules implementing the Capability Class 2 Technologies Review, including energy storage and capacity obligations.",
+      "method": "Read the exposure draft on the official page and email written feedback to energymarkets@deed.wa.gov.au.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-12-10",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "Late submissions may not be considered."
+      },
+      "eligibility": "Stakeholders are invited to comment on the exposure draft. The earlier consultation-paper round closed on 1 September 2026.",
+      "disclosure": "The department says submissions will be published unless confidentiality is specifically requested.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/capability-class-2-technologies-review",
+      "checked": "2026-11-20",
+      "verification": "The official review page and its current exposure-draft invitation were directly read on 20 November 2026. The opening date of this draft-instrument round is not stated separately.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/capability-class-2-technologies-review",
+          "title": "Official Capability Class 2 Technologies Review",
+          "access": "directly read",
+          "supports": "Separate exposure-draft invitation, purpose, email route, explicit AWST cutoff and confidentiality"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
