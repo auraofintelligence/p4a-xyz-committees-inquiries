@@ -76526,6 +76526,50 @@
         "economy"
       ],
       "relatedLinks": []
+    },
+    {
+      "id": "wa-national-gas-law-other-gases-package-2026",
+      "title": "Western Australia National Gas Law Other Gases Package consultation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on implementation issues in the draft instruments for extending Western Australia's gas access framework to hydrogen, biomethane, synthetic methane and other covered gases.",
+      "method": "Read the information paper and draft adoption instruments. Email written submissions to gasnetworkpolicy@deed.wa.gov.au, with detailed supporting evidence of direct impacts where possible.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-12-04",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "The official invitation explicitly gives 5 pm AWST. The department says late submissions may not be considered."
+      },
+      "eligibility": "The department invites stakeholders to comment on implementation of the draft adoption instruments. The nationally agreed policy underpinning the package is outside the stated feedback scope.",
+      "disclosure": "The department says it will publish submissions on its website unless confidentiality is specifically requested.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/consultation-western-australias-adoption-of-the-national-gas-law-other-gases-package",
+      "checked": "2026-11-20",
+      "verification": "The official consultation invitation, supporting document list and Energy Policy WA open-consultation index were directly read on 20 November 2026. The invitation does not separately state an opening date.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/consultation-western-australias-adoption-of-the-national-gas-law-other-gases-package",
+          "title": "Official Other Gases Package consultation",
+          "access": "directly read",
+          "supports": "Purpose, implementation scope, written submission method, explicit AWST deadline and confidentiality"
+        },
+        {
+          "url": "https://www.wa.gov.au/organisation/energy-policy-wa/consultations-and-reviews",
+          "title": "Energy Policy WA open consultations and reviews",
+          "access": "directly read",
+          "supports": "Current listing and 4 December 2026 5 pm AWST cutoff"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
