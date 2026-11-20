@@ -76614,6 +76614,44 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "wa-national-gas-law-gas-pipelines-package-2026",
+      "title": "Western Australia National Gas Law Gas Pipelines Package consultation",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on implementation of the proposed instruments adopting the nationally agreed Gas Pipelines Package into Western Australia gas access law.",
+      "method": "Read the information paper, draft instruments and optional feedback template. Email written submissions to gasnetworkpolicy@deed.wa.gov.au, with supporting evidence of direct impacts where possible.",
+      "opens": null,
+      "deadline": {
+        "date": "2026-12-09",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "Late submissions may not be considered."
+      },
+      "eligibility": "Stakeholders are invited to comment on implementation issues in the draft adoption instruments. The nationally agreed policy underpinning the package is outside the stated feedback scope.",
+      "disclosure": "The department says it will publish submissions on its website unless confidentiality is specifically requested.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/consultation-western-australias-adoption-of-the-national-gas-law-gas-pipelines-package",
+      "checked": "2026-11-20",
+      "verification": "The official consultation invitation and document list were directly read on 20 November 2026. This invitation is separate from the consequential gas access funding consultation.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/consultation-western-australias-adoption-of-the-national-gas-law-gas-pipelines-package",
+          "title": "Official Gas Pipelines Package consultation",
+          "access": "directly read",
+          "supports": "Implementation scope, written submission route, explicit AWST deadline and confidentiality"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
