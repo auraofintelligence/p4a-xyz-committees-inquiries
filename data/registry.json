@@ -76794,6 +76794,51 @@
         "economy"
       ],
       "relatedLinks": []
+    },
+    {
+      "id": "wa-reserve-capacity-security-rc202601-2026",
+      "title": "Reserve capacity security release rule change RC_2026_01",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Department of Energy and Economic Diversification, Energy Policy WA",
+      "place": "Western Australia",
+      "status": "unverified",
+      "purpose": "Comment on Tesla Holdings proposed rule change allowing release of reserve capacity security for qualifying facilities once early reserve capacity obligations commence and required performance has been demonstrated.",
+      "method": "Read the official Rule Change Notice and Proposal. The submission lodging route was not verified in this check; use the official process documents for instructions before contributing.",
+      "opens": "2026-11-09",
+      "deadline": {
+        "date": "2026-12-21",
+        "time": "17:00",
+        "timezone": "AWST",
+        "precision": "date-time",
+        "note": "The official project page directly confirms the first submission period and cutoff."
+      },
+      "eligibility": "The first submission period is open under the standard rule-change process. More specific participant eligibility was not stated on the reviewed project page.",
+      "disclosure": "The reviewed project page and notice did not establish publication or confidentiality arrangements. Confirm these with Energy Policy WA when seeking submission instructions.",
+      "sourceUrl": "https://www.wa.gov.au/government/document-collections/rule-change-rc202601",
+      "checked": "2026-11-20",
+      "verification": "The official project page was retrieved directly with HTTP 200 and the linked rule-change notice was read on 20 November 2026. The exact lodgement procedure and disclosure conditions remain unconfirmed.",
+      "sources": [
+        {
+          "url": "https://www.wa.gov.au/government/document-collections/rule-change-rc202601",
+          "title": "Official Rule Change RC_2026_01 consultation",
+          "access": "directly read",
+          "supports": "First submission period, explicit AWST deadline, process and department contact"
+        },
+        {
+          "url": "https://www.wa.gov.au/system/files/2026-11/rc_2026_01_rule_change_notice_and_proposal.pdf",
+          "title": "Official rule change notice and proposal",
+          "access": "directly read",
+          "supports": "Proposed changes and standard rule-change process"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": [],
+      "uncertaintyReason": "The official invitation and 21 December 5 pm AWST cutoff are directly verified. The exact submission lodging procedure and publication or confidentiality conditions remain unconfirmed."
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
