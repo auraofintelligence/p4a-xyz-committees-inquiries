@@ -76310,6 +76310,51 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "nsw-advo-sdapo-law-reforms-review-2026",
+      "title": "2024 ADVO and SDAPO law reforms statutory review",
+      "jurisdiction": "nsw",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "NSW Department of Communities and Justice",
+      "place": "New South Wales",
+      "status": "unverified",
+      "purpose": "Contribute evidence on the operation of the 2024 domestic and personal violence law reforms, including aggravated ADVO breach offences, Serious Domestic Abuse Prevention Orders, the amended stalking definition and provisional AVO procedures.",
+      "method": "The published invitation permits a completed submission form or a free-form written submission emailed to policy@dcj.nsw.gov.au. The discussion paper sets a close-of-business deadline on 20 November. Current acceptance after business hours has not been confirmed.",
+      "opens": "2026-10-19",
+      "deadline": {
+        "date": "2026-11-20",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official discussion paper says close of business on 20 November 2026. It gives no numeric closing hour or timezone. The Have Your Say page lists the same closing date."
+      },
+      "eligibility": "DCJ seeks stakeholder views and suggested improvements. The public invitation states no residence, age or professional qualification restriction.",
+      "disclosure": "DCJ may publish submissions or reproduce comments in the statutory review report. State when submitting if you want comments withheld in full or part, or if you want comments unattributed to you or your organisation.",
+      "sourceUrl": "https://www.nsw.gov.au/have-your-say/2024-advo-and-sdapo-law-reforms-review",
+      "checked": "2026-11-20",
+      "verification": "The official Have Your Say invitation and its linked discussion paper were directly read on 20 November 2026. The page retains the invitation and 20 November closing date. The discussion paper specifies close of business without an hour or timezone; no extension or explicit post-cutoff acceptance was verified.",
+      "uncertaintyReason": "The published deadline is close of business today, 20 November, without a numeric hour or timezone. Current acceptance cannot be established from the page retained after normal business hours. No precise closing instant has been invented.",
+      "sources": [
+        {
+          "url": "https://www.nsw.gov.au/have-your-say/2024-advo-and-sdapo-law-reforms-review",
+          "title": "Official ADVO and SDAPO statutory review invitation",
+          "access": "directly read",
+          "supports": "Scope, public written submission methods, 20 November date and publication conditions"
+        },
+        {
+          "url": "https://www.nsw.gov.au/sites/default/files/noindex/2026-10/statutory-review-crimes-domestic-and-personal-violence-and-other-legislation-amendment-act-2024.pdf",
+          "title": "Official statutory review discussion paper, section 1.2",
+          "access": "directly read",
+          "supports": "Close of business deadline on 20 November, email method and requests to withhold comments or attribution"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
