@@ -76222,6 +76222,50 @@
       "connections": [],
       "priority": 0,
       "relatedLinks": []
+    },
+    {
+      "id": "sa-lonsdale-south-beach-naming-2026",
+      "title": "Lonsdale boundary change and proposed South Beach suburb",
+      "jurisdiction": "sa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "South Australian Department for Housing and Urban Development, Office of the Surveyor-General",
+      "place": "South Australia",
+      "status": "open",
+      "purpose": "Comment on the proposed South Beach suburb name and boundary realignment at the former Port Stanvac refinery site in Lonsdale.",
+      "method": "Use the short survey on the official project page, email DHUD.PlaceNames@sa.gov.au, or post a written submission to Office of the Surveyor-General, GPO Box 1815, Adelaide SA 5001.",
+      "opens": "2026-10-22",
+      "deadline": {
+        "date": "2026-11-23",
+        "time": "23:59",
+        "timezone": null,
+        "precision": "date-time-zone-unconfirmed",
+        "note": "The project date panel gives 11:59 pm. It does not name a timezone."
+      },
+      "eligibility": "Community feedback is invited on the proposed suburb naming and boundary realignment under the Geographical Names Act 1991. The scope is limited to naming and boundaries.",
+      "disclosure": "The Surveyor-General will consider feedback and provide an engagement report to the Minister for Planning. YourSAy privacy terms apply to online contributions, which may be public with a screen name. The project notice does not specify whether individual emailed or posted submissions will be published.",
+      "sourceUrl": "https://yoursay.sa.gov.au/reviewing-lonsdale-boundary-and-creating-new-suburb-south-beach",
+      "checked": "2026-11-20",
+      "verification": "The official YourSAy project page, live survey wrapper and agency naming-proposal list were directly read on 20 November 2026. The project timeline shows the later review stage as incomplete.",
+      "sources": [
+        {
+          "url": "https://yoursay.sa.gov.au/reviewing-lonsdale-boundary-and-creating-new-suburb-south-beach",
+          "title": "Official YourSAy naming consultation",
+          "access": "directly read",
+          "supports": "Scope, public feedback methods, date panel and privacy terms"
+        },
+        {
+          "url": "https://www.sa.gov.au/topics/housing/planning-and-property/suburb-road-and-place-names/place-names-proposals",
+          "title": "South Australian current naming proposals",
+          "access": "directly read",
+          "supports": "Notice of intent dated 22 October and closing date of 23 November 2026"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
