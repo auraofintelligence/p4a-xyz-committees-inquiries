@@ -1021,9 +1021,9 @@
       "title": "Annual call for proposed end-of-waste codes",
       "purpose": "Nominate waste materials for which resource-reuse codes should be developed.",
       "body": "Department of the Environment, Tourism, Science and Innovation",
-      "status": "open",
-      "verification": "direct official detail page retrieved",
-      "method": "Complete the linked proposed-code submission form by the deadline.",
+      "status": "closed",
+      "verification": "The official invitation was directly re-read on 20 November at 6:03 pm Brisbane time. It now explicitly states that the most recent call opened on 28 September 2026 and closed on 20 November, with the next call planned for the second half of 2027.",
+      "method": "The 2026 annual call has closed. The linked proposed-code form was its submission route. Proponents may still engage with the department about future codes, and the next annual call is planned for the second half of 2027; no new round or precise opening date is asserted.",
       "deadline": {
         "date": "2026-11-20",
         "time": "17:00",
@@ -1033,7 +1033,7 @@
       "eligibility": "A person may propose a waste type; the department decides whether a code is developed.",
       "disclosure": "Publication or confidentiality of individual submissions is not specified on the checked overview. Review the form's privacy statement before providing information.",
       "source": "https://www.business.qld.gov.au/running-business/environment/waste-management/regulated-waste/development-eow-codes",
-      "checked": "2026-11-06",
+      "checked": "2026-11-20",
       "kind": "government consultation",
       "sourceUrl": "https://www.business.qld.gov.au/running-business/environment/waste-management/regulated-waste/development-eow-codes",
       "parliamentary": false,
@@ -1050,7 +1050,9 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "opens": "2026-09-28",
+      "statusNote": "The 2026 annual call is closed. Year-round engagement with the department is a separate standing route and does not extend this submission round."
     },
     {
       "id": "federal-technology-productivity",
