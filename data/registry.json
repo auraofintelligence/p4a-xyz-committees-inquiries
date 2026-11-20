@@ -76178,6 +76178,50 @@
         "governance"
       ],
       "relatedLinks": []
+    },
+    {
+      "id": "wa-blacksmith-transport-corridor-referral-2026",
+      "title": "Blacksmith transport corridor referral assessment comments",
+      "jurisdiction": "wa",
+      "participationLevel": "state",
+      "kind": "government consultation",
+      "body": "Western Australian Environmental Protection Authority",
+      "place": "Western Australia",
+      "status": "open",
+      "purpose": "Comment on whether the EPA should assess the proposed transport and services corridor linking the existing Blacksmith and Solomon iron ore mines, and the appropriate level of assessment.",
+      "method": "Use the official online comment form. Give succinct reasons for your assessment recommendation, within the published 500-word limit.",
+      "opens": "2026-11-16",
+      "deadline": {
+        "date": "2026-11-22",
+        "time": null,
+        "timezone": null,
+        "precision": "date",
+        "note": "The official invitation gives a closing date without a clock time or timezone."
+      },
+      "eligibility": "The public is invited to comment at the referral stage on the need for assessment and opportunities for further public review.",
+      "disclosure": "The form says comments and identifying details may become public. Specifically request confidentiality in your submission if needed. Such a request remains subject to freedom-of-information, procedural-fairness and other legal disclosure requirements.",
+      "sourceUrl": "https://consultation.epa.wa.gov.au/seven-day-comment-on-referrals/blacksmith-transport-infrastructure/",
+      "checked": "2026-11-20",
+      "verification": "The official EPA invitation and initial comment form were directly read on 20 November 2026. This invitation concerns the assessment decision at the referral stage.",
+      "sources": [
+        {
+          "url": "https://consultation.epa.wa.gov.au/seven-day-comment-on-referrals/blacksmith-transport-infrastructure/",
+          "title": "Official EPA referral invitation",
+          "access": "directly read",
+          "supports": "Proposal, decision scope, public audience and opening and closing dates"
+        },
+        {
+          "url": "https://consultation.epa.wa.gov.au/seven-day-comment-on-referrals/blacksmith-transport-infrastructure/consultation/intro/",
+          "title": "Official referral comment form",
+          "access": "directly read",
+          "supports": "Questions, 500-word limit, participation method and disclosure conditions"
+        }
+      ],
+      "parliamentary": false,
+      "groups": [],
+      "connections": [],
+      "priority": 0,
+      "relatedLinks": []
     }
   ],
   "navigationPolicy": "Select a responsible jurisdiction first. Australia is federal only; each state participation view is state level only. All committees is a separate view within each parliament. Councils have a state/territory chooser and individual council profiles. There is no combined human opportunity view. Current and uncertain records are visible by default. Closed rounds stay in the responsible parliament or council archive.",
