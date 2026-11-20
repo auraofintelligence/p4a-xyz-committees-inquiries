@@ -983,9 +983,9 @@
       "title": "Review of the Nature Conservation (Macropod) Conservation Plan 2017",
       "purpose": "Feedback on the replacement framework for commercial macropod management, conservation and welfare.",
       "body": "Department of the Environment, Tourism, Science and Innovation",
-      "status": "open",
-      "verification": "direct official detail page retrieved",
-      "method": "Read the consultation paper and email feedback through the official address.",
+      "status": "unverified",
+      "verification": "The official invitation was directly re-read on 20 November at 6:03 pm Brisbane time and still published 5 pm on 20 November without naming a timezone. No later extension was shown. Current acceptance after the published cutoff could not be verified; the original source check date and deadline information are retained.",
+      "method": "The recorded participation route was email feedback after reading the consultation paper. Check current acceptance before relying on that route after the published 20 November closing information.",
       "deadline": {
         "date": "2026-11-20",
         "time": "17:00",
@@ -1012,7 +1012,12 @@
           "supports": "Purpose, responsible body, participation route and source-specific conditions"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [],
+      "uncertaintyFields": [
+        "status",
+        "deadline"
+      ],
+      "uncertaintyReason": "The page retains its published 5 pm on 20 November cutoff but does not name a timezone or confirm current acceptance. No extension was verified. The original date and time are retained rather than replaced with an invented deadline."
     },
     {
       "id": "qld-end-of-waste-codes",
