@@ -183,6 +183,7 @@
         { href: local('queensland/'), title: 'Queensland inquiry invitations', note: 'Parliamentary and state public invitations, with exact source limits.' },
         { href: local('australia/'), title: 'Federal inquiry invitations', note: 'Senate, House and joint committee submission calls.' },
         { href: local('take-part/'), title: 'How to take part', note: 'Methods, deadlines, privacy and following the response.' },
+        { href: 'https://auraofintelligence.github.io/p4a-membership/apply/', title: 'Membership & participation', note: 'Optional information and fictional preview. Official public participation never requires P4A membership.' },
         { href: local('sources/'), title: 'Participation sources and coverage', note: 'What was checked and which lists still need work.' },
         { href: local('pages/site-map.html'), title: 'Participation site map', note: 'Every page in this section, using the P4A site-map pattern.' },
         { href: 'pages/starter-field-kit.html', title: 'Starter field kit', note: 'Market table, signs, QR trails, organiser basics.' },
